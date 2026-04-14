@@ -30,10 +30,10 @@ The **part** is the atomic public unit of the canonical build.
 ## Where to go next
 
 - 🌐 Website: https://panta-rhei.site
-- 🧭 Topics: https://github.com/Panta-Rhei-Framework/topics
-- ✨ Results: https://github.com/Panta-Rhei-Framework/results
-- 📄 Papers: https://github.com/Panta-Rhei-Framework/papers
-- 🧮 Formalization: https://github.com/Panta-Rhei-Framework/formalization
+- 🧭 Topics: https://github.com/Panta-Rhei-Research/topics
+- ✨ Results: https://github.com/Panta-Rhei-Research/results
+- 📄 Papers: https://github.com/Panta-Rhei-Research/papers
+- 🧮 Formalization: https://github.com/Panta-Rhei-Research/formalization
 - 🛒 Get the books: https://panta-rhei.site/get-the-books/
 
 ## Contribution policy

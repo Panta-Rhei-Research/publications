@@ -1,46 +1,33 @@
-# 📚 books
+# Publications
 
-This repository is the **public canonical-build surface** of the **Panta Rhei framework**.
-
-It mirrors the **Books** lane of the Atlas and presents the canonical narrative build of the framework.
+This repository is the public home for **open-access publication artefacts and source files** of the **Panta Rhei Research Program**.
 
 ## What lives here
 
-- the public identity of the Books lane
-- stable links into the canonical build
-- generated wiki mirrors for the Books lane
-- series / book / part-facing public materials
+- companion papers and standalone public papers
+- the Conspectus and related synthesis documents
+- errata, addenda, and public corrections
+- appendices and public release metadata
+- build workflows for public PDFs and release artefacts
 
-## What this repo is **not**
+## Editorial standard
 
-- the private source of truth for Atlas authoring
-- the place for active open-ended contribution flow
-- the commercial acquisition surface for the books
-
-## Canonical build doctrine
-
-The canonical build follows:
-
-- **Series**
-- **Book**
-- **Part**
-
-The **part** is the atomic public unit of the canonical build.
+`publications` is a release-grade surface. Material here should be citable, auditable, and ready for public inspection.
 
 ## Where to go next
 
-- 🌐 Website: https://panta-rhei.site
-- 🧭 Topics: https://github.com/Panta-Rhei-Research/topics
-- ✨ Results: https://github.com/Panta-Rhei-Research/results
-- 📄 Papers: https://github.com/Panta-Rhei-Research/papers
-- 🧮 Formalization: https://github.com/Panta-Rhei-Research/formalization
-- 🛒 Get the books: https://panta-rhei.site/get-the-books/
+- Website: https://panta-rhei.site
+- TauLib: https://github.com/Panta-Rhei-Research/taulib
+- Research: https://github.com/Panta-Rhei-Research/research
+- Community: https://github.com/Panta-Rhei-Research/community
 
-## Contribution policy
+## Contributions
 
-This is an **official read-first surface**.
+Improvements to released public artefacts are welcome when they are tightly scoped and evidence-based.
 
-For contribution and discussion:
-- 💬 `community` for broad discussion
-- 🧪 `research` for source-oriented research work
-- 🧮 `taulib` for formal implementation work
+Good contributions here include:
+
+- typo fixes and copy corrections
+- source improvements for released public documents
+- errata clarifications
+- build and packaging improvements for public artefacts

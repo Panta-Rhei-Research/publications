@@ -10,9 +10,9 @@
   "id": "2026-04-27-tau-topos-four-valued-internal-logic",
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {
-    "receipt_path": "",
-    "status": "missing",
-    "verification": "not-stamped"
+    "receipt_path": "research-paper-2026-04-27-tau-topos-four-valued-internal-logic.pdf.ots",
+    "status": "pending",
+    "verification": "receipt-present"
   },
   "publication": {
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",

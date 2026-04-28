@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 276665,
+    "path": "research-note-2026-04-25-dark-matter-without-dark-matter-ksz-force-law.pdf",
+    "sha256": "b450cd1735693dba9ef88bb5bf4cc861bf9c7393152e3e3e2c35dbd357f436f6",
+    "sha512": "9cc9a280aa77d11abdf148ee9fff1a7ca73081e41e0748572a6646dcc152be4f5587828092d0e170be36a1a31006a88d4f04a95764fdd257b9d27473bf021a0e",
+    "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-04-25-dark-matter-without-dark-matter-ksz-force-law.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-25-dark-matter-without-dark-matter-ksz-force-law",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-25",
+    "doi": "",
+    "publication_type": "Research Note",
+    "source_website_page": "_research_notes/2026-04-25-dark-matter-without-dark-matter-ksz-force-law.md",
+    "status": "Published",
+    "title": "Dark Matter vs. MOND vs. Category τ",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

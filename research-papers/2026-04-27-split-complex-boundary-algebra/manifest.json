@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 299708,
+    "path": "research-paper-2026-04-27-split-complex-boundary-algebra.pdf",
+    "sha256": "469543e2c5b5270b47d675253a71bfbae3cd61e01bb673efbbec2b5f7ebbd8fc",
+    "sha512": "cb5eaf9b35d75d7835a998d8b968b478290b9f4ceae588a782d548acb42e6810cf1e9c8d3825ef01f7d9045f0688ea5c2722183a95be3e703aec8f78a8889003",
+    "source_website_asset_path": "site/assets/pdfs/research-papers/research-paper-2026-04-27-split-complex-boundary-algebra.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-27-split-complex-boundary-algebra",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-27",
+    "doi": "10.5281/zenodo.19818743",
+    "publication_type": "Research Paper",
+    "source_website_page": "publications/research-papers/split-complex-boundary-algebra/index.md",
+    "status": "Published",
+    "title": "The Split-Complex Boundary Algebra D",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-papers/split-complex-boundary-algebra/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

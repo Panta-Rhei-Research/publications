@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 472503,
+    "path": "research-paper-2026-04-27-tau-kernel-foundational-architecture.pdf",
+    "sha256": "7d144cbc8d6244ded9d6881abf92049c5a5481f852b31b2653ba6d281bdedcda",
+    "sha512": "2afcd5e2e6720a213be25700db0a129e5b50a11213b8e2a5ca6704fddabde99ef329e692961da6cbd29dc2edc1e976f44c988d9952c2b6a21a8e38c3448931ad",
+    "source_website_asset_path": "site/assets/pdfs/research-papers/research-paper-2026-04-27-tau-kernel-foundational-architecture.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-27-tau-kernel-foundational-architecture",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-27",
+    "doi": "10.5281/zenodo.19820600",
+    "publication_type": "Research Paper",
+    "source_website_page": "publications/research-papers/tau-kernel-foundational-architecture/index.md",
+    "status": "Published",
+    "title": "The tau-Kernel as Foundational Architecture",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-papers/tau-kernel-foundational-architecture/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

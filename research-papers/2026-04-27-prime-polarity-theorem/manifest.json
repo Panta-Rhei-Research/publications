@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 226425,
+    "path": "research-paper-2026-04-27-prime-polarity-theorem.pdf",
+    "sha256": "b73b0e03f96d04cf1b01f7db59a18be191ab036dbbf74b5f693e423231f5c3a6",
+    "sha512": "dc32923aa6ebc32dcdb630e17ed237b3a6f3b309503f6608268777a2b6a63f95578dfbe840591ac8f0aefeac8e695def434683651fff2e4c5eccfc5c6f61d3f4",
+    "source_website_asset_path": "site/assets/pdfs/research-papers/research-paper-2026-04-27-prime-polarity-theorem.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-27-prime-polarity-theorem",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-27",
+    "doi": "10.5281/zenodo.19819869",
+    "publication_type": "Research Paper",
+    "source_website_page": "publications/research-papers/prime-polarity-theorem/index.md",
+    "status": "Published",
+    "title": "The Prime Polarity Theorem",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-papers/prime-polarity-theorem/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

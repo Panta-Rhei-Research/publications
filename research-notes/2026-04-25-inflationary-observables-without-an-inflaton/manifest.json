@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 263090,
+    "path": "research-note-2026-04-25-inflationary-observables-without-an-inflaton.pdf",
+    "sha256": "511c700da26f1366a9b8df0c869da12e61397c2fdd79bc7c46a50c0152d9f29d",
+    "sha512": "0d50d9580085ce7de53a7f0c1652af2e6268dc9cfbe3bbded7dd88143279aa3cbbf179cf453517f76ba648009e741eb3ac3c66f7d6e68ce4d70a4ef2fe947fdf",
+    "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-04-25-inflationary-observables-without-an-inflaton.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-25-inflationary-observables-without-an-inflaton",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-25",
+    "doi": "",
+    "publication_type": "Research Note",
+    "source_website_page": "_research_notes/2026-04-25-inflationary-observables-without-an-inflaton.md",
+    "status": "Published",
+    "title": "Inflationary Observables Without an Inflaton",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-notes/inflationary-observables-without-an-inflaton/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

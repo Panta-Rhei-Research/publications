@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 170762,
+    "path": "public-good-briefing-2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization.pdf",
+    "sha256": "a9061231ecc8b86de0d9f687c0e17598da60402fb52629bdd6cd84f66d6928e0",
+    "sha512": "d68c3dd5fcd4f049a894728d5b72ed470389ab115371c4cf36452458f199c33e983c595adb50f8f17c6ba0b0c0a5034e2ac0cc9df1e7b6efe6e0c5ec96c6ffd2",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-briefing-2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-26",
+    "doi": "",
+    "publication_type": "Public-Good Briefing",
+    "source_website_page": "publications/research-briefings/public-good/advanced-fission-safety-operations-licensing-fleet-modernization/index.md",
+    "status": "published",
+    "title": "τ for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/advanced-fission-safety-operations-licensing-fleet-modernization/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

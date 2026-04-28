@@ -1,0 +1,44 @@
+name: Upgrade Publication Timestamps
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install OpenTimestamps client
+        run: python3 -m pip install opentimestamps-client
+
+      - name: Upgrade and verify timestamp receipts
+        run: python3 scripts/stamp_publications.py --upgrade --verify
+
+      - name: Verify generated state
+        run: python3 scripts/verify_publications.py
+
+      - name: Commit upgraded receipts and manifests
+        run: |
+          if ! git diff --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add research-papers research-notes research-briefings catalog
+            git commit -m "Upgrade publication timestamp receipts"
+            git push
+          fi
+

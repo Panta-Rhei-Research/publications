@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 542455,
+    "path": "research-paper-2026-04-27-tau-topos-four-valued-internal-logic.pdf",
+    "sha256": "353577439dcf3e245291ee4fcc68ea4274b40b9b1972917336f48d734a9cd737",
+    "sha512": "6e8ad712d14aba5cc337535820e0e8469ff47ab711446450bacec4db00673a1dc57a2bfce47f5a141118eb85c925cecd842b9b1d5ef9c633c445793f14be8bb7",
+    "source_website_asset_path": "site/assets/pdfs/research-papers/research-paper-2026-04-27-tau-topos-four-valued-internal-logic.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-27-tau-topos-four-valued-internal-logic",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-27",
+    "doi": "10.5281/zenodo.19820194",
+    "publication_type": "Research Paper",
+    "source_website_page": "publications/research-papers/tau-topos-four-valued-internal-logic/index.md",
+    "status": "Published",
+    "title": "The tau-Topos and Its Four-Valued Internal Logic",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-papers/tau-topos-four-valued-internal-logic/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

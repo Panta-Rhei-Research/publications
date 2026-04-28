@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 175080,
+    "path": "research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf",
+    "sha256": "9f75324f1f3240d35f3f97d22edda69071c1922fd45f970ab620feda1452ae34",
+    "sha512": "daa69c2cd6500e9ea1bfb9a67fd3ca8bd30c28919a4d8f184d34867d416dffa57fc32e30e254fa31bc10c2153ac25b8f72cf03a4d5f17e04fbdfa22926d9c5aa",
+    "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-25",
+    "doi": "",
+    "publication_type": "Research Note",
+    "source_website_page": "_research_notes/2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.md",
+    "status": "Published",
+    "title": "A Structural Prior for Dynamic Chirality-Induced Spin Selectivity",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

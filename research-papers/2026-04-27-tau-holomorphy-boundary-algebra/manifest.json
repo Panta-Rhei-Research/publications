@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 348295,
+    "path": "research-paper-2026-04-27-tau-holomorphy-boundary-algebra.pdf",
+    "sha256": "25a7f50bd3540b7a1fc29955ea247bd69af42c36b8b7a97ee9c2f7cae0292584",
+    "sha512": "011c7e0b0804cc940de2decbd0078163cc75680e145f1eb34d2327a050a1659f79c4e47de930a68b90a0c39568cf1abe758556f51354608d14c99b4d959f22a6",
+    "source_website_asset_path": "site/assets/pdfs/research-papers/research-paper-2026-04-27-tau-holomorphy-boundary-algebra.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-27-tau-holomorphy-boundary-algebra",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-27",
+    "doi": "10.5281/zenodo.19818852",
+    "publication_type": "Research Paper",
+    "source_website_page": "publications/research-papers/tau-holomorphy-boundary-algebra/index.md",
+    "status": "Published",
+    "title": "tau-Holomorphy on the Boundary Algebra",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-papers/tau-holomorphy-boundary-algebra/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

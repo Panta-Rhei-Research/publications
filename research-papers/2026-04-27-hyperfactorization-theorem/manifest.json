@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 162118,
+    "path": "research-paper-2026-04-27-hyperfactorization-theorem.pdf",
+    "sha256": "0c38d3a470757d8b897f787b855a3e7aa9e5190d4dfe9a6cf2af4a1ae9fd2bca",
+    "sha512": "9935f2b0bbc4510a877cf6f34424e42b99028f4a6ace3d8c54951598613f1878b0d9d736033b03d476e214529cbd25649fbdc08877f46df0d1f6502977ba45aa",
+    "source_website_asset_path": "site/assets/pdfs/research-papers/research-paper-2026-04-27-hyperfactorization-theorem.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-27-hyperfactorization-theorem",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-27",
+    "doi": "10.5281/zenodo.19818957",
+    "publication_type": "Research Paper",
+    "source_website_page": "publications/research-papers/hyperfactorization-theorem/index.md",
+    "status": "Published",
+    "title": "The Hyperfactorization Theorem",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-papers/hyperfactorization-theorem/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

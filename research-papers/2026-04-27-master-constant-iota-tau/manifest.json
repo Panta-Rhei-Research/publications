@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 353226,
+    "path": "research-paper-2026-04-27-master-constant-iota-tau.pdf",
+    "sha256": "84180344fff592421a3378452986ae11a662df7075ddd9185e91e216fe7c5c64",
+    "sha512": "d2cf128aa310bf2ed690ed119a8b261c9532ac8878bda76b937367f2c66bc6ebd7faa4592662e2c98bc6b78b88eb8bbe6976d8ec48e90b22ed71ff21000e29a5",
+    "source_website_asset_path": "site/assets/pdfs/research-papers/research-paper-2026-04-27-master-constant-iota-tau.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-27-master-constant-iota-tau",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-27",
+    "doi": "10.5281/zenodo.19820352",
+    "publication_type": "Research Paper",
+    "source_website_page": "publications/research-papers/master-constant-iota-tau/index.md",
+    "status": "Published",
+    "title": "The Master Constant iota_tau",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-papers/master-constant-iota-tau/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

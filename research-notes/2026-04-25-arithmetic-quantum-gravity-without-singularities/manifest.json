@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 171164,
+    "path": "research-note-2026-04-25-arithmetic-quantum-gravity-without-singularities.pdf",
+    "sha256": "07fab98d6de53bbcea37329d14592f2e03272ab17fd3ccb42c96064552c6656e",
+    "sha512": "98143646e4c83244347b36687b42ad990ffe829663fd1d77459852105ec1b8b7a07880604a8b39428d4510e07d825ea44a0066e2fb79d5d7ba8568d4e811b3c5",
+    "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-04-25-arithmetic-quantum-gravity-without-singularities.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-25-arithmetic-quantum-gravity-without-singularities",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-25",
+    "doi": "",
+    "publication_type": "Research Note",
+    "source_website_page": "_research_notes/2026-04-25-arithmetic-quantum-gravity-without-singularities.md",
+    "status": "Published",
+    "title": "Arithmetic Quantum Gravity Without Singularities",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-notes/arithmetic-quantum-gravity-without-singularities/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

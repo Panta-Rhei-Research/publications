@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 512572,
+    "path": "research-paper-2026-04-27-address-resolution-not-calculation.pdf",
+    "sha256": "f95f617711404aecaaa6135f0010c35d168abb4d624edbcbada5387728f85c68",
+    "sha512": "34338e5e3ceae467c7e3a432b117a5d6cef76a7266ff5afd3488aba6b3f59c5372e2fcae7143acd8998756159549a3ce496b11f314863c3f2c85a001e63776fc",
+    "source_website_asset_path": "site/assets/pdfs/research-papers/research-paper-2026-04-27-address-resolution-not-calculation.pdf"
+  },
+  "generated_at": "2026-04-28T08:00:34+00:00",
+  "id": "2026-04-27-address-resolution-not-calculation",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-04-27",
+    "doi": "10.5281/zenodo.19818628",
+    "publication_type": "Research Paper",
+    "source_website_page": "publications/research-papers/address-resolution-not-calculation/index.md",
+    "status": "Published",
+    "title": "Address Resolution, Not Calculation",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/research-papers/address-resolution-not-calculation/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

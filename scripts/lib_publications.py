@@ -18,6 +18,7 @@ PUBLICATION_ROOTS = (
     ROOT / "research-papers",
     ROOT / "research-notes",
     ROOT / "research-briefings" / "public-good",
+    ROOT / "white-papers",
 )
 CATALOG_DIR = ROOT / "catalog"
 

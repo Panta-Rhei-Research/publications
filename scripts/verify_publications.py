@@ -16,6 +16,7 @@ EXPECTED_COUNTS = {
     "research-papers": 9,
     "research-notes": 6,
     "research-briefings/public-good": 1,
+    "white-papers": 1,
 }
 
 
@@ -86,6 +87,8 @@ def validate_counts(manifests: list[dict[str, Any]]) -> list[str]:
             key = "research-notes"
         elif "/research-briefings/public-good/" in source:
             key = "research-briefings/public-good"
+        elif "/white-papers/" in source:
+            key = "white-papers"
         else:
             key = "unknown"
         counts[key] = counts.get(key, 0) + 1

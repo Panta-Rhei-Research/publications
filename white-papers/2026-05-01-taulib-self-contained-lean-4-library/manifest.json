@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 215062,
+    "path": "white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf",
+    "sha256": "7bb96caa4b4da6c4f94178608ce0ecc6029ebdd88e0306c4ae7ebc0ce48091a7",
+    "sha512": "8816b61498f75596897428ba88efa6638aa1caab6e1aaa869482e19a3dc1c10128148b12269c4c1b434e4bba9bdc6c7526e6f8570ec193981138da6fc348ae00",
+    "source_website_asset_path": "site/assets/pdfs/white-papers/white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf"
+  },
+  "generated_at": "2026-05-02T13:44:00+00:00",
+  "id": "2026-05-01-taulib-self-contained-lean-4-library",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-05-01",
+    "doi": "10.5281/zenodo.19976503",
+    "publication_type": "White Paper",
+    "source_website_page": "publications/white-papers/taulib/index.md",
+    "status": "Distribution release",
+    "title": "TauLib: A Self-Contained Lean 4 Library for Category τ",
+    "version": "v2.0 (full rewrite)",
+    "website_url": "https://panta-rhei.site/publications/white-papers/taulib/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

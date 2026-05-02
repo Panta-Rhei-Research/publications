@@ -117,6 +117,8 @@ def source_asset_path(pdf_name: str) -> str:
         return f"site/assets/pdfs/research-notes/{pdf_name}"
     if pdf_name.startswith("public-good-briefing-"):
         return f"site/assets/pdfs/research-briefings/public-good/{pdf_name}"
+    if pdf_name.startswith("white-paper-"):
+        return f"site/assets/pdfs/white-papers/{pdf_name}"
     return ""
 
 

@@ -16,7 +16,7 @@ EXPECTED_COUNTS = {
     "research-papers": 9,
     "research-notes": 6,
     "research-briefings/public-good": 1,
-    "white-papers": 1,
+    "white-papers": 3,
 }
 
 
@@ -64,7 +64,7 @@ def validate_item_dir(item_dir: Path) -> list[str]:
         if not pub.get(key):
             errors.append(f"missing publication.{key} in {manifest_path.relative_to(ROOT)}")
     doi = pub.get("doi", "")
-    if doi and not re.match(r"^10\.\d{4,9}/\S+$", doi):
+    if doi and doi != "forthcoming" and not re.match(r"^10\.\d{4,9}/\S+$", doi):
         errors.append(f"invalid DOI shape in {manifest_path.relative_to(ROOT)}: {doi}")
     if not str(pub.get("website_url", "")).startswith("https://panta-rhei.site/"):
         errors.append(f"invalid website URL in {manifest_path.relative_to(ROOT)}")

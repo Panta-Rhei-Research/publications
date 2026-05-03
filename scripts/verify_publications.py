@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import subprocess
 from pathlib import Path
@@ -16,7 +17,7 @@ EXPECTED_COUNTS = {
     "research-papers": 9,
     "research-notes": 6,
     "research-briefings/public-good": 1,
-    "white-papers": 3,
+    "white-papers": 4,
 }
 
 
@@ -120,9 +121,9 @@ def validate_catalogs(manifests: list[dict[str, Any]]) -> list[str]:
 
 def validate_site_byte_identity(manifests: list[dict[str, Any]]) -> list[str]:
     errors: list[str] = []
-    site_root = ROOT.parent / "site"
+    site_root = Path(os.environ.get("PANTA_RHEI_SITE_ROOT", ROOT.parent / "site"))
     if not site_root.exists():
-        print("Skipping source byte-identity check; sibling site repo is not present.")
+        print(f"Skipping source byte-identity check; site repo is not present: {site_root}")
         return errors
     for manifest in manifests:
         file = manifest.get("file", {})
@@ -130,7 +131,7 @@ def validate_site_byte_identity(manifests: list[dict[str, Any]]) -> list[str]:
         if not source.startswith("site/"):
             errors.append(f"missing source website asset path for {manifest.get('id')}")
             continue
-        source_path = site_root.parent / source
+        source_path = site_root / source.removeprefix("site/")
         target_path = find_pdf_for_manifest(manifest)
         if not source_path.exists():
             errors.append(f"missing source asset: {source}")

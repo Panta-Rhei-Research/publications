@@ -23,7 +23,8 @@ Publications is the stable artifact layer connected to:
 - `research-papers/` - standalone public research papers and technical memos
 - `research-notes/` - dated scholarly notes, response notes, pre-registrations, and verification notes
 - `research-briefings/` - public-facing briefings, including Public-Good Briefings
-- `research-monographs/`, `white-papers/`, `release-artifacts/`, and `errata/` - scaffolded public categories for later release waves
+- `white-papers/` - citable explanatory artifacts, including the inspection architecture, theory-of-reality, and public research observatory press packages
+- `research-monographs/`, `release-artifacts/`, and `errata/` - scaffolded public categories for later release waves
 - `catalog/` - generated checksums and machine-readable publication inventory
 
 Each seeded publication folder contains the PDF, a human-readable `README.md`, a machine-readable `manifest.json`, and, once stamped, an OpenTimestamps receipt for the exact PDF bytes.

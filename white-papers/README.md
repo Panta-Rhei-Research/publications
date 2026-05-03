@@ -2,11 +2,14 @@
 
 Distribution-grade explanatory artefacts of the Panta Rhei Research Program.
 
-White Papers clarify framework structure, formalisation work, infrastructure, methodology, or verification context. They are stable citable artefacts in the publications layer; each carries a Zenodo DOI and a reproducible build path.
+White Papers clarify framework structure, formalisation work, infrastructure, methodology, or verification context. They are stable citable artefacts in the publications layer; released records carry either a Zenodo DOI or an explicit DOI-forthcoming status plus a reproducible build path.
 
 ## Index
 
 - [`2026-05-01-taulib-self-contained-lean-4-library/`](2026-05-01-taulib-self-contained-lean-4-library/) — *TauLib: A Self-Contained Lean 4 Library for Category τ — Kernel + Mathlib Bridges + Registry-Driven Correspondence*. Authors: Thorsten Fuchs and Anna-Sophie Fuchs. v2.0 (2026-05-01). DOI: [10.5281/zenodo.19976503](https://doi.org/10.5281/zenodo.19976503).
+- [`2026-05-03-inspection-architecture-high-scope-open-research/`](2026-05-03-inspection-architecture-high-scope-open-research/) — *Inspection Architecture for High-Scope Open Research — A practical blueprint for publishing ambitious independent research before asking for belief*. Authors: Thorsten Fuchs and Anna-Sophie Fuchs. v0.1 (2026-05-03). DOI forthcoming.
+- [`2026-05-03-the-shape-of-a-theory-of-reality/`](2026-05-03-the-shape-of-a-theory-of-reality/) — *The Shape of a Theory of Reality — Why a serious theory of reality must earn its language, build its answer, disclose its limits, and state its conditional public relevance*. Authors: Thorsten Fuchs and Anna-Sophie Fuchs. v0.1 (2026-05-03). DOI forthcoming.
+- [`2026-05-03-building-a-public-research-observatory/`](2026-05-03-building-a-public-research-observatory/) — *Building a Public Research Observatory for High-Scope Open Research — How panta-rhei.site materializes Agenda, Corpus, Results, Verify, Impact, Engage, and artifact release surfaces into one inspectable research system*. Authors: Thorsten Fuchs and Anna-Sophie Fuchs. v0.1 (2026-05-03). DOI forthcoming.
 
 ## Conventions
 

@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 81360,
+    "path": "white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf",
+    "sha256": "566f2fb7dd71aa2ca152e67bebfccab1a0bd435af3e577cdc3eb35803431a7df",
+    "sha512": "ac0597716e16c02c570d954e3ed7eccc5409f934939dc56f904d06702b6050c47e51baaccdb4f7a165479568846f413b5e59bb235a8e570ecd21383c80a56a87",
+    "source_website_asset_path": "site/assets/pdfs/white-papers/white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf"
+  },
+  "generated_at": "2026-05-03T09:31:19+00:00",
+  "id": "2026-05-03-inspection-architecture-high-scope-open-research",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-05-03",
+    "doi": "forthcoming",
+    "publication_type": "White Paper",
+    "source_website_page": "publications/white-papers/inspection-architecture-high-scope-open-research/index.md",
+    "status": "Draft white paper / technical briefing",
+    "title": "Inspection Architecture for High-Scope Open Research",
+    "version": "v0.1",
+    "website_url": "https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 92762,
+    "path": "white-paper-2026-05-03-building-a-public-research-observatory.pdf",
+    "sha256": "ec880b1c45920ccbcc296b918e988aa1c94f72a2e160cddee72949e8fe0417e3",
+    "sha512": "64e89403f597e0669984d23ad9a621939957e0007be8dceef2f34784486e1dbb4afd1c79e6fca0d9ff090072384741cf31c4c9794d89fe856b7246d98d57b4b6",
+    "source_website_asset_path": "site/assets/pdfs/white-papers/white-paper-2026-05-03-building-a-public-research-observatory.pdf"
+  },
+  "generated_at": "2026-05-03T11:25:20+00:00",
+  "id": "2026-05-03-building-a-public-research-observatory",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "date": "2026-05-03",
+    "doi": "forthcoming",
+    "publication_type": "White Paper",
+    "source_website_page": "publications/white-papers/building-a-public-research-observatory/index.md",
+    "status": "Draft technical white paper / blueprint",
+    "title": "Building a Public Research Observatory for High-Scope Open Research",
+    "version": "v0.1",
+    "website_url": "https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/"
+  },
+  "schema": "panta-rhei-publication-manifest-v1"
+}

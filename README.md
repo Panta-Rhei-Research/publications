@@ -1,6 +1,22 @@
 # Publications
 
-This repository is the public home for **open-access publication artefacts and source files** of the **Panta Rhei Research Program**.
+This repository is the public artifact and release layer of the **Panta Rhei Research Program**.
+
+The Panta Rhei Research Program is an independent open research program dedicated to building a coherent theory of reality.
+
+This repository holds release-grade publication artifacts: research monographs, research papers, research notes, briefings, white papers, ledgers, release artifacts, and errata.
+
+## Role in the public research system
+
+Publications is not the primary construction body. That role belongs to the Corpus.
+
+Publications is the stable artifact layer connected to:
+
+- **Program** -- doctrine and inspection-observatory rationale;
+- **Agenda** -- obligations and source policies;
+- **Corpus** -- construction body and registry/TauLib projections;
+- **Results** -- current program stances and world readouts;
+- **Verify** -- formalization, falsification, release manifest, and assessment protocols.
 
 ## What lives here
 
@@ -22,6 +38,8 @@ Publication PDFs are tracked with SHA-256 and SHA-512 hashes. OpenTimestamps rec
 
 This integrity layer does **not** certify correctness, peer review, legal status, DOI registration, external acceptance, or content validity. It is a byte-level provenance and timestamp layer.
 
+Publication integrity is byte-level provenance, not scientific validation.
+
 Generated files can be refreshed with:
 
 ```sh
@@ -34,17 +52,38 @@ OpenTimestamps receipts are created and upgraded by GitHub Actions on trusted `m
 ## Where to go next
 
 - Website: https://panta-rhei.site
+- Agenda: https://panta-rhei.site/program/research-agenda/
+- Corpus: https://panta-rhei.site/corpus/
+- Results: https://panta-rhei.site/results/
+- Verify: https://panta-rhei.site/verify/
+- Release Manifest: https://panta-rhei.site/verify/release-manifest/
 - TauLib: https://github.com/Panta-Rhei-Research/taulib
 - Research: https://github.com/Panta-Rhei-Research/research
 - Community: https://github.com/Panta-Rhei-Research/community
+- Public discussions: https://github.com/orgs/Panta-Rhei-Research/discussions
+
+## Engagement without endorsement
+
+We do not ask first for agreement.
+
+We ask for structured open-research engagement: careful reading, public questions, critique, reproducibility checks, domain review, correction, infrastructure contribution, and responsible communication.
+
+Participation does not imply endorsement of the framework. A reader may ask a question without accepting the theory. A reviewer may challenge a result without joining the program. A contributor may improve documentation, metadata, tooling, packaging, or formalization without endorsing any conclusion.
+
+## Verification note
+
+Artifacts and repository integrity checks make parts of the program inspectable. They do not by themselves establish empirical truth, bridge adequacy, semantic correspondence, peer review, or external scientific acceptance.
+
+For current release metrics and verification boundaries, see the Release Manifest:
+https://panta-rhei.site/verify/release-manifest/
 
 ## Contributions
 
-Improvements to released public artefacts are welcome when they are tightly scoped and evidence-based.
+Improvements to released public artifacts are welcome when they are tightly scoped and evidence-based.
 
 Good contributions here include:
 
 - typo fixes and copy corrections
 - source improvements for released public documents
 - errata clarifications
-- build and packaging improvements for public artefacts
+- build and packaging improvements for public artifacts

@@ -4,7 +4,8 @@ White paper package for the first Panta Rhei press package: Open Research / Insp
 
 ## Public artifact
 
-- Title: *Inspection Architecture for High-Scope Open Research*
+- Title: Inspection Architecture for High-Scope Open Research
+- Type: White Paper
 - Subtitle: *A practical blueprint for publishing ambitious independent research before asking for belief*
 - Authors: Thorsten Fuchs and Anna-Sophie Fuchs
 - Date: 2026-05-03
@@ -12,7 +13,9 @@ White paper package for the first Panta Rhei press package: Open Research / Insp
 - Status: Draft white paper / technical briefing
 - DOI: forthcoming
 - License: CC BY 4.0
-- Website page: <https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/>
+- Website: https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/
+- Source website page: publications/white-papers/inspection-architecture-high-scope-open-research/index.md
+- PDF: white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf
 
 ## Claim boundary
 

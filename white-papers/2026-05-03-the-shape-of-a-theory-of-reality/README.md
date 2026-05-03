@@ -1,11 +1,19 @@
 # The Shape of a Theory of Reality
 
-**Subtitle:** Why a serious theory of reality must earn its language, build its answer, disclose its limits, and state its conditional public relevance  
-**Authors:** Thorsten Fuchs and Anna-Sophie Fuchs  
-**Version:** v0.1  
-**Date:** 2026-05-03  
-**DOI:** forthcoming  
-**License:** CC BY 4.0
+## Public artifact
+
+- Title: The Shape of a Theory of Reality
+- Type: White Paper
+- Subtitle: Why a serious theory of reality must earn its language, build its answer, disclose its limits, and state its conditional public relevance
+- Authors: Thorsten Fuchs and Anna-Sophie Fuchs
+- Date: 2026-05-03
+- Version: v0.1
+- Status: Draft white paper / conceptual briefing
+- DOI: forthcoming
+- License: CC BY 4.0
+- Website: https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/
+- Source website page: publications/white-papers/the-shape-of-a-theory-of-reality/index.md
+- PDF: white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf
 
 ## Abstract
 

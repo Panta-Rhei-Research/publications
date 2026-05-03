@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-02T13:44:00+00:00",
-  "publication_count": 17,
+  "generated_at": "2026-05-03T10:40:00+00:00",
+  "publication_count": 19,
   "publications": [
     {
       "bytes": 170762,
@@ -239,6 +239,34 @@
       "title": "TauLib: A Self-Contained Lean 4 Library for Category τ",
       "version": "v2.0 (full rewrite)",
       "website_url": "https://panta-rhei.site/publications/white-papers/taulib/"
+    },
+    {
+      "bytes": 81360,
+      "date": "2026-05-03",
+      "doi": "forthcoming",
+      "id": "2026-05-03-inspection-architecture-high-scope-open-research",
+      "ots_status": "missing",
+      "pdf": "white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf",
+      "publication_type": "White Paper",
+      "sha256": "566f2fb7dd71aa2ca152e67bebfccab1a0bd435af3e577cdc3eb35803431a7df",
+      "sha512": "ac0597716e16c02c570d954e3ed7eccc5409f934939dc56f904d06702b6050c47e51baaccdb4f7a165479568846f413b5e59bb235a8e570ecd21383c80a56a87",
+      "title": "Inspection Architecture for High-Scope Open Research",
+      "version": "v0.1",
+      "website_url": "https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/"
+    },
+    {
+      "bytes": 92150,
+      "date": "2026-05-03",
+      "doi": "forthcoming",
+      "id": "2026-05-03-the-shape-of-a-theory-of-reality",
+      "ots_status": "missing",
+      "pdf": "white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf",
+      "publication_type": "White Paper",
+      "sha256": "9fffa234a5244eb0882bc664ae9b2b6fb2611b3721b17828c592628cd2bbdaa6",
+      "sha512": "a136bc935f31e7acab713e9d48e8f16fc8d6061fc6263d1522a5c7dddb8fbe0e368b2d2b4f4f8b704a7d1c9ab8d9d90dce65a7d64c3f290bc481a93f376a9596",
+      "title": "The Shape of a Theory of Reality",
+      "version": "v0.1",
+      "website_url": "https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/"
     }
   ],
   "schema": "panta-rhei-publications-catalog-v1"

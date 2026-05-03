@@ -8,21 +8,19 @@
   },
   "generated_at": "2026-05-03T10:40:00+00:00",
   "id": "2026-05-03-the-shape-of-a-theory-of-reality",
-  "integrity_note": "Hashes attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, external acceptance, or content validity.",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {
     "receipt_path": "",
-    "status": "not-generated",
-    "verification": "not-applicable-for-draft"
+    "status": "missing",
+    "verification": "not-stamped"
   },
   "publication": {
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "date": "2026-05-03",
     "doi": "forthcoming",
-    "license": "CC BY 4.0",
     "publication_type": "White Paper",
     "source_website_page": "publications/white-papers/the-shape-of-a-theory-of-reality/index.md",
     "status": "Draft white paper / conceptual briefing",
-    "subtitle": "Why a serious theory of reality must earn its language, build its answer, disclose its limits, and state its conditional public relevance",
     "title": "The Shape of a Theory of Reality",
     "version": "v0.1",
     "website_url": "https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/"

@@ -13,9 +13,9 @@ Publications is not the primary construction body. That role belongs to the Corp
 Publications is the stable artifact layer connected to:
 
 - **Program** — doctrine and inspection-observatory rationale;
-- **Agenda** — obligations and source policies (Structural Challenge Ledger, Core Semantics & Recovery, Kernel/Model/Reality, Construction Roadmap);
+- **Agenda** — obligations and source policies (Core Semantics, Structural Challenge Ledger, Kernel/Model/Reality, Construction Roadmap);
 - **Corpus** — construction body and registry/TauLib projections;
-- **Results** — current program stances and world readouts (Landmark Results, World Readouts, Challenge Responses, Core Semantics & Recovery Status);
+- **Results** — current program stances and world readouts (Landmark Results, World Readouts, Challenge Responses, Core Semantics Status);
 - **Verify** — formalization, falsification, release manifest, and assessment protocols.
 
 ## 📖 What Lives Here

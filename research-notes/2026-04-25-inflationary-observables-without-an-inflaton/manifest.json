@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "511c700da26f1366a9b8df0c869da12e61397c2fdd79bc7c46a50c0152d9f29d",
+    "sha512": "0d50d9580085ce7de53a7f0c1652af2e6268dc9cfbe3bbded7dd88143279aa3cbbf179cf453517f76ba648009e741eb3ac3c66f7d6e68ce4d70a4ef2fe947fdf"
+  },
   "file": {
     "bytes": 263090,
     "path": "research-note-2026-04-25-inflationary-observables-without-an-inflaton.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "The note compares the Panta Rhei no-inflaton pre-registration for the tensor-to-scalar ratio and scalar spectral index with late-2025 CMB and BAO constraints. It separates the framework's internal commitment from external acceptance and identifies near-term falsification routes.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-notes/inflationary-observables-without-an-inflaton/",
+    "claim_boundary": {
+      "claim": "Core claim: The framework pre-registers inflationary observables from the fibered-product structure rather than from a scalar inflaton potential.\n\nDoes not claim:\n- It does not claim that standard inflationary model classes are mathematically inconsistent.\n- It does not claim that CMB and BAO data have externally accepted the categorical interpretation.\n- It does not bypass future CMB B-mode falsification.\n\nFalsification surface:\n- A confirmed tensor-to-scalar ratio outside the stated categorical window.\n- A scalar spectral index measurement incompatible with the structural e-fold count.\n- Failure of the no-inflaton derivation chain or measurement bridge.",
+      "non_claim": "Does not claim:\n- It does not claim that standard inflationary model classes are mathematically inconsistent.\n- It does not claim that CMB and BAO data have externally accepted the categorical interpretation.\n- It does not bypass future CMB B-mode falsification.\n\nFalsification surface:\n- A confirmed tensor-to-scalar ratio outside the stated categorical window.\n- A scalar spectral index measurement incompatible with the structural e-fold count.\n- Failure of the no-inflaton derivation chain or measurement bridge."
+    },
     "date": "2026-04-25",
     "doi": "",
+    "doi_url": "",
+    "github_path": "research-notes/2026-04-25-inflationary-observables-without-an-inflaton",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "research-note-2026-04-25-inflationary-observables-without-an-inflaton.pdf",
     "publication_type": "Research Note",
+    "related_lanes": [
+      "publications",
+      "results",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-notes/inflationary-observables-without-an-inflaton/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rn003",
     "source_website_page": "_research_notes/2026-04-25-inflationary-observables-without-an-inflaton.md",
     "status": "Published",
+    "subtitle": "",
     "title": "Inflationary Observables Without an Inflaton",
     "version": "v1.0",
-    "website_url": "https://panta-rhei.site/publications/research-notes/inflationary-observables-without-an-inflaton/"
+    "website_url": "https://panta-rhei.site/publications/research-notes/inflationary-observables-without-an-inflaton/",
+    "zenodo_url": ""
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "rn003",
+  "publication_key": "research_notes.inflationary_observables_without_inflaton",
+  "publication_role": "dialogue",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_note"
 }

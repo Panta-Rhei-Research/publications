@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "7d144cbc8d6244ded9d6881abf92049c5a5481f852b31b2653ba6d281bdedcda",
+    "sha512": "2afcd5e2e6720a213be25700db0a129e5b50a11213b8e2a5ca6704fddabde99ef329e692961da6cbd29dc2edc1e976f44c988d9952c2b6a21a8e38c3448931ad"
+  },
   "file": {
     "bytes": 472503,
     "path": "research-paper-2026-04-27-tau-kernel-foundational-architecture.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "This paper presents the tau-kernel as foundational architecture, focusing on ontic identity, diagonal discipline, linear structure, and the star-autonomous path that organizes the hinge-paper bundle.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-papers/tau-kernel-foundational-architecture/",
+    "claim_boundary": {
+      "claim": "The paper is an entry and integration paper for the hinge sequence. Its role is structural orientation plus technical synthesis.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
     "date": "2026-04-27",
     "doi": "10.5281/zenodo.19820600",
+    "doi_url": "https://doi.org/10.5281/zenodo.19820600",
+    "github_path": "research-papers/2026-04-27-tau-kernel-foundational-architecture",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "research-paper-2026-04-27-tau-kernel-foundational-architecture.pdf",
     "publication_type": "Research Paper",
+    "related_lanes": [
+      "publications",
+      "corpus",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-papers/tau-kernel-foundational-architecture/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rp008",
     "source_website_page": "publications/research-papers/tau-kernel-foundational-architecture/index.md",
     "status": "Published",
+    "subtitle": "",
     "title": "The tau-Kernel as Foundational Architecture",
     "version": "v1.0",
-    "website_url": "https://panta-rhei.site/publications/research-papers/tau-kernel-foundational-architecture/"
+    "website_url": "https://panta-rhei.site/publications/research-papers/tau-kernel-foundational-architecture/",
+    "zenodo_url": "https://doi.org/10.5281/zenodo.19820600"
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "rp008",
+  "publication_key": "research_papers.tau_kernel_foundational_architecture",
+  "publication_role": "technical",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_paper"
 }

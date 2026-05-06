@@ -1,0 +1,58 @@
+{
+  "checksums": {
+    "sha256": "",
+    "sha512": ""
+  },
+  "file": {
+    "bytes": 0,
+    "path": "",
+    "sha256": "",
+    "sha512": "",
+    "source_website_asset_path": ""
+  },
+  "generated_at": "2026-05-06T22:49:30+00:00",
+  "id": "c002-semantic-archaeology-coherent-theory-of-reality",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "not_applicable",
+    "verification": "no-pdf-planned-item"
+  },
+  "publication": {
+    "abstract": "Planned orientation essay on the semantic history and public category of a coherent theory of reality.",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "",
+    "claim_boundary": {
+      "claim": "This planned record reserves a public publication route. It does not release the essay, establish a claim, or replace the future canonical website page.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
+    "date": "planned",
+    "doi": "",
+    "doi_url": "",
+    "github_path": "charter-essays/c002-semantic-archaeology-coherent-theory-of-reality",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "",
+    "publication_type": "Charter Essay",
+    "related_lanes": [
+      "publications",
+      "program",
+      "engage"
+    ],
+    "related_routes": [],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/c002",
+    "source_website_page": "",
+    "status": "planned",
+    "subtitle": "",
+    "title": "Semantic Archaeology of Coherent Theory of Reality",
+    "version": "planned",
+    "website_url": "",
+    "zenodo_url": ""
+  },
+  "publication_id": "c002",
+  "publication_key": "charter_essays.semantic_archaeology_coherent_theory_of_reality",
+  "publication_role": "orientation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "planned",
+  "type": "charter_essay"
+}

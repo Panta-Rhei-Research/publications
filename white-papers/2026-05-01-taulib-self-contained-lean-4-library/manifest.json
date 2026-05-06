@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "7bb96caa4b4da6c4f94178608ce0ecc6029ebdd88e0306c4ae7ebc0ce48091a7",
+    "sha512": "8816b61498f75596897428ba88efa6638aa1caab6e1aaa869482e19a3dc1c10128148b12269c4c1b434e4bba9bdc6c7526e6f8570ec193981138da6fc348ae00"
+  },
   "file": {
     "bytes": 215062,
     "path": "white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "TauLib is a public Lean 4 library that formalises Category τ — the categorical framework of the Panta Rhei Research Program — from seven structural axioms K0–K6 on five generators (α, π, γ, η, ω) and one operator (ρ).\n\nThis v2.0 whitepaper documents three structural changes since v1.0 (post-peer-review v3, April 2026):\n\n1. **The kernel–bridges architecture is first-class.** The τ-kernel (Books I–VII outside `Bridge/` subdirectories) imports zero Mathlib mathematical content. Mathlib bridges live in a separately-typed orthogonal layer. CI enforces the boundary on every push.\n\n2. **Book I foundations are substantially extended** along the eight *hinge papers* (kernel-foundation, iota-tau, hyperfactorization, prime-polarity, address-resolution, boundary-algebra, holomorphy-first, tau-topos) and one framing memo (bundle-memo) — all currently circulating as internal preprints, awaiting external preprint-server submission. Book I is now 157 files, 1,580 theorems and 720 definitions.\n\n3. **Across all seven books TauLib carries 4,892 theorems, 3,762 definitions, 94 typeclass instances, exactly 3 conjectural axioms (all in Book III, all paired with finite-decidable witnesses), and zero `sorry`**. Each count is asserted by CI on every push; drift is a build break.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/white-papers/taulib/",
+    "claim_boundary": {
+      "claim": "The whitepaper presents the architecture, foundations, and case studies of the TauLib library at the v2.0 pinned TauLib commit. The structural derivation theorem for ι_τ remains in flight (Lean module currently ships fiat constants pending closure of the `ROADMAP-3-HINGES.md` Phase 0–4 sequence). The CMB ℓ_1 prediction is reported as a measurable tension (~1.3 σ above the central Planck value), not a clean confirmation. The three Book III conjectural axioms are paired with finite-decidable witness functions; their universal claims are open in mathematical practice, not Lean-proven.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
     "date": "2026-05-01",
     "doi": "10.5281/zenodo.19976503",
+    "doi_url": "https://doi.org/10.5281/zenodo.19976503",
+    "github_path": "white-papers/2026-05-01-taulib-self-contained-lean-4-library",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf",
     "publication_type": "White Paper",
+    "related_lanes": [
+      "publications",
+      "verify",
+      "corpus"
+    ],
+    "related_routes": [
+      "/publications/white-papers/taulib/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/wp001",
     "source_website_page": "publications/white-papers/taulib/index.md",
     "status": "Distribution release",
+    "subtitle": "",
     "title": "TauLib: A Self-Contained Lean 4 Library for Category τ",
     "version": "v2.0 (full rewrite)",
-    "website_url": "https://panta-rhei.site/publications/white-papers/taulib/"
+    "website_url": "https://panta-rhei.site/publications/white-papers/taulib/",
+    "zenodo_url": "https://doi.org/10.5281/zenodo.19976503"
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "wp001",
+  "publication_key": "white_papers.taulib_self_contained_lean4_library",
+  "publication_role": "technical",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "white_paper"
 }

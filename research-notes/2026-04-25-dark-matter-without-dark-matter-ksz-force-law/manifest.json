@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "b450cd1735693dba9ef88bb5bf4cc861bf9c7393152e3e3e2c35dbd357f436f6",
+    "sha512": "9cc9a280aa77d11abdf148ee9fff1a7ca73081e41e0748572a6646dcc152be4f5587828092d0e170be36a1a31006a88d4f04a95764fdd257b9d27473bf021a0e"
+  },
   "file": {
     "bytes": 276665,
     "path": "research-note-2026-04-25-dark-matter-without-dark-matter-ksz-force-law.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "The note places the Panta Rhei force-law stance on the Gallardo et al. 2026 pairwise-kSZ constraint: Category τ rejects both a new dark-matter particle and a fundamental MOND transition at the tested scale, while committing to a Newtonian inverse-square force-law exponent in the cluster-pair regime. The note defines falsification surfaces and reporting targets rather than claiming external acceptance.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/",
+    "claim_boundary": {
+      "claim": "Core claim: At the cluster-pair scales probed by the anchor result, the categorical framework predicts the inverse-square force-law exponent while still rejecting a particle dark-matter sector.\n\nDoes not claim:\n- It does not claim that the full pairwise-kSZ amplitude has already been derived in closed form.\n- It does not claim that standard dark matter has been empirically ruled out.\n- It does not claim that MOND-like galaxy-scale behavior is globally absent.\n\nFalsification surface:\n- A future high-precision pairwise-kSZ force-law exponent inconsistent with the inverse-square value at the stated scale.\n- Failure to produce the promised amplitude-level categorical account.\n- Breakdown of the framework's sector-exhaustion or capacity-gradient claims.",
+      "non_claim": "Does not claim:\n- It does not claim that the full pairwise-kSZ amplitude has already been derived in closed form.\n- It does not claim that standard dark matter has been empirically ruled out.\n- It does not claim that MOND-like galaxy-scale behavior is globally absent.\n\nFalsification surface:\n- A future high-precision pairwise-kSZ force-law exponent inconsistent with the inverse-square value at the stated scale.\n- Failure to produce the promised amplitude-level categorical account.\n- Breakdown of the framework's sector-exhaustion or capacity-gradient claims."
+    },
     "date": "2026-04-25",
     "doi": "",
+    "doi_url": "",
+    "github_path": "research-notes/2026-04-25-dark-matter-without-dark-matter-ksz-force-law",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "research-note-2026-04-25-dark-matter-without-dark-matter-ksz-force-law.pdf",
     "publication_type": "Research Note",
+    "related_lanes": [
+      "publications",
+      "results",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rn004",
     "source_website_page": "_research_notes/2026-04-25-dark-matter-without-dark-matter-ksz-force-law.md",
     "status": "Published",
+    "subtitle": "",
     "title": "Dark Matter vs. MOND vs. Category τ",
     "version": "v1.0",
-    "website_url": "https://panta-rhei.site/publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/"
+    "website_url": "https://panta-rhei.site/publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/",
+    "zenodo_url": ""
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "rn004",
+  "publication_key": "research_notes.dark_matter_mond_category_tau",
+  "publication_role": "dialogue",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_note"
 }

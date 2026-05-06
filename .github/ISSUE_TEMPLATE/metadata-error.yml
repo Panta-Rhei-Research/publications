@@ -1,0 +1,23 @@
+name: Metadata error
+description: Report incorrect manifest, catalog, DOI, citation, or route metadata.
+title: "[Metadata]: "
+labels: ["metadata"]
+body:
+  - type: input
+    id: artifact_id
+    attributes:
+      label: Artifact ID
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: What is incorrect?
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction and evidence
+    validations:
+      required: true

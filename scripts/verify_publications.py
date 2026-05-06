@@ -10,15 +10,27 @@ import subprocess
 from pathlib import Path
 from typing import Any
 
-from lib_publications import CATALOG_DIR, ROOT, hash_file, iter_publication_dirs, load_manifest
+from lib_publications import (
+    ALLOWED_ROLES,
+    ALLOWED_ROUTE_STATUS,
+    ALLOWED_STATUS,
+    ALLOWED_TYPES,
+    CATALOG_DIR,
+    ROOT,
+    hash_file,
+    iter_publication_dirs,
+    load_manifest,
+    registry_entry,
+)
 
 
-EXPECTED_COUNTS = {
-    "research-papers": 9,
-    "research-notes": 6,
-    "research-briefings/public-good": 1,
-    "white-papers": 4,
+EXPECTED_RELEASED_COUNTS = {
+    "research_paper": 9,
+    "research_note": 6,
+    "public_good_briefing": 1,
+    "white_paper": 4,
 }
+EXPECTED_PLANNED_COUNTS = {"charter_essay": 2}
 
 
 def main() -> int:
@@ -36,39 +48,81 @@ def main() -> int:
         for error in errors:
             print(f"ERROR: {error}")
         return 1
-    print(f"Validated {len(manifests)} publication artifacts.")
+    released = sum(1 for manifest in manifests if manifest.get("status") == "released")
+    print(f"Validated {len(manifests)} publication records ({released} released artifacts).")
     return 0
 
 
 def validate_item_dir(item_dir: Path) -> list[str]:
     errors: list[str] = []
-    if not re.match(r"^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$", item_dir.name):
+    if not re.match(r"^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$", item_dir.name) and not re.match(r"^[a-z]{1,4}[0-9]{3}-[a-z0-9-]+$", item_dir.name):
         errors.append(f"invalid item folder name: {item_dir.relative_to(ROOT)}")
     for required in ("README.md", "manifest.json"):
         if not (item_dir / required).exists():
             errors.append(f"missing {required}: {item_dir.relative_to(ROOT)}")
-    pdfs = sorted(item_dir.glob("*.pdf"))
-    if len(pdfs) != 1:
-        errors.append(f"expected one PDF in {item_dir.relative_to(ROOT)}, found {len(pdfs)}")
-        return errors
     manifest_path = item_dir / "manifest.json"
     if not manifest_path.exists():
         return errors
     manifest = load_manifest(manifest_path)
+    errors.extend(validate_manifest_contract(manifest, manifest_path))
+    status = manifest.get("status")
+    pdfs = sorted(item_dir.glob("*.pdf"))
+    if status == "released":
+        if len(pdfs) != 1:
+            errors.append(f"expected one PDF in {item_dir.relative_to(ROOT)}, found {len(pdfs)}")
+            return errors
+        errors.extend(validate_released_file(item_dir, pdfs[0], manifest))
+    else:
+        if pdfs:
+            errors.append(f"planned/non-released item unexpectedly contains PDF: {item_dir.relative_to(ROOT)}")
+        ots = manifest.get("opentimestamps", {})
+        if ots.get("status") != "not_applicable":
+            errors.append(f"planned item should have OpenTimestamps status not_applicable: {manifest_path.relative_to(ROOT)}")
+    return errors
+
+
+def validate_manifest_contract(manifest: dict[str, Any], path: Path) -> list[str]:
+    errors: list[str] = []
+    for key in ("publication_id", "publication_key", "type", "publication_role", "status"):
+        if not manifest.get(key):
+            errors.append(f"missing {key} in {path.relative_to(ROOT)}")
+    if manifest.get("type") not in ALLOWED_TYPES:
+        errors.append(f"invalid type in {path.relative_to(ROOT)}: {manifest.get('type')}")
+    if manifest.get("publication_role") not in ALLOWED_ROLES:
+        errors.append(f"invalid publication_role in {path.relative_to(ROOT)}: {manifest.get('publication_role')}")
+    if manifest.get("status") not in ALLOWED_STATUS:
+        errors.append(f"invalid status in {path.relative_to(ROOT)}: {manifest.get('status')}")
+    pub = manifest.get("publication", {})
+    route_status = pub.get("route_status")
+    if route_status not in ALLOWED_ROUTE_STATUS:
+        errors.append(f"invalid route_status in {path.relative_to(ROOT)}: {route_status}")
+    if pub.get("short_url") and not str(pub["short_url"]).startswith("https://prrp.site/"):
+        errors.append(f"invalid short_url in {path.relative_to(ROOT)}")
+    if manifest.get("status") == "released" and not str(pub.get("canonical_url", "")).startswith("https://panta-rhei.site/"):
+        errors.append(f"released item missing canonical website URL in {path.relative_to(ROOT)}")
+    claim = pub.get("claim_boundary", {})
+    if not isinstance(claim, dict) or not claim.get("claim") or not claim.get("non_claim"):
+        errors.append(f"missing claim_boundary claim/non_claim in {path.relative_to(ROOT)}")
+    route = registry_entry(str(manifest.get("id", "")))
+    if route and route.get("publication_id") != manifest.get("publication_id"):
+        errors.append(f"publication_id does not match registry in {path.relative_to(ROOT)}")
+    return errors
+
+
+def validate_released_file(item_dir: Path, pdf: Path, manifest: dict[str, Any]) -> list[str]:
+    errors: list[str] = []
+    manifest_path = item_dir / "manifest.json"
     file = manifest.get("file", {})
     pub = manifest.get("publication", {})
-    hashes = hash_file(pdfs[0])
+    hashes = hash_file(pdf)
     for key in ("sha256", "sha512", "bytes"):
         if file.get(key) != hashes[key]:
             errors.append(f"{key} mismatch in {manifest_path.relative_to(ROOT)}")
-    for key in ("title", "publication_type", "authors", "date", "version", "website_url"):
-        if not pub.get(key):
-            errors.append(f"missing publication.{key} in {manifest_path.relative_to(ROOT)}")
+    if pub.get("pdf_filename") != pdf.name or file.get("path") != pdf.name:
+        errors.append(f"PDF filename mismatch in {manifest_path.relative_to(ROOT)}")
     doi = pub.get("doi", "")
     if doi and doi != "forthcoming" and not re.match(r"^10\.\d{4,9}/\S+$", doi):
         errors.append(f"invalid DOI shape in {manifest_path.relative_to(ROOT)}: {doi}")
-    if not str(pub.get("website_url", "")).startswith("https://panta-rhei.site/"):
-        errors.append(f"invalid website URL in {manifest_path.relative_to(ROOT)}")
     ots = manifest.get("opentimestamps", {})
     if ots.get("status") not in {"missing", "pending", "complete"}:
         errors.append(f"invalid OpenTimestamps status in {manifest_path.relative_to(ROOT)}")
@@ -79,23 +133,22 @@ def validate_item_dir(item_dir: Path) -> list[str]:
 
 
 def validate_counts(manifests: list[dict[str, Any]]) -> list[str]:
-    counts: dict[str, int] = {}
+    released: dict[str, int] = {}
+    planned: dict[str, int] = {}
+    ids: set[str] = set()
+    errors: list[str] = []
     for manifest in manifests:
-        source = manifest.get("file", {}).get("source_website_asset_path", "")
-        if "/research-papers/" in source:
-            key = "research-papers"
-        elif "/research-notes/" in source:
-            key = "research-notes"
-        elif "/research-briefings/public-good/" in source:
-            key = "research-briefings/public-good"
-        elif "/white-papers/" in source:
-            key = "white-papers"
-        else:
-            key = "unknown"
-        counts[key] = counts.get(key, 0) + 1
-    if counts != EXPECTED_COUNTS:
-        return [f"unexpected publication counts: {counts}, expected {EXPECTED_COUNTS}"]
-    return []
+        publication_id = manifest.get("publication_id")
+        if publication_id in ids:
+            errors.append(f"duplicate publication_id: {publication_id}")
+        ids.add(publication_id)
+        target = released if manifest.get("status") == "released" else planned
+        target[manifest.get("type", "unknown")] = target.get(manifest.get("type", "unknown"), 0) + 1
+    if released != EXPECTED_RELEASED_COUNTS:
+        errors.append(f"unexpected released counts: {released}, expected {EXPECTED_RELEASED_COUNTS}")
+    if planned != EXPECTED_PLANNED_COUNTS:
+        errors.append(f"unexpected planned counts: {planned}, expected {EXPECTED_PLANNED_COUNTS}")
+    return errors
 
 
 def validate_catalogs(manifests: list[dict[str, Any]]) -> list[str]:
@@ -106,11 +159,13 @@ def validate_catalogs(manifests: list[dict[str, Any]]) -> list[str]:
     catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
     if catalog.get("publication_count") != len(manifests):
         errors.append("catalog publication_count mismatch")
+    if catalog.get("released_publication_count") != sum(1 for manifest in manifests if manifest.get("status") == "released"):
+        errors.append("catalog released_publication_count mismatch")
     catalog_ids = sorted(item.get("id") for item in catalog.get("publications", []))
     manifest_ids = sorted(manifest.get("id") for manifest in manifests)
     if catalog_ids != manifest_ids:
         errors.append("catalog IDs do not match manifests")
-    for checksum_file in ("checksums.sha256", "checksums.sha512", "publications.csv"):
+    for checksum_file in ("checksums.sha256", "checksums.sha512", "publications.csv", "publications.yml"):
         if not (CATALOG_DIR / checksum_file).exists():
             errors.append(f"missing catalog/{checksum_file}")
     check = subprocess.run(["python3", "scripts/build_manifests.py", "--check"], cwd=ROOT, text=True, check=False)
@@ -126,6 +181,8 @@ def validate_site_byte_identity(manifests: list[dict[str, Any]]) -> list[str]:
         print(f"Skipping source byte-identity check; site repo is not present: {site_root}")
         return errors
     for manifest in manifests:
+        if manifest.get("status") != "released":
+            continue
         file = manifest.get("file", {})
         source = file.get("source_website_asset_path", "")
         if not source.startswith("site/"):

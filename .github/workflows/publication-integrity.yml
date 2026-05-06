@@ -27,5 +27,17 @@ jobs:
       - name: Verify publication artifacts
         run: python3 scripts/verify_publications.py
 
+      - name: Validate manifest contract
+        run: python3 scripts/validate_manifest.py
+
+      - name: Check catalog outputs
+        run: python3 scripts/build_catalog.py --check
+
+      - name: Check route report
+        run: python3 scripts/generate_route_report.py --check
+
+      - name: Check publication links
+        run: python3 scripts/check_links.py --offline-short-routes
+
       - name: Check whitespace
         run: git diff --check

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Panta-Rhei-Research/publications/schemas/catalog.schema.json",
+  "title": "Panta Rhei Publications Catalog",
+  "type": "object",
+  "required": ["schema", "publication_count", "released_publication_count", "publications"],
+  "properties": {
+    "schema": {"const": "panta-rhei-publications-catalog-v2"},
+    "publication_count": {"type": "integer", "minimum": 0},
+    "released_publication_count": {"type": "integer", "minimum": 0},
+    "publications": {"type": "array"}
+  }
+}

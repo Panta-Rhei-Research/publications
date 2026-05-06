@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "b73b0e03f96d04cf1b01f7db59a18be191ab036dbbf74b5f693e423231f5c3a6",
+    "sha512": "dc32923aa6ebc32dcdb630e17ed237b3a6f3b309503f6608268777a2b6a63f95578dfbe840591ac8f0aefeac8e695def434683651fff2e4c5eccfc5c6f61d3f4"
+  },
   "file": {
     "bytes": 226425,
     "path": "research-paper-2026-04-27-prime-polarity-theorem.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "This paper develops the prime polarity theorem, relating a ZFC/PA proof to the tau-framework isomorphism and the split-complex polarity structure used in the hinge-paper sequence.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-papers/prime-polarity-theorem/",
+    "claim_boundary": {
+      "claim": "The paper's arithmetic and framework claims should be separated from later physical or interpretive uses of the polarity structure.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
     "date": "2026-04-27",
     "doi": "10.5281/zenodo.19819869",
+    "doi_url": "https://doi.org/10.5281/zenodo.19819869",
+    "github_path": "research-papers/2026-04-27-prime-polarity-theorem",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "research-paper-2026-04-27-prime-polarity-theorem.pdf",
     "publication_type": "Research Paper",
+    "related_lanes": [
+      "publications",
+      "corpus",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-papers/prime-polarity-theorem/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rp002",
     "source_website_page": "publications/research-papers/prime-polarity-theorem/index.md",
     "status": "Published",
+    "subtitle": "",
     "title": "The Prime Polarity Theorem",
     "version": "v1.0",
-    "website_url": "https://panta-rhei.site/publications/research-papers/prime-polarity-theorem/"
+    "website_url": "https://panta-rhei.site/publications/research-papers/prime-polarity-theorem/",
+    "zenodo_url": "https://doi.org/10.5281/zenodo.19819869"
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "rp002",
+  "publication_key": "research_papers.prime_polarity_theorem",
+  "publication_role": "technical",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_paper"
 }

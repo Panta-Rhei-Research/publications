@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "9fffa234a5244eb0882bc664ae9b2b6fb2611b3721b17828c592628cd2bbdaa6",
+    "sha512": "a136bc935f31e7acab713e9d48e8f16fc8d6061fc6263d1522a5c7dddb8fbe0e368b2d2b4f4f8b704a7d1c9ab8d9d90dce65a7d64c3f290bc481a93f376a9596"
+  },
   "file": {
     "bytes": 92150,
     "path": "white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "This white paper defines the public intellectual category behind Panta Rhei's canonical statement: an independent open research program dedicated to building a coherent theory of reality. It explains why the program does not use \"theory of everything\" as its public category and instead accepts the stricter burden of earned language, earned questions, public construction, status-marked answers, disclosed limits, and conditional public relevance.\n\nThe paper does not claim that Panta Rhei has completed, proven, externally validated, or finalized a theory of reality. It defines the shape of such a research object and routes journalists and reviewers toward the inspection surfaces needed to evaluate the program responsibly.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/",
+    "claim_boundary": {
+      "claim": "This artifact is a white paper publication record.",
+      "non_claim": "It does not by itself certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
     "date": "2026-05-03",
     "doi": "forthcoming",
+    "doi_url": "",
+    "github_path": "white-papers/2026-05-03-the-shape-of-a-theory-of-reality",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf",
     "publication_type": "White Paper",
+    "related_lanes": [
+      "publications",
+      "program",
+      "engage"
+    ],
+    "related_routes": [
+      "/publications/white-papers/the-shape-of-a-theory-of-reality/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/wp004",
     "source_website_page": "publications/white-papers/the-shape-of-a-theory-of-reality/index.md",
     "status": "Draft white paper / conceptual briefing",
+    "subtitle": "Why a serious theory of reality must earn its language, build its answer, disclose its limits, and state its conditional public relevance",
     "title": "The Shape of a Theory of Reality",
     "version": "v0.1",
-    "website_url": "https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/"
+    "website_url": "https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/",
+    "zenodo_url": ""
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "wp004",
+  "publication_key": "white_papers.shape_of_a_theory_of_reality",
+  "publication_role": "orientation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "white_paper"
 }

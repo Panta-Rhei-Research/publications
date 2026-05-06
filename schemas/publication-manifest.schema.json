@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Panta-Rhei-Research/publications/schemas/publication-manifest.schema.json",
+  "title": "Panta Rhei Publication Manifest",
+  "type": "object",
+  "required": ["schema", "id", "publication_id", "publication_key", "type", "publication_role", "status", "publication"],
+  "properties": {
+    "schema": {"const": "panta-rhei-publication-manifest-v2"},
+    "id": {"type": "string"},
+    "publication_id": {"type": "string", "pattern": "^[a-z]{1,4}[0-9]{3}$"},
+    "publication_key": {"type": "string"},
+    "type": {
+      "enum": [
+        "research_note",
+        "research_paper",
+        "research_briefing",
+        "public_good_briefing",
+        "white_paper",
+        "charter_essay",
+        "research_monograph",
+        "monograph_supplement",
+        "media_brief",
+        "verification_manifest",
+        "release_record",
+        "erratum"
+      ]
+    },
+    "publication_role": {
+      "enum": ["orientation", "dialogue", "technical", "verification", "translation", "governance", "correction"]
+    },
+    "status": {"enum": ["released", "planned", "superseded", "withdrawn"]},
+    "publication": {
+      "type": "object",
+      "required": ["title", "canonical_url", "short_url", "route_status", "claim_boundary", "license"],
+      "properties": {
+        "title": {"type": "string"},
+        "canonical_url": {"type": "string"},
+        "short_url": {"type": "string"},
+        "route_status": {"enum": ["active", "reserved", "planned", "not_applicable"]},
+        "claim_boundary": {
+          "type": "object",
+          "required": ["claim", "non_claim"],
+          "properties": {
+            "claim": {"type": "string"},
+            "non_claim": {"type": "string"}
+          }
+        },
+        "license": {"type": "string"}
+      }
+    }
+  }
+}

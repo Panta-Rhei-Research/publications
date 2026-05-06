@@ -1,0 +1,19 @@
+{
+  "schema": "panta-rhei-publication-manifest-v2",
+  "publication_id": "",
+  "publication_key": "",
+  "type": "",
+  "publication_role": "",
+  "status": "planned",
+  "publication": {
+    "title": "",
+    "canonical_url": "",
+    "short_url": "",
+    "route_status": "reserved",
+    "claim_boundary": {
+      "claim": "",
+      "non_claim": ""
+    },
+    "license": "CC-BY-4.0"
+  }
+}

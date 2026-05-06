@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "07fab98d6de53bbcea37329d14592f2e03272ab17fd3ccb42c96064552c6656e",
+    "sha512": "98143646e4c83244347b36687b42ad990ffe829663fd1d77459852105ec1b8b7a07880604a8b39428d4510e07d825ea44a0066e2fb79d5d7ba8568d4e811b3c5"
+  },
   "file": {
     "bytes": 171164,
     "path": "research-note-2026-04-25-arithmetic-quantum-gravity-without-singularities.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "The note compares the Hartnoll-Yang chain from BKL dynamics to hyperbolic billiards, automorphic forms, L-functions, and the primon gas with the Panta Rhei derivation of prime polarity, L-functions, and hyperbolic structure from the categorical kernel. It is a conditional comparison, not an external proof of Category τ.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-notes/arithmetic-quantum-gravity-without-singularities/",
+    "claim_boundary": {
+      "claim": "Core claim: If Category τ is granted internally, the arithmetic structures found at the BKL singularity have a categorical counterpart before gravity or singularity assumptions enter.\n\nDoes not claim:\n- It does not refute the Hartnoll-Yang construction.\n- It does not claim external peer-reviewed validation of Category τ.\n- It does not collapse automorphic, categorical, and physical regimes into one untyped claim.\n\nFalsification surface:\n- Failure of the Category τ prime-polarity and L-function derivation chain.\n- Failure of semantic correspondence between the categorical structures and the anchor construction.\n- Independent rejection of the framework axioms or bridge assumptions.",
+      "non_claim": "Does not claim:\n- It does not refute the Hartnoll-Yang construction.\n- It does not claim external peer-reviewed validation of Category τ.\n- It does not collapse automorphic, categorical, and physical regimes into one untyped claim.\n\nFalsification surface:\n- Failure of the Category τ prime-polarity and L-function derivation chain.\n- Failure of semantic correspondence between the categorical structures and the anchor construction.\n- Independent rejection of the framework axioms or bridge assumptions."
+    },
     "date": "2026-04-25",
     "doi": "",
+    "doi_url": "",
+    "github_path": "research-notes/2026-04-25-arithmetic-quantum-gravity-without-singularities",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "research-note-2026-04-25-arithmetic-quantum-gravity-without-singularities.pdf",
     "publication_type": "Research Note",
+    "related_lanes": [
+      "publications",
+      "results",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-notes/arithmetic-quantum-gravity-without-singularities/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rn006",
     "source_website_page": "_research_notes/2026-04-25-arithmetic-quantum-gravity-without-singularities.md",
     "status": "Published",
+    "subtitle": "",
     "title": "Arithmetic Quantum Gravity Without Singularities",
     "version": "v1.0",
-    "website_url": "https://panta-rhei.site/publications/research-notes/arithmetic-quantum-gravity-without-singularities/"
+    "website_url": "https://panta-rhei.site/publications/research-notes/arithmetic-quantum-gravity-without-singularities/",
+    "zenodo_url": ""
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "rn006",
+  "publication_key": "research_notes.arithmetic_quantum_gravity_without_singularities",
+  "publication_role": "dialogue",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_note"
 }

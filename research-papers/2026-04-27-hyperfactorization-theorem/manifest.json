@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "0c38d3a470757d8b897f787b855a3e7aa9e5190d4dfe9a6cf2af4a1ae9fd2bca",
+    "sha512": "9935f2b0bbc4510a877cf6f34424e42b99028f4a6ace3d8c54951598613f1878b0d9d736033b03d476e214529cbd25649fbdc08877f46df0d1f6502977ba45aa"
+  },
   "file": {
     "bytes": 162118,
     "path": "research-paper-2026-04-27-hyperfactorization-theorem.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "This paper states and develops the hyperfactorization theorem, giving a unique tower-atom decomposition and connecting the result to the coordinate architecture of Category τ.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-papers/hyperfactorization-theorem/",
+    "claim_boundary": {
+      "claim": "The paper is a technical hinge contribution. It does not by itself establish the broader empirical or physical claims of the research program.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
     "date": "2026-04-27",
     "doi": "10.5281/zenodo.19818957",
+    "doi_url": "https://doi.org/10.5281/zenodo.19818957",
+    "github_path": "research-papers/2026-04-27-hyperfactorization-theorem",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "research-paper-2026-04-27-hyperfactorization-theorem.pdf",
     "publication_type": "Research Paper",
+    "related_lanes": [
+      "publications",
+      "corpus",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-papers/hyperfactorization-theorem/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rp001",
     "source_website_page": "publications/research-papers/hyperfactorization-theorem/index.md",
     "status": "Published",
+    "subtitle": "",
     "title": "The Hyperfactorization Theorem",
     "version": "v1.0",
-    "website_url": "https://panta-rhei.site/publications/research-papers/hyperfactorization-theorem/"
+    "website_url": "https://panta-rhei.site/publications/research-papers/hyperfactorization-theorem/",
+    "zenodo_url": "https://doi.org/10.5281/zenodo.19818957"
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "rp001",
+  "publication_key": "research_papers.hyperfactorization_theorem",
+  "publication_role": "technical",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_paper"
 }

@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "da885f49afeac57e17629e5b94fe1a61b6fbe7fe3146a33ac0fb7c6e75466627",
+    "sha512": "6daac20a37b096b86c6c65bb6b04a5d0e4bc43de5b8cd3b8fea95b4a27016bd3690dd55d5abd6015ba39a558f499198f51bdc775bfa857c5081d8e287cf3f7bd"
+  },
   "file": {
     "bytes": 104089,
     "path": "research-paper-2026-04-27-panta-rhei-foundational-bundle.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "This research memo introduces the eight-paper foundational bundle and explains the reading order, dependency structure, and peer-review framing for the standalone hinge papers.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-papers/panta-rhei-foundational-bundle/",
+    "claim_boundary": {
+      "claim": "This is a companion orientation memo, not itself a new primary theorem paper.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
     "date": "2026-04-27",
     "doi": "10.5281/zenodo.19820855",
+    "doi_url": "https://doi.org/10.5281/zenodo.19820855",
+    "github_path": "research-papers/2026-04-27-panta-rhei-foundational-bundle",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "research-paper-2026-04-27-panta-rhei-foundational-bundle.pdf",
     "publication_type": "Research Memo",
+    "related_lanes": [
+      "publications",
+      "corpus",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-papers/panta-rhei-foundational-bundle/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rp009",
     "source_website_page": "publications/research-papers/panta-rhei-foundational-bundle/index.md",
     "status": "Published",
+    "subtitle": "",
     "title": "The Panta Rhei Foundational Bundle",
     "version": "v1.0",
-    "website_url": "https://panta-rhei.site/publications/research-papers/panta-rhei-foundational-bundle/"
+    "website_url": "https://panta-rhei.site/publications/research-papers/panta-rhei-foundational-bundle/",
+    "zenodo_url": "https://doi.org/10.5281/zenodo.19820855"
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "rp009",
+  "publication_key": "research_papers.panta_rhei_foundational_bundle",
+  "publication_role": "orientation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_paper"
 }

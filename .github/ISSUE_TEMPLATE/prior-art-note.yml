@@ -1,0 +1,23 @@
+name: Prior-art note
+description: Submit a prior-art or related-work pointer for a released artifact.
+title: "[Prior art]: "
+labels: ["needs-domain-review"]
+body:
+  - type: input
+    id: artifact_id
+    attributes:
+      label: Artifact ID
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source or citation
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why is it relevant?
+    validations:
+      required: true

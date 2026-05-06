@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "9f75324f1f3240d35f3f97d22edda69071c1922fd45f970ab620feda1452ae34",
+    "sha512": "daa69c2cd6500e9ea1bfb9a67fd3ca8bd30c28919a4d8f184d34867d416dffa57fc32e30e254fa31bc10c2153ac25b8f72cf03a4d5f17e04fbdfa22926d9c5aa"
+  },
   "file": {
     "bytes": 175080,
     "path": "research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "The note argues for a calibrated slot-filler comparison: Panta Rhei Book VI had already placed a non-thermal amplification requirement for biological homochirality on the public record, while Paltiel et al. provide an independent proposed mechanism for dynamic chirality-induced spin selectivity. The web page records the note's status, claim boundary, and verification routes; the PDF remains the citable artifact.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/",
+    "claim_boundary": {
+      "claim": "Core claim: Book VI's Parity Bridge gives a structural prior for a non-thermal, parity-odd channel between weak-sector chirality and biological handedness; the Paltiel et al. operator is a candidate realization of that channel.\n\nDoes not claim:\n- It does not claim that Panta Rhei predicted the exact vibronic operator or transport asymmetries.\n- It does not establish that the Paltiel et al. mechanism is empirically final.\n- It does not replace independent chemical, biophysical, or experimental validation.\n\nFalsification surface:\n- Failure of the proposed operator to preserve the required parity/sign structure.\n- Experimental refutation of the CISS mechanism as the relevant amplification channel.\n- Failure of the Book VI Parity Bridge interpretation under formal or semantic review.",
+      "non_claim": "Does not claim:\n- It does not claim that Panta Rhei predicted the exact vibronic operator or transport asymmetries.\n- It does not establish that the Paltiel et al. mechanism is empirically final.\n- It does not replace independent chemical, biophysical, or experimental validation.\n\nFalsification surface:\n- Failure of the proposed operator to preserve the required parity/sign structure.\n- Experimental refutation of the CISS mechanism as the relevant amplification channel.\n- Failure of the Book VI Parity Bridge interpretation under formal or semantic review."
+    },
     "date": "2026-04-25",
     "doi": "",
+    "doi_url": "",
+    "github_path": "research-notes/2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf",
     "publication_type": "Research Note",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rn002",
     "source_website_page": "_research_notes/2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.md",
     "status": "Published",
+    "subtitle": "",
     "title": "A Structural Prior for Dynamic Chirality-Induced Spin Selectivity",
     "version": "v1.0",
-    "website_url": "https://panta-rhei.site/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/"
+    "website_url": "https://panta-rhei.site/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/",
+    "zenodo_url": ""
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "rn002",
+  "publication_key": "research_notes.structural_prior_dynamic_ciss",
+  "publication_role": "dialogue",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_note"
 }

@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "ec880b1c45920ccbcc296b918e988aa1c94f72a2e160cddee72949e8fe0417e3",
+    "sha512": "64e89403f597e0669984d23ad9a621939957e0007be8dceef2f34784486e1dbb4afd1c79e6fca0d9ff090072384741cf31c4c9794d89fe856b7246d98d57b4b6"
+  },
   "file": {
     "bytes": 92762,
     "path": "white-paper-2026-05-03-building-a-public-research-observatory.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "This white paper explains how the Panta Rhei public site and GitHub organization implement a public research observatory for high-scope open research. It treats the website as an inspectable architecture rather than a promotional brochure: Program states identity, Agenda states obligations, Corpus exposes construction, Results marks consequences, Verify exposes checks, Impact keeps relevance conditional, Engage operationalizes scrutiny, and Publications keeps stable artifacts citable.\n\nThe paper does not claim that this architecture proves, validates, completes, replaces, or externally certifies the scientific theory. It documents a reusable inspection topology for making source, status, verification, artifacts, and correction routes easier to find.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/",
+    "claim_boundary": {
+      "claim": "This artifact is a white paper publication record.",
+      "non_claim": "It does not by itself certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
     "date": "2026-05-03",
     "doi": "forthcoming",
+    "doi_url": "",
+    "github_path": "white-papers/2026-05-03-building-a-public-research-observatory",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "white-paper-2026-05-03-building-a-public-research-observatory.pdf",
     "publication_type": "White Paper",
+    "related_lanes": [
+      "publications",
+      "engage",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/white-papers/building-a-public-research-observatory/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/wp002",
     "source_website_page": "publications/white-papers/building-a-public-research-observatory/index.md",
     "status": "Draft technical white paper / blueprint",
+    "subtitle": "How panta-rhei.site materializes Agenda, Corpus, Results, Verify, Impact, Engage, and artifact release surfaces into one inspectable research system",
     "title": "Building a Public Research Observatory for High-Scope Open Research",
     "version": "v0.1",
-    "website_url": "https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/"
+    "website_url": "https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/",
+    "zenodo_url": ""
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "wp002",
+  "publication_key": "white_papers.building_public_research_observatory",
+  "publication_role": "orientation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "white_paper"
 }

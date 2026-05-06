@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "2f417f847d649f74a78212ca1830e976f90e39ae3873b242e2f4a42e9f67bc55",
+    "sha512": "e1456d049905a8c81995ad6d43ac73cd61892667337c04833caf26c683be05fc518b3090345332f6fd455572b9a319d57664cbd00b4cfe9186dd452e10c66a20"
+  },
   "file": {
     "bytes": 284000,
     "path": "public-good-briefing-2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "A Public-Good Briefing on how τ could improve advanced fission safety analysis, digital instrumentation and control modernization, licensing efficiency, and nuclear fleet management.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/advanced-fission-safety-operations-licensing-fleet-modernization/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not validate the framework, claim policy adoption, or replace domain expertise and external review.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
     "date": "2026-04-26",
     "doi": "",
+    "doi_url": "",
+    "github_path": "research-briefings/public-good/2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-briefing-2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization.pdf",
     "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/advanced-fission-safety-operations-licensing-fleet-modernization/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgb001",
     "source_website_page": "publications/research-briefings/public-good/advanced-fission-safety-operations-licensing-fleet-modernization/index.md",
     "status": "published",
+    "subtitle": "",
     "title": "τ for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
     "version": "v1.0",
-    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/advanced-fission-safety-operations-licensing-fleet-modernization/"
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/advanced-fission-safety-operations-licensing-fleet-modernization/",
+    "zenodo_url": ""
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "pgb001",
+  "publication_key": "public_good_briefings.advanced_fission_safety_operations_licensing_fleet_modernization",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
 }

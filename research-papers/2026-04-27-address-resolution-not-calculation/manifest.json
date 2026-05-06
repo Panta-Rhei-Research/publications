@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "f95f617711404aecaaa6135f0010c35d168abb4d624edbcbada5387728f85c68",
+    "sha512": "34338e5e3ceae467c7e3a432b117a5d6cef76a7266ff5afd3488aba6b3f59c5372e2fcae7143acd8998756159549a3ce496b11f314863c3f2c85a001e63776fc"
+  },
   "file": {
     "bytes": 512572,
     "path": "research-paper-2026-04-27-address-resolution-not-calculation.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "This paper develops the address-resolution view of arithmetic in Category τ. It presents canonical normalisation, the genealogical DAG, the Cayley word metric, and the claim that arithmetic in the tau setting is implemented as finite-witness address resolution rather than equational calculation.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-papers/address-resolution-not-calculation/",
+    "claim_boundary": {
+      "claim": "The paper states a framework-internal mathematical architecture. It should not be read as an external empirical confirmation of the framework.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
     "date": "2026-04-27",
     "doi": "10.5281/zenodo.19818628",
+    "doi_url": "https://doi.org/10.5281/zenodo.19818628",
+    "github_path": "research-papers/2026-04-27-address-resolution-not-calculation",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "research-paper-2026-04-27-address-resolution-not-calculation.pdf",
     "publication_type": "Research Paper",
+    "related_lanes": [
+      "publications",
+      "corpus",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-papers/address-resolution-not-calculation/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rp007",
     "source_website_page": "publications/research-papers/address-resolution-not-calculation/index.md",
     "status": "Published",
+    "subtitle": "",
     "title": "Address Resolution, Not Calculation",
     "version": "v1.0",
-    "website_url": "https://panta-rhei.site/publications/research-papers/address-resolution-not-calculation/"
+    "website_url": "https://panta-rhei.site/publications/research-papers/address-resolution-not-calculation/",
+    "zenodo_url": "https://doi.org/10.5281/zenodo.19818628"
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "rp007",
+  "publication_key": "research_papers.address_resolution_not_calculation",
+  "publication_role": "technical",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_paper"
 }

@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "469543e2c5b5270b47d675253a71bfbae3cd61e01bb673efbbec2b5f7ebbd8fc",
+    "sha512": "cb5eaf9b35d75d7835a998d8b968b478290b9f4ceae588a782d548acb42e6810cf1e9c8d3825ef01f7d9045f0688ea5c2722183a95be3e703aec8f78a8889003"
+  },
   "file": {
     "bytes": 299708,
     "path": "research-paper-2026-04-27-split-complex-boundary-algebra.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "This paper develops the split-complex boundary algebra used by the Panta Rhei framework. It gives a countable profinite construction, a canonical uniqueness argument, and the four-atom generator dictionary connecting algebraic boundary structure to the hinge-paper sequence.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-papers/split-complex-boundary-algebra/",
+    "claim_boundary": {
+      "claim": "The paper presents an internal structural construction and its mathematical role in the program. It does not claim independent empirical validation.",
+      "non_claim": "does not claim independent empirical validation."
+    },
     "date": "2026-04-27",
     "doi": "10.5281/zenodo.19818743",
+    "doi_url": "https://doi.org/10.5281/zenodo.19818743",
+    "github_path": "research-papers/2026-04-27-split-complex-boundary-algebra",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "research-paper-2026-04-27-split-complex-boundary-algebra.pdf",
     "publication_type": "Research Paper",
+    "related_lanes": [
+      "publications",
+      "corpus",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-papers/split-complex-boundary-algebra/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rp004",
     "source_website_page": "publications/research-papers/split-complex-boundary-algebra/index.md",
     "status": "Published",
+    "subtitle": "",
     "title": "The Split-Complex Boundary Algebra D",
     "version": "v1.0",
-    "website_url": "https://panta-rhei.site/publications/research-papers/split-complex-boundary-algebra/"
+    "website_url": "https://panta-rhei.site/publications/research-papers/split-complex-boundary-algebra/",
+    "zenodo_url": "https://doi.org/10.5281/zenodo.19818743"
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "rp004",
+  "publication_key": "research_papers.split_complex_boundary_algebra_d",
+  "publication_role": "technical",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_paper"
 }

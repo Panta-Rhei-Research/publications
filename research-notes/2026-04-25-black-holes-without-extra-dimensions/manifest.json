@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "c3f6cb2c9d7b53cccf3fe497622fd40ae5534d0d054a1bc53d5855bc0cd6f309",
+    "sha512": "c8c06a14ab820fe9b82d62ac580557d97b6d1a2e2e0941c88059d24d50af0de571913ca263010371554577e0b1f61f209d94aad5939b1c8deb5910d67015d204"
+  },
   "file": {
     "bytes": 172188,
     "path": "research-note-2026-04-25-black-holes-without-extra-dimensions.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "The note reads a 2026 G2-manifold remnant proposal as an anchor for comparison with the Panta Rhei black-hole layer. It distinguishes the anchor's extra-dimensional Einstein-Cartan mechanism from the categorical account of torus horizons, no-shrink stability, and information preservation.",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-notes/black-holes-without-extra-dimensions/",
+    "claim_boundary": {
+      "claim": "Core claim: The same family of black-hole stability questions can be addressed inside Category τ without treating extra spatial dimensions or torsion as primitives.\n\nDoes not claim:\n- It does not claim the G2 construction is internally inconsistent.\n- It does not claim external acceptance of the categorical black-hole interpretation.\n- It does not remove the need for independent gravitational and mathematical review.\n\nFalsification surface:\n- Failure of the categorical no-shrink and black-hole topology derivation chain.\n- Failure of semantic correspondence between the categorical horizon structure and physical black-hole observables.\n- External evidence requiring extra-dimensional torsion primitives where the framework forbids them.",
+      "non_claim": "Does not claim:\n- It does not claim the G2 construction is internally inconsistent.\n- It does not claim external acceptance of the categorical black-hole interpretation.\n- It does not remove the need for independent gravitational and mathematical review.\n\nFalsification surface:\n- Failure of the categorical no-shrink and black-hole topology derivation chain.\n- Failure of semantic correspondence between the categorical horizon structure and physical black-hole observables.\n- External evidence requiring extra-dimensional torsion primitives where the framework forbids them."
+    },
     "date": "2026-04-25",
     "doi": "",
+    "doi_url": "",
+    "github_path": "research-notes/2026-04-25-black-holes-without-extra-dimensions",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "research-note-2026-04-25-black-holes-without-extra-dimensions.pdf",
     "publication_type": "Research Note",
+    "related_lanes": [
+      "publications",
+      "results",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-notes/black-holes-without-extra-dimensions/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rn005",
     "source_website_page": "_research_notes/2026-04-25-black-holes-without-extra-dimensions.md",
     "status": "Published",
+    "subtitle": "",
     "title": "Black Hole Stability Without Extra Dimensions",
     "version": "v1.0",
-    "website_url": "https://panta-rhei.site/publications/research-notes/black-holes-without-extra-dimensions/"
+    "website_url": "https://panta-rhei.site/publications/research-notes/black-holes-without-extra-dimensions/",
+    "zenodo_url": ""
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "rn005",
+  "publication_key": "research_notes.black_hole_stability_without_extra_dimensions",
+  "publication_role": "dialogue",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_note"
 }

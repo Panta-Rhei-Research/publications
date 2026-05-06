@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Panta-Rhei-Research/publications/schemas/prrp-routes.schema.json",
+  "title": "Panta Rhei Public PRRP Routes",
+  "type": "object",
+  "required": ["schema", "route_count", "routes"],
+  "properties": {
+    "schema": {"const": "panta-rhei-prrp-routes-public-v1"},
+    "route_count": {"type": "integer", "minimum": 0},
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["route_id", "short_url", "route_status", "publication_key", "type", "title"],
+        "properties": {
+          "route_id": {"type": "string"},
+          "short_url": {"type": "string"},
+          "route_status": {"enum": ["active", "reserved", "planned", "not_applicable"]},
+          "publication_key": {"type": "string"},
+          "type": {"type": "string"},
+          "title": {"type": "string"}
+        }
+      }
+    }
+  }
+}

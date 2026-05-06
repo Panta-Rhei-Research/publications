@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the specific publication artifact and canonical website page."
+title: ""
+authors:
+  - family-names: "Fuchs"
+    given-names: "Thorsten"
+  - family-names: "Fuchs"
+    given-names: "Anna-Sophie"
+license: "CC-BY-4.0"

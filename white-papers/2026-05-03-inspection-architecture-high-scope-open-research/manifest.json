@@ -1,4 +1,8 @@
 {
+  "checksums": {
+    "sha256": "566f2fb7dd71aa2ca152e67bebfccab1a0bd435af3e577cdc3eb35803431a7df",
+    "sha512": "ac0597716e16c02c570d954e3ed7eccc5409f934939dc56f904d06702b6050c47e51baaccdb4f7a165479568846f413b5e59bb235a8e570ecd21383c80a56a87"
+  },
   "file": {
     "bytes": 81360,
     "path": "white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf",
@@ -15,15 +19,42 @@
     "verification": "receipt-present"
   },
   "publication": {
+    "abstract": "",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/",
+    "claim_boundary": {
+      "claim": "This white paper presents an inspection architecture and uses Panta Rhei as a case study. It does not claim that Panta Rhei's scientific claims are proven, traditionally peer-reviewed, externally validated, or externally accepted.\n\nThe integrity manifest attests to the PDF bytes only. It does not certify correctness, peer review, legal status, DOI registration, or content validity.",
+      "non_claim": "does not claim that Panta Rhei's scientific claims are proven, traditionally peer-reviewed, externally validated, or externally accepted.\n\nThe integrity manifest attests to the PDF bytes only. It does not certify correctness, peer review, legal status, DOI registration, or content validity."
+    },
     "date": "2026-05-03",
     "doi": "forthcoming",
+    "doi_url": "",
+    "github_path": "white-papers/2026-05-03-inspection-architecture-high-scope-open-research",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf",
     "publication_type": "White Paper",
+    "related_lanes": [
+      "publications",
+      "engage",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/white-papers/inspection-architecture-high-scope-open-research/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/wp003",
     "source_website_page": "publications/white-papers/inspection-architecture-high-scope-open-research/index.md",
     "status": "Draft white paper / technical briefing",
+    "subtitle": "*A practical blueprint for publishing ambitious independent research before asking for belief*",
     "title": "Inspection Architecture for High-Scope Open Research",
     "version": "v0.1",
-    "website_url": "https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/"
+    "website_url": "https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/",
+    "zenodo_url": ""
   },
-  "schema": "panta-rhei-publication-manifest-v1"
+  "publication_id": "wp003",
+  "publication_key": "white_papers.inspection_architecture_high_scope_open_research",
+  "publication_role": "orientation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "white_paper"
 }

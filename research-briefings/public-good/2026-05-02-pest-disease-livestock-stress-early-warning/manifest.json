@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "cd9febd126f5e93a850b24348ca6a1fcd06818c3d9cb80f794412c6911ca7a2f",
+    "sha512": "78a8826f81986fe663370fed2d4446f0494d1488b4bd11e2139c94cd79416d5f0744dc377e12427534715b0f413baab9d117f0bcd1bdc33cb4c5568a3358bd67"
+  },
+  "file": {
+    "bytes": 254799,
+    "path": "public-good-impact-dossier-2026-05-02-pest-disease-livestock-stress-early-warning.pdf",
+    "sha256": "cd9febd126f5e93a850b24348ca6a1fcd06818c3d9cb80f794412c6911ca7a2f",
+    "sha512": "78a8826f81986fe663370fed2d4446f0494d1488b4bd11e2139c94cd79416d5f0744dc377e12427534715b0f413baab9d117f0bcd1bdc33cb4c5568a3358bd67",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-pest-disease-livestock-stress-early-warning.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-pest-disease-livestock-stress-early-warning",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau weather-pathogen-vector-host twin could sharpen plant-health, animal-disease, and livestock heat-stress early warning across the full agricultural biosecurity stack.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/pest-disease-livestock-stress-early-warning/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-pest-disease-livestock-stress-early-warning",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-pest-disease-livestock-stress-early-warning.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/pest-disease-livestock-stress-early-warning/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd033",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau for Pest, Disease, and Livestock-Stress Early Warning",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/pest-disease-livestock-stress-early-warning/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd033",
+  "publication_key": "public_good_dossiers.pest_disease_livestock_stress_early_warning",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

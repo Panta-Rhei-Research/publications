@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "d21eeb4a120acea35993cf9ca3d2d9e5795e70438f144d300927d237df922d76",
+    "sha512": "17a368eb19321eea5cffa392f5be31fc09b293c4ae563ec164975cf579bb0834e98023dbdb5eec0e2d84313d206d614100872ed6bababc2727b48dfb84ba55c0"
+  },
+  "file": {
+    "bytes": 281107,
+    "path": "public-good-impact-dossier-2026-05-02-crop-biology-breeding-photosynthesis-gene-design.pdf",
+    "sha256": "d21eeb4a120acea35993cf9ca3d2d9e5795e70438f144d300927d237df922d76",
+    "sha512": "17a368eb19321eea5cffa392f5be31fc09b293c4ae563ec164975cf579bb0834e98023dbdb5eec0e2d84313d206d614100872ed6bababc2727b48dfb84ba55c0",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-crop-biology-breeding-photosynthesis-gene-design.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-crop-biology-breeding-photosynthesis-gene-design",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing exploring how a law-faithful tau genotype-environment-management twin could accelerate weather-tailored crop design, photosynthesis engineering, and targeted gene editing for climate-resilient agriculture.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/crop-biology-breeding-photosynthesis-gene-design/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-crop-biology-breeding-photosynthesis-gene-design",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-crop-biology-breeding-photosynthesis-gene-design.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/crop-biology-breeding-photosynthesis-gene-design/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd016",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau for Crop Biology, Breeding, Photosynthesis Engineering, and Targeted Gene Design",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/crop-biology-breeding-photosynthesis-gene-design/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd016",
+  "publication_key": "public_good_dossiers.crop_biology_breeding_photosynthesis_gene_design",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

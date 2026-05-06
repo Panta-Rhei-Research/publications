@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "d18ae201341c7c767ed1488025a67f78482aa6725de9711f46a5e77d3f7a7f03",
+    "sha512": "cf98bc8c31cbe7af57c6f9e2a43d9185ba3e012b514f7edec8534d94841fd04cec801900d2c4e0561842f5fa518dd86440928ddb57f1a504f6f3a92bff8e4214"
+  },
+  "file": {
+    "bytes": 307596,
+    "path": "public-good-impact-dossier-2026-05-02-fusion-digital-twins-plasma-control-heat-exhaust-iter-demo.pdf",
+    "sha256": "d18ae201341c7c767ed1488025a67f78482aa6725de9711f46a5e77d3f7a7f03",
+    "sha512": "cf98bc8c31cbe7af57c6f9e2a43d9185ba3e012b514f7edec8534d94841fd04cec801900d2c4e0561842f5fa518dd86440928ddb57f1a504f6f3a92bff8e4214",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-fusion-digital-twins-plasma-control-heat-exhaust-iter-demo.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-fusion-digital-twins-plasma-control-heat-exhaust-iter-demo",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing on how τ could advance fusion energy through plasma-physics digital twins, improved plasma control, heat-exhaust management, and the ITER-to-DEMO-to-commercialization pathway.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/fusion-digital-twins-plasma-control-heat-exhaust-iter-demo/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-fusion-digital-twins-plasma-control-heat-exhaust-iter-demo",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-fusion-digital-twins-plasma-control-heat-exhaust-iter-demo.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/fusion-digital-twins-plasma-control-heat-exhaust-iter-demo/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd023",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "τ for Fusion Digital Twins, Plasma Control, Heat Exhaust, and ITER → DEMO → Commercialization",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/fusion-digital-twins-plasma-control-heat-exhaust-iter-demo/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd023",
+  "publication_key": "public_good_dossiers.fusion_digital_twins_plasma_control_heat_exhaust_iter_demo",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

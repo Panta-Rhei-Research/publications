@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "local_pdf",
   "checksums": {
     "sha256": "ec880b1c45920ccbcc296b918e988aa1c94f72a2e160cddee72949e8fe0417e3",
     "sha512": "64e89403f597e0669984d23ad9a621939957e0007be8dceef2f34784486e1dbb4afd1c79e6fca0d9ff090072384741cf31c4c9794d89fe856b7246d98d57b4b6"
@@ -19,16 +20,18 @@
     "verification": "receipt-present"
   },
   "publication": {
-    "abstract": "This white paper explains how the Panta Rhei public site and GitHub organization implement a public research observatory for high-scope open research. It treats the website as an inspectable architecture rather than a promotional brochure: Program states identity, Agenda states obligations, Corpus exposes construction, Results marks consequences, Verify exposes checks, Impact keeps relevance conditional, Engage operationalizes scrutiny, and Publications keeps stable artifacts citable.\n\nThe paper does not claim that this architecture proves, validates, completes, replaces, or externally certifies the scientific theory. It documents a reusable inspection topology for making source, status, verification, artifacts, and correction routes easier to find.",
+    "abstract": "This white paper documents how `panta-rhei.site` and the Panta Rhei GitHub organization implement a public research observatory for high-scope open research. The subject is not a scientific result. It is the architecture that makes the program inspectable: Program states identity, Agenda states obligations, Corpus exposes construction, Results marks consequences, Verify exposes checks, Impact keeps relevance conditional, Engage operationalizes scrutiny, and Publications keeps stable artifacts citable.\n\nThe paper treats the website as an interface for inspection rather than a promotional brochure. It explains how source repositories, generated data, release manifests, static pages, Pagefind search, GitHub discussions, publication manifests, correction routes, and review kits work together so that readers can move from a public claim to the relevant source, status, verification route, artifact, and engagement path.\n\nThe architecture does not prove, validate, complete, replace, or externally certify the scientific theory. It creates a reusable topology for making ambitious research easier to inspect before anyone is asked for belief.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/",
     "claim_boundary": {
-      "claim": "This artifact is a white paper publication record.",
-      "non_claim": "It does not by itself certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+      "claim": "White-paper orientation artifact. It routes readers to canonical Corpus, Results, Verify, and Publications surfaces and does not replace those surfaces.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "date": "2026-05-03",
-    "doi": "forthcoming",
+    "doi": "",
     "doi_url": "",
+    "external_links": [],
     "github_path": "white-papers/2026-05-03-building-a-public-research-observatory",
     "license": "CC-BY-4.0",
     "pdf_filename": "white-paper-2026-05-03-building-a-public-research-observatory.pdf",
@@ -45,9 +48,9 @@
     "short_url": "https://prrp.site/wp002",
     "source_website_page": "publications/white-papers/building-a-public-research-observatory/index.md",
     "status": "Draft technical white paper / blueprint",
-    "subtitle": "How panta-rhei.site materializes Agenda, Corpus, Results, Verify, Impact, Engage, and artifact release surfaces into one inspectable research system",
+    "subtitle": "",
     "title": "Building a Public Research Observatory for High-Scope Open Research",
-    "version": "v0.1",
+    "version": "v1.0",
     "website_url": "https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/",
     "zenodo_url": ""
   },

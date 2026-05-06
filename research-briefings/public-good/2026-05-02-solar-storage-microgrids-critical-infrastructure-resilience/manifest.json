@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "92c1b7c507acddbc25866e8bab13abbb8dc5b068c02d1557be7281f991ea9c13",
+    "sha512": "f91b5be50ce169d5732a75a3bd7a4f9362930ae29e954fd2fa3f4a3822b0b9a5f42983314795cd1f6434c681904b6cd38e14a0077d64770e1245e7842d8dbc83"
+  },
+  "file": {
+    "bytes": 304858,
+    "path": "public-good-impact-dossier-2026-05-02-solar-storage-microgrids-critical-infrastructure-resilience.pdf",
+    "sha256": "92c1b7c507acddbc25866e8bab13abbb8dc5b068c02d1557be7281f991ea9c13",
+    "sha512": "f91b5be50ce169d5732a75a3bd7a4f9362930ae29e954fd2fa3f4a3822b0b9a5f42983314795cd1f6434c681904b6cd38e14a0077d64770e1245e7842d8dbc83",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-solar-storage-microgrids-critical-infrastructure-resilience.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-solar-storage-microgrids-critical-infrastructure-resilience",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing on how τ could improve solar-plus-storage system design, microgrid operations, and critical-infrastructure resilience for hospitals, water systems, and community hubs.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/solar-storage-microgrids-critical-infrastructure-resilience/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-solar-storage-microgrids-critical-infrastructure-resilience",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-solar-storage-microgrids-critical-infrastructure-resilience.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/solar-storage-microgrids-critical-infrastructure-resilience/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd039",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "τ for Solar-Plus-Storage, Microgrids, and Critical-Infrastructure Resilience",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/solar-storage-microgrids-critical-infrastructure-resilience/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd039",
+  "publication_key": "public_good_dossiers.solar_storage_microgrids_critical_infrastructure_resilience",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

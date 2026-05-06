@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "2ea68610c013abb1926fd5027a2fdfa12d0baeb566180621a10b7f032b3c7e4f",
+    "sha512": "713a08061992ef7622ba0844e5a67329e0c567046eb5f71a2cf1f69e79f91a04f481205596bd02c71155e06ab611450d6a21d5b14d9dc9a4b04314dad526e180"
+  },
+  "file": {
+    "bytes": 467609,
+    "path": "guided-tour-book-III.pdf",
+    "sha256": "2ea68610c013abb1926fd5027a2fdfa12d0baeb566180621a10b7f032b3c7e4f",
+    "sha512": "713a08061992ef7622ba0844e5a67329e0c567046eb5f71a2cf1f69e79f91a04f481205596bd02c71155e06ab611450d6a21d5b14d9dc9a4b04314dad526e180",
+    "source_website_asset_path": "site/assets/media/guided-tour-book-III.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "gt003-guided-tour-book-iii",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "Guided Tours are controlled entry points into the load-bearing parts of the program, identifying hinges, attack vectors, and verification routes.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/guided-tours/",
+    "claim_boundary": {
+      "claim": "Guided tour artifact. It helps readers inspect and challenge the books; it does not replace the monographs, Registry, TauLib, Results, or external review.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
+    "date": "2026-04-15",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "guided-tours/gt003-guided-tour-book-iii",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "guided-tour-book-III.pdf",
+    "publication_type": "Guided Tour",
+    "related_lanes": [
+      "publications",
+      "verify",
+      "corpus"
+    ],
+    "related_routes": [
+      "/publications/guided-tours/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/gt003",
+    "source_website_page": "publications/guided-tours/index.md",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Book III Guided Tour",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/guided-tours/",
+    "zenodo_url": ""
+  },
+  "publication_id": "gt003",
+  "publication_key": "guided_tours.book_iii",
+  "publication_role": "verification",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "guided_tour"
+}

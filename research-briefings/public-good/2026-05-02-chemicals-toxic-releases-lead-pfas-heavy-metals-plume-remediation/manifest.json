@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "d6e654aaba170b3f6ac1819526f96d532c4195aa4b56c272e5e5af805df612dc",
+    "sha512": "35cb737267ccc5a9b6395f749439ea7fdecf4ff20cb41800bae0ae61ffaf3f2b07027f9d1f2c78468df02a7e71c801eaf96c7c61be6faa5ce1c11356678a9358"
+  },
+  "file": {
+    "bytes": 275815,
+    "path": "public-good-impact-dossier-2026-05-02-chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation.pdf",
+    "sha256": "d6e654aaba170b3f6ac1819526f96d532c4195aa4b56c272e5e5af805df612dc",
+    "sha512": "35cb737267ccc5a9b6395f749439ea7fdecf4ff20cb41800bae0ae61ffaf3f2b07027f9d1f2c78468df02a7e71c801eaf96c7c61be6faa5ce1c11356678a9358",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau causal integration substrate could unlock major public-good gains in toxic-release detection, cross-medium plume intelligence, lead/PFAS/mercury exposure protection, and remediation targeting—addressing a hidden but very large disease burden.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd009",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau for Chemicals, Toxic Releases, Lead/PFAS/Heavy Metals, Water-Soil-Air Plume Intelligence, and Remediation",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd009",
+  "publication_key": "public_good_dossiers.chemicals_toxic_releases_lead_pfas_heavy_metals_plume_remediation",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

@@ -10,6 +10,7 @@ White Papers clarify framework structure, formalisation work, infrastructure, me
 - [`2026-05-03-inspection-architecture-high-scope-open-research/`](2026-05-03-inspection-architecture-high-scope-open-research/) — *Inspection Architecture for High-Scope Open Research — A practical blueprint for publishing ambitious independent research before asking for belief*. Authors: Thorsten Fuchs and Anna-Sophie Fuchs. v0.1 (2026-05-03). DOI forthcoming.
 - [`2026-05-03-the-shape-of-a-theory-of-reality/`](2026-05-03-the-shape-of-a-theory-of-reality/) — *The Shape of a Theory of Reality — Why a serious theory of reality must earn its language, build its answer, disclose its limits, and state its conditional public relevance*. Authors: Thorsten Fuchs and Anna-Sophie Fuchs. v0.1 (2026-05-03). DOI forthcoming.
 - [`2026-05-03-building-a-public-research-observatory/`](2026-05-03-building-a-public-research-observatory/) — *Building a Public Research Observatory for High-Scope Open Research — How panta-rhei.site materializes Agenda, Corpus, Results, Verify, Impact, Engage, and artifact release surfaces into one inspectable research system*. Authors: Thorsten Fuchs and Anna-Sophie Fuchs. v0.1 (2026-05-03). DOI forthcoming.
+- [`2026-05-04-panta-rhei-executive-overview/`](2026-05-04-panta-rhei-executive-overview/) — *Panta Rhei Research Program — Executive Overview*. Authors: Thorsten Fuchs and Anna-Sophie Fuchs. v4.0 (2026-05-04). DOI forthcoming.
 
 ## Conventions
 
@@ -18,7 +19,7 @@ Each white paper directory follows the program's standard publication layout:
 - `<type>-<date>-<slug>.pdf` — the canonical PDF
 - `<type>-<date>-<slug>.pdf.ots` — OpenTimestamps receipt (CI-stamped after merge)
 - `README.md` — human-readable abstract + metadata + citation guidance
-- `manifest.json` — machine-readable manifest in the `panta-rhei-publication-manifest-v1` schema
+- `manifest.json` — machine-readable manifest in the `panta-rhei-publication-manifest-v2` schema
 
 The catalog scripts (`scripts/build_manifests.py`, `scripts/verify_publications.py`) treat `white-papers/` as a first-class publication root alongside `research-papers/`, `research-notes/`, and `research-briefings/public-good/`.
 

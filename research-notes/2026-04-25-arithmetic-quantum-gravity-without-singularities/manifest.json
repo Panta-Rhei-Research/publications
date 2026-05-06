@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "local_pdf",
   "checksums": {
     "sha256": "07fab98d6de53bbcea37329d14592f2e03272ab17fd3ccb42c96064552c6656e",
     "sha512": "98143646e4c83244347b36687b42ad990ffe829663fd1d77459852105ec1b8b7a07880604a8b39428d4510e07d825ea44a0066e2fb79d5d7ba8568d4e811b3c5"
@@ -20,6 +21,7 @@
   },
   "publication": {
     "abstract": "The note compares the Hartnoll-Yang chain from BKL dynamics to hyperbolic billiards, automorphic forms, L-functions, and the primon gas with the Panta Rhei derivation of prime polarity, L-functions, and hyperbolic structure from the categorical kernel. It is a conditional comparison, not an external proof of Category τ.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/research-notes/arithmetic-quantum-gravity-without-singularities/",
     "claim_boundary": {
@@ -29,6 +31,7 @@
     "date": "2026-04-25",
     "doi": "",
     "doi_url": "",
+    "external_links": [],
     "github_path": "research-notes/2026-04-25-arithmetic-quantum-gravity-without-singularities",
     "license": "CC-BY-4.0",
     "pdf_filename": "research-note-2026-04-25-arithmetic-quantum-gravity-without-singularities.pdf",

@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "local_pdf",
   "checksums": {
     "sha256": "511c700da26f1366a9b8df0c869da12e61397c2fdd79bc7c46a50c0152d9f29d",
     "sha512": "0d50d9580085ce7de53a7f0c1652af2e6268dc9cfbe3bbded7dd88143279aa3cbbf179cf453517f76ba648009e741eb3ac3c66f7d6e68ce4d70a4ef2fe947fdf"
@@ -20,6 +21,7 @@
   },
   "publication": {
     "abstract": "The note compares the Panta Rhei no-inflaton pre-registration for the tensor-to-scalar ratio and scalar spectral index with late-2025 CMB and BAO constraints. It separates the framework's internal commitment from external acceptance and identifies near-term falsification routes.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/research-notes/inflationary-observables-without-an-inflaton/",
     "claim_boundary": {
@@ -29,6 +31,7 @@
     "date": "2026-04-25",
     "doi": "",
     "doi_url": "",
+    "external_links": [],
     "github_path": "research-notes/2026-04-25-inflationary-observables-without-an-inflaton",
     "license": "CC-BY-4.0",
     "pdf_filename": "research-note-2026-04-25-inflationary-observables-without-an-inflaton.pdf",

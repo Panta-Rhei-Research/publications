@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any
 
 from lib_publications import (
+    ALLOWED_ARTIFACT_AVAILABILITY,
     ALLOWED_ROLES,
     ALLOWED_ROUTE_STATUS,
     ALLOWED_STATUS,
@@ -27,10 +28,17 @@ from lib_publications import (
 EXPECTED_RELEASED_COUNTS = {
     "research_paper": 9,
     "research_note": 6,
-    "public_good_briefing": 1,
-    "white_paper": 4,
+    "public_good_briefing": 44,
+    "white_paper": 5,
+    "research_monograph": 7,
+    "monograph_supplement": 2,
+    "synoptic_overview": 1,
+    "guided_tour": 7,
 }
+EXPECTED_SUPERSEDED_COUNTS = {"public_good_briefing": 1}
 EXPECTED_PLANNED_COUNTS = {"charter_essay": 2}
+EXPECTED_PDF_COUNT = 75
+EXPECTED_EXTERNAL_COUNT = 7
 
 
 def main() -> int:
@@ -55,7 +63,11 @@ def main() -> int:
 
 def validate_item_dir(item_dir: Path) -> list[str]:
     errors: list[str] = []
-    if not re.match(r"^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$", item_dir.name) and not re.match(r"^[a-z]{1,4}[0-9]{3}-[a-z0-9-]+$", item_dir.name):
+    if (
+        not re.match(r"^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$", item_dir.name)
+        and not re.match(r"^[a-z]{1,4}[0-9]{3}-[a-z0-9-]+$", item_dir.name)
+        and not re.match(r"^book-[ivx]+$", item_dir.name)
+    ):
         errors.append(f"invalid item folder name: {item_dir.relative_to(ROOT)}")
     for required in ("README.md", "manifest.json"):
         if not (item_dir / required).exists():
@@ -66,12 +78,20 @@ def validate_item_dir(item_dir: Path) -> list[str]:
     manifest = load_manifest(manifest_path)
     errors.extend(validate_manifest_contract(manifest, manifest_path))
     status = manifest.get("status")
+    availability = manifest.get("artifact_availability", manifest.get("publication", {}).get("artifact_availability"))
     pdfs = sorted(item_dir.glob("*.pdf"))
-    if status == "released":
+    if availability == "local_pdf":
         if len(pdfs) != 1:
             errors.append(f"expected one PDF in {item_dir.relative_to(ROOT)}, found {len(pdfs)}")
             return errors
         errors.extend(validate_released_file(item_dir, pdfs[0], manifest))
+    elif availability == "external_link":
+        if pdfs:
+            errors.append(f"external-link item unexpectedly contains PDF: {item_dir.relative_to(ROOT)}")
+        if status != "released":
+            errors.append(f"external-link item should be released: {manifest_path.relative_to(ROOT)}")
+        if not manifest.get("publication", {}).get("external_links"):
+            errors.append(f"external-link item has no external links: {manifest_path.relative_to(ROOT)}")
     else:
         if pdfs:
             errors.append(f"planned/non-released item unexpectedly contains PDF: {item_dir.relative_to(ROOT)}")
@@ -92,6 +112,9 @@ def validate_manifest_contract(manifest: dict[str, Any], path: Path) -> list[str
         errors.append(f"invalid publication_role in {path.relative_to(ROOT)}: {manifest.get('publication_role')}")
     if manifest.get("status") not in ALLOWED_STATUS:
         errors.append(f"invalid status in {path.relative_to(ROOT)}: {manifest.get('status')}")
+    availability = manifest.get("artifact_availability")
+    if availability not in ALLOWED_ARTIFACT_AVAILABILITY:
+        errors.append(f"invalid artifact_availability in {path.relative_to(ROOT)}: {availability}")
     pub = manifest.get("publication", {})
     route_status = pub.get("route_status")
     if route_status not in ALLOWED_ROUTE_STATUS:
@@ -134,20 +157,39 @@ def validate_released_file(item_dir: Path, pdf: Path, manifest: dict[str, Any]) 
 
 def validate_counts(manifests: list[dict[str, Any]]) -> list[str]:
     released: dict[str, int] = {}
+    superseded: dict[str, int] = {}
     planned: dict[str, int] = {}
     ids: set[str] = set()
     errors: list[str] = []
+    pdf_count = 0
+    external_count = 0
     for manifest in manifests:
         publication_id = manifest.get("publication_id")
         if publication_id in ids:
             errors.append(f"duplicate publication_id: {publication_id}")
         ids.add(publication_id)
-        target = released if manifest.get("status") == "released" else planned
+        availability = manifest.get("artifact_availability")
+        if availability == "local_pdf":
+            pdf_count += 1
+        if availability == "external_link":
+            external_count += 1
+        if manifest.get("status") == "released":
+            target = released
+        elif manifest.get("status") == "superseded":
+            target = superseded
+        else:
+            target = planned
         target[manifest.get("type", "unknown")] = target.get(manifest.get("type", "unknown"), 0) + 1
     if released != EXPECTED_RELEASED_COUNTS:
         errors.append(f"unexpected released counts: {released}, expected {EXPECTED_RELEASED_COUNTS}")
+    if superseded != EXPECTED_SUPERSEDED_COUNTS:
+        errors.append(f"unexpected superseded counts: {superseded}, expected {EXPECTED_SUPERSEDED_COUNTS}")
     if planned != EXPECTED_PLANNED_COUNTS:
         errors.append(f"unexpected planned counts: {planned}, expected {EXPECTED_PLANNED_COUNTS}")
+    if pdf_count != EXPECTED_PDF_COUNT:
+        errors.append(f"unexpected PDF-bearing count: {pdf_count}, expected {EXPECTED_PDF_COUNT}")
+    if external_count != EXPECTED_EXTERNAL_COUNT:
+        errors.append(f"unexpected external-link count: {external_count}, expected {EXPECTED_EXTERNAL_COUNT}")
     return errors
 
 
@@ -161,6 +203,8 @@ def validate_catalogs(manifests: list[dict[str, Any]]) -> list[str]:
         errors.append("catalog publication_count mismatch")
     if catalog.get("released_publication_count") != sum(1 for manifest in manifests if manifest.get("status") == "released"):
         errors.append("catalog released_publication_count mismatch")
+    if catalog.get("pdf_publication_count") != sum(1 for manifest in manifests if manifest.get("artifact_availability") == "local_pdf"):
+        errors.append("catalog pdf_publication_count mismatch")
     catalog_ids = sorted(item.get("id") for item in catalog.get("publications", []))
     manifest_ids = sorted(manifest.get("id") for manifest in manifests)
     if catalog_ids != manifest_ids:
@@ -181,7 +225,7 @@ def validate_site_byte_identity(manifests: list[dict[str, Any]]) -> list[str]:
         print(f"Skipping source byte-identity check; site repo is not present: {site_root}")
         return errors
     for manifest in manifests:
-        if manifest.get("status") != "released":
+        if manifest.get("artifact_availability") != "local_pdf":
             continue
         file = manifest.get("file", {})
         source = file.get("source_website_asset_path", "")

@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "4ccc2c3a9886b51a386331e7d49e5a569757c2eabc14ec7af4701e3634c1c5c5",
+    "sha512": "1388183a69dd3b8b5406f25200a71f59b4e599ce736bd5776afee40f599d4a7309b915bac590390b4b53c388de004935ca45b36e2b4533b67d7496cb55372f01"
+  },
+  "file": {
+    "bytes": 269917,
+    "path": "public-good-impact-dossier-2026-05-02-waste-systems-plastics-leakage-zero-waste.pdf",
+    "sha256": "4ccc2c3a9886b51a386331e7d49e5a569757c2eabc14ec7af4701e3634c1c5c5",
+    "sha512": "1388183a69dd3b8b5406f25200a71f59b4e599ce736bd5776afee40f599d4a7309b915bac590390b4b53c388de004935ca45b36e2b4533b67d7496cb55372f01",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-waste-systems-plastics-leakage-zero-waste.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-waste-systems-plastics-leakage-zero-waste",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing on how τ could improve waste-flow modeling, plastics-leakage interception, municipal and industrial waste operations, and zero-waste transition planning.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/waste-systems-plastics-leakage-zero-waste/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-waste-systems-plastics-leakage-zero-waste",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-waste-systems-plastics-leakage-zero-waste.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/waste-systems-plastics-leakage-zero-waste/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd042",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "τ for Waste Systems, Plastics Leakage, Litter Interception, Municipal/Industrial Waste Operations, and Zero-Waste Transitions",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/waste-systems-plastics-leakage-zero-waste/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd042",
+  "publication_key": "public_good_dossiers.waste_systems_plastics_leakage_zero_waste",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

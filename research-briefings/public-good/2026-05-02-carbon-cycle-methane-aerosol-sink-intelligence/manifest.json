@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "aba4f79a17968be027121ca3b495343741b8d567edbab8f39b4342e93ca88288",
+    "sha512": "7f6ae7130be80ea1f80eaf3eddb741362adaa238583c64a2e0d3af92f85154b77d882431f8af302389b188841b9e082f83471942d002f400e31f72c16bac07d4"
+  },
+  "file": {
+    "bytes": 289297,
+    "path": "public-good-impact-dossier-2026-05-02-carbon-cycle-methane-aerosol-sink-intelligence.pdf",
+    "sha256": "aba4f79a17968be027121ca3b495343741b8d567edbab8f39b4342e93ca88288",
+    "sha512": "7f6ae7130be80ea1f80eaf3eddb741362adaa238583c64a2e0d3af92f85154b77d882431f8af302389b188841b9e082f83471942d002f400e31f72c16bac07d4",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-carbon-cycle-methane-aerosol-sink-intelligence.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-carbon-cycle-methane-aerosol-sink-intelligence",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing on climate-driver attribution, methane, aerosols, and sink stewardship as the highest-leverage near-term element of the Climate portfolio.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/carbon-cycle-methane-aerosol-sink-intelligence/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-carbon-cycle-methane-aerosol-sink-intelligence",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-carbon-cycle-methane-aerosol-sink-intelligence.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/carbon-cycle-methane-aerosol-sink-intelligence/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd008",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau for Carbon-Cycle, Methane, Aerosol, and Sink Intelligence",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/carbon-cycle-methane-aerosol-sink-intelligence/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd008",
+  "publication_key": "public_good_dossiers.carbon_cycle_methane_aerosol_sink_intelligence",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

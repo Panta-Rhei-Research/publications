@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "e04d88c714f53a4a82d190dde70b10ecba65866b5d7fa8f5b67f0f212cc5266f",
+    "sha512": "b4c6e2c0e901d534a450d280d8125e48482d30ac4d2bd2d8de8c3a9e99549dae86ab36cb51d000dbba3dcd1b47dc32d4a60fb840bcbc24a543d6877431a34430"
+  },
+  "file": {
+    "bytes": 255163,
+    "path": "public-good-impact-dossier-2026-05-02-grid-digital-twins-reliability-dispatch-resilience.pdf",
+    "sha256": "e04d88c714f53a4a82d190dde70b10ecba65866b5d7fa8f5b67f0f212cc5266f",
+    "sha512": "b4c6e2c0e901d534a450d280d8125e48482d30ac4d2bd2d8de8c3a9e99549dae86ab36cb51d000dbba3dcd1b47dc32d4a60fb840bcbc24a543d6877431a34430",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-grid-digital-twins-reliability-dispatch-resilience.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-grid-digital-twins-reliability-dispatch-resilience",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau grid twin could improve bulk-power reliability, weather-aware dispatch, cascading-failure prevention, and restoration—addressing USD 121 billion in annual US major outage costs.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/grid-digital-twins-reliability-dispatch-resilience/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-grid-digital-twins-reliability-dispatch-resilience",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-grid-digital-twins-reliability-dispatch-resilience.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/grid-digital-twins-reliability-dispatch-resilience/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd024",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau-Grade Grid Digital Twins, Reliability, Dispatch, and Resilience",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/grid-digital-twins-reliability-dispatch-resilience/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd024",
+  "publication_key": "public_good_dossiers.grid_digital_twins_reliability_dispatch_resilience",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

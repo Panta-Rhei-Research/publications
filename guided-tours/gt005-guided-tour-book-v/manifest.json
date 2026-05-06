@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "17b5c32417bcc88a5158030d19f967b92de465597a997220b3098489fa315dcf",
+    "sha512": "b479d4b9e0b898b048a208f7a486a5e41e18902746d8f66635c496e90a680b815c0a648524e01291079ea043541183d1d20cef4680b08404897e328bba8857a1"
+  },
+  "file": {
+    "bytes": 493486,
+    "path": "guided-tour-book-V.pdf",
+    "sha256": "17b5c32417bcc88a5158030d19f967b92de465597a997220b3098489fa315dcf",
+    "sha512": "b479d4b9e0b898b048a208f7a486a5e41e18902746d8f66635c496e90a680b815c0a648524e01291079ea043541183d1d20cef4680b08404897e328bba8857a1",
+    "source_website_asset_path": "site/assets/media/guided-tour-book-V.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "gt005-guided-tour-book-v",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "Guided Tours are controlled entry points into the load-bearing parts of the program, identifying hinges, attack vectors, and verification routes.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/guided-tours/",
+    "claim_boundary": {
+      "claim": "Guided tour artifact. It helps readers inspect and challenge the books; it does not replace the monographs, Registry, TauLib, Results, or external review.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
+    "date": "2026-04-15",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "guided-tours/gt005-guided-tour-book-v",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "guided-tour-book-V.pdf",
+    "publication_type": "Guided Tour",
+    "related_lanes": [
+      "publications",
+      "verify",
+      "corpus"
+    ],
+    "related_routes": [
+      "/publications/guided-tours/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/gt005",
+    "source_website_page": "publications/guided-tours/index.md",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Book V Guided Tour",
+    "version": "v1.0",
+    "website_url": "https://panta-rhei.site/publications/guided-tours/",
+    "zenodo_url": ""
+  },
+  "publication_id": "gt005",
+  "publication_key": "guided_tours.book_v",
+  "publication_role": "verification",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "guided_tour"
+}

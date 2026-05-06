@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "14a4eeff0daa1af5c0b0582c3bb62a7b02a1003c9711eda86369e4bb9818e122",
+    "sha512": "cf5c369e6a9cbdce415eeabd4a3acd868b79088836b396a4228915a9946d0d389fa01c5dc52b2d0ae07c51e81355d7287f1cfc079f36246c5ed7ba4ab4bc7fe1"
+  },
+  "file": {
+    "bytes": 270754,
+    "path": "public-good-impact-dossier-2026-05-02-wash-health-facilities-schools-camps-climate-vulnerable-settlements.pdf",
+    "sha256": "14a4eeff0daa1af5c0b0582c3bb62a7b02a1003c9711eda86369e4bb9818e122",
+    "sha512": "cf5c369e6a9cbdce415eeabd4a3acd868b79088836b396a4228915a9946d0d389fa01c5dc52b2d0ae07c51e81355d7287f1cfc079f36246c5ed7ba4ab4bc7fe1",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-wash-health-facilities-schools-camps-climate-vulnerable-settlements.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-wash-health-facilities-schools-camps-climate-vulnerable-settlements",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing on how τ could improve WASH service continuity in health facilities, schools, refugee camps, and climate-vulnerable settlements.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/wash-health-facilities-schools-camps-climate-vulnerable-settlements/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-wash-health-facilities-schools-camps-climate-vulnerable-settlements",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-wash-health-facilities-schools-camps-climate-vulnerable-settlements.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/wash-health-facilities-schools-camps-climate-vulnerable-settlements/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd041",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "τ for WASH in Health Facilities, Schools, Camps, and Climate-Vulnerable Settlements",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/wash-health-facilities-schools-camps-climate-vulnerable-settlements/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd041",
+  "publication_key": "public_good_dossiers.wash_health_facilities_schools_camps_climate_vulnerable_settlements",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

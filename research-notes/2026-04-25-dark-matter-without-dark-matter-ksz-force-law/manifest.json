@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "local_pdf",
   "checksums": {
     "sha256": "b450cd1735693dba9ef88bb5bf4cc861bf9c7393152e3e3e2c35dbd357f436f6",
     "sha512": "9cc9a280aa77d11abdf148ee9fff1a7ca73081e41e0748572a6646dcc152be4f5587828092d0e170be36a1a31006a88d4f04a95764fdd257b9d27473bf021a0e"
@@ -20,6 +21,7 @@
   },
   "publication": {
     "abstract": "The note places the Panta Rhei force-law stance on the Gallardo et al. 2026 pairwise-kSZ constraint: Category τ rejects both a new dark-matter particle and a fundamental MOND transition at the tested scale, while committing to a Newtonian inverse-square force-law exponent in the cluster-pair regime. The note defines falsification surfaces and reporting targets rather than claiming external acceptance.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/",
     "claim_boundary": {
@@ -29,6 +31,7 @@
     "date": "2026-04-25",
     "doi": "",
     "doi_url": "",
+    "external_links": [],
     "github_path": "research-notes/2026-04-25-dark-matter-without-dark-matter-ksz-force-law",
     "license": "CC-BY-4.0",
     "pdf_filename": "research-note-2026-04-25-dark-matter-without-dark-matter-ksz-force-law.pdf",

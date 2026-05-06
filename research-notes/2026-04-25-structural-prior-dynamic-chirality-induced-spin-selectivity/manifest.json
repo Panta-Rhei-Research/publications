@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "local_pdf",
   "checksums": {
     "sha256": "9f75324f1f3240d35f3f97d22edda69071c1922fd45f970ab620feda1452ae34",
     "sha512": "daa69c2cd6500e9ea1bfb9a67fd3ca8bd30c28919a4d8f184d34867d416dffa57fc32e30e254fa31bc10c2153ac25b8f72cf03a4d5f17e04fbdfa22926d9c5aa"
@@ -20,6 +21,7 @@
   },
   "publication": {
     "abstract": "The note argues for a calibrated slot-filler comparison: Panta Rhei Book VI had already placed a non-thermal amplification requirement for biological homochirality on the public record, while Paltiel et al. provide an independent proposed mechanism for dynamic chirality-induced spin selectivity. The web page records the note's status, claim boundary, and verification routes; the PDF remains the citable artifact.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/",
     "claim_boundary": {
@@ -29,6 +31,7 @@
     "date": "2026-04-25",
     "doi": "",
     "doi_url": "",
+    "external_links": [],
     "github_path": "research-notes/2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity",
     "license": "CC-BY-4.0",
     "pdf_filename": "research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf",

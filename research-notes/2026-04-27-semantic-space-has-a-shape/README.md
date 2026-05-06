@@ -9,9 +9,11 @@ Vocabulary evolution, word embeddings, and the Book VII readout-functor picture
 - Date: 2026-04-27
 - Version: v1.0
 - Status: Published
+- Artifact availability: local_pdf
 - DOI: Not assigned
 - Website: https://panta-rhei.site/publications/research-notes/semantic-space-has-a-shape/
 - Source website page: `_research_notes/2026-04-27-semantic-space-has-a-shape.md`
+- Source website asset path: `site/assets/pdfs/research-notes/research-note-2026-04-27-semantic-space-has-a-shape.pdf`
 - PDF: `research-note-2026-04-27-semantic-space-has-a-shape.pdf`
 
 ## Abstract
@@ -43,4 +45,4 @@ Cite the PDF as the stable artifact; cite this page for current routing, status,
 
 ## Integrity
 
-Cryptographic hashes and OpenTimestamps receipt status are recorded in `manifest.json`. The timestamp receipt proves the existence of the exact PDF bytes at or before the attested time; it does not certify correctness, peer review, legal status, DOI registration, or content validity.
+Cryptographic hashes and OpenTimestamps receipt status are recorded in `manifest.json` for local PDFs. For external-link records, `manifest.json` records route and availability metadata only. Timestamp receipts prove existence of exact PDF bytes at or before the attested time; they do not certify correctness, peer review, legal status, DOI registration, or content validity.

@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "37023dda39e72aab716a0398466e635b349263bd4a6710009ff8c5b24f5e6b76",
+    "sha512": "fdb6d21155b850b5adcb731840c8d10ce2d6cabf91f535ec14f9e84a675bded0c1a12f4a13be48f886891dea8bd44f1d8b829b94eb3da3f09df16706a231414c"
+  },
+  "file": {
+    "bytes": 310275,
+    "path": "panta-rhei-conspectus.pdf",
+    "sha256": "37023dda39e72aab716a0398466e635b349263bd4a6710009ff8c5b24f5e6b76",
+    "sha512": "fdb6d21155b850b5adcb731840c8d10ce2d6cabf91f535ec14f9e84a675bded0c1a12f4a13be48f886891dea8bd44f1d8b829b94eb3da3f09df16706a231414c",
+    "source_website_asset_path": "site/assets/downloads/panta-rhei-conspectus.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "so001-panta-rhei-conspectus",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "⬇ Download Panta Rhei Conspectus — Free PDF (303 KB, 29 pp; see trust-budget note)",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/conspectus/",
+    "claim_boundary": {
+      "claim": "Every quantitative statement in the Conspectus carries one of four scope labels:\n\n- **Established** — classical, independently confirmed\n- **τ-effective** — derived inside the programme on the calibration cascade\n- **Conjectural** — structural claim, not yet fully derived\n- **Metaphorical** — philosophical or analogical, not formally a theorem\n\nSee the [Verify lane]({{ '/verify/' | relative_url }}) for the full scope-label discipline.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
+    "date": "2026-04-21",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "synoptic-overviews/so001-panta-rhei-conspectus",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "panta-rhei-conspectus.pdf",
+    "publication_type": "Synoptic Overview",
+    "related_lanes": [
+      "publications",
+      "discover",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/conspectus/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/so001",
+    "source_website_page": "publications/conspectus/index.md",
+    "status": "Published",
+    "subtitle": "",
+    "title": "The Panta Rhei Conspectus",
+    "version": "v1.1",
+    "website_url": "https://panta-rhei.site/publications/conspectus/",
+    "zenodo_url": ""
+  },
+  "publication_id": "so001",
+  "publication_key": "synoptic_overviews.panta_rhei_conspectus",
+  "publication_role": "orientation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "synoptic_overview"
+}

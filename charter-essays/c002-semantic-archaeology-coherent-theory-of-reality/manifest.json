@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "planned",
   "checksums": {
     "sha256": "",
     "sha512": ""
@@ -20,6 +21,7 @@
   },
   "publication": {
     "abstract": "Planned orientation essay on the semantic history and public category of a coherent theory of reality.",
+    "artifact_availability": "planned",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "",
     "claim_boundary": {
@@ -29,6 +31,7 @@
     "date": "planned",
     "doi": "",
     "doi_url": "",
+    "external_links": [],
     "github_path": "charter-essays/c002-semantic-archaeology-coherent-theory-of-reality",
     "license": "CC-BY-4.0",
     "pdf_filename": "",

@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "0a1f3b57532c9c0f3401219c8f1f77b58a6c2209432be9d387b55066c4f2315c",
+    "sha512": "b89750b5aa0d324d149c46b2b82361f6a52c52638797e34d255ca072a22939d90bece3718c801c5a45e961fea1b122965c9abe1c3ca0f1b5957b15f7ffca500a"
+  },
+  "file": {
+    "bytes": 265666,
+    "path": "public-good-impact-dossier-2026-05-02-pv-asset-protection-storm-hardening-long-term-planning.pdf",
+    "sha256": "0a1f3b57532c9c0f3401219c8f1f77b58a6c2209432be9d387b55066c4f2315c",
+    "sha512": "b89750b5aa0d324d149c46b2b82361f6a52c52638797e34d255ca072a22939d90bece3718c801c5a45e961fea1b122965c9abe1c3ca0f1b5957b15f7ffca500a",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-pv-asset-protection-storm-hardening-long-term-planning.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-pv-asset-protection-storm-hardening-long-term-planning",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing on how τ could improve PV asset protection, storm-hardening design, and long-term solar system planning under climate hazard uncertainty.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/pv-asset-protection-storm-hardening-long-term-planning/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-pv-asset-protection-storm-hardening-long-term-planning",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-pv-asset-protection-storm-hardening-long-term-planning.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/pv-asset-protection-storm-hardening-long-term-planning/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd035",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "τ for PV Asset Protection, Storm-Hardening, and Long-Term System Planning",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/pv-asset-protection-storm-hardening-long-term-planning/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd035",
+  "publication_key": "public_good_dossiers.pv_asset_protection_storm_hardening_long_term_planning",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "b6f28eea3c582c35ac1fb37fd226c166e06925a8f9d458aeaaf52d72cc998f8a",
+    "sha512": "1cb66c8da0158273d29deb81f6b76caca245c68ca7fb2ec7b835acf05baba0ce9eec486849bce7d42e892ff9a296fa0709db1aab07b42c1d01c45ac39364cb2c"
+  },
+  "file": {
+    "bytes": 289365,
+    "path": "public-good-impact-dossier-2026-05-02-aviation-weather-intelligence.pdf",
+    "sha256": "b6f28eea3c582c35ac1fb37fd226c166e06925a8f9d458aeaaf52d72cc998f8a",
+    "sha512": "1cb66c8da0158273d29deb81f6b76caca245c68ca7fb2ec7b835acf05baba0ce9eec486849bce7d42e892ff9a296fa0709db1aab07b42c1d01c45ac39364cb2c",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-aviation-weather-intelligence.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-aviation-weather-intelligence",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau weather-flow twin could unlock major public-good gains in aviation routing, ATM resilience, and network disruption recovery—addressing weather as the leading cause of delay across the US and European airspace systems.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/aviation-weather-intelligence/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-aviation-weather-intelligence",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-aviation-weather-intelligence.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/aviation-weather-intelligence/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd004",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau-Grade Aviation Weather Intelligence for Mainstream Aviation",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/aviation-weather-intelligence/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd004",
+  "publication_key": "public_good_dossiers.aviation_weather_intelligence",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

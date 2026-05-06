@@ -1,0 +1,89 @@
+{
+  "artifact_availability": "external_link",
+  "checksums": {
+    "sha256": "",
+    "sha512": ""
+  },
+  "file": {
+    "bytes": 0,
+    "path": "",
+    "sha256": "",
+    "sha512": "",
+    "source_website_asset_path": "null"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "book-i",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "not_applicable",
+    "verification": "no-pdf-planned-item"
+  },
+  "publication": {
+    "abstract": "Categorical Foundations is the Book I monograph of the Panta Rhei Second Edition series: 483 pages, 18 parts, 79 chapters.",
+    "artifact_availability": "external_link",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/books/book-i/",
+    "claim_boundary": {
+      "claim": "Research monograph retail artifact. This repository records metadata and external availability links only; it does not redistribute the paid manuscript PDF or replace Amazon KDP publication terms.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
+    "date": "2026-04-30",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [
+      {
+        "label": "Amazon.com ebook",
+        "url": "https://www.amazon.com/dp/B0D986D7N6"
+      },
+      {
+        "label": "Amazon.com paperback",
+        "url": "https://www.amazon.com/dp/B0GWQ3KRS3"
+      },
+      {
+        "label": "Amazon.com hardcover",
+        "url": "https://www.amazon.com/dp/B0GWVQXQBD"
+      },
+      {
+        "label": "Amazon.de ebook",
+        "url": "https://www.amazon.de/dp/B0D986D7N6"
+      },
+      {
+        "label": "Amazon.de paperback",
+        "url": "https://www.amazon.de/dp/B0GWQ3KRS3"
+      },
+      {
+        "label": "Amazon.de hardcover",
+        "url": "https://www.amazon.de/dp/B0GWVQXQBD"
+      }
+    ],
+    "github_path": "research-monographs/book-i",
+    "license": "Amazon KDP terms for retail book artifacts; metadata under CC-BY-4.0.",
+    "pdf_filename": "",
+    "publication_type": "Research Monograph",
+    "related_lanes": [
+      "publications",
+      "corpus",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-monographs/book-i/",
+      "/publications/books/book-i/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rm001",
+    "source_website_page": "site/_data/publications/books.json + site/_data/publications/amazon.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Book I: Categorical Foundations",
+    "version": "Second Edition",
+    "website_url": "https://panta-rhei.site/publications/books/book-i/",
+    "zenodo_url": ""
+  },
+  "publication_id": "rm001",
+  "publication_key": "research_monographs.book_i",
+  "publication_role": "technical",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_monograph"
+}

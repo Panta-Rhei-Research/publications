@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "ae37da179578e64bd195bba47d5b1fbcd9afa4961d6942c7204ebb75495bdcb6",
+    "sha512": "6157a0586fa3ce63255bfc4c424788d400562e53aa220dc3c6f436ceaac84afd8a2e3f8977ba9433265e97ea08b5b6870aa5c749e3bd968b4c54b490b5048d62"
+  },
+  "file": {
+    "bytes": 301479,
+    "path": "public-good-impact-dossier-2026-05-02-operational-agro-weather-intelligence.pdf",
+    "sha256": "ae37da179578e64bd195bba47d5b1fbcd9afa4961d6942c7204ebb75495bdcb6",
+    "sha512": "6157a0586fa3ce63255bfc4c424788d400562e53aa220dc3c6f436ceaac84afd8a2e3f8977ba9433265e97ea08b5b6870aa5c749e3bd968b4c54b490b5048d62",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-operational-agro-weather-intelligence.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-operational-agro-weather-intelligence",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing arguing that a law-faithful tau weather-soil-crop-operations twin could unlock major public-good gains for day-to-day agricultural decision support.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/operational-agro-weather-intelligence/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-operational-agro-weather-intelligence",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-operational-agro-weather-intelligence.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/operational-agro-weather-intelligence/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd032",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau-Grade Operational Agro-Weather Intelligence",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/operational-agro-weather-intelligence/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd032",
+  "publication_key": "public_good_dossiers.operational_agro_weather_intelligence",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

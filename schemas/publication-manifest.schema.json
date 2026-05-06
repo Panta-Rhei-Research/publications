@@ -3,7 +3,7 @@
   "$id": "https://github.com/Panta-Rhei-Research/publications/schemas/publication-manifest.schema.json",
   "title": "Panta Rhei Publication Manifest",
   "type": "object",
-  "required": ["schema", "id", "publication_id", "publication_key", "type", "publication_role", "status", "publication"],
+  "required": ["schema", "id", "publication_id", "publication_key", "type", "publication_role", "status", "artifact_availability", "publication"],
   "properties": {
     "schema": {"const": "panta-rhei-publication-manifest-v2"},
     "id": {"type": "string"},
@@ -19,6 +19,8 @@
         "charter_essay",
         "research_monograph",
         "monograph_supplement",
+        "synoptic_overview",
+        "guided_tour",
         "media_brief",
         "verification_manifest",
         "release_record",
@@ -29,9 +31,10 @@
       "enum": ["orientation", "dialogue", "technical", "verification", "translation", "governance", "correction"]
     },
     "status": {"enum": ["released", "planned", "superseded", "withdrawn"]},
+    "artifact_availability": {"enum": ["local_pdf", "external_link", "planned"]},
     "publication": {
       "type": "object",
-      "required": ["title", "canonical_url", "short_url", "route_status", "claim_boundary", "license"],
+      "required": ["title", "canonical_url", "short_url", "route_status", "claim_boundary", "license", "artifact_availability"],
       "properties": {
         "title": {"type": "string"},
         "canonical_url": {"type": "string"},
@@ -45,7 +48,9 @@
             "non_claim": {"type": "string"}
           }
         },
-        "license": {"type": "string"}
+        "license": {"type": "string"},
+        "artifact_availability": {"enum": ["local_pdf", "external_link", "planned"]},
+        "external_links": {"type": "array"}
       }
     }
   }

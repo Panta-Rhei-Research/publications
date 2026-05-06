@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "9ecdcebb02e3df9e491c6b8670ad68b3a507862e963c3f8dfe330c105a253740",
+    "sha512": "acb667f03a8f2d10ef30f273da2a0359ca4247f858c7cf672a7bf4a298396bfba20a2301f6fca2aa55b62c17391c54a268ed00c06c58084f95d9bd3d0bc2f0ec"
+  },
+  "file": {
+    "bytes": 288491,
+    "path": "public-good-impact-dossier-2026-05-02-ocean-logistics-maritime-routing-port-flow-green-corridors.pdf",
+    "sha256": "9ecdcebb02e3df9e491c6b8670ad68b3a507862e963c3f8dfe330c105a253740",
+    "sha512": "acb667f03a8f2d10ef30f273da2a0359ca4247f858c7cf672a7bf4a298396bfba20a2301f6fca2aa55b62c17391c54a268ed00c06c58084f95d9bd3d0bc2f0ec",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-ocean-logistics-maritime-routing-port-flow-green-corridors.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-ocean-logistics-maritime-routing-port-flow-green-corridors",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing on how τ could improve maritime routing, port flow optimization, and the development of green shipping corridors.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/ocean-logistics-maritime-routing-port-flow-green-corridors/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-ocean-logistics-maritime-routing-port-flow-green-corridors",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-ocean-logistics-maritime-routing-port-flow-green-corridors.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/ocean-logistics-maritime-routing-port-flow-green-corridors/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd028",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "τ and the Ocean Logistics Opportunity",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/ocean-logistics-maritime-routing-port-flow-green-corridors/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd028",
+  "publication_key": "public_good_dossiers.ocean_logistics_maritime_routing_port_flow_green_corridors",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

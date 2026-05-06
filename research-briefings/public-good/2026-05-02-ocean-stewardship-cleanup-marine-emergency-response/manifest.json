@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "188028ff682c004c9937006ae8dec554c6814e55f310221ca0031338c6cfdcec",
+    "sha512": "992d349fab50065e0f5735a0fc413b29d60f7dbd79b9287d3ae73b1a6684eddab6e444a2cec8129d3ca515f720806a73f9c9e3329a91d81b96488a69a21a969b"
+  },
+  "file": {
+    "bytes": 291661,
+    "path": "public-good-impact-dossier-2026-05-02-ocean-stewardship-cleanup-marine-emergency-response.pdf",
+    "sha256": "188028ff682c004c9937006ae8dec554c6814e55f310221ca0031338c6cfdcec",
+    "sha512": "992d349fab50065e0f5735a0fc413b29d60f7dbd79b9287d3ae73b1a6684eddab6e444a2cec8129d3ca515f720806a73f9c9e3329a91d81b96488a69a21a969b",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-ocean-stewardship-cleanup-marine-emergency-response.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-ocean-stewardship-cleanup-marine-emergency-response",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing on how τ could improve marine debris prediction, oil-spill response, search-and-rescue operations, and ecological early warning for ocean stewardship.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/ocean-stewardship-cleanup-marine-emergency-response/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-ocean-stewardship-cleanup-marine-emergency-response",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-ocean-stewardship-cleanup-marine-emergency-response.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/ocean-stewardship-cleanup-marine-emergency-response/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd029",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "τ and Ocean Stewardship, Cleanup, and Marine Emergency Response",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/ocean-stewardship-cleanup-marine-emergency-response/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd029",
+  "publication_key": "public_good_dossiers.ocean_stewardship_cleanup_marine_emergency_response",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

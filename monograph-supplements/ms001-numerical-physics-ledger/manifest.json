@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "ccea2506f21770103ca98244664eaedfde992088206c7902c7d41a4299b0559e",
+    "sha512": "3011882896f2372b32a9cbe8aba1a78a95ef7b1d3c883c9480c608fe065aec48877bc84044f4d6e6fe136a1a2af8eb430d9ca997d616df8c422709f24785b471"
+  },
+  "file": {
+    "bytes": 1106876,
+    "path": "physics-ledger.pdf",
+    "sha256": "ccea2506f21770103ca98244664eaedfde992088206c7902c7d41a4299b0559e",
+    "sha512": "3011882896f2372b32a9cbe8aba1a78a95ef7b1d3c883c9480c608fe065aec48877bc84044f4d6e6fe136a1a2af8eb430d9ca997d616df8c422709f24785b471",
+    "source_website_asset_path": "site/assets/downloads/physics-ledger.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "ms001-numerical-physics-ledger",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "⬇ Download Numerical Physics Ledger — Free PDF (1.11 MB, 209 pp)",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/monograph-supplements/numerical-physics-ledger/",
+    "claim_boundary": {
+      "claim": "The Numerical Physics Ledger is a Panta Rhei publication artifact. It records the program's current internal numerical commitments, calibration cascade, prediction inventory, and falsification targets.\n\nIt does not imply external validation, scientific acceptance, or independent confirmation. Its purpose is to make the numerical claims inspectable, comparable, and falsifiable.\n\n<div class=\"notice note\"><strong>Artifact status.</strong> This page is the stable publication home for the PDF artifact. The [Results prediction surfaces]({{ '/results/predictions/browse/' | relative_url }}) carry world-facing interpretation; [Predictions & Falsification]({{ '/verify/predictions-and-falsification/' | relative_url }}) carries the verification and failure-condition handoff.</div>\n\n<div class=\"notice note\"><strong>Comparison-basis note.</strong> Public result mirrors and older prediction tables may use different comparison baselines while preserving the same route and artifact history. The ledger page states the current publication artifact status; generated Results and Verify surfaces remain the canonical place to inspect per-record status, precision, and external-evidence boundaries.</div>",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
+    "date": "2026-04-30",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "monograph-supplements/ms001-numerical-physics-ledger",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "physics-ledger.pdf",
+    "publication_type": "Monograph Supplement",
+    "related_lanes": [
+      "publications",
+      "results",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/monograph-supplements/numerical-physics-ledger/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/ms001",
+    "source_website_page": "publications/monograph-supplements/numerical-physics-ledger.md",
+    "status": "Canonical",
+    "subtitle": "",
+    "title": "The Numerical Physics Ledger",
+    "version": "Second Edition",
+    "website_url": "https://panta-rhei.site/publications/monograph-supplements/numerical-physics-ledger/",
+    "zenodo_url": ""
+  },
+  "publication_id": "ms001",
+  "publication_key": "monograph_supplements.numerical_physics_ledger",
+  "publication_role": "technical",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "monograph_supplement"
+}

@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "local_pdf",
   "checksums": {
     "sha256": "9fffa234a5244eb0882bc664ae9b2b6fb2611b3721b17828c592628cd2bbdaa6",
     "sha512": "a136bc935f31e7acab713e9d48e8f16fc8d6061fc6263d1522a5c7dddb8fbe0e368b2d2b4f4f8b704a7d1c9ab8d9d90dce65a7d64c3f290bc481a93f376a9596"
@@ -19,16 +20,18 @@
     "verification": "receipt-present"
   },
   "publication": {
-    "abstract": "This white paper defines the public intellectual category behind Panta Rhei's canonical statement: an independent open research program dedicated to building a coherent theory of reality. It explains why the program does not use \"theory of everything\" as its public category and instead accepts the stricter burden of earned language, earned questions, public construction, status-marked answers, disclosed limits, and conditional public relevance.\n\nThe paper does not claim that Panta Rhei has completed, proven, externally validated, or finalized a theory of reality. It defines the shape of such a research object and routes journalists and reviewers toward the inspection surfaces needed to evaluate the program responsibly.",
+    "abstract": "Panta Rhei describes itself as an independent open research program dedicated to building a coherent theory of reality. That phrase is deliberately not “theory of everything.” It does not claim completion, external acceptance, or final settlement. It names a stricter burden: a research program that wants to speak about reality as a whole must earn its language, earn its questions, build its answers in public, disclose its boundaries, and make its claims inspectable.\n\nThis white paper defines the intellectual category. A coherent theory of reality is not a list of impressive results, not a popular unification slogan, not a metaphysical mood, and not a shortcut around domain expertise. It is a research object with a recognizable shape: Program doctrine, Agenda obligations, Corpus construction, Results readouts, Verify inspection, Impact conditionality, and Engage routes for scrutiny without endorsement.\n\nThe paper does not ask the reader to accept Panta Rhei’s framework. It asks a prior question: what would a serious theory of reality have to look like before its claims could be responsibly inspected?",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/",
     "claim_boundary": {
-      "claim": "This artifact is a white paper publication record.",
-      "non_claim": "It does not by itself certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+      "claim": "White-paper orientation artifact. It routes readers to canonical Corpus, Results, Verify, and Publications surfaces and does not replace those surfaces.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "date": "2026-05-03",
-    "doi": "forthcoming",
+    "doi": "",
     "doi_url": "",
+    "external_links": [],
     "github_path": "white-papers/2026-05-03-the-shape-of-a-theory-of-reality",
     "license": "CC-BY-4.0",
     "pdf_filename": "white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf",
@@ -45,9 +48,9 @@
     "short_url": "https://prrp.site/wp004",
     "source_website_page": "publications/white-papers/the-shape-of-a-theory-of-reality/index.md",
     "status": "Draft white paper / conceptual briefing",
-    "subtitle": "Why a serious theory of reality must earn its language, build its answer, disclose its limits, and state its conditional public relevance",
+    "subtitle": "",
     "title": "The Shape of a Theory of Reality",
-    "version": "v0.1",
+    "version": "v1.0",
     "website_url": "https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/",
     "zenodo_url": ""
   },

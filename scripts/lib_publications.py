@@ -19,6 +19,10 @@ PUBLICATION_ROOTS = (
     ROOT / "research-notes",
     ROOT / "research-briefings" / "public-good",
     ROOT / "white-papers",
+    ROOT / "monograph-supplements",
+    ROOT / "synoptic-overviews",
+    ROOT / "guided-tours",
+    ROOT / "research-monographs",
     ROOT / "charter-essays",
 )
 CATALOG_DIR = ROOT / "catalog"
@@ -33,6 +37,8 @@ ALLOWED_TYPES = {
     "charter_essay",
     "research_monograph",
     "monograph_supplement",
+    "synoptic_overview",
+    "guided_tour",
     "media_brief",
     "verification_manifest",
     "release_record",
@@ -51,6 +57,7 @@ ALLOWED_ROLES = {
 
 ALLOWED_STATUS = {"released", "planned", "superseded", "withdrawn"}
 ALLOWED_ROUTE_STATUS = {"active", "reserved", "planned", "not_applicable"}
+ALLOWED_ARTIFACT_AVAILABILITY = {"local_pdf", "external_link", "planned"}
 
 PUBLICATION_REGISTRY: dict[str, dict[str, Any]] = {
     "2026-04-27-semantic-space-has-a-shape": {
@@ -223,6 +230,7 @@ PUBLICATION_REGISTRY: dict[str, dict[str, Any]] = {
         "publication_key": "public_good_briefings.advanced_fission_safety_operations_licensing_fleet_modernization",
         "type": "public_good_briefing",
         "publication_role": "translation",
+        "status": "superseded",
         "short_url": "https://prrp.site/pgb001",
         "route_status": "reserved",
         "license": "CC-BY-4.0",
@@ -413,11 +421,126 @@ def is_publication_dir_name(name: str) -> bool:
     return bool(
         re.match(r"^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$", name)
         or re.match(r"^[a-z]{1,4}[0-9]{3}-[a-z0-9-]+$", name)
+        or re.match(r"^book-[ivx]+$", name)
     )
 
 
 def registry_entry(folder_name: str) -> dict[str, Any]:
-    return dict(PUBLICATION_REGISTRY.get(folder_name, {}))
+    if folder_name in PUBLICATION_REGISTRY:
+        return dict(PUBLICATION_REGISTRY[folder_name])
+    dynamic = dynamic_registry_entry(folder_name)
+    return dict(dynamic) if dynamic else {}
+
+
+def dynamic_registry_entry(folder_name: str) -> dict[str, Any]:
+    """Return deterministic route metadata for bulk-synced website records."""
+    if folder_name.startswith("2026-05-02-"):
+        slug = folder_name.removeprefix("2026-05-02-")
+        index = public_good_slug_index().get(slug)
+        if index:
+            return {
+                "publication_id": f"pgd{index:03d}",
+                "publication_key": f"public_good_dossiers.{slug.replace('-', '_')}",
+                "type": "public_good_briefing",
+                "publication_role": "translation",
+                "short_url": f"https://prrp.site/pgd{index:03d}",
+                "route_status": "reserved",
+                "license": "CC-BY-4.0",
+                "related_lanes": ["publications", "impact", "verify"],
+                "related_routes": [f"/publications/research-briefings/public-good/{slug}/"],
+            }
+    special: dict[str, dict[str, Any]] = {
+        "2026-05-04-panta-rhei-executive-overview": {
+            "publication_id": "wp005",
+            "publication_key": "white_papers.panta_rhei_executive_overview",
+            "type": "white_paper",
+            "publication_role": "orientation",
+            "short_url": "https://prrp.site/wp005",
+            "route_status": "reserved",
+            "license": "CC-BY-4.0",
+            "related_lanes": ["publications", "discover", "verify"],
+            "related_routes": ["/publications/white-papers/executive-overview/"],
+        },
+        "ms001-numerical-physics-ledger": {
+            "publication_id": "ms001",
+            "publication_key": "monograph_supplements.numerical_physics_ledger",
+            "type": "monograph_supplement",
+            "publication_role": "technical",
+            "short_url": "https://prrp.site/ms001",
+            "route_status": "reserved",
+            "license": "CC-BY-4.0",
+            "related_lanes": ["publications", "results", "verify"],
+            "related_routes": ["/publications/monograph-supplements/numerical-physics-ledger/"],
+        },
+        "ms002-categorical-genesis": {
+            "publication_id": "ms002",
+            "publication_key": "monograph_supplements.categorical_genesis",
+            "type": "monograph_supplement",
+            "publication_role": "orientation",
+            "short_url": "https://prrp.site/ms002",
+            "route_status": "reserved",
+            "license": "CC-BY-4.0",
+            "related_lanes": ["publications", "results", "program"],
+            "related_routes": ["/publications/monograph-supplements/categorical-genesis/"],
+        },
+        "so001-panta-rhei-conspectus": {
+            "publication_id": "so001",
+            "publication_key": "synoptic_overviews.panta_rhei_conspectus",
+            "type": "synoptic_overview",
+            "publication_role": "orientation",
+            "short_url": "https://prrp.site/so001",
+            "route_status": "reserved",
+            "license": "CC-BY-4.0",
+            "related_lanes": ["publications", "discover", "verify"],
+            "related_routes": ["/publications/conspectus/"],
+        },
+    }
+    if folder_name in special:
+        return special[folder_name]
+    guided_match = re.match(r"^gt(\d{3})-guided-tour-book-([ivx]+)$", folder_name)
+    if guided_match:
+        number = int(guided_match.group(1))
+        roman = guided_match.group(2).upper()
+        return {
+            "publication_id": f"gt{number:03d}",
+            "publication_key": f"guided_tours.book_{roman.lower()}",
+            "type": "guided_tour",
+            "publication_role": "verification",
+            "short_url": f"https://prrp.site/gt{number:03d}",
+            "route_status": "reserved",
+            "license": "CC-BY-4.0",
+            "related_lanes": ["publications", "verify", "corpus"],
+            "related_routes": ["/publications/guided-tours/"],
+        }
+    monograph_match = re.match(r"^book-([ivx]+)$", folder_name)
+    if monograph_match:
+        slugs = ["book-i", "book-ii", "book-iii", "book-iv", "book-v", "book-vi", "book-vii"]
+        if folder_name in slugs:
+            index = slugs.index(folder_name) + 1
+            return {
+                "publication_id": f"rm{index:03d}",
+                "publication_key": f"research_monographs.{folder_name.replace('-', '_')}",
+                "type": "research_monograph",
+                "publication_role": "technical",
+                "short_url": f"https://prrp.site/rm{index:03d}",
+                "route_status": "reserved",
+                "license": "Amazon KDP terms for retail book artifacts; metadata under CC-BY-4.0.",
+                "related_lanes": ["publications", "corpus", "verify"],
+                "related_routes": [f"/publications/research-monographs/{folder_name}/", f"/publications/books/{folder_name}/"],
+            }
+    return {}
+
+
+def public_good_slug_index() -> dict[str, int]:
+    data_path = SITE_ROOT / "_data" / "impact" / "public-good-briefings.json"
+    if not data_path.exists():
+        return {}
+    try:
+        data = json.loads(data_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    slugs = sorted(str(item.get("slug", "")) for item in data if item.get("slug"))
+    return {slug: index + 1 for index, slug in enumerate(slugs)}
 
 
 def normalize_publication_type(value: str) -> str:
@@ -429,6 +552,10 @@ def normalize_publication_type(value: str) -> str:
         "public_good_briefing": "public_good_briefing",
         "white_paper": "white_paper",
         "charter_essay": "charter_essay",
+        "synoptic_overview": "synoptic_overview",
+        "guided_tour": "guided_tour",
+        "monograph_supplement": "monograph_supplement",
+        "research_monograph": "research_monograph",
     }
     return aliases.get(clean, clean)
 
@@ -442,6 +569,7 @@ def normalize_status(value: str) -> str:
         "draft_technical_white_paper_blueprint",
         "draft_white_paper_conceptual_briefing",
         "released",
+        "canonical",
     }:
         return "released"
     if clean in {"planned", "reserved"}:
@@ -513,6 +641,7 @@ def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
         "type",
         "publication_role",
         "status",
+        "artifact_availability",
         "title",
         "date",
         "version",

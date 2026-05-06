@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "local_pdf",
   "checksums": {
     "sha256": "84180344fff592421a3378452986ae11a662df7075ddd9185e91e216fe7c5c64",
     "sha512": "d2cf128aa310bf2ed690ed119a8b261c9532ac8878bda76b937367f2c66bc6ebd7faa4592662e2c98bc6b78b88eb8bbe6976d8ec48e90b22ed71ff21000e29a5"
@@ -20,6 +21,7 @@
   },
   "publication": {
     "abstract": "This paper develops the structural derivation of the master constant iota_tau and its role in the Panta Rhei hinge sequence, including its relation to omega-germs, boundary structure, and tau-exponential calibration.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/research-papers/master-constant-iota-tau/",
     "claim_boundary": {
@@ -29,6 +31,7 @@
     "date": "2026-04-27",
     "doi": "10.5281/zenodo.19820352",
     "doi_url": "https://doi.org/10.5281/zenodo.19820352",
+    "external_links": [],
     "github_path": "research-papers/2026-04-27-master-constant-iota-tau",
     "license": "CC-BY-4.0",
     "pdf_filename": "research-paper-2026-04-27-master-constant-iota-tau.pdf",

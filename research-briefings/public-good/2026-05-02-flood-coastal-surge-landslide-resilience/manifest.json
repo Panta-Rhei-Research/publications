@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "863180cee3a3375a3184602f63d2ee24585596630f1c3512cf547ee85dac6e3f",
+    "sha512": "2425b277d89a2876935b3e5a0ca0035b14076020a0fc58914e42b69078f896a28a7a103cfd88fd3279b408b7dcdc99ad9fd691c35831b75e2ff31952669dc8f6"
+  },
+  "file": {
+    "bytes": 275012,
+    "path": "public-good-impact-dossier-2026-05-02-flood-coastal-surge-landslide-resilience.pdf",
+    "sha256": "863180cee3a3375a3184602f63d2ee24585596630f1c3512cf547ee85dac6e3f",
+    "sha512": "2425b277d89a2876935b3e5a0ca0035b14076020a0fc58914e42b69078f896a28a7a103cfd88fd3279b408b7dcdc99ad9fd691c35831b75e2ff31952669dc8f6",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-flood-coastal-surge-landslide-resilience.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-flood-coastal-surge-landslide-resilience",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau hydro-hazard twin could unlock major public-good gains in flood prediction, coastal surge intelligence, flash-flood lead time, and rainfall-induced landslide warning.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/flood-coastal-surge-landslide-resilience/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-flood-coastal-surge-landslide-resilience",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-flood-coastal-surge-landslide-resilience.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/flood-coastal-surge-landslide-resilience/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd021",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau for Flood, Coastal Surge, Flash Flood, and Landslide Resilience",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/flood-coastal-surge-landslide-resilience/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd021",
+  "publication_key": "public_good_dossiers.flood_coastal_surge_landslide_resilience",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

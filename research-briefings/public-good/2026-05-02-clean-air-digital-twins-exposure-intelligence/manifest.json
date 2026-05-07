@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "fd1089baebe30f97d5ee1ab5c1119daac6da7c171b95377dd4c1fef8b4f30598",
+    "sha512": "3eff06791a7cfbe34dbdf0bda0f4c49be2eb521bce6b8db59455c1669e006f6a55d61b5f5c84489631a3db4ebc127dd8c2dbc9804aa4d55796ec95b6a7980ae3"
+  },
+  "file": {
+    "bytes": 329102,
+    "path": "public-good-impact-dossier-2026-05-02-clean-air-digital-twins-exposure-intelligence.pdf",
+    "sha256": "fd1089baebe30f97d5ee1ab5c1119daac6da7c171b95377dd4c1fef8b4f30598",
+    "sha512": "3eff06791a7cfbe34dbdf0bda0f4c49be2eb521bce6b8db59455c1669e006f6a55d61b5f5c84489631a3db4ebc127dd8c2dbc9804aa4d55796ec95b6a7980ae3",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-clean-air-digital-twins-exposure-intelligence.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-clean-air-digital-twins-exposure-intelligence",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau atmosphere-emissions-chemistry-exposure twin could unlock major public-good gains in urban air-quality protection, hyperlocal exposure intelligence, source attribution, and clean-air policy—addressing 7 million premature deaths annually.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/clean-air-digital-twins-exposure-intelligence/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-clean-air-digital-twins-exposure-intelligence",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-clean-air-digital-twins-exposure-intelligence.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/clean-air-digital-twins-exposure-intelligence/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd010",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau-Grade Clean-Air Digital Twins, Exposure Intelligence, and Urban/Regional Health Protection",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/clean-air-digital-twins-exposure-intelligence/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd010",
+  "publication_key": "public_good_dossiers.clean_air_digital_twins_exposure_intelligence",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

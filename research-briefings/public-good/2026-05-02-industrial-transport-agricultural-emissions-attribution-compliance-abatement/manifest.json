@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "1f3cd1c836c70c4fb82a6c9c76c4bd0e4a5f8254d7780fd10bf8dc9da3c345db",
+    "sha512": "b71ff25405db9dab693c371c3b6ebe89921f3bae890dd500f6719db3b0f4dc91bd8b2df889c2348f795ea85c7f145807cd874e96481e3f150501915f51b6dcfa"
+  },
+  "file": {
+    "bytes": 276092,
+    "path": "public-good-impact-dossier-2026-05-02-industrial-transport-agricultural-emissions-attribution-compliance-abatement.pdf",
+    "sha256": "1f3cd1c836c70c4fb82a6c9c76c4bd0e4a5f8254d7780fd10bf8dc9da3c345db",
+    "sha512": "b71ff25405db9dab693c371c3b6ebe89921f3bae890dd500f6719db3b0f4dc91bd8b2df889c2348f795ea85c7f145807cd874e96481e3f150501915f51b6dcfa",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-industrial-transport-agricultural-emissions-attribution-compliance-abatement.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-industrial-transport-agricultural-emissions-attribution-compliance-abatement",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau source-resolved emissions twin could unlock major public-good gains in stack and corridor attribution, compliance intelligence, and high-return abatement targeting across industry, transport, shipping, and agriculture.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/industrial-transport-agricultural-emissions-attribution-compliance-abatement/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-industrial-transport-agricultural-emissions-attribution-compliance-abatement",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-industrial-transport-agricultural-emissions-attribution-compliance-abatement.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/industrial-transport-agricultural-emissions-attribution-compliance-abatement/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd025",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau for Industrial, Transport, and Agricultural Emissions Attribution, Compliance, and High-Return Abatement Targeting",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/industrial-transport-agricultural-emissions-attribution-compliance-abatement/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd025",
+  "publication_key": "public_good_dossiers.industrial_transport_agricultural_emissions_attribution_compliance_abatement",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

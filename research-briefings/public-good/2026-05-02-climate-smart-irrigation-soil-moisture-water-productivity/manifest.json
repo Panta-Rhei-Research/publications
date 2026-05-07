@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "1371286030bd2418d47ff54bd2358effffb06581dc5cbed12871ec6843af33d4",
+    "sha512": "f3c15e07dd0be6041f20909023f2e8d10b52259d403dd03c147ffc6c3c9d0ce9fd317763431738a3988b7501ba2b766396f45b6aeff0737271bad99bd2ac4210"
+  },
+  "file": {
+    "bytes": 352515,
+    "path": "public-good-impact-dossier-2026-05-02-climate-smart-irrigation-soil-moisture-water-productivity.pdf",
+    "sha256": "1371286030bd2418d47ff54bd2358effffb06581dc5cbed12871ec6843af33d4",
+    "sha512": "f3c15e07dd0be6041f20909023f2e8d10b52259d403dd03c147ffc6c3c9d0ce9fd317763431738a3988b7501ba2b766396f45b6aeff0737271bad99bd2ac4210",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-smart-irrigation-soil-moisture-water-productivity.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-climate-smart-irrigation-soil-moisture-water-productivity",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau water-soil-crop twin could transform irrigation scheduling, water productivity, and drought-adaptive farming across the sector that uses 72% of global freshwater.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/climate-smart-irrigation-soil-moisture-water-productivity/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-climate-smart-irrigation-soil-moisture-water-productivity",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-climate-smart-irrigation-soil-moisture-water-productivity.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/climate-smart-irrigation-soil-moisture-water-productivity/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd013",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau for Climate-Smart Irrigation, Soil Moisture, and Water Productivity",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/climate-smart-irrigation-soil-moisture-water-productivity/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd013",
+  "publication_key": "public_good_dossiers.climate_smart_irrigation_soil_moisture_water_productivity",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

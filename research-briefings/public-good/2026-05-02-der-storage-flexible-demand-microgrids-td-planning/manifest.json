@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "0f9ef9f3ead870d566234f0ba71b989c5d4ee25b3dedbfeb2e2786777ee00aa7",
+    "sha512": "b3b0a1aa92d12535a7907baf0733aaf2f49704c4a6f71e48275db8c64359571a772db61daff00c0381ce9b13aa9fa51937c4862e4e04923f039fd3523cb55f4e"
+  },
+  "file": {
+    "bytes": 294394,
+    "path": "public-good-impact-dossier-2026-05-02-der-storage-flexible-demand-microgrids-td-planning.pdf",
+    "sha256": "0f9ef9f3ead870d566234f0ba71b989c5d4ee25b3dedbfeb2e2786777ee00aa7",
+    "sha512": "b3b0a1aa92d12535a7907baf0733aaf2f49704c4a6f71e48275db8c64359571a772db61daff00c0381ce9b13aa9fa51937c4862e4e04923f039fd3523cb55f4e",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-der-storage-flexible-demand-microgrids-td-planning.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-der-storage-flexible-demand-microgrids-td-planning",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau edge-to-bulk twin could unlock major public-good gains in DER orchestration, virtual power plants, dynamic hosting capacity, resilience islands, and integrated distribution/transmission planning.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/der-storage-flexible-demand-microgrids-td-planning/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-der-storage-flexible-demand-microgrids-td-planning",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-der-storage-flexible-demand-microgrids-td-planning.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/der-storage-flexible-demand-microgrids-td-planning/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd017",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau for DER Orchestration, Storage, Flexible Demand, Microgrids, and T&D Planning",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/der-storage-flexible-demand-microgrids-td-planning/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd017",
+  "publication_key": "public_good_dossiers.der_storage_flexible_demand_microgrids_td_planning",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

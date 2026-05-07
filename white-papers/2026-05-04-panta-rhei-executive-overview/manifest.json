@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "fed983c314d180be9713020fa9f3be20cf9bb30858521b282d0227f1af5124ce",
+    "sha512": "38543166428a47f7cd49dd0f7fea0ea8e6c119d793838ab24d80e95262bfb456c99ccf2aa9a9522a74758331cd93b95c0e7fef76a19adc39a47b5afb793be9f0"
+  },
+  "file": {
+    "bytes": 234716,
+    "path": "white-paper-2026-05-04-panta-rhei-executive-overview.pdf",
+    "sha256": "fed983c314d180be9713020fa9f3be20cf9bb30858521b282d0227f1af5124ce",
+    "sha512": "38543166428a47f7cd49dd0f7fea0ea8e6c119d793838ab24d80e95262bfb456c99ccf2aa9a9522a74758331cd93b95c0e7fef76a19adc39a47b5afb793be9f0",
+    "source_website_asset_path": "site/assets/pdfs/white-papers/white-paper-2026-05-04-panta-rhei-executive-overview.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-04-panta-rhei-executive-overview",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "The Panta Rhei Research Program is an independent open research program by Dr. Thorsten Fuchs and Anna-Sophie Fuchs that proposes a single categorical structure — Category τ — as a generative backbone shared across mathematics, physics, life, and metaphysics. Its formal kernel is specified by axioms K0–K6 on the five generators $\\{\\alpha, \\pi, \\gamma, \\eta, \\omega\\}$ together with one progression operator. The master constant $\\iota_\\tau = 2/(\\pi+e) \\approx 0.341304$ is treated by the May 2026 release as a *review target*, not a rhetorical shortcut: it carries a dedicated derivation paper, a foundational-hinge route through the H3 page, a scalar readout via Construction Spine Step 2, Registry anchors, and TauLib evidence.\n\nThe May 2026 release organises the program as a single end-to-end construction view: the **Construction Spine** routes ten ordered steps (CS-01 → CS-10), grouped into three arcs that this Executive Overview walks in order — Arc I: Mathematics (CS-01 → CS-03; Books I–II), Arc II: Physics (CS-04 → CS-06; Books III–V), and Arc III: Life and Metaphysics (CS-07 → CS-10; Books VI–VII). Each arc surfaces its own load-bearing theorems and disclosed bridge layer; the same kernel underwrites every arc.\n\nThis release ships a Lean 4 formalization of {% include release-metric.html id=\"taulib.modules\" %} modules and {% include release-metric.html id=\"taulib.lines\" %} lines, certifying {% include release-metric.html id=\"taulib.theorems_lemmas\" %} theorems and lemmas with {% include release-metric.html id=\"registry.dashboard_display.grand_total\" %} public registry objects, {% include release-metric.html id=\"taulib.sorry\" %} `sorry` across the seven-book backbone, and {% include release-metric.html id=\"taulib.custom_axioms\" %} disclosed custom axioms (Book III only). On the empirical side, the program pre-registers {% include release-metric.html id=\"predictions.records\" %} predictions — including the N9 forward-forbiddance lane on the tensor-to-scalar ratio $r \\approx \\iota_\\tau^4 \\approx 0.0136$ — and a {% include release-metric.html id=\"falsifications.records\" %}-test Falsification Pack, all routed through a single calibration cascade with full pre-registration accounting and a post-Tier-C audit pass.\n\nThis Executive Overview is the public inspection surface that routes a 30-minute first-contact reader to the canonical Corpus, Verify, and Publications entry points, and it surfaces the bridge and empirical accountability the program maintains in lieu of acceptance claims. **It is the door, not the proof.**",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/white-papers/executive-overview/",
+    "claim_boundary": {
+      "claim": "This document is the public-outreach reading route. All quantitative claims continue to carry one of four scope labels — `est`, `tau`, `conj`, `meta` — on the surfaces that own them. The bridge and empirical accountability of the program are exercised there, not here. The site asks to be checked, not simply believed; this overview is the door, not the proof.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
+    "date": "2026-05-04",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "white-papers/2026-05-04-panta-rhei-executive-overview",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "white-paper-2026-05-04-panta-rhei-executive-overview.pdf",
+    "publication_type": "White Paper",
+    "related_lanes": [
+      "publications",
+      "discover",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/white-papers/executive-overview/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/wp005",
+    "source_website_page": "publications/white-papers/executive-overview/index.md",
+    "status": "Distribution release",
+    "subtitle": "",
+    "title": "Panta Rhei Research Program — Executive Overview",
+    "version": "**v4.0**",
+    "website_url": "https://panta-rhei.site/publications/white-papers/executive-overview/",
+    "zenodo_url": ""
+  },
+  "publication_id": "wp005",
+  "publication_key": "white_papers.panta_rhei_executive_overview",
+  "publication_role": "orientation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "white_paper"
+}

@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "f31a686a1a9d1048a3381651a54ba41f210f4154e6435685287f2fec6b4dd70e",
+    "sha512": "70df23c3f28bb445c76a7cd7ec3add1978d8f2ea367e8e4c9ee10bd773bc5c980619196cafd1f698d3e1437026e6f21bbcb12b86c36d6e38dceac933de97a46b"
+  },
+  "file": {
+    "bytes": 265603,
+    "path": "public-good-impact-dossier-2026-05-02-seasonal-planning-disaster-anticipation-food-system-resilience.pdf",
+    "sha256": "f31a686a1a9d1048a3381651a54ba41f210f4154e6435685287f2fec6b4dd70e",
+    "sha512": "70df23c3f28bb445c76a7cd7ec3add1978d8f2ea367e8e4c9ee10bd773bc5c980619196cafd1f698d3e1437026e6f21bbcb12b86c36d6e38dceac933de97a46b",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-seasonal-planning-disaster-anticipation-food-system-resilience.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-seasonal-planning-disaster-anticipation-food-system-resilience",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau agro-climate-resilience twin could strengthen sub-seasonal to seasonal planning, anticipatory action, and food-system resilience at district, national, and regional scales.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/seasonal-planning-disaster-anticipation-food-system-resilience/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-seasonal-planning-disaster-anticipation-food-system-resilience",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-seasonal-planning-disaster-anticipation-food-system-resilience.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/seasonal-planning-disaster-anticipation-food-system-resilience/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd038",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau for Seasonal Planning, Disaster Anticipation, and Food-System Resilience",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/seasonal-planning-disaster-anticipation-food-system-resilience/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd038",
+  "publication_key": "public_good_dossiers.seasonal_planning_disaster_anticipation_food_system_resilience",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

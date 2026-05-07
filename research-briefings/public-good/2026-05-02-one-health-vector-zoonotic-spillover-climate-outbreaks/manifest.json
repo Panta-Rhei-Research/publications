@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "e00d1cb3956910e94872857fdfdf070bb3394e4e7be033afe879336295344e24",
+    "sha512": "dcc8c50700877854f8f70c0f89084bfc95f9b9fe8dffe03f88ed9989ce1394121145ba78c4b4c3b5811df572cbc26d6363859509ba2a7d1e318245f3131e73fd"
+  },
+  "file": {
+    "bytes": 282128,
+    "path": "public-good-impact-dossier-2026-05-02-one-health-vector-zoonotic-spillover-climate-outbreaks.pdf",
+    "sha256": "e00d1cb3956910e94872857fdfdf070bb3394e4e7be033afe879336295344e24",
+    "sha512": "dcc8c50700877854f8f70c0f89084bfc95f9b9fe8dffe03f88ed9989ce1394121145ba78c4b4c3b5811df572cbc26d6363859509ba2a7d1e318245f3131e73fd",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-one-health-vector-zoonotic-spillover-climate-outbreaks.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-one-health-vector-zoonotic-spillover-climate-outbreaks",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau ecology-biology-health twin could provide unusually high humanitarian leverage in One Health early warning for vector-borne diseases, zoonotic spillover, and climate-sensitive outbreaks.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/one-health-vector-zoonotic-spillover-climate-outbreaks/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-one-health-vector-zoonotic-spillover-climate-outbreaks",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-one-health-vector-zoonotic-spillover-climate-outbreaks.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/one-health-vector-zoonotic-spillover-climate-outbreaks/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd031",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau-Grade One Health Early Warning for Vector-Borne Disease, Zoonotic Spillover, and Climate-Sensitive Outbreaks",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/one-health-vector-zoonotic-spillover-climate-outbreaks/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd031",
+  "publication_key": "public_good_dossiers.one_health_vector_zoonotic_spillover_climate_outbreaks",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

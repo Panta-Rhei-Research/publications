@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "2d4907369d2d88188f818f0b1d7ba912bbdd6cbfff0b2b54ec28e9e16b2bb479",
+    "sha512": "0a37db840508c9b34047d0ed7df252538372a06a3c48c7bbf2d02eb995c9f38f7603b8f2948e1fb97c75242a348f5168df2bf387ebfad29da418f5a491c1b31b"
+  },
+  "file": {
+    "bytes": 316749,
+    "path": "public-good-impact-dossier-2026-05-02-integrated-energy-system-planning-market-design-investment-coordination.pdf",
+    "sha256": "2d4907369d2d88188f818f0b1d7ba912bbdd6cbfff0b2b54ec28e9e16b2bb479",
+    "sha512": "0a37db840508c9b34047d0ed7df252538372a06a3c48c7bbf2d02eb995c9f38f7603b8f2948e1fb97c75242a348f5168df2bf387ebfad29da418f5a491c1b31b",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-integrated-energy-system-planning-market-design-investment-coordination.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-integrated-energy-system-planning-market-design-investment-coordination",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing on how τ could improve integrated energy-system planning, electricity market design, investment prioritization, and international energy coordination.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/integrated-energy-system-planning-market-design-investment-coordination/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-integrated-energy-system-planning-market-design-investment-coordination",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-integrated-energy-system-planning-market-design-investment-coordination.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/integrated-energy-system-planning-market-design-investment-coordination/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd026",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "τ for Integrated Energy-System Planning, Market Design, Investment Prioritization, and International Coordination",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/integrated-energy-system-planning-market-design-investment-coordination/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd026",
+  "publication_key": "public_good_dossiers.integrated_energy_system_planning_market_design_investment_coordination",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

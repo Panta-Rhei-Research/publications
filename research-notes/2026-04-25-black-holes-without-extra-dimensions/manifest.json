@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "local_pdf",
   "checksums": {
     "sha256": "c3f6cb2c9d7b53cccf3fe497622fd40ae5534d0d054a1bc53d5855bc0cd6f309",
     "sha512": "c8c06a14ab820fe9b82d62ac580557d97b6d1a2e2e0941c88059d24d50af0de571913ca263010371554577e0b1f61f209d94aad5939b1c8deb5910d67015d204"
@@ -20,6 +21,7 @@
   },
   "publication": {
     "abstract": "The note reads a 2026 G2-manifold remnant proposal as an anchor for comparison with the Panta Rhei black-hole layer. It distinguishes the anchor's extra-dimensional Einstein-Cartan mechanism from the categorical account of torus horizons, no-shrink stability, and information preservation.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/research-notes/black-holes-without-extra-dimensions/",
     "claim_boundary": {
@@ -29,6 +31,7 @@
     "date": "2026-04-25",
     "doi": "",
     "doi_url": "",
+    "external_links": [],
     "github_path": "research-notes/2026-04-25-black-holes-without-extra-dimensions",
     "license": "CC-BY-4.0",
     "pdf_filename": "research-note-2026-04-25-black-holes-without-extra-dimensions.pdf",

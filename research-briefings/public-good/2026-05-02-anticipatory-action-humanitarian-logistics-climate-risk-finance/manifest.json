@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "a825d6e69b833d87c61c90f407032ad64f30e642e91e881c684bdc265774b157",
+    "sha512": "25bfd29d4cf8c3d5375cce8ec96ceb394a20e72e2e2d9cebbcbd0097db49a82763df2a430809eb1caf0a34bbf4b714228008f66943cf0e97cb55a4baf4b04bdd"
+  },
+  "file": {
+    "bytes": 339073,
+    "path": "public-good-impact-dossier-2026-05-02-anticipatory-action-humanitarian-logistics-climate-risk-finance.pdf",
+    "sha256": "a825d6e69b833d87c61c90f407032ad64f30e642e91e881c684bdc265774b157",
+    "sha512": "25bfd29d4cf8c3d5375cce8ec96ceb394a20e72e2e2d9cebbcbd0097db49a82763df2a430809eb1caf0a34bbf4b714228008f66943cf0e97cb55a4baf4b04bdd",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-anticipatory-action-humanitarian-logistics-climate-risk-finance.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-anticipatory-action-humanitarian-logistics-climate-risk-finance",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau risk twin could connect warnings, humanitarian logistics, and pre-arranged finance into one operational architecture—reducing the warning-exists-but-action-arrives-too-late problem at scale.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/anticipatory-action-humanitarian-logistics-climate-risk-finance/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-anticipatory-action-humanitarian-logistics-climate-risk-finance",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-anticipatory-action-humanitarian-logistics-climate-risk-finance.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/anticipatory-action-humanitarian-logistics-climate-risk-finance/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd003",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau for Anticipatory Action, Humanitarian Logistics, and Climate-Risk Finance",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/anticipatory-action-humanitarian-logistics-climate-risk-finance/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd003",
+  "publication_key": "public_good_dossiers.anticipatory_action_humanitarian_logistics_climate_risk_finance",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

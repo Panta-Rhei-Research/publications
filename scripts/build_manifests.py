@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Any
 
 from lib_publications import (
+    ALLOWED_ARTIFACT_AVAILABILITY,
     CATALOG_DIR,
     ROOT,
     canonical_json,
@@ -48,12 +49,13 @@ def main() -> int:
 
     rows = [flatten_manifest(manifest) for manifest in manifests]
     rows.sort(key=lambda row: (row["status"] != "released", row["type"], row["date"], row["publication_id"]))
-    released_rows = [row for row in rows if row["status"] == "released" and row["pdf"]]
+    pdf_rows = [row for row in rows if row["artifact_availability"] == "local_pdf" and row["pdf"]]
 
     catalog = {
         "schema": "panta-rhei-publications-catalog-v2",
         "publication_count": len(rows),
-        "released_publication_count": len(released_rows),
+        "released_publication_count": sum(1 for row in rows if row["status"] == "released"),
+        "pdf_publication_count": len(pdf_rows),
         "generated_at": stable_catalog_generated_at(manifests),
         "publications": rows,
     }
@@ -61,15 +63,15 @@ def main() -> int:
     changed.extend(write_or_check_yaml(CATALOG_DIR / "publications.yml", catalog, args.check))
     changed.extend(write_or_check_yaml(ROOT / "publications.yml", catalog, args.check))
     changed.extend(write_or_check_csv(CATALOG_DIR / "publications.csv", rows, args.check))
-    changed.extend(write_or_check_text(CATALOG_DIR / "checksums.sha256", render_checksums(released_rows, "sha256"), args.check))
-    changed.extend(write_or_check_text(CATALOG_DIR / "checksums.sha512", render_checksums(released_rows, "sha512"), args.check))
+    changed.extend(write_or_check_text(CATALOG_DIR / "checksums.sha256", render_checksums(pdf_rows, "sha256"), args.check))
+    changed.extend(write_or_check_text(CATALOG_DIR / "checksums.sha512", render_checksums(pdf_rows, "sha512"), args.check))
     changed.extend(update_readme_table(rows, args.check))
 
     if args.check and changed:
         for path in changed:
             print(f"stale: {path.relative_to(ROOT)}")
         return 1
-    print(f"Built manifests for {len(rows)} publication artifacts ({len(released_rows)} released with PDFs).")
+    print(f"Built manifests for {len(rows)} publication records ({len(pdf_rows)} PDF-bearing).")
     return 0
 
 
@@ -83,12 +85,18 @@ def build_manifest(item_dir: Path, verify_ots: bool = False) -> dict[str, Any]:
     route = registry_entry(item_dir.name)
     publication_type = str(route.get("type") or normalize_publication_type(metadata.get("type", "")))
     status = str(route.get("status") or normalize_status(metadata.get("status", "")))
-    is_released = status == "released"
+    artifact_availability = str(
+        metadata.get("artifact availability")
+        or existing.get("artifact_availability")
+        or ("local_pdf" if pdfs else "planned")
+    )
+    if artifact_availability not in ALLOWED_ARTIFACT_AVAILABILITY:
+        raise SystemExit(f"Invalid artifact availability in {item_dir}: {artifact_availability}")
 
-    if is_released and len(pdfs) != 1:
+    if artifact_availability == "local_pdf" and len(pdfs) != 1:
         raise SystemExit(f"Expected exactly one PDF in {item_dir}, found {len(pdfs)}")
-    if not is_released and len(pdfs) > 1:
-        raise SystemExit(f"Expected at most one PDF in planned item {item_dir}, found {len(pdfs)}")
+    if artifact_availability != "local_pdf" and pdfs:
+        raise SystemExit(f"Expected no PDF for {artifact_availability} item {item_dir}, found {len(pdfs)}")
 
     pdf = pdfs[0] if pdfs else None
     hashes = hash_file(pdf) if pdf else {"bytes": 0, "sha256": "", "sha512": ""}
@@ -112,6 +120,7 @@ def build_manifest(item_dir: Path, verify_ots: bool = False) -> dict[str, Any]:
         "type": publication_type,
         "publication_role": route.get("publication_role", default_role(publication_type)),
         "status": status,
+        "artifact_availability": artifact_availability,
         "generated_at": generated_at,
         "publication": {
             "title": title,
@@ -136,13 +145,16 @@ def build_manifest(item_dir: Path, verify_ots: bool = False) -> dict[str, Any]:
             "related_lanes": route.get("related_lanes", []),
             "related_routes": route.get("related_routes", []),
             "license": route.get("license", metadata.get("license", "CC-BY-4.0")),
+            "artifact_availability": artifact_availability,
+            "external_links": parse_external_links(readme),
         },
         "file": {
             "path": pdf_name,
             "bytes": hashes["bytes"],
             "sha256": hashes["sha256"],
             "sha512": hashes["sha512"],
-            "source_website_asset_path": source_asset_path(pdf_name) if pdf_name else "",
+            "source_website_asset_path": metadata.get("source website asset path", "").strip("`")
+            or (source_asset_path(pdf_name) if pdf_name else ""),
         },
         "checksums": {
             "sha256": hashes["sha256"],
@@ -167,6 +179,20 @@ def parse_readme_metadata(path: Path) -> dict[str, str]:
             key, value = line[2:].split(":", 1)
             data[key.strip().lower()] = value.strip().strip("`")
     return data
+
+
+def parse_external_links(path: Path) -> list[dict[str, str]]:
+    text = path.read_text(encoding="utf-8")
+    match = re.search(r"^## External Links\s*$", text, flags=re.MULTILINE | re.IGNORECASE)
+    if not match:
+        return []
+    start = match.end()
+    next_match = re.search(r"^##\s+", text[start:], flags=re.MULTILINE)
+    end = start + next_match.start() if next_match else len(text)
+    links: list[dict[str, str]] = []
+    for label, url in re.findall(r"-\s*\[([^\]]+)\]\(([^)]+)\)", text[start:end]):
+        links.append({"label": label.strip(), "url": url.strip()})
+    return links
 
 
 def extract_section(path: Path, heading: str) -> str:
@@ -206,8 +232,14 @@ def source_asset_path(pdf_name: str) -> str:
         return f"site/assets/pdfs/research-notes/{pdf_name}"
     if pdf_name.startswith("public-good-briefing-"):
         return f"site/assets/pdfs/research-briefings/public-good/{pdf_name}"
+    if pdf_name.startswith("public-good-impact-dossier-"):
+        return f"site/assets/pdfs/research-briefings/public-good/{pdf_name}"
     if pdf_name.startswith("white-paper-"):
         return f"site/assets/pdfs/white-papers/{pdf_name}"
+    if pdf_name in {"physics-ledger.pdf", "categorical-genesis.pdf", "panta-rhei-conspectus.pdf"}:
+        return f"site/assets/downloads/{pdf_name}"
+    if pdf_name.startswith("guided-tour-book-"):
+        return f"site/assets/media/{pdf_name}"
     return ""
 
 
@@ -257,6 +289,7 @@ def flatten_manifest(manifest: dict[str, Any]) -> dict[str, Any]:
         "type": manifest["type"],
         "publication_role": manifest["publication_role"],
         "status": manifest["status"],
+        "artifact_availability": manifest.get("artifact_availability", pub.get("artifact_availability", "")),
         "title": pub["title"],
         "date": pub["date"],
         "version": pub["version"],
@@ -295,6 +328,10 @@ def default_role(publication_type: str) -> str:
         "release_record": "governance",
         "erratum": "correction",
         "white_paper": "orientation",
+        "synoptic_overview": "orientation",
+        "guided_tour": "verification",
+        "research_monograph": "technical",
+        "monograph_supplement": "technical",
     }.get(publication_type, "technical")
 
 
@@ -305,6 +342,9 @@ def key_from_title(publication_type: str, title: str) -> str:
 
 def normalize_doi(value: str) -> str:
     clean = value.strip()
+    markdown = re.match(r"^\[([^\]]+)\]\(https://doi\.org/([^)]+)\)$", clean)
+    if markdown:
+        clean = markdown.group(2)
     if clean.lower() in {"", "not assigned", "forthcoming", "null"}:
         return "" if clean.lower() != "forthcoming" else "forthcoming"
     return clean.removeprefix("https://doi.org/")
@@ -334,6 +374,7 @@ def write_or_check_csv(path: Path, rows: list[dict[str, Any]], check: bool) -> l
             "type",
             "publication_role",
             "status",
+            "artifact_availability",
             "title",
             "date",
             "version",

@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "72afae8e3a10bff21bd7e2647256582c55767ea74349cc064ac202ed10b922e2",
+    "sha512": "a7614656f2e531f93c62618c6f99d67dcffca60ea650eaeb256c0907455e2bc6036a9d619b3c0f374f07a786ff4542799d9f07847cf823774bd055a901288a78"
+  },
+  "file": {
+    "bytes": 299630,
+    "path": "public-good-impact-dossier-2026-05-02-food-safety-livestock-wildlife-community-exposure.pdf",
+    "sha256": "72afae8e3a10bff21bd7e2647256582c55767ea74349cc064ac202ed10b922e2",
+    "sha512": "a7614656f2e531f93c62618c6f99d67dcffca60ea650eaeb256c0907455e2bc6036a9d619b3c0f374f07a786ff4542799d9f07847cf823774bd055a901288a78",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-food-safety-livestock-wildlife-community-exposure.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-food-safety-livestock-wildlife-community-exposure",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau human-animal-environment twin could provide unusually high humanitarian leverage in food safety intelligence, livestock-wildlife interface risk, and community-level exposure pathway attribution.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/food-safety-livestock-wildlife-community-exposure/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-food-safety-livestock-wildlife-community-exposure",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-food-safety-livestock-wildlife-community-exposure.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/food-safety-livestock-wildlife-community-exposure/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd022",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau for Food Safety, Livestock/Wildlife Interface, and Community Exposure Intelligence",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/food-safety-livestock-wildlife-community-exposure/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd022",
+  "publication_key": "public_good_dossiers.food_safety_livestock_wildlife_community_exposure",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

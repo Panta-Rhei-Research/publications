@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "local_pdf",
   "checksums": {
     "sha256": "566f2fb7dd71aa2ca152e67bebfccab1a0bd435af3e577cdc3eb35803431a7df",
     "sha512": "ac0597716e16c02c570d954e3ed7eccc5409f934939dc56f904d06702b6050c47e51baaccdb4f7a165479568846f413b5e59bb235a8e570ecd21383c80a56a87"
@@ -19,16 +20,18 @@
     "verification": "receipt-present"
   },
   "publication": {
-    "abstract": "",
+    "abstract": "Open science makes research more accessible, transparent, reusable, and participatory. But high-scope independent research creates a special inspection problem. Claim scope alone cannot be the final reason to dismiss a contribution; institutional affiliation alone cannot be the final reason to trust one. A responsible middle path requires public inspection architecture.\n\nThis white paper proposes such an architecture for high-scope open research: explicit scope and burden of proof, source-pinned problem ledgers, core semantics, construction spine, corpus, formal or technical verification surfaces, result-status taxonomy, bridge-claim disclosure, falsification paths, errata, and review routes. The Panta Rhei Research Program is used as a concrete implementation case: an independent open research program dedicated to building a coherent theory of reality, published as a public research observatory with Program, Agenda, Corpus, Results, Verify, Impact, and Engage surfaces.\n\nThe paper does not ask the reader to accept the Panta Rhei framework. It asks a prior question: what should ambitious open research expose before asking journalists, researchers, or the public to care?",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/",
     "claim_boundary": {
-      "claim": "This white paper presents an inspection architecture and uses Panta Rhei as a case study. It does not claim that Panta Rhei's scientific claims are proven, traditionally peer-reviewed, externally validated, or externally accepted.\n\nThe integrity manifest attests to the PDF bytes only. It does not certify correctness, peer review, legal status, DOI registration, or content validity.",
-      "non_claim": "does not claim that Panta Rhei's scientific claims are proven, traditionally peer-reviewed, externally validated, or externally accepted.\n\nThe integrity manifest attests to the PDF bytes only. It does not certify correctness, peer review, legal status, DOI registration, or content validity."
+      "claim": "White-paper orientation artifact. It routes readers to canonical Corpus, Results, Verify, and Publications surfaces and does not replace those surfaces.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "date": "2026-05-03",
-    "doi": "forthcoming",
+    "doi": "",
     "doi_url": "",
+    "external_links": [],
     "github_path": "white-papers/2026-05-03-inspection-architecture-high-scope-open-research",
     "license": "CC-BY-4.0",
     "pdf_filename": "white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf",
@@ -45,9 +48,9 @@
     "short_url": "https://prrp.site/wp003",
     "source_website_page": "publications/white-papers/inspection-architecture-high-scope-open-research/index.md",
     "status": "Draft white paper / technical briefing",
-    "subtitle": "*A practical blueprint for publishing ambitious independent research before asking for belief*",
+    "subtitle": "",
     "title": "Inspection Architecture for High-Scope Open Research",
-    "version": "v0.1",
+    "version": "v1.0",
     "website_url": "https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/",
     "zenodo_url": ""
   },

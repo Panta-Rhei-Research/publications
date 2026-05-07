@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "63e514843548c9af0dde4022d8cdd600794ab795f39183d4ad2fbd7fa4662c40",
+    "sha512": "e3b97fe71296624333390f1062e99af7295a1446f20dd5853a31455c402d65fa30dde5b31d3789e47aba84f1a1723bd1be7adfd3ba5337e7bb1613fcc1e768eb"
+  },
+  "file": {
+    "bytes": 278520,
+    "path": "public-good-impact-dossier-2026-05-02-wastewater-stormwater-sanitation-circular-reuse.pdf",
+    "sha256": "63e514843548c9af0dde4022d8cdd600794ab795f39183d4ad2fbd7fa4662c40",
+    "sha512": "e3b97fe71296624333390f1062e99af7295a1446f20dd5853a31455c402d65fa30dde5b31d3789e47aba84f1a1723bd1be7adfd3ba5337e7bb1613fcc1e768eb",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-wastewater-stormwater-sanitation-circular-reuse.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-wastewater-stormwater-sanitation-circular-reuse",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing on how τ could improve wastewater treatment intelligence, stormwater management, sanitation system optimization, and circular water reuse.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/wastewater-stormwater-sanitation-circular-reuse/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-wastewater-stormwater-sanitation-circular-reuse",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-wastewater-stormwater-sanitation-circular-reuse.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/wastewater-stormwater-sanitation-circular-reuse/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd043",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "τ for Wastewater, Stormwater, Sanitation, and Circular Water Reuse",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/wastewater-stormwater-sanitation-circular-reuse/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd043",
+  "publication_key": "public_good_dossiers.wastewater_stormwater_sanitation_circular_reuse",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

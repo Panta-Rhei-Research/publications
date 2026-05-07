@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "e29271962f785fa9b3b30dfe452233b69d162950936234e3af0b80e0375e3fbe",
+    "sha512": "9c986ead027f81a15fdd53cf2ac48047304dfd3e1751409de0baacf18faeecd9c34ea33c517af3057657e668df51a809342a23de87ca79f78b67c180551a81d0"
+  },
+  "file": {
+    "bytes": 314728,
+    "path": "public-good-impact-dossier-2026-05-02-distributed-pv-visibility-distribution-grid-orchestration.pdf",
+    "sha256": "e29271962f785fa9b3b30dfe452233b69d162950936234e3af0b80e0375e3fbe",
+    "sha512": "9c986ead027f81a15fdd53cf2ac48047304dfd3e1751409de0baacf18faeecd9c34ea33c517af3057657e668df51a809342a23de87ca79f78b67c180551a81d0",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-distributed-pv-visibility-distribution-grid-orchestration.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-distributed-pv-visibility-distribution-grid-orchestration",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing on how τ could improve distributed PV visibility, feeder state estimation, hosting capacity, and distribution-grid orchestration for high-penetration solar.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/distributed-pv-visibility-distribution-grid-orchestration/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-distributed-pv-visibility-distribution-grid-orchestration",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-distributed-pv-visibility-distribution-grid-orchestration.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/distributed-pv-visibility-distribution-grid-orchestration/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd018",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "τ for Distributed PV Visibility and Distribution-Grid Orchestration",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/distributed-pv-visibility-distribution-grid-orchestration/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd018",
+  "publication_key": "public_good_dossiers.distributed_pv_visibility_distribution_grid_orchestration",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

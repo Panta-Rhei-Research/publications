@@ -9,9 +9,11 @@ Unique tower-atom decomposition in ZFC and Category τ
 - Date: 2026-04-27
 - Version: v1.0
 - Status: Published
+- Artifact availability: local_pdf
 - DOI: 10.5281/zenodo.19818957
 - Website: https://panta-rhei.site/publications/research-papers/hyperfactorization-theorem/
 - Source website page: `publications/research-papers/hyperfactorization-theorem/index.md`
+- Source website asset path: `site/assets/pdfs/research-papers/research-paper-2026-04-27-hyperfactorization-theorem.pdf`
 - PDF: `research-paper-2026-04-27-hyperfactorization-theorem.pdf`
 
 ## Abstract
@@ -32,4 +34,4 @@ Thorsten Fuchs and Anna-Sophie Fuchs, "The Hyperfactorization Theorem," v1.0, 20
 
 ## Integrity
 
-Cryptographic hashes and OpenTimestamps receipt status are recorded in `manifest.json`. The timestamp receipt proves the existence of the exact PDF bytes at or before the attested time; it does not certify correctness, peer review, legal status, DOI registration, or content validity.
+Cryptographic hashes and OpenTimestamps receipt status are recorded in `manifest.json` for local PDFs. For external-link records, `manifest.json` records route and availability metadata only. Timestamp receipts prove existence of exact PDF bytes at or before the attested time; they do not certify correctness, peer review, legal status, DOI registration, or content validity.

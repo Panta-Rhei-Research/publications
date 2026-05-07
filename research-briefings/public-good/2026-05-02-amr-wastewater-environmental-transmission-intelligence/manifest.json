@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "4e4161770b683e1a6f0aba6681c5c60c49f8a6d79f27aecaf09fdd47e3361b41",
+    "sha512": "d25beb9fbd6230e596f2396ba6149e03b8e22025cf50226cc2266f11b59a34c6378dab768762c51f8f0a02844c63a35e030bd26f68828497c2057393d80a1dcd"
+  },
+  "file": {
+    "bytes": 321864,
+    "path": "public-good-impact-dossier-2026-05-02-amr-wastewater-environmental-transmission-intelligence.pdf",
+    "sha256": "4e4161770b683e1a6f0aba6681c5c60c49f8a6d79f27aecaf09fdd47e3361b41",
+    "sha512": "d25beb9fbd6230e596f2396ba6149e03b8e22025cf50226cc2266f11b59a34c6378dab768762c51f8f0a02844c63a35e030bd26f68828497c2057393d80a1dcd",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-amr-wastewater-environmental-transmission-intelligence.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-amr-wastewater-environmental-transmission-intelligence",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau health-environment twin could provide unusually high public-good leverage in AMR surveillance, wastewater and environmental transmission intelligence, and One Health environmental pathway attribution.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/amr-wastewater-environmental-transmission-intelligence/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-amr-wastewater-environmental-transmission-intelligence",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-amr-wastewater-environmental-transmission-intelligence.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/amr-wastewater-environmental-transmission-intelligence/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd002",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau for AMR, Wastewater/Environmental Surveillance, and Environmental Transmission Intelligence",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/amr-wastewater-environmental-transmission-intelligence/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd002",
+  "publication_key": "public_good_dossiers.amr_wastewater_environmental_transmission_intelligence",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

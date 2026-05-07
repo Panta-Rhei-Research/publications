@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "1094dada9290d37032810ac0f575c22bf433e15b493eeb29ba78dedfbfc8c5e7",
+    "sha512": "cc0c49ff28f29e8b86acad006e9cc010e6eb2e6ec5a9aa9acaa5166493855e1eaaa676e30bb7dfbe1d0e55f1c14618e99e683398aff67c72362c07375aa52187"
+  },
+  "file": {
+    "bytes": 265789,
+    "path": "public-good-impact-dossier-2026-05-02-drinking-water-source-treatment-quality-early-warning.pdf",
+    "sha256": "1094dada9290d37032810ac0f575c22bf433e15b493eeb29ba78dedfbfc8c5e7",
+    "sha512": "cc0c49ff28f29e8b86acad006e9cc010e6eb2e6ec5a9aa9acaa5166493855e1eaaa676e30bb7dfbe1d0e55f1c14618e99e683398aff67c72362c07375aa52187",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-drinking-water-source-treatment-quality-early-warning.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-drinking-water-source-treatment-quality-early-warning",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau drinking-water twin could unlock major public-good gains in source-water early warning, treatment-train optimization, and climate-resilient water-safety planning—addressing 2.1 billion people lacking safely managed drinking water.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/drinking-water-source-treatment-quality-early-warning/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-drinking-water-source-treatment-quality-early-warning",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-drinking-water-source-treatment-quality-early-warning.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/drinking-water-source-treatment-quality-early-warning/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd020",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "Tau-Grade Drinking-Water Source, Treatment, and Quality Early Warning",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/drinking-water-source-treatment-quality-early-warning/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd020",
+  "publication_key": "public_good_dossiers.drinking_water_source_treatment_quality_early_warning",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

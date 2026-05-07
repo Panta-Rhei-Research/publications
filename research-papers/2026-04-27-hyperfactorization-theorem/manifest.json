@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "local_pdf",
   "checksums": {
     "sha256": "0c38d3a470757d8b897f787b855a3e7aa9e5190d4dfe9a6cf2af4a1ae9fd2bca",
     "sha512": "9935f2b0bbc4510a877cf6f34424e42b99028f4a6ace3d8c54951598613f1878b0d9d736033b03d476e214529cbd25649fbdc08877f46df0d1f6502977ba45aa"
@@ -20,6 +21,7 @@
   },
   "publication": {
     "abstract": "This paper states and develops the hyperfactorization theorem, giving a unique tower-atom decomposition and connecting the result to the coordinate architecture of Category τ.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/research-papers/hyperfactorization-theorem/",
     "claim_boundary": {
@@ -29,6 +31,7 @@
     "date": "2026-04-27",
     "doi": "10.5281/zenodo.19818957",
     "doi_url": "https://doi.org/10.5281/zenodo.19818957",
+    "external_links": [],
     "github_path": "research-papers/2026-04-27-hyperfactorization-theorem",
     "license": "CC-BY-4.0",
     "pdf_filename": "research-paper-2026-04-27-hyperfactorization-theorem.pdf",

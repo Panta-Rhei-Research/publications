@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "17bc080230bc8133803f4b70f4c5be4e512104b4c572769df6c5699dfd25a0a9",
+    "sha512": "ed9f1fc3197143968e74c72f48bd7d77a6b5f727d6f8ad2867928d9e5751598535bfa9f577c394cb0ceb9573e4598bfd74d9a923050abab94e81e3002bd8958f"
+  },
+  "file": {
+    "bytes": 286790,
+    "path": "public-good-impact-dossier-2026-05-02-climate-smart-aviation-contrail-routing-decarbonization.pdf",
+    "sha256": "17bc080230bc8133803f4b70f4c5be4e512104b4c572769df6c5699dfd25a0a9",
+    "sha512": "ed9f1fc3197143968e74c72f48bd7d77a6b5f727d6f8ad2867928d9e5751598535bfa9f577c394cb0ceb9573e4598bfd74d9a923050abab94e81e3002bd8958f",
+    "source_website_asset_path": "site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-smart-aviation-contrail-routing-decarbonization.pdf"
+  },
+  "generated_at": "2026-05-06T23:52:22+00:00",
+  "id": "2026-05-02-climate-smart-aviation-contrail-routing-decarbonization",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "A Public-Good Briefing on how τ could enable climate-smart aviation through contrail-aware routing, climate-optimal trajectories, and operational decarbonization.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-briefings/public-good/climate-smart-aviation-contrail-routing-decarbonization/",
+    "claim_boundary": {
+      "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
+      "non_claim": "does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance."
+    },
+    "date": "2026-05-02",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "research-briefings/public-good/2026-05-02-climate-smart-aviation-contrail-routing-decarbonization",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "public-good-impact-dossier-2026-05-02-climate-smart-aviation-contrail-routing-decarbonization.pdf",
+    "publication_type": "Public-Good Briefing",
+    "related_lanes": [
+      "publications",
+      "impact",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-briefings/public-good/climate-smart-aviation-contrail-routing-decarbonization/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/pgd012",
+    "source_website_page": "site/_data/impact/public-good-briefings.json",
+    "status": "Published",
+    "subtitle": "",
+    "title": "τ-Enabled Climate-Smart Aviation",
+    "version": "v3-enriched",
+    "website_url": "https://panta-rhei.site/publications/research-briefings/public-good/climate-smart-aviation-contrail-routing-decarbonization/",
+    "zenodo_url": ""
+  },
+  "publication_id": "pgd012",
+  "publication_key": "public_good_dossiers.climate_smart_aviation_contrail_routing_decarbonization",
+  "publication_role": "translation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "public_good_briefing"
+}

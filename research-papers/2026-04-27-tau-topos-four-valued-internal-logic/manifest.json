@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "local_pdf",
   "checksums": {
     "sha256": "353577439dcf3e245291ee4fcc68ea4274b40b9b1972917336f48d734a9cd737",
     "sha512": "6e8ad712d14aba5cc337535820e0e8469ff47ab711446450bacec4db00673a1dc57a2bfce47f5a141118eb85c925cecd842b9b1d5ef9c633c445793f14be8bb7"
@@ -20,6 +21,7 @@
   },
   "publication": {
     "abstract": "This paper develops the tau-topos and its four-valued internal logic, using split-complex idempotents and omega-germ stabilization to address paraconsistent semantic circularity in the Panta Rhei framework.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/research-papers/tau-topos-four-valued-internal-logic/",
     "claim_boundary": {
@@ -29,6 +31,7 @@
     "date": "2026-04-27",
     "doi": "10.5281/zenodo.19820194",
     "doi_url": "https://doi.org/10.5281/zenodo.19820194",
+    "external_links": [],
     "github_path": "research-papers/2026-04-27-tau-topos-four-valued-internal-logic",
     "license": "CC-BY-4.0",
     "pdf_filename": "research-paper-2026-04-27-tau-topos-four-valued-internal-logic.pdf",

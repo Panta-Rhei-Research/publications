@@ -1,4 +1,5 @@
 {
+  "artifact_availability": "local_pdf",
   "checksums": {
     "sha256": "f95f617711404aecaaa6135f0010c35d168abb4d624edbcbada5387728f85c68",
     "sha512": "34338e5e3ceae467c7e3a432b117a5d6cef76a7266ff5afd3488aba6b3f59c5372e2fcae7143acd8998756159549a3ce496b11f314863c3f2c85a001e63776fc"
@@ -20,6 +21,7 @@
   },
   "publication": {
     "abstract": "This paper develops the address-resolution view of arithmetic in Category τ. It presents canonical normalisation, the genealogical DAG, the Cayley word metric, and the claim that arithmetic in the tau setting is implemented as finite-witness address resolution rather than equational calculation.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/research-papers/address-resolution-not-calculation/",
     "claim_boundary": {
@@ -29,6 +31,7 @@
     "date": "2026-04-27",
     "doi": "10.5281/zenodo.19818628",
     "doi_url": "https://doi.org/10.5281/zenodo.19818628",
+    "external_links": [],
     "github_path": "research-papers/2026-04-27-address-resolution-not-calculation",
     "license": "CC-BY-4.0",
     "pdf_filename": "research-paper-2026-04-27-address-resolution-not-calculation.pdf",

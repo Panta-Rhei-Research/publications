@@ -1,0 +1,3271 @@
+publications:
+- publication_id: c001
+  publication_key: charter_essays.standing_in_the_inquiry_of_being
+  type: charter_essay
+  status: planned
+  artifact_availability: planned
+  title: Standing in the Inquiry of Being
+  release_date: planned
+  canonical_url: ''
+  short_url: https://prrp.site/c001
+  github_path: charter-essays/c001-standing-in-the-inquiry-of-being
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: This planned record reserves a public publication route. It does not release the essay, establish a claim, or replace
+      the future canonical website page.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: ''
+    pdf_url: ''
+    pdf_path_site: ''
+    pdf_path_publications_repo: ''
+    source_website_asset_path: ''
+  integrity:
+    bytes: 0
+    sha256: ''
+    sha512: ''
+    ots_status: not_applicable
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: c002
+  publication_key: charter_essays.semantic_archaeology_coherent_theory_of_reality
+  type: charter_essay
+  status: planned
+  artifact_availability: planned
+  title: Semantic Archaeology of Coherent Theory of Reality
+  release_date: planned
+  canonical_url: ''
+  short_url: https://prrp.site/c002
+  github_path: charter-essays/c002-semantic-archaeology-coherent-theory-of-reality
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: This planned record reserves a public publication route. It does not release the essay, establish a claim, or replace
+      the future canonical website page.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: ''
+    pdf_url: ''
+    pdf_path_site: ''
+    pdf_path_publications_repo: ''
+    source_website_asset_path: ''
+  integrity:
+    bytes: 0
+    sha256: ''
+    sha512: ''
+    ots_status: not_applicable
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: gt001
+  publication_key: guided_tours.book_i
+  type: guided_tour
+  status: released
+  artifact_availability: local_pdf
+  title: Book I Guided Tour
+  release_date: '2026-04-15'
+  canonical_url: https://panta-rhei.site/publications/guided-tours/
+  short_url: https://prrp.site/gt001
+  github_path: guided-tours/gt001-guided-tour-book-i
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Guided tour artifact. It helps readers inspect and challenge the books; it does not replace the monographs, Registry,
+      TauLib, Results, or external review.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: guided-tour-book-I.pdf
+    pdf_url: https://panta-rhei.site/assets/media/guided-tour-book-I.pdf
+    pdf_path_site: assets/media/guided-tour-book-I.pdf
+    pdf_path_publications_repo: guided-tours/gt001-guided-tour-book-i/guided-tour-book-I.pdf
+    source_website_asset_path: site/assets/media/guided-tour-book-I.pdf
+  integrity:
+    bytes: 441645
+    sha256: 72a145aeaed5f5390b180119393d85ae9f0fb396bdb210e4355fac4901bbb5f3
+    sha512: 46a3d02457be06a98786edc8c9203b422119c3ed26986eb14735a4fcce2f43c9f9054562be6cce41a1cab81dc367d9c7d7e3ceffbf71ad0a8cd0a9ef3904871a
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: gt002
+  publication_key: guided_tours.book_ii
+  type: guided_tour
+  status: released
+  artifact_availability: local_pdf
+  title: Book II Guided Tour
+  release_date: '2026-04-15'
+  canonical_url: https://panta-rhei.site/publications/guided-tours/
+  short_url: https://prrp.site/gt002
+  github_path: guided-tours/gt002-guided-tour-book-ii
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Guided tour artifact. It helps readers inspect and challenge the books; it does not replace the monographs, Registry,
+      TauLib, Results, or external review.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: guided-tour-book-II.pdf
+    pdf_url: https://panta-rhei.site/assets/media/guided-tour-book-II.pdf
+    pdf_path_site: assets/media/guided-tour-book-II.pdf
+    pdf_path_publications_repo: guided-tours/gt002-guided-tour-book-ii/guided-tour-book-II.pdf
+    source_website_asset_path: site/assets/media/guided-tour-book-II.pdf
+  integrity:
+    bytes: 471244
+    sha256: efa7333f0cea7940cfcade7f65fe7a1dd7cee0a5aa1f3a5a095a26bece40a0f7
+    sha512: c74ce857a57bbb019a4eb34acaa409ff82260d12639fa8790f1162fc96011e96817014d52852c731f92483f1326bf9f678b4ba2ffa02202b100dc359bd1b8f34
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: gt003
+  publication_key: guided_tours.book_iii
+  type: guided_tour
+  status: released
+  artifact_availability: local_pdf
+  title: Book III Guided Tour
+  release_date: '2026-04-15'
+  canonical_url: https://panta-rhei.site/publications/guided-tours/
+  short_url: https://prrp.site/gt003
+  github_path: guided-tours/gt003-guided-tour-book-iii
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Guided tour artifact. It helps readers inspect and challenge the books; it does not replace the monographs, Registry,
+      TauLib, Results, or external review.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: guided-tour-book-III.pdf
+    pdf_url: https://panta-rhei.site/assets/media/guided-tour-book-III.pdf
+    pdf_path_site: assets/media/guided-tour-book-III.pdf
+    pdf_path_publications_repo: guided-tours/gt003-guided-tour-book-iii/guided-tour-book-III.pdf
+    source_website_asset_path: site/assets/media/guided-tour-book-III.pdf
+  integrity:
+    bytes: 467609
+    sha256: 2ea68610c013abb1926fd5027a2fdfa12d0baeb566180621a10b7f032b3c7e4f
+    sha512: 713a08061992ef7622ba0844e5a67329e0c567046eb5f71a2cf1f69e79f91a04f481205596bd02c71155e06ab611450d6a21d5b14d9dc9a4b04314dad526e180
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: gt004
+  publication_key: guided_tours.book_iv
+  type: guided_tour
+  status: released
+  artifact_availability: local_pdf
+  title: Book IV Guided Tour
+  release_date: '2026-04-15'
+  canonical_url: https://panta-rhei.site/publications/guided-tours/
+  short_url: https://prrp.site/gt004
+  github_path: guided-tours/gt004-guided-tour-book-iv
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Guided tour artifact. It helps readers inspect and challenge the books; it does not replace the monographs, Registry,
+      TauLib, Results, or external review.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: guided-tour-book-IV.pdf
+    pdf_url: https://panta-rhei.site/assets/media/guided-tour-book-IV.pdf
+    pdf_path_site: assets/media/guided-tour-book-IV.pdf
+    pdf_path_publications_repo: guided-tours/gt004-guided-tour-book-iv/guided-tour-book-IV.pdf
+    source_website_asset_path: site/assets/media/guided-tour-book-IV.pdf
+  integrity:
+    bytes: 487368
+    sha256: 5a502fa90175bba8423d44364c81c5bab0fab89cbb24c9fb9e8352e7d461d8c8
+    sha512: 94d6a7cd9b6370615f8c3399eaddefa2638db2f580f962c124194b9b7546fd32e8708018f514f9eb50d5940d833e7aee3496b5973fe4ca81d6c20d3bfcb97bb7
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: gt005
+  publication_key: guided_tours.book_v
+  type: guided_tour
+  status: released
+  artifact_availability: local_pdf
+  title: Book V Guided Tour
+  release_date: '2026-04-15'
+  canonical_url: https://panta-rhei.site/publications/guided-tours/
+  short_url: https://prrp.site/gt005
+  github_path: guided-tours/gt005-guided-tour-book-v
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Guided tour artifact. It helps readers inspect and challenge the books; it does not replace the monographs, Registry,
+      TauLib, Results, or external review.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: guided-tour-book-V.pdf
+    pdf_url: https://panta-rhei.site/assets/media/guided-tour-book-V.pdf
+    pdf_path_site: assets/media/guided-tour-book-V.pdf
+    pdf_path_publications_repo: guided-tours/gt005-guided-tour-book-v/guided-tour-book-V.pdf
+    source_website_asset_path: site/assets/media/guided-tour-book-V.pdf
+  integrity:
+    bytes: 493486
+    sha256: 17b5c32417bcc88a5158030d19f967b92de465597a997220b3098489fa315dcf
+    sha512: b479d4b9e0b898b048a208f7a486a5e41e18902746d8f66635c496e90a680b815c0a648524e01291079ea043541183d1d20cef4680b08404897e328bba8857a1
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: gt006
+  publication_key: guided_tours.book_vi
+  type: guided_tour
+  status: released
+  artifact_availability: local_pdf
+  title: Book VI Guided Tour
+  release_date: '2026-04-15'
+  canonical_url: https://panta-rhei.site/publications/guided-tours/
+  short_url: https://prrp.site/gt006
+  github_path: guided-tours/gt006-guided-tour-book-vi
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Guided tour artifact. It helps readers inspect and challenge the books; it does not replace the monographs, Registry,
+      TauLib, Results, or external review.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: guided-tour-book-VI.pdf
+    pdf_url: https://panta-rhei.site/assets/media/guided-tour-book-VI.pdf
+    pdf_path_site: assets/media/guided-tour-book-VI.pdf
+    pdf_path_publications_repo: guided-tours/gt006-guided-tour-book-vi/guided-tour-book-VI.pdf
+    source_website_asset_path: site/assets/media/guided-tour-book-VI.pdf
+  integrity:
+    bytes: 451824
+    sha256: 72158fcb8671058d47089a876e22770a4d4301327a58450ac1b02fe810867474
+    sha512: cf486aa5b540de17d63ba74e0744a15fb9ba5525939bd4e2e99ae1f179c8a654c7e6390574959c65e7d3a5030c5ba3236a2573572576d1215ad4d8fc3f40eae1
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: gt007
+  publication_key: guided_tours.book_vii
+  type: guided_tour
+  status: released
+  artifact_availability: local_pdf
+  title: Book VII Guided Tour
+  release_date: '2026-04-15'
+  canonical_url: https://panta-rhei.site/publications/guided-tours/
+  short_url: https://prrp.site/gt007
+  github_path: guided-tours/gt007-guided-tour-book-vii
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Guided tour artifact. It helps readers inspect and challenge the books; it does not replace the monographs, Registry,
+      TauLib, Results, or external review.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: guided-tour-book-VII.pdf
+    pdf_url: https://panta-rhei.site/assets/media/guided-tour-book-VII.pdf
+    pdf_path_site: assets/media/guided-tour-book-VII.pdf
+    pdf_path_publications_repo: guided-tours/gt007-guided-tour-book-vii/guided-tour-book-VII.pdf
+    source_website_asset_path: site/assets/media/guided-tour-book-VII.pdf
+  integrity:
+    bytes: 474866
+    sha256: 0314dd107daaf8fd86ce80fecf25c2e75e2b54473ca21bb994eba38830887798
+    sha512: 6ea224cd5b542451b5c17ef24becad897fb2e50b737a116fa92d4ab7d5108c229940132bff72efab86c75b2fd4b3efea783ca79d02216acec1e7061c617e2520
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: ms001
+  publication_key: monograph_supplements.numerical_physics_ledger
+  type: monograph_supplement
+  status: released
+  artifact_availability: local_pdf
+  title: The Numerical Physics Ledger
+  release_date: '2026-04-30'
+  canonical_url: https://panta-rhei.site/publications/monograph-supplements/numerical-physics-ledger/
+  short_url: https://prrp.site/ms001
+  github_path: monograph-supplements/ms001-numerical-physics-ledger
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: 'The Numerical Physics Ledger is a Panta Rhei publication artifact. It records the program''s current internal
+      numerical commitments, calibration cascade, prediction inventory, and falsification targets.
+
+
+      It does not imply external validation, scientific acceptance, or independent confirmation. Its purpose is to make the
+      numerical claims inspectable, comparable, and falsifiable.
+
+
+      <div class="notice note"><strong>Artifact status.</strong> This page is the stable publication home for the PDF artifact.
+      The [Results prediction surfaces]({{ ''/results/predictions/browse/'' | relative_url }}) carry world-facing interpretation;
+      [Predictions & Falsification]({{ ''/verify/predictions-and-falsification/'' | relative_url }}) carries the verification
+      and failure-condition handoff.</div>
+
+
+      <div class="notice note"><strong>Comparison-basis note.</strong> Public result mirrors and older prediction tables may
+      use different comparison baselines while preserving the same route and artifact history. The ledger page states the
+      current publication artifact status; generated Results and Verify surfaces remain the canonical place to inspect per-record
+      status, precision, and external-evidence boundaries.</div>'
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: physics-ledger.pdf
+    pdf_url: https://panta-rhei.site/assets/downloads/physics-ledger.pdf
+    pdf_path_site: assets/downloads/physics-ledger.pdf
+    pdf_path_publications_repo: monograph-supplements/ms001-numerical-physics-ledger/physics-ledger.pdf
+    source_website_asset_path: site/assets/downloads/physics-ledger.pdf
+  integrity:
+    bytes: 1106876
+    sha256: ccea2506f21770103ca98244664eaedfde992088206c7902c7d41a4299b0559e
+    sha512: 3011882896f2372b32a9cbe8aba1a78a95ef7b1d3c883c9480c608fe065aec48877bc84044f4d6e6fe136a1a2af8eb430d9ca997d616df8c422709f24785b471
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: ms002
+  publication_key: monograph_supplements.categorical_genesis
+  type: monograph_supplement
+  status: released
+  artifact_availability: local_pdf
+  title: Categorical Genesis
+  release_date: '2026-04-30'
+  canonical_url: https://panta-rhei.site/publications/monograph-supplements/categorical-genesis/
+  short_url: https://prrp.site/ms002
+  github_path: monograph-supplements/ms002-categorical-genesis
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: 'Categorical Genesis is a Panta Rhei publication artifact: a public Monograph Supplement and interpretive companion
+      to the Book VII metaphysics arc. It records a structural reading of Genesis 1–3 using the program''s Category τ apparatus.
+
+
+      It does not imply external validation, theological endorsement, external acceptance, or independent confirmation. Its
+      purpose is to make the interpretive method, scope labels, and claim boundaries inspectable.'
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: categorical-genesis.pdf
+    pdf_url: https://panta-rhei.site/assets/downloads/categorical-genesis.pdf
+    pdf_path_site: assets/downloads/categorical-genesis.pdf
+    pdf_path_publications_repo: monograph-supplements/ms002-categorical-genesis/categorical-genesis.pdf
+    source_website_asset_path: site/assets/downloads/categorical-genesis.pdf
+  integrity:
+    bytes: 357161
+    sha256: 772b66729624583097fc4c7797134ed50374db3a9782bf7eccc11326b9fa58d7
+    sha512: 0a46d784e6ecae2100d2f99ab94c57cb9f32ac5fdfa90e188acc1ff8a08eac2817df9e3da4bbab3af5165cb6187b3100cc6e5f92f7341491804e8614dfadd8cf
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgb001
+  publication_key: public_good_briefings.advanced_fission_safety_operations_licensing_fleet_modernization
+  type: public_good_briefing
+  status: superseded
+  artifact_availability: local_pdf
+  title: τ for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization
+  release_date: '2026-04-26'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/advanced-fission-safety-operations-licensing-fleet-modernization/
+  short_url: https://prrp.site/pgb001
+  github_path: research-briefings/public-good/2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not validate the framework, claim policy adoption, or replace
+      domain expertise and external review.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: public-good-briefing-2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-briefing-2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-briefing-2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization/public-good-briefing-2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-briefing-2026-04-26-advanced-fission-safety-operations-licensing-fleet-modernization.pdf
+  integrity:
+    bytes: 284000
+    sha256: 2f417f847d649f74a78212ca1830e976f90e39ae3873b242e2f4a42e9f67bc55
+    sha512: e1456d049905a8c81995ad6d43ac73cd61892667337c04833caf26c683be05fc518b3090345332f6fd455572b9a319d57664cbd00b4cfe9186dd452e10c66a20
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd001
+  publication_key: public_good_dossiers.advanced_fission_safety_operations_licensing_fleet_modernization
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/advanced-fission-safety-operations-licensing-fleet-modernization/
+  short_url: https://prrp.site/pgd001
+  github_path: research-briefings/public-good/2026-05-02-advanced-fission-safety-operations-licensing-fleet-modernization
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-advanced-fission-safety-operations-licensing-fleet-modernization.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-advanced-fission-safety-operations-licensing-fleet-modernization.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-advanced-fission-safety-operations-licensing-fleet-modernization.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-advanced-fission-safety-operations-licensing-fleet-modernization/public-good-impact-dossier-2026-05-02-advanced-fission-safety-operations-licensing-fleet-modernization.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-advanced-fission-safety-operations-licensing-fleet-modernization.pdf
+  integrity:
+    bytes: 284000
+    sha256: 2f417f847d649f74a78212ca1830e976f90e39ae3873b242e2f4a42e9f67bc55
+    sha512: e1456d049905a8c81995ad6d43ac73cd61892667337c04833caf26c683be05fc518b3090345332f6fd455572b9a319d57664cbd00b4cfe9186dd452e10c66a20
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd002
+  publication_key: public_good_dossiers.amr_wastewater_environmental_transmission_intelligence
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for AMR, Wastewater/Environmental Surveillance, and Environmental Transmission Intelligence
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/amr-wastewater-environmental-transmission-intelligence/
+  short_url: https://prrp.site/pgd002
+  github_path: research-briefings/public-good/2026-05-02-amr-wastewater-environmental-transmission-intelligence
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-amr-wastewater-environmental-transmission-intelligence.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-amr-wastewater-environmental-transmission-intelligence.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-amr-wastewater-environmental-transmission-intelligence.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-amr-wastewater-environmental-transmission-intelligence/public-good-impact-dossier-2026-05-02-amr-wastewater-environmental-transmission-intelligence.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-amr-wastewater-environmental-transmission-intelligence.pdf
+  integrity:
+    bytes: 321864
+    sha256: 4e4161770b683e1a6f0aba6681c5c60c49f8a6d79f27aecaf09fdd47e3361b41
+    sha512: d25beb9fbd6230e596f2396ba6149e03b8e22025cf50226cc2266f11b59a34c6378dab768762c51f8f0a02844c63a35e030bd26f68828497c2057393d80a1dcd
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd003
+  publication_key: public_good_dossiers.anticipatory_action_humanitarian_logistics_climate_risk_finance
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Anticipatory Action, Humanitarian Logistics, and Climate-Risk Finance
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/anticipatory-action-humanitarian-logistics-climate-risk-finance/
+  short_url: https://prrp.site/pgd003
+  github_path: research-briefings/public-good/2026-05-02-anticipatory-action-humanitarian-logistics-climate-risk-finance
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-anticipatory-action-humanitarian-logistics-climate-risk-finance.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-anticipatory-action-humanitarian-logistics-climate-risk-finance.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-anticipatory-action-humanitarian-logistics-climate-risk-finance.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-anticipatory-action-humanitarian-logistics-climate-risk-finance/public-good-impact-dossier-2026-05-02-anticipatory-action-humanitarian-logistics-climate-risk-finance.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-anticipatory-action-humanitarian-logistics-climate-risk-finance.pdf
+  integrity:
+    bytes: 339073
+    sha256: a825d6e69b833d87c61c90f407032ad64f30e642e91e881c684bdc265774b157
+    sha512: 25bfd29d4cf8c3d5375cce8ec96ceb394a20e72e2e2d9cebbcbd0097db49a82763df2a430809eb1caf0a34bbf4b714228008f66943cf0e97cb55a4baf4b04bdd
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd004
+  publication_key: public_good_dossiers.aviation_weather_intelligence
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau-Grade Aviation Weather Intelligence for Mainstream Aviation
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/aviation-weather-intelligence/
+  short_url: https://prrp.site/pgd004
+  github_path: research-briefings/public-good/2026-05-02-aviation-weather-intelligence
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-aviation-weather-intelligence.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-aviation-weather-intelligence.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-aviation-weather-intelligence.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-aviation-weather-intelligence/public-good-impact-dossier-2026-05-02-aviation-weather-intelligence.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-aviation-weather-intelligence.pdf
+  integrity:
+    bytes: 289365
+    sha256: b6f28eea3c582c35ac1fb37fd226c166e06925a8f9d458aeaaf52d72cc998f8a
+    sha512: 1cb66c8da0158273d29deb81f6b76caca245c68ca7fb2ec7b835acf05baba0ce9eec486849bce7d42e892ff9a296fa0709db1aab07b42c1d01c45ac39364cb2c
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd005
+  publication_key: public_good_dossiers.biodiversity_finance_monitoring_restoration_verification
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Biodiversity Finance, Monitoring, Restoration Verification, and Nature-Positive Investment Prioritization
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/biodiversity-finance-monitoring-restoration-verification/
+  short_url: https://prrp.site/pgd005
+  github_path: research-briefings/public-good/2026-05-02-biodiversity-finance-monitoring-restoration-verification
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-biodiversity-finance-monitoring-restoration-verification.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-biodiversity-finance-monitoring-restoration-verification.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-biodiversity-finance-monitoring-restoration-verification.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-biodiversity-finance-monitoring-restoration-verification/public-good-impact-dossier-2026-05-02-biodiversity-finance-monitoring-restoration-verification.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-biodiversity-finance-monitoring-restoration-verification.pdf
+  integrity:
+    bytes: 289116
+    sha256: 7d35da6182f4445c7533f6aab01e6d082f44796f17a5b3fc3947a07552f4558e
+    sha512: 0d7d63d2b40864e3463effa3b6f98cb762833c8c3c5d6fff6cba87a1a780fd2781f23ac00a2ec3d3f52f8c0829eca9536985357604c5a53b34d2c0ed06c6d5b0
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd006
+  publication_key: public_good_dossiers.blue_food_systems_marine_ecosystem_intelligence
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ and Blue Food Systems
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/blue-food-systems-marine-ecosystem-intelligence/
+  short_url: https://prrp.site/pgd006
+  github_path: research-briefings/public-good/2026-05-02-blue-food-systems-marine-ecosystem-intelligence
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-blue-food-systems-marine-ecosystem-intelligence.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-blue-food-systems-marine-ecosystem-intelligence.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-blue-food-systems-marine-ecosystem-intelligence.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-blue-food-systems-marine-ecosystem-intelligence/public-good-impact-dossier-2026-05-02-blue-food-systems-marine-ecosystem-intelligence.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-blue-food-systems-marine-ecosystem-intelligence.pdf
+  integrity:
+    bytes: 288857
+    sha256: b768cf1c67054673e243d3a97ee31a83d5bbf8881f60d4ca86aedc1753b5d896
+    sha512: fb6ce3283a4883b0b9aea0f90ab55dd88f51adea8d2f860db5a38f918d3576fd79963909fa6ead5c4c203a5428268d0456a7f135265608950de4fe468e443b84
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd007
+  publication_key: public_good_dossiers.bulk_grid_solar_forecasting
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau-Grade Solar Forecasting for Bulk-Grid Operations and Market Dispatch
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/bulk-grid-solar-forecasting/
+  short_url: https://prrp.site/pgd007
+  github_path: research-briefings/public-good/2026-05-02-bulk-grid-solar-forecasting
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-bulk-grid-solar-forecasting.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-bulk-grid-solar-forecasting.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-bulk-grid-solar-forecasting.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-bulk-grid-solar-forecasting/public-good-impact-dossier-2026-05-02-bulk-grid-solar-forecasting.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-bulk-grid-solar-forecasting.pdf
+  integrity:
+    bytes: 277421
+    sha256: 855a2c098ba7a1d3eae2e699bf6cf95127a86cb913395eae54bb9c7feb89d0dd
+    sha512: 145af9afbd93cae25c71437f52a339af325ba9ff55e899ec53177c3b50867fbf8bc771e56055af3b21413aef6123743d68cf7c67e9b77f361f23c96c751135b9
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd008
+  publication_key: public_good_dossiers.carbon_cycle_methane_aerosol_sink_intelligence
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Carbon-Cycle, Methane, Aerosol, and Sink Intelligence
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/carbon-cycle-methane-aerosol-sink-intelligence/
+  short_url: https://prrp.site/pgd008
+  github_path: research-briefings/public-good/2026-05-02-carbon-cycle-methane-aerosol-sink-intelligence
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-carbon-cycle-methane-aerosol-sink-intelligence.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-carbon-cycle-methane-aerosol-sink-intelligence.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-carbon-cycle-methane-aerosol-sink-intelligence.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-carbon-cycle-methane-aerosol-sink-intelligence/public-good-impact-dossier-2026-05-02-carbon-cycle-methane-aerosol-sink-intelligence.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-carbon-cycle-methane-aerosol-sink-intelligence.pdf
+  integrity:
+    bytes: 289297
+    sha256: aba4f79a17968be027121ca3b495343741b8d567edbab8f39b4342e93ca88288
+    sha512: 7f6ae7130be80ea1f80eaf3eddb741362adaa238583c64a2e0d3af92f85154b77d882431f8af302389b188841b9e082f83471942d002f400e31f72c16bac07d4
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd009
+  publication_key: public_good_dossiers.chemicals_toxic_releases_lead_pfas_heavy_metals_plume_remediation
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Chemicals, Toxic Releases, Lead/PFAS/Heavy Metals, Water-Soil-Air Plume Intelligence, and Remediation
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation/
+  short_url: https://prrp.site/pgd009
+  github_path: research-briefings/public-good/2026-05-02-chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation/public-good-impact-dossier-2026-05-02-chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-chemicals-toxic-releases-lead-pfas-heavy-metals-plume-remediation.pdf
+  integrity:
+    bytes: 275815
+    sha256: d6e654aaba170b3f6ac1819526f96d532c4195aa4b56c272e5e5af805df612dc
+    sha512: 35cb737267ccc5a9b6395f749439ea7fdecf4ff20cb41800bae0ae61ffaf3f2b07027f9d1f2c78468df02a7e71c801eaf96c7c61be6faa5ce1c11356678a9358
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd010
+  publication_key: public_good_dossiers.clean_air_digital_twins_exposure_intelligence
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau-Grade Clean-Air Digital Twins, Exposure Intelligence, and Urban/Regional Health Protection
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/clean-air-digital-twins-exposure-intelligence/
+  short_url: https://prrp.site/pgd010
+  github_path: research-briefings/public-good/2026-05-02-clean-air-digital-twins-exposure-intelligence
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-clean-air-digital-twins-exposure-intelligence.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-clean-air-digital-twins-exposure-intelligence.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-clean-air-digital-twins-exposure-intelligence.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-clean-air-digital-twins-exposure-intelligence/public-good-impact-dossier-2026-05-02-clean-air-digital-twins-exposure-intelligence.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-clean-air-digital-twins-exposure-intelligence.pdf
+  integrity:
+    bytes: 329102
+    sha256: fd1089baebe30f97d5ee1ab5c1119daac6da7c171b95377dd4c1fef8b4f30598
+    sha512: 3eff06791a7cfbe34dbdf0bda0f4c49be2eb521bce6b8db59455c1669e006f6a55d61b5f5c84489631a3db4ebc127dd8c2dbc9804aa4d55796ec95b6a7980ae3
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd011
+  publication_key: public_good_dossiers.climate_policy_optimization_investment_prioritization_international_coordination
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Climate Policy Optimization, Investment Prioritization, and International Coordination
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/climate-policy-optimization-investment-prioritization-international-coordination/
+  short_url: https://prrp.site/pgd011
+  github_path: research-briefings/public-good/2026-05-02-climate-policy-optimization-investment-prioritization-international-coordination
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-climate-policy-optimization-investment-prioritization-international-coordination.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-policy-optimization-investment-prioritization-international-coordination.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-policy-optimization-investment-prioritization-international-coordination.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-climate-policy-optimization-investment-prioritization-international-coordination/public-good-impact-dossier-2026-05-02-climate-policy-optimization-investment-prioritization-international-coordination.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-policy-optimization-investment-prioritization-international-coordination.pdf
+  integrity:
+    bytes: 299287
+    sha256: cc5084819a8da1b81b859683e8f440cce5f80022903ed9eddb029ed6c14fe3a9
+    sha512: 51a8afd76e26064dc9e515f2d54eebae83052abe62a4acef5c3bb7d18ca1f37ee9d58378ff76953d21e3e93547bdd8726a0539f3b6bafac2220bbf7d17f60cdc
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd012
+  publication_key: public_good_dossiers.climate_smart_aviation_contrail_routing_decarbonization
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ-Enabled Climate-Smart Aviation
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/climate-smart-aviation-contrail-routing-decarbonization/
+  short_url: https://prrp.site/pgd012
+  github_path: research-briefings/public-good/2026-05-02-climate-smart-aviation-contrail-routing-decarbonization
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-climate-smart-aviation-contrail-routing-decarbonization.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-smart-aviation-contrail-routing-decarbonization.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-smart-aviation-contrail-routing-decarbonization.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-climate-smart-aviation-contrail-routing-decarbonization/public-good-impact-dossier-2026-05-02-climate-smart-aviation-contrail-routing-decarbonization.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-smart-aviation-contrail-routing-decarbonization.pdf
+  integrity:
+    bytes: 286790
+    sha256: 17bc080230bc8133803f4b70f4c5be4e512104b4c572769df6c5699dfd25a0a9
+    sha512: ed9f1fc3197143968e74c72f48bd7d77a6b5f727d6f8ad2867928d9e5751598535bfa9f577c394cb0ceb9573e4598bfd74d9a923050abab94e81e3002bd8958f
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd013
+  publication_key: public_good_dossiers.climate_smart_irrigation_soil_moisture_water_productivity
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Climate-Smart Irrigation, Soil Moisture, and Water Productivity
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/climate-smart-irrigation-soil-moisture-water-productivity/
+  short_url: https://prrp.site/pgd013
+  github_path: research-briefings/public-good/2026-05-02-climate-smart-irrigation-soil-moisture-water-productivity
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-climate-smart-irrigation-soil-moisture-water-productivity.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-smart-irrigation-soil-moisture-water-productivity.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-smart-irrigation-soil-moisture-water-productivity.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-climate-smart-irrigation-soil-moisture-water-productivity/public-good-impact-dossier-2026-05-02-climate-smart-irrigation-soil-moisture-water-productivity.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-smart-irrigation-soil-moisture-water-productivity.pdf
+  integrity:
+    bytes: 352515
+    sha256: 1371286030bd2418d47ff54bd2358effffb06581dc5cbed12871ec6843af33d4
+    sha512: f3c15e07dd0be6041f20909023f2e8d10b52259d403dd03c147ffc6c3c9d0ce9fd317763431738a3988b7501ba2b766396f45b6aeff0737271bad99bd2ac4210
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd014
+  publication_key: public_good_dossiers.climate_smart_shipping_decarbonization_wind_corridors
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ and Climate-Smart Shipping
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/climate-smart-shipping-decarbonization-wind-corridors/
+  short_url: https://prrp.site/pgd014
+  github_path: research-briefings/public-good/2026-05-02-climate-smart-shipping-decarbonization-wind-corridors
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-climate-smart-shipping-decarbonization-wind-corridors.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-smart-shipping-decarbonization-wind-corridors.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-smart-shipping-decarbonization-wind-corridors.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-climate-smart-shipping-decarbonization-wind-corridors/public-good-impact-dossier-2026-05-02-climate-smart-shipping-decarbonization-wind-corridors.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-climate-smart-shipping-decarbonization-wind-corridors.pdf
+  integrity:
+    bytes: 291332
+    sha256: 8c4596e0a82a8e5b33ca62a799661544305f126ad331ad91f16c89b3d40ce83d
+    sha512: 204e327040f192c4758eadcd9c9b5b0ca1f7cd99ac36543c16c84e6df96b7c52299f6b8eeac69b319dc9f4685c02aceddf34983d41b23d2b6923dc0e0aa1dd5b
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd015
+  publication_key: public_good_dossiers.critical_infrastructure_emergency_operations_public_service_continuity
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Critical Infrastructure, Emergency Operations, and Public-Service Continuity
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/critical-infrastructure-emergency-operations-public-service-continuity/
+  short_url: https://prrp.site/pgd015
+  github_path: research-briefings/public-good/2026-05-02-critical-infrastructure-emergency-operations-public-service-continuity
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-critical-infrastructure-emergency-operations-public-service-continuity.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-critical-infrastructure-emergency-operations-public-service-continuity.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-critical-infrastructure-emergency-operations-public-service-continuity.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-critical-infrastructure-emergency-operations-public-service-continuity/public-good-impact-dossier-2026-05-02-critical-infrastructure-emergency-operations-public-service-continuity.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-critical-infrastructure-emergency-operations-public-service-continuity.pdf
+  integrity:
+    bytes: 329186
+    sha256: 1fc3aad5439fbef11385a19c54e9568eed227461a3572c1a3cc7f5c2449a343d
+    sha512: 69db66c4011986962f43e8e24147b527cfcda4011ec72880c787ba985393efed108267dce5cc2da0624be80b955b4602e19afffafd448ca2277ac787b95836a0
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd016
+  publication_key: public_good_dossiers.crop_biology_breeding_photosynthesis_gene_design
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Crop Biology, Breeding, Photosynthesis Engineering, and Targeted Gene Design
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/crop-biology-breeding-photosynthesis-gene-design/
+  short_url: https://prrp.site/pgd016
+  github_path: research-briefings/public-good/2026-05-02-crop-biology-breeding-photosynthesis-gene-design
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-crop-biology-breeding-photosynthesis-gene-design.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-crop-biology-breeding-photosynthesis-gene-design.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-crop-biology-breeding-photosynthesis-gene-design.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-crop-biology-breeding-photosynthesis-gene-design/public-good-impact-dossier-2026-05-02-crop-biology-breeding-photosynthesis-gene-design.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-crop-biology-breeding-photosynthesis-gene-design.pdf
+  integrity:
+    bytes: 281107
+    sha256: d21eeb4a120acea35993cf9ca3d2d9e5795e70438f144d300927d237df922d76
+    sha512: 17a368eb19321eea5cffa392f5be31fc09b293c4ae563ec164975cf579bb0834e98023dbdb5eec0e2d84313d206d614100872ed6bababc2727b48dfb84ba55c0
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd017
+  publication_key: public_good_dossiers.der_storage_flexible_demand_microgrids_td_planning
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for DER Orchestration, Storage, Flexible Demand, Microgrids, and T&D Planning
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/der-storage-flexible-demand-microgrids-td-planning/
+  short_url: https://prrp.site/pgd017
+  github_path: research-briefings/public-good/2026-05-02-der-storage-flexible-demand-microgrids-td-planning
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-der-storage-flexible-demand-microgrids-td-planning.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-der-storage-flexible-demand-microgrids-td-planning.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-der-storage-flexible-demand-microgrids-td-planning.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-der-storage-flexible-demand-microgrids-td-planning/public-good-impact-dossier-2026-05-02-der-storage-flexible-demand-microgrids-td-planning.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-der-storage-flexible-demand-microgrids-td-planning.pdf
+  integrity:
+    bytes: 294394
+    sha256: 0f9ef9f3ead870d566234f0ba71b989c5d4ee25b3dedbfeb2e2786777ee00aa7
+    sha512: b3b0a1aa92d12535a7907baf0733aaf2f49704c4a6f71e48275db8c64359571a772db61daff00c0381ce9b13aa9fa51937c4862e4e04923f039fd3523cb55f4e
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd018
+  publication_key: public_good_dossiers.distributed_pv_visibility_distribution_grid_orchestration
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Distributed PV Visibility and Distribution-Grid Orchestration
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/distributed-pv-visibility-distribution-grid-orchestration/
+  short_url: https://prrp.site/pgd018
+  github_path: research-briefings/public-good/2026-05-02-distributed-pv-visibility-distribution-grid-orchestration
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-distributed-pv-visibility-distribution-grid-orchestration.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-distributed-pv-visibility-distribution-grid-orchestration.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-distributed-pv-visibility-distribution-grid-orchestration.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-distributed-pv-visibility-distribution-grid-orchestration/public-good-impact-dossier-2026-05-02-distributed-pv-visibility-distribution-grid-orchestration.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-distributed-pv-visibility-distribution-grid-orchestration.pdf
+  integrity:
+    bytes: 314728
+    sha256: e29271962f785fa9b3b30dfe452233b69d162950936234e3af0b80e0375e3fbe
+    sha512: 9c986ead027f81a15fdd53cf2ac48047304dfd3e1751409de0baacf18faeecd9c34ea33c517af3057657e668df51a809342a23de87ca79f78b67c180551a81d0
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd019
+  publication_key: public_good_dossiers.distribution_networks_leakage_pressure_service_continuity
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Distribution Networks, Leakage, Pressure, and Service Continuity
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/distribution-networks-leakage-pressure-service-continuity/
+  short_url: https://prrp.site/pgd019
+  github_path: research-briefings/public-good/2026-05-02-distribution-networks-leakage-pressure-service-continuity
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-distribution-networks-leakage-pressure-service-continuity.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-distribution-networks-leakage-pressure-service-continuity.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-distribution-networks-leakage-pressure-service-continuity.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-distribution-networks-leakage-pressure-service-continuity/public-good-impact-dossier-2026-05-02-distribution-networks-leakage-pressure-service-continuity.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-distribution-networks-leakage-pressure-service-continuity.pdf
+  integrity:
+    bytes: 290305
+    sha256: 36e141d529b0a201a1339f443a4a850d7c6213aaa703fca72dcc344145601aae
+    sha512: 52f5e155e0a391176245cb563ee52d55ccfad3e5dcfadba4557e753248e989904aa3a42a00e647915896595ee2bf00e95a6b2b1eaa003520b23332751aa6e4b8
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd020
+  publication_key: public_good_dossiers.drinking_water_source_treatment_quality_early_warning
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau-Grade Drinking-Water Source, Treatment, and Quality Early Warning
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/drinking-water-source-treatment-quality-early-warning/
+  short_url: https://prrp.site/pgd020
+  github_path: research-briefings/public-good/2026-05-02-drinking-water-source-treatment-quality-early-warning
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-drinking-water-source-treatment-quality-early-warning.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-drinking-water-source-treatment-quality-early-warning.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-drinking-water-source-treatment-quality-early-warning.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-drinking-water-source-treatment-quality-early-warning/public-good-impact-dossier-2026-05-02-drinking-water-source-treatment-quality-early-warning.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-drinking-water-source-treatment-quality-early-warning.pdf
+  integrity:
+    bytes: 265789
+    sha256: 1094dada9290d37032810ac0f575c22bf433e15b493eeb29ba78dedfbfc8c5e7
+    sha512: cc0c49ff28f29e8b86acad006e9cc010e6eb2e6ec5a9aa9acaa5166493855e1eaaa676e30bb7dfbe1d0e55f1c14618e99e683398aff67c72362c07375aa52187
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd021
+  publication_key: public_good_dossiers.flood_coastal_surge_landslide_resilience
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Flood, Coastal Surge, Flash Flood, and Landslide Resilience
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/flood-coastal-surge-landslide-resilience/
+  short_url: https://prrp.site/pgd021
+  github_path: research-briefings/public-good/2026-05-02-flood-coastal-surge-landslide-resilience
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-flood-coastal-surge-landslide-resilience.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-flood-coastal-surge-landslide-resilience.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-flood-coastal-surge-landslide-resilience.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-flood-coastal-surge-landslide-resilience/public-good-impact-dossier-2026-05-02-flood-coastal-surge-landslide-resilience.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-flood-coastal-surge-landslide-resilience.pdf
+  integrity:
+    bytes: 275012
+    sha256: 863180cee3a3375a3184602f63d2ee24585596630f1c3512cf547ee85dac6e3f
+    sha512: 2425b277d89a2876935b3e5a0ca0035b14076020a0fc58914e42b69078f896a28a7a103cfd88fd3279b408b7dcdc99ad9fd691c35831b75e2ff31952669dc8f6
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd022
+  publication_key: public_good_dossiers.food_safety_livestock_wildlife_community_exposure
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Food Safety, Livestock/Wildlife Interface, and Community Exposure Intelligence
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/food-safety-livestock-wildlife-community-exposure/
+  short_url: https://prrp.site/pgd022
+  github_path: research-briefings/public-good/2026-05-02-food-safety-livestock-wildlife-community-exposure
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-food-safety-livestock-wildlife-community-exposure.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-food-safety-livestock-wildlife-community-exposure.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-food-safety-livestock-wildlife-community-exposure.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-food-safety-livestock-wildlife-community-exposure/public-good-impact-dossier-2026-05-02-food-safety-livestock-wildlife-community-exposure.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-food-safety-livestock-wildlife-community-exposure.pdf
+  integrity:
+    bytes: 299630
+    sha256: 72afae8e3a10bff21bd7e2647256582c55767ea74349cc064ac202ed10b922e2
+    sha512: a7614656f2e531f93c62618c6f99d67dcffca60ea650eaeb256c0907455e2bc6036a9d619b3c0f374f07a786ff4542799d9f07847cf823774bd055a901288a78
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd023
+  publication_key: public_good_dossiers.fusion_digital_twins_plasma_control_heat_exhaust_iter_demo
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Fusion Digital Twins, Plasma Control, Heat Exhaust, and ITER → DEMO → Commercialization
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/fusion-digital-twins-plasma-control-heat-exhaust-iter-demo/
+  short_url: https://prrp.site/pgd023
+  github_path: research-briefings/public-good/2026-05-02-fusion-digital-twins-plasma-control-heat-exhaust-iter-demo
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-fusion-digital-twins-plasma-control-heat-exhaust-iter-demo.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-fusion-digital-twins-plasma-control-heat-exhaust-iter-demo.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-fusion-digital-twins-plasma-control-heat-exhaust-iter-demo.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-fusion-digital-twins-plasma-control-heat-exhaust-iter-demo/public-good-impact-dossier-2026-05-02-fusion-digital-twins-plasma-control-heat-exhaust-iter-demo.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-fusion-digital-twins-plasma-control-heat-exhaust-iter-demo.pdf
+  integrity:
+    bytes: 307596
+    sha256: d18ae201341c7c767ed1488025a67f78482aa6725de9711f46a5e77d3f7a7f03
+    sha512: cf98bc8c31cbe7af57c6f9e2a43d9185ba3e012b514f7edec8534d94841fd04cec801900d2c4e0561842f5fa518dd86440928ddb57f1a504f6f3a92bff8e4214
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd024
+  publication_key: public_good_dossiers.grid_digital_twins_reliability_dispatch_resilience
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau-Grade Grid Digital Twins, Reliability, Dispatch, and Resilience
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/grid-digital-twins-reliability-dispatch-resilience/
+  short_url: https://prrp.site/pgd024
+  github_path: research-briefings/public-good/2026-05-02-grid-digital-twins-reliability-dispatch-resilience
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-grid-digital-twins-reliability-dispatch-resilience.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-grid-digital-twins-reliability-dispatch-resilience.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-grid-digital-twins-reliability-dispatch-resilience.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-grid-digital-twins-reliability-dispatch-resilience/public-good-impact-dossier-2026-05-02-grid-digital-twins-reliability-dispatch-resilience.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-grid-digital-twins-reliability-dispatch-resilience.pdf
+  integrity:
+    bytes: 255163
+    sha256: e04d88c714f53a4a82d190dde70b10ecba65866b5d7fa8f5b67f0f212cc5266f
+    sha512: b4c6e2c0e901d534a450d280d8125e48482d30ac4d2bd2d8de8c3a9e99549dae86ab36cb51d000dbba3dcd1b47dc32d4a60fb840bcbc24a543d6877431a34430
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd025
+  publication_key: public_good_dossiers.industrial_transport_agricultural_emissions_attribution_compliance_abatement
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Industrial, Transport, and Agricultural Emissions Attribution, Compliance, and High-Return Abatement Targeting
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/industrial-transport-agricultural-emissions-attribution-compliance-abatement/
+  short_url: https://prrp.site/pgd025
+  github_path: research-briefings/public-good/2026-05-02-industrial-transport-agricultural-emissions-attribution-compliance-abatement
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-industrial-transport-agricultural-emissions-attribution-compliance-abatement.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-industrial-transport-agricultural-emissions-attribution-compliance-abatement.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-industrial-transport-agricultural-emissions-attribution-compliance-abatement.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-industrial-transport-agricultural-emissions-attribution-compliance-abatement/public-good-impact-dossier-2026-05-02-industrial-transport-agricultural-emissions-attribution-compliance-abatement.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-industrial-transport-agricultural-emissions-attribution-compliance-abatement.pdf
+  integrity:
+    bytes: 276092
+    sha256: 1f3cd1c836c70c4fb82a6c9c76c4bd0e4a5f8254d7780fd10bf8dc9da3c345db
+    sha512: b71ff25405db9dab693c371c3b6ebe89921f3bae890dd500f6719db3b0f4dc91bd8b2df889c2348f795ea85c7f145807cd874e96481e3f150501915f51b6dcfa
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd026
+  publication_key: public_good_dossiers.integrated_energy_system_planning_market_design_investment_coordination
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Integrated Energy-System Planning, Market Design, Investment Prioritization, and International Coordination
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/integrated-energy-system-planning-market-design-investment-coordination/
+  short_url: https://prrp.site/pgd026
+  github_path: research-briefings/public-good/2026-05-02-integrated-energy-system-planning-market-design-investment-coordination
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-integrated-energy-system-planning-market-design-investment-coordination.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-integrated-energy-system-planning-market-design-investment-coordination.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-integrated-energy-system-planning-market-design-investment-coordination.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-integrated-energy-system-planning-market-design-investment-coordination/public-good-impact-dossier-2026-05-02-integrated-energy-system-planning-market-design-investment-coordination.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-integrated-energy-system-planning-market-design-investment-coordination.pdf
+  integrity:
+    bytes: 316749
+    sha256: 2d4907369d2d88188f818f0b1d7ba912bbdd6cbfff0b2b54ec28e9e16b2bb479
+    sha512: 0a37db840508c9b34047d0ed7df252538372a06a3c48c7bbf2d02eb995c9f38f7603b8f2948e1fb97c75242a348f5168df2bf387ebfad29da418f5a491c1b31b
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd027
+  publication_key: public_good_dossiers.new_aerial_logistics_aam_airships_humanitarian_remote
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ and New Aerial Logistics
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/new-aerial-logistics-aam-airships-humanitarian-remote/
+  short_url: https://prrp.site/pgd027
+  github_path: research-briefings/public-good/2026-05-02-new-aerial-logistics-aam-airships-humanitarian-remote
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-new-aerial-logistics-aam-airships-humanitarian-remote.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-new-aerial-logistics-aam-airships-humanitarian-remote.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-new-aerial-logistics-aam-airships-humanitarian-remote.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-new-aerial-logistics-aam-airships-humanitarian-remote/public-good-impact-dossier-2026-05-02-new-aerial-logistics-aam-airships-humanitarian-remote.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-new-aerial-logistics-aam-airships-humanitarian-remote.pdf
+  integrity:
+    bytes: 288392
+    sha256: 39a8f74b7d78be87ad3b90793ba888d3968be842b9de4f25c97594169abab4e5
+    sha512: 4732ab5f737123d5a48820103b1a08938d0daa822c97c8bfd553f764eb07db987a407b9f5c53b285e73c38784f76275ec14b72b136af0cd53f32a59d4a1a1712
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd028
+  publication_key: public_good_dossiers.ocean_logistics_maritime_routing_port_flow_green_corridors
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ and the Ocean Logistics Opportunity
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/ocean-logistics-maritime-routing-port-flow-green-corridors/
+  short_url: https://prrp.site/pgd028
+  github_path: research-briefings/public-good/2026-05-02-ocean-logistics-maritime-routing-port-flow-green-corridors
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-ocean-logistics-maritime-routing-port-flow-green-corridors.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-ocean-logistics-maritime-routing-port-flow-green-corridors.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-ocean-logistics-maritime-routing-port-flow-green-corridors.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-ocean-logistics-maritime-routing-port-flow-green-corridors/public-good-impact-dossier-2026-05-02-ocean-logistics-maritime-routing-port-flow-green-corridors.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-ocean-logistics-maritime-routing-port-flow-green-corridors.pdf
+  integrity:
+    bytes: 288491
+    sha256: 9ecdcebb02e3df9e491c6b8670ad68b3a507862e963c3f8dfe330c105a253740
+    sha512: acb667f03a8f2d10ef30f273da2a0359ca4247f858c7cf672a7bf4a298396bfba20a2301f6fca2aa55b62c17391c54a268ed00c06c58084f95d9bd3d0bc2f0ec
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd029
+  publication_key: public_good_dossiers.ocean_stewardship_cleanup_marine_emergency_response
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ and Ocean Stewardship, Cleanup, and Marine Emergency Response
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/ocean-stewardship-cleanup-marine-emergency-response/
+  short_url: https://prrp.site/pgd029
+  github_path: research-briefings/public-good/2026-05-02-ocean-stewardship-cleanup-marine-emergency-response
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-ocean-stewardship-cleanup-marine-emergency-response.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-ocean-stewardship-cleanup-marine-emergency-response.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-ocean-stewardship-cleanup-marine-emergency-response.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-ocean-stewardship-cleanup-marine-emergency-response/public-good-impact-dossier-2026-05-02-ocean-stewardship-cleanup-marine-emergency-response.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-ocean-stewardship-cleanup-marine-emergency-response.pdf
+  integrity:
+    bytes: 291661
+    sha256: 188028ff682c004c9937006ae8dec554c6814e55f310221ca0031338c6cfdcec
+    sha512: 992d349fab50065e0f5735a0fc413b29d60f7dbd79b9287d3ae73b1a6684eddab6e444a2cec8129d3ca515f720806a73f9c9e3329a91d81b96488a69a21a969b
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd030
+  publication_key: public_good_dossiers.oceans_cryosphere_tipping_long_range_resilience
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Oceans, Cryosphere, Tipping Elements, and Long-Range Resilience
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/oceans-cryosphere-tipping-long-range-resilience/
+  short_url: https://prrp.site/pgd030
+  github_path: research-briefings/public-good/2026-05-02-oceans-cryosphere-tipping-long-range-resilience
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-oceans-cryosphere-tipping-long-range-resilience.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-oceans-cryosphere-tipping-long-range-resilience.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-oceans-cryosphere-tipping-long-range-resilience.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-oceans-cryosphere-tipping-long-range-resilience/public-good-impact-dossier-2026-05-02-oceans-cryosphere-tipping-long-range-resilience.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-oceans-cryosphere-tipping-long-range-resilience.pdf
+  integrity:
+    bytes: 296849
+    sha256: 3720b1c7d878c3cafe8d456991508acd8c7abb7bd00b7b5206afc7250e6ccab6
+    sha512: c6d94af3bd44d603709c758d3777ea3f04fc916c6875729d6b0181d6b616fcd7aeb93cba868184ada3a6c29175423f0a5cefd022e1c28d02adb0911b4bec9958
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd031
+  publication_key: public_good_dossiers.one_health_vector_zoonotic_spillover_climate_outbreaks
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau-Grade One Health Early Warning for Vector-Borne Disease, Zoonotic Spillover, and Climate-Sensitive Outbreaks
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/one-health-vector-zoonotic-spillover-climate-outbreaks/
+  short_url: https://prrp.site/pgd031
+  github_path: research-briefings/public-good/2026-05-02-one-health-vector-zoonotic-spillover-climate-outbreaks
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-one-health-vector-zoonotic-spillover-climate-outbreaks.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-one-health-vector-zoonotic-spillover-climate-outbreaks.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-one-health-vector-zoonotic-spillover-climate-outbreaks.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-one-health-vector-zoonotic-spillover-climate-outbreaks/public-good-impact-dossier-2026-05-02-one-health-vector-zoonotic-spillover-climate-outbreaks.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-one-health-vector-zoonotic-spillover-climate-outbreaks.pdf
+  integrity:
+    bytes: 282128
+    sha256: e00d1cb3956910e94872857fdfdf070bb3394e4e7be033afe879336295344e24
+    sha512: dcc8c50700877854f8f70c0f89084bfc95f9b9fe8dffe03f88ed9989ce1394121145ba78c4b4c3b5811df572cbc26d6363859509ba2a7d1e318245f3131e73fd
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd032
+  publication_key: public_good_dossiers.operational_agro_weather_intelligence
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau-Grade Operational Agro-Weather Intelligence
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/operational-agro-weather-intelligence/
+  short_url: https://prrp.site/pgd032
+  github_path: research-briefings/public-good/2026-05-02-operational-agro-weather-intelligence
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-operational-agro-weather-intelligence.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-operational-agro-weather-intelligence.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-operational-agro-weather-intelligence.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-operational-agro-weather-intelligence/public-good-impact-dossier-2026-05-02-operational-agro-weather-intelligence.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-operational-agro-weather-intelligence.pdf
+  integrity:
+    bytes: 301479
+    sha256: ae37da179578e64bd195bba47d5b1fbcd9afa4961d6942c7204ebb75495bdcb6
+    sha512: 6157a0586fa3ce63255bfc4c424788d400562e53aa220dc3c6f436ceaac84afd8a2e3f8977ba9433265e97ea08b5b6870aa5c749e3bd968b4c54b490b5048d62
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd033
+  publication_key: public_good_dossiers.pest_disease_livestock_stress_early_warning
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Pest, Disease, and Livestock-Stress Early Warning
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/pest-disease-livestock-stress-early-warning/
+  short_url: https://prrp.site/pgd033
+  github_path: research-briefings/public-good/2026-05-02-pest-disease-livestock-stress-early-warning
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-pest-disease-livestock-stress-early-warning.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-pest-disease-livestock-stress-early-warning.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-pest-disease-livestock-stress-early-warning.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-pest-disease-livestock-stress-early-warning/public-good-impact-dossier-2026-05-02-pest-disease-livestock-stress-early-warning.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-pest-disease-livestock-stress-early-warning.pdf
+  integrity:
+    bytes: 254799
+    sha256: cd9febd126f5e93a850b24348ca6a1fcd06818c3d9cb80f794412c6911ca7a2f
+    sha512: 78a8826f81986fe663370fed2d4446f0494d1488b4bd11e2139c94cd79416d5f0744dc377e12427534715b0f413baab9d117f0bcd1bdc33cb4c5568a3358bd67
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd034
+  publication_key: public_good_dossiers.precision_public_health_physiology_prevention_safer_therapeutics
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Precision Public Health, Physiology-Aware Prevention, and Safer Therapeutics / Response Optimization
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/precision-public-health-physiology-prevention-safer-therapeutics/
+  short_url: https://prrp.site/pgd034
+  github_path: research-briefings/public-good/2026-05-02-precision-public-health-physiology-prevention-safer-therapeutics
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-precision-public-health-physiology-prevention-safer-therapeutics.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-precision-public-health-physiology-prevention-safer-therapeutics.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-precision-public-health-physiology-prevention-safer-therapeutics.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-precision-public-health-physiology-prevention-safer-therapeutics/public-good-impact-dossier-2026-05-02-precision-public-health-physiology-prevention-safer-therapeutics.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-precision-public-health-physiology-prevention-safer-therapeutics.pdf
+  integrity:
+    bytes: 297676
+    sha256: ef3d9990ec90fc382783330c7beca813a5328607940a8c8a832cae574dafc0cf
+    sha512: 604624f0b20e906bb628079a68f12b4dda429a8cfb24e96703d9e1d55c923f00fec06107fb7e28e5768ca9661b867d5a26361d48a255fc12e7711d2213625f5f
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd035
+  publication_key: public_good_dossiers.pv_asset_protection_storm_hardening_long_term_planning
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for PV Asset Protection, Storm-Hardening, and Long-Term System Planning
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/pv-asset-protection-storm-hardening-long-term-planning/
+  short_url: https://prrp.site/pgd035
+  github_path: research-briefings/public-good/2026-05-02-pv-asset-protection-storm-hardening-long-term-planning
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-pv-asset-protection-storm-hardening-long-term-planning.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-pv-asset-protection-storm-hardening-long-term-planning.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-pv-asset-protection-storm-hardening-long-term-planning.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-pv-asset-protection-storm-hardening-long-term-planning/public-good-impact-dossier-2026-05-02-pv-asset-protection-storm-hardening-long-term-planning.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-pv-asset-protection-storm-hardening-long-term-planning.pdf
+  integrity:
+    bytes: 265666
+    sha256: 0a1f3b57532c9c0f3401219c8f1f77b58a6c2209432be9d387b55066c4f2315c
+    sha512: b89750b5aa0d324d149c46b2b82361f6a52c52638797e34d255ca072a22939d90bece3718c801c5a45e961fea1b122965c9abe1c3ca0f1b5957b15f7ffca500a
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd036
+  publication_key: public_good_dossiers.regional_adaptation_sectoral_impact_intelligence
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Regional Adaptation Planning and Sectoral Impact Intelligence
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/regional-adaptation-sectoral-impact-intelligence/
+  short_url: https://prrp.site/pgd036
+  github_path: research-briefings/public-good/2026-05-02-regional-adaptation-sectoral-impact-intelligence
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-regional-adaptation-sectoral-impact-intelligence.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-regional-adaptation-sectoral-impact-intelligence.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-regional-adaptation-sectoral-impact-intelligence.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-regional-adaptation-sectoral-impact-intelligence/public-good-impact-dossier-2026-05-02-regional-adaptation-sectoral-impact-intelligence.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-regional-adaptation-sectoral-impact-intelligence.pdf
+  integrity:
+    bytes: 273089
+    sha256: 4302d4d7801ce3c0fc7d4d082cdd9abbd050c155abc9087a9ae67d518f2d3a99
+    sha512: 9d104602005720b6928a5e4152007b0a5230d8c76e0243ae764f2b87a54fdbbd650ca2c7c1b939a7122352904a7e5ae0de439fa725f548a55379983c3fea3b1c
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd037
+  publication_key: public_good_dossiers.river_basin_groundwater_drought_flood_allocation_water_productivity
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for River-Basin, Groundwater, Drought-Flood Allocation, and Water Productivity
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/river-basin-groundwater-drought-flood-allocation-water-productivity/
+  short_url: https://prrp.site/pgd037
+  github_path: research-briefings/public-good/2026-05-02-river-basin-groundwater-drought-flood-allocation-water-productivity
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-river-basin-groundwater-drought-flood-allocation-water-productivity.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-river-basin-groundwater-drought-flood-allocation-water-productivity.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-river-basin-groundwater-drought-flood-allocation-water-productivity.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-river-basin-groundwater-drought-flood-allocation-water-productivity/public-good-impact-dossier-2026-05-02-river-basin-groundwater-drought-flood-allocation-water-productivity.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-river-basin-groundwater-drought-flood-allocation-water-productivity.pdf
+  integrity:
+    bytes: 296520
+    sha256: 9cb046f25fc6e183f2a35524aa6c2d59b5b83204e2a367f1b531ebcc3ab00f5d
+    sha512: 835cb935b2374160273c55ba8682689128d48a4740fcd76f5207c49f9748073a1c9d817754ffd677be5c45e98b0ffab7d5ec68b6f93e849091cd396bca452f24
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd038
+  publication_key: public_good_dossiers.seasonal_planning_disaster_anticipation_food_system_resilience
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: Tau for Seasonal Planning, Disaster Anticipation, and Food-System Resilience
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/seasonal-planning-disaster-anticipation-food-system-resilience/
+  short_url: https://prrp.site/pgd038
+  github_path: research-briefings/public-good/2026-05-02-seasonal-planning-disaster-anticipation-food-system-resilience
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-seasonal-planning-disaster-anticipation-food-system-resilience.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-seasonal-planning-disaster-anticipation-food-system-resilience.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-seasonal-planning-disaster-anticipation-food-system-resilience.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-seasonal-planning-disaster-anticipation-food-system-resilience/public-good-impact-dossier-2026-05-02-seasonal-planning-disaster-anticipation-food-system-resilience.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-seasonal-planning-disaster-anticipation-food-system-resilience.pdf
+  integrity:
+    bytes: 265603
+    sha256: f31a686a1a9d1048a3381651a54ba41f210f4154e6435685287f2fec6b4dd70e
+    sha512: 70df23c3f28bb445c76a7cd7ec3add1978d8f2ea367e8e4c9ee10bd773bc5c980619196cafd1f698d3e1437026e6f21bbcb12b86c36d6e38dceac933de97a46b
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd039
+  publication_key: public_good_dossiers.solar_storage_microgrids_critical_infrastructure_resilience
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Solar-Plus-Storage, Microgrids, and Critical-Infrastructure Resilience
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/solar-storage-microgrids-critical-infrastructure-resilience/
+  short_url: https://prrp.site/pgd039
+  github_path: research-briefings/public-good/2026-05-02-solar-storage-microgrids-critical-infrastructure-resilience
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-solar-storage-microgrids-critical-infrastructure-resilience.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-solar-storage-microgrids-critical-infrastructure-resilience.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-solar-storage-microgrids-critical-infrastructure-resilience.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-solar-storage-microgrids-critical-infrastructure-resilience/public-good-impact-dossier-2026-05-02-solar-storage-microgrids-critical-infrastructure-resilience.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-solar-storage-microgrids-critical-infrastructure-resilience.pdf
+  integrity:
+    bytes: 304858
+    sha256: 92c1b7c507acddbc25866e8bab13abbb8dc5b068c02d1557be7281f991ea9c13
+    sha512: f91b5be50ce169d5732a75a3bd7a4f9362930ae29e954fd2fa3f4a3822b0b9a5f42983314795cd1f6434c681904b6cd38e14a0077d64770e1245e7842d8dbc83
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd040
+  publication_key: public_good_dossiers.solar_synchronized_flexible_demand_grid_logistics
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Solar-Synchronized Flexible Demand and Grid Logistics
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/solar-synchronized-flexible-demand-grid-logistics/
+  short_url: https://prrp.site/pgd040
+  github_path: research-briefings/public-good/2026-05-02-solar-synchronized-flexible-demand-grid-logistics
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-solar-synchronized-flexible-demand-grid-logistics.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-solar-synchronized-flexible-demand-grid-logistics.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-solar-synchronized-flexible-demand-grid-logistics.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-solar-synchronized-flexible-demand-grid-logistics/public-good-impact-dossier-2026-05-02-solar-synchronized-flexible-demand-grid-logistics.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-solar-synchronized-flexible-demand-grid-logistics.pdf
+  integrity:
+    bytes: 311513
+    sha256: 234d0b30349c68b1ae0b82195fcd61a6a5c1222d754ec0a4809f7d1830991c4c
+    sha512: e58e6e4c6a0d1abf02d9422ceb55fe261b98bc651825a4ce1eee34219b39a9d6d13d2d71148f2d048913f364f1abc5b51d8cad45287e68af6df72319dc9e1856
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd041
+  publication_key: public_good_dossiers.wash_health_facilities_schools_camps_climate_vulnerable_settlements
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for WASH in Health Facilities, Schools, Camps, and Climate-Vulnerable Settlements
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/wash-health-facilities-schools-camps-climate-vulnerable-settlements/
+  short_url: https://prrp.site/pgd041
+  github_path: research-briefings/public-good/2026-05-02-wash-health-facilities-schools-camps-climate-vulnerable-settlements
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-wash-health-facilities-schools-camps-climate-vulnerable-settlements.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-wash-health-facilities-schools-camps-climate-vulnerable-settlements.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-wash-health-facilities-schools-camps-climate-vulnerable-settlements.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-wash-health-facilities-schools-camps-climate-vulnerable-settlements/public-good-impact-dossier-2026-05-02-wash-health-facilities-schools-camps-climate-vulnerable-settlements.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-wash-health-facilities-schools-camps-climate-vulnerable-settlements.pdf
+  integrity:
+    bytes: 270754
+    sha256: 14a4eeff0daa1af5c0b0582c3bb62a7b02a1003c9711eda86369e4bb9818e122
+    sha512: cf5c369e6a9cbdce415eeabd4a3acd868b79088836b396a4228915a9946d0d389fa01c5dc52b2d0ae07c51e81355d7287f1cfc079f36246c5ed7ba4ab4bc7fe1
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd042
+  publication_key: public_good_dossiers.waste_systems_plastics_leakage_zero_waste
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Waste Systems, Plastics Leakage, Litter Interception, Municipal/Industrial Waste Operations, and Zero-Waste
+    Transitions
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/waste-systems-plastics-leakage-zero-waste/
+  short_url: https://prrp.site/pgd042
+  github_path: research-briefings/public-good/2026-05-02-waste-systems-plastics-leakage-zero-waste
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-waste-systems-plastics-leakage-zero-waste.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-waste-systems-plastics-leakage-zero-waste.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-waste-systems-plastics-leakage-zero-waste.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-waste-systems-plastics-leakage-zero-waste/public-good-impact-dossier-2026-05-02-waste-systems-plastics-leakage-zero-waste.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-waste-systems-plastics-leakage-zero-waste.pdf
+  integrity:
+    bytes: 269917
+    sha256: 4ccc2c3a9886b51a386331e7d49e5a569757c2eabc14ec7af4701e3634c1c5c5
+    sha512: 1388183a69dd3b8b5406f25200a71f59b4e599ce736bd5776afee40f599d4a7309b915bac590390b4b53c388de004935ca45b36e2b4533b67d7496cb55372f01
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd043
+  publication_key: public_good_dossiers.wastewater_stormwater_sanitation_circular_reuse
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Wastewater, Stormwater, Sanitation, and Circular Water Reuse
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/wastewater-stormwater-sanitation-circular-reuse/
+  short_url: https://prrp.site/pgd043
+  github_path: research-briefings/public-good/2026-05-02-wastewater-stormwater-sanitation-circular-reuse
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-wastewater-stormwater-sanitation-circular-reuse.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-wastewater-stormwater-sanitation-circular-reuse.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-wastewater-stormwater-sanitation-circular-reuse.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-wastewater-stormwater-sanitation-circular-reuse/public-good-impact-dossier-2026-05-02-wastewater-stormwater-sanitation-circular-reuse.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-wastewater-stormwater-sanitation-circular-reuse.pdf
+  integrity:
+    bytes: 278520
+    sha256: 63e514843548c9af0dde4022d8cdd600794ab795f39183d4ad2fbd7fa4662c40
+    sha512: e3b97fe71296624333390f1062e99af7295a1446f20dd5853a31455c402d65fa30dde5b31d3789e47aba84f1a1723bd1be7adfd3ba5337e7bb1613fcc1e768eb
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: pgd044
+  publication_key: public_good_dossiers.wildfire_smoke_heat_compound_extreme_health_protection
+  type: public_good_briefing
+  status: released
+  artifact_availability: local_pdf
+  title: τ for Wildfire, Smoke, Heat, and Compound-Extreme Health Protection
+  release_date: '2026-05-02'
+  canonical_url: https://panta-rhei.site/publications/research-briefings/public-good/wildfire-smoke-heat-compound-extreme-health-protection/
+  short_url: https://prrp.site/pgd044
+  github_path: research-briefings/public-good/2026-05-02-wildfire-smoke-heat-compound-extreme-health-protection
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness,
+      product performance, or independent domain acceptance.
+    non_claim: does not claim validation, policy adoption, deployment readiness, product performance, or independent domain
+      acceptance.
+  files:
+    pdf_filename: public-good-impact-dossier-2026-05-02-wildfire-smoke-heat-compound-extreme-health-protection.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-wildfire-smoke-heat-compound-extreme-health-protection.pdf
+    pdf_path_site: assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-wildfire-smoke-heat-compound-extreme-health-protection.pdf
+    pdf_path_publications_repo: research-briefings/public-good/2026-05-02-wildfire-smoke-heat-compound-extreme-health-protection/public-good-impact-dossier-2026-05-02-wildfire-smoke-heat-compound-extreme-health-protection.pdf
+    source_website_asset_path: site/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-wildfire-smoke-heat-compound-extreme-health-protection.pdf
+  integrity:
+    bytes: 288836
+    sha256: 1cc3dfe6b3e64f08b732b51f6c85beb16f550d70a490c7497c44cd6ad3441711
+    sha512: 11ace74728d76c1b6a251a563f5bd0c9da64a2c8e97c962376b209d0f06e37a7b5c3a0d4645574ee2c34caea6b2afa31ee174f843c7ac4ede75e7304bec410ae
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rm001
+  publication_key: research_monographs.book_i
+  type: research_monograph
+  status: released
+  artifact_availability: external_link
+  title: 'Book I: Categorical Foundations'
+  release_date: '2026-04-30'
+  canonical_url: https://panta-rhei.site/publications/books/book-i/
+  short_url: https://prrp.site/rm001
+  github_path: research-monographs/book-i
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Research monograph retail artifact. This repository records metadata and external availability links only; it does
+      not redistribute the paid manuscript PDF or replace Amazon KDP publication terms.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: ''
+    pdf_url: ''
+    pdf_path_site: ''
+    pdf_path_publications_repo: ''
+    source_website_asset_path: ''
+  integrity:
+    bytes: 0
+    sha256: ''
+    sha512: ''
+    ots_status: not_applicable
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rm002
+  publication_key: research_monographs.book_ii
+  type: research_monograph
+  status: released
+  artifact_availability: external_link
+  title: 'Book II: Categorical Holomorphy'
+  release_date: '2026-04-30'
+  canonical_url: https://panta-rhei.site/publications/books/book-ii/
+  short_url: https://prrp.site/rm002
+  github_path: research-monographs/book-ii
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Research monograph retail artifact. This repository records metadata and external availability links only; it does
+      not redistribute the paid manuscript PDF or replace Amazon KDP publication terms.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: ''
+    pdf_url: ''
+    pdf_path_site: ''
+    pdf_path_publications_repo: ''
+    source_website_asset_path: ''
+  integrity:
+    bytes: 0
+    sha256: ''
+    sha512: ''
+    ots_status: not_applicable
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rm003
+  publication_key: research_monographs.book_iii
+  type: research_monograph
+  status: released
+  artifact_availability: external_link
+  title: 'Book III: Categorical Spectrum'
+  release_date: '2026-04-30'
+  canonical_url: https://panta-rhei.site/publications/books/book-iii/
+  short_url: https://prrp.site/rm003
+  github_path: research-monographs/book-iii
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Research monograph retail artifact. This repository records metadata and external availability links only; it does
+      not redistribute the paid manuscript PDF or replace Amazon KDP publication terms.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: ''
+    pdf_url: ''
+    pdf_path_site: ''
+    pdf_path_publications_repo: ''
+    source_website_asset_path: ''
+  integrity:
+    bytes: 0
+    sha256: ''
+    sha512: ''
+    ots_status: not_applicable
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rm004
+  publication_key: research_monographs.book_iv
+  type: research_monograph
+  status: released
+  artifact_availability: external_link
+  title: 'Book IV: Categorical Microcosm'
+  release_date: '2026-04-30'
+  canonical_url: https://panta-rhei.site/publications/books/book-iv/
+  short_url: https://prrp.site/rm004
+  github_path: research-monographs/book-iv
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Research monograph retail artifact. This repository records metadata and external availability links only; it does
+      not redistribute the paid manuscript PDF or replace Amazon KDP publication terms.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: ''
+    pdf_url: ''
+    pdf_path_site: ''
+    pdf_path_publications_repo: ''
+    source_website_asset_path: ''
+  integrity:
+    bytes: 0
+    sha256: ''
+    sha512: ''
+    ots_status: not_applicable
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rm005
+  publication_key: research_monographs.book_v
+  type: research_monograph
+  status: released
+  artifact_availability: external_link
+  title: 'Book V: Categorical Macrocosm'
+  release_date: '2026-04-30'
+  canonical_url: https://panta-rhei.site/publications/books/book-v/
+  short_url: https://prrp.site/rm005
+  github_path: research-monographs/book-v
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Research monograph retail artifact. This repository records metadata and external availability links only; it does
+      not redistribute the paid manuscript PDF or replace Amazon KDP publication terms.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: ''
+    pdf_url: ''
+    pdf_path_site: ''
+    pdf_path_publications_repo: ''
+    source_website_asset_path: ''
+  integrity:
+    bytes: 0
+    sha256: ''
+    sha512: ''
+    ots_status: not_applicable
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rm006
+  publication_key: research_monographs.book_vi
+  type: research_monograph
+  status: released
+  artifact_availability: external_link
+  title: 'Book VI: Categorical Life'
+  release_date: '2026-04-30'
+  canonical_url: https://panta-rhei.site/publications/books/book-vi/
+  short_url: https://prrp.site/rm006
+  github_path: research-monographs/book-vi
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Research monograph retail artifact. This repository records metadata and external availability links only; it does
+      not redistribute the paid manuscript PDF or replace Amazon KDP publication terms.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: ''
+    pdf_url: ''
+    pdf_path_site: ''
+    pdf_path_publications_repo: ''
+    source_website_asset_path: ''
+  integrity:
+    bytes: 0
+    sha256: ''
+    sha512: ''
+    ots_status: not_applicable
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rm007
+  publication_key: research_monographs.book_vii
+  type: research_monograph
+  status: released
+  artifact_availability: external_link
+  title: 'Book VII: Categorical Metaphysics'
+  release_date: '2026-04-30'
+  canonical_url: https://panta-rhei.site/publications/books/book-vii/
+  short_url: https://prrp.site/rm007
+  github_path: research-monographs/book-vii
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: Research monograph retail artifact. This repository records metadata and external availability links only; it does
+      not redistribute the paid manuscript PDF or replace Amazon KDP publication terms.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: ''
+    pdf_url: ''
+    pdf_path_site: ''
+    pdf_path_publications_repo: ''
+    source_website_asset_path: ''
+  integrity:
+    bytes: 0
+    sha256: ''
+    sha512: ''
+    ots_status: not_applicable
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rn001
+  publication_key: research_notes.semantic_space_has_a_shape
+  type: research_note
+  status: released
+  artifact_availability: local_pdf
+  title: Semantic Space Has a Shape
+  release_date: '2026-04-27'
+  canonical_url: https://panta-rhei.site/publications/research-notes/semantic-space-has-a-shape/
+  short_url: https://prrp.site/rn001
+  github_path: research-notes/2026-04-27-semantic-space-has-a-shape
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: 'Core claim: Semantic-space regularities in the anchor paper give a serious calibration surface for Book VII''s
+      claim that public language is a structured readout of subsymbolic pattern organization.
+
+
+      Does not claim:
+
+      - It does not claim that Guo et al. prove Category τ.
+
+      - It does not claim that word embeddings are meaning itself.
+
+      - It does not claim that all languages share one flattened semantic carrier.
+
+      - It does not claim that the Panta Rhei framework already predicts the fitted exponents or the directed-preferential-placement
+      model.
+
+
+      Falsification surface:
+
+      - Failure of the reported semantic-space regularities under independent reproduction or stronger multilingual/contextual
+      embedding tests.
+
+      - Failure of future tau-facing language models to reproduce the qualitative regularity package without hand-tuning.
+
+      - Semantic or formal failure of the Book VII readout-functor interpretation under external review.'
+    non_claim: 'Does not claim:
+
+      - It does not claim that Guo et al. prove Category τ.
+
+      - It does not claim that word embeddings are meaning itself.
+
+      - It does not claim that all languages share one flattened semantic carrier.
+
+      - It does not claim that the Panta Rhei framework already predicts the fitted exponents or the directed-preferential-placement
+      model.
+
+
+      Falsification surface:
+
+      - Failure of the reported semantic-space regularities under independent reproduction or stronger multilingual/contextual
+      embedding tests.
+
+      - Failure of future tau-facing language models to reproduce the qualitative regularity package without hand-tuning.
+
+      - Semantic or formal failure of the Book VII readout-functor interpretation under external review.'
+  files:
+    pdf_filename: research-note-2026-04-27-semantic-space-has-a-shape.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-04-27-semantic-space-has-a-shape.pdf
+    pdf_path_site: assets/pdfs/research-notes/research-note-2026-04-27-semantic-space-has-a-shape.pdf
+    pdf_path_publications_repo: research-notes/2026-04-27-semantic-space-has-a-shape/research-note-2026-04-27-semantic-space-has-a-shape.pdf
+    source_website_asset_path: site/assets/pdfs/research-notes/research-note-2026-04-27-semantic-space-has-a-shape.pdf
+  integrity:
+    bytes: 170829
+    sha256: 8736d82087bb0775576c3bd1668829ba18bbdd7be4030146f632920ed306795b
+    sha512: 5b4f194f7420b3fe7ad91c01c111f5f5c43c0f1c06d7b64cbc580ee554b89f5cee5428518438375e59fb9a5e5f97ec50497d26b7a61fe9622e5e684d71dc4758
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rn002
+  publication_key: research_notes.structural_prior_dynamic_ciss
+  type: research_note
+  status: released
+  artifact_availability: local_pdf
+  title: A Structural Prior for Dynamic Chirality-Induced Spin Selectivity
+  release_date: '2026-04-25'
+  canonical_url: https://panta-rhei.site/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/
+  short_url: https://prrp.site/rn002
+  github_path: research-notes/2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: 'Core claim: Book VI''s Parity Bridge gives a structural prior for a non-thermal, parity-odd channel between weak-sector
+      chirality and biological handedness; the Paltiel et al. operator is a candidate realization of that channel.
+
+
+      Does not claim:
+
+      - It does not claim that Panta Rhei predicted the exact vibronic operator or transport asymmetries.
+
+      - It does not establish that the Paltiel et al. mechanism is empirically final.
+
+      - It does not replace independent chemical, biophysical, or experimental validation.
+
+
+      Falsification surface:
+
+      - Failure of the proposed operator to preserve the required parity/sign structure.
+
+      - Experimental refutation of the CISS mechanism as the relevant amplification channel.
+
+      - Failure of the Book VI Parity Bridge interpretation under formal or semantic review.'
+    non_claim: 'Does not claim:
+
+      - It does not claim that Panta Rhei predicted the exact vibronic operator or transport asymmetries.
+
+      - It does not establish that the Paltiel et al. mechanism is empirically final.
+
+      - It does not replace independent chemical, biophysical, or experimental validation.
+
+
+      Falsification surface:
+
+      - Failure of the proposed operator to preserve the required parity/sign structure.
+
+      - Experimental refutation of the CISS mechanism as the relevant amplification channel.
+
+      - Failure of the Book VI Parity Bridge interpretation under formal or semantic review.'
+  files:
+    pdf_filename: research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf
+    pdf_path_site: assets/pdfs/research-notes/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf
+    pdf_path_publications_repo: research-notes/2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf
+    source_website_asset_path: site/assets/pdfs/research-notes/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf
+  integrity:
+    bytes: 175080
+    sha256: 9f75324f1f3240d35f3f97d22edda69071c1922fd45f970ab620feda1452ae34
+    sha512: daa69c2cd6500e9ea1bfb9a67fd3ca8bd30c28919a4d8f184d34867d416dffa57fc32e30e254fa31bc10c2153ac25b8f72cf03a4d5f17e04fbdfa22926d9c5aa
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rn003
+  publication_key: research_notes.inflationary_observables_without_inflaton
+  type: research_note
+  status: released
+  artifact_availability: local_pdf
+  title: Inflationary Observables Without an Inflaton
+  release_date: '2026-04-25'
+  canonical_url: https://panta-rhei.site/publications/research-notes/inflationary-observables-without-an-inflaton/
+  short_url: https://prrp.site/rn003
+  github_path: research-notes/2026-04-25-inflationary-observables-without-an-inflaton
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: 'Core claim: The framework pre-registers inflationary observables from the fibered-product structure rather than
+      from a scalar inflaton potential.
+
+
+      Does not claim:
+
+      - It does not claim that standard inflationary model classes are mathematically inconsistent.
+
+      - It does not claim that CMB and BAO data have externally accepted the categorical interpretation.
+
+      - It does not bypass future CMB B-mode falsification.
+
+
+      Falsification surface:
+
+      - A confirmed tensor-to-scalar ratio outside the stated categorical window.
+
+      - A scalar spectral index measurement incompatible with the structural e-fold count.
+
+      - Failure of the no-inflaton derivation chain or measurement bridge.'
+    non_claim: 'Does not claim:
+
+      - It does not claim that standard inflationary model classes are mathematically inconsistent.
+
+      - It does not claim that CMB and BAO data have externally accepted the categorical interpretation.
+
+      - It does not bypass future CMB B-mode falsification.
+
+
+      Falsification surface:
+
+      - A confirmed tensor-to-scalar ratio outside the stated categorical window.
+
+      - A scalar spectral index measurement incompatible with the structural e-fold count.
+
+      - Failure of the no-inflaton derivation chain or measurement bridge.'
+  files:
+    pdf_filename: research-note-2026-04-25-inflationary-observables-without-an-inflaton.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-04-25-inflationary-observables-without-an-inflaton.pdf
+    pdf_path_site: assets/pdfs/research-notes/research-note-2026-04-25-inflationary-observables-without-an-inflaton.pdf
+    pdf_path_publications_repo: research-notes/2026-04-25-inflationary-observables-without-an-inflaton/research-note-2026-04-25-inflationary-observables-without-an-inflaton.pdf
+    source_website_asset_path: site/assets/pdfs/research-notes/research-note-2026-04-25-inflationary-observables-without-an-inflaton.pdf
+  integrity:
+    bytes: 263090
+    sha256: 511c700da26f1366a9b8df0c869da12e61397c2fdd79bc7c46a50c0152d9f29d
+    sha512: 0d50d9580085ce7de53a7f0c1652af2e6268dc9cfbe3bbded7dd88143279aa3cbbf179cf453517f76ba648009e741eb3ac3c66f7d6e68ce4d70a4ef2fe947fdf
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rn004
+  publication_key: research_notes.dark_matter_mond_category_tau
+  type: research_note
+  status: released
+  artifact_availability: local_pdf
+  title: Dark Matter vs. MOND vs. Category τ
+  release_date: '2026-04-25'
+  canonical_url: https://panta-rhei.site/publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/
+  short_url: https://prrp.site/rn004
+  github_path: research-notes/2026-04-25-dark-matter-without-dark-matter-ksz-force-law
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: 'Core claim: At the cluster-pair scales probed by the anchor result, the categorical framework predicts the inverse-square
+      force-law exponent while still rejecting a particle dark-matter sector.
+
+
+      Does not claim:
+
+      - It does not claim that the full pairwise-kSZ amplitude has already been derived in closed form.
+
+      - It does not claim that standard dark matter has been empirically ruled out.
+
+      - It does not claim that MOND-like galaxy-scale behavior is globally absent.
+
+
+      Falsification surface:
+
+      - A future high-precision pairwise-kSZ force-law exponent inconsistent with the inverse-square value at the stated scale.
+
+      - Failure to produce the promised amplitude-level categorical account.
+
+      - Breakdown of the framework''s sector-exhaustion or capacity-gradient claims.'
+    non_claim: 'Does not claim:
+
+      - It does not claim that the full pairwise-kSZ amplitude has already been derived in closed form.
+
+      - It does not claim that standard dark matter has been empirically ruled out.
+
+      - It does not claim that MOND-like galaxy-scale behavior is globally absent.
+
+
+      Falsification surface:
+
+      - A future high-precision pairwise-kSZ force-law exponent inconsistent with the inverse-square value at the stated scale.
+
+      - Failure to produce the promised amplitude-level categorical account.
+
+      - Breakdown of the framework''s sector-exhaustion or capacity-gradient claims.'
+  files:
+    pdf_filename: research-note-2026-04-25-dark-matter-without-dark-matter-ksz-force-law.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-04-25-dark-matter-without-dark-matter-ksz-force-law.pdf
+    pdf_path_site: assets/pdfs/research-notes/research-note-2026-04-25-dark-matter-without-dark-matter-ksz-force-law.pdf
+    pdf_path_publications_repo: research-notes/2026-04-25-dark-matter-without-dark-matter-ksz-force-law/research-note-2026-04-25-dark-matter-without-dark-matter-ksz-force-law.pdf
+    source_website_asset_path: site/assets/pdfs/research-notes/research-note-2026-04-25-dark-matter-without-dark-matter-ksz-force-law.pdf
+  integrity:
+    bytes: 276665
+    sha256: b450cd1735693dba9ef88bb5bf4cc861bf9c7393152e3e3e2c35dbd357f436f6
+    sha512: 9cc9a280aa77d11abdf148ee9fff1a7ca73081e41e0748572a6646dcc152be4f5587828092d0e170be36a1a31006a88d4f04a95764fdd257b9d27473bf021a0e
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rn005
+  publication_key: research_notes.black_hole_stability_without_extra_dimensions
+  type: research_note
+  status: released
+  artifact_availability: local_pdf
+  title: Black Hole Stability Without Extra Dimensions
+  release_date: '2026-04-25'
+  canonical_url: https://panta-rhei.site/publications/research-notes/black-holes-without-extra-dimensions/
+  short_url: https://prrp.site/rn005
+  github_path: research-notes/2026-04-25-black-holes-without-extra-dimensions
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: 'Core claim: The same family of black-hole stability questions can be addressed inside Category τ without treating
+      extra spatial dimensions or torsion as primitives.
+
+
+      Does not claim:
+
+      - It does not claim the G2 construction is internally inconsistent.
+
+      - It does not claim external acceptance of the categorical black-hole interpretation.
+
+      - It does not remove the need for independent gravitational and mathematical review.
+
+
+      Falsification surface:
+
+      - Failure of the categorical no-shrink and black-hole topology derivation chain.
+
+      - Failure of semantic correspondence between the categorical horizon structure and physical black-hole observables.
+
+      - External evidence requiring extra-dimensional torsion primitives where the framework forbids them.'
+    non_claim: 'Does not claim:
+
+      - It does not claim the G2 construction is internally inconsistent.
+
+      - It does not claim external acceptance of the categorical black-hole interpretation.
+
+      - It does not remove the need for independent gravitational and mathematical review.
+
+
+      Falsification surface:
+
+      - Failure of the categorical no-shrink and black-hole topology derivation chain.
+
+      - Failure of semantic correspondence between the categorical horizon structure and physical black-hole observables.
+
+      - External evidence requiring extra-dimensional torsion primitives where the framework forbids them.'
+  files:
+    pdf_filename: research-note-2026-04-25-black-holes-without-extra-dimensions.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-04-25-black-holes-without-extra-dimensions.pdf
+    pdf_path_site: assets/pdfs/research-notes/research-note-2026-04-25-black-holes-without-extra-dimensions.pdf
+    pdf_path_publications_repo: research-notes/2026-04-25-black-holes-without-extra-dimensions/research-note-2026-04-25-black-holes-without-extra-dimensions.pdf
+    source_website_asset_path: site/assets/pdfs/research-notes/research-note-2026-04-25-black-holes-without-extra-dimensions.pdf
+  integrity:
+    bytes: 172188
+    sha256: c3f6cb2c9d7b53cccf3fe497622fd40ae5534d0d054a1bc53d5855bc0cd6f309
+    sha512: c8c06a14ab820fe9b82d62ac580557d97b6d1a2e2e0941c88059d24d50af0de571913ca263010371554577e0b1f61f209d94aad5939b1c8deb5910d67015d204
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rn006
+  publication_key: research_notes.arithmetic_quantum_gravity_without_singularities
+  type: research_note
+  status: released
+  artifact_availability: local_pdf
+  title: Arithmetic Quantum Gravity Without Singularities
+  release_date: '2026-04-25'
+  canonical_url: https://panta-rhei.site/publications/research-notes/arithmetic-quantum-gravity-without-singularities/
+  short_url: https://prrp.site/rn006
+  github_path: research-notes/2026-04-25-arithmetic-quantum-gravity-without-singularities
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: 'Core claim: If Category τ is granted internally, the arithmetic structures found at the BKL singularity have a
+      categorical counterpart before gravity or singularity assumptions enter.
+
+
+      Does not claim:
+
+      - It does not refute the Hartnoll-Yang construction.
+
+      - It does not claim external peer-reviewed validation of Category τ.
+
+      - It does not collapse automorphic, categorical, and physical regimes into one untyped claim.
+
+
+      Falsification surface:
+
+      - Failure of the Category τ prime-polarity and L-function derivation chain.
+
+      - Failure of semantic correspondence between the categorical structures and the anchor construction.
+
+      - Independent rejection of the framework axioms or bridge assumptions.'
+    non_claim: 'Does not claim:
+
+      - It does not refute the Hartnoll-Yang construction.
+
+      - It does not claim external peer-reviewed validation of Category τ.
+
+      - It does not collapse automorphic, categorical, and physical regimes into one untyped claim.
+
+
+      Falsification surface:
+
+      - Failure of the Category τ prime-polarity and L-function derivation chain.
+
+      - Failure of semantic correspondence between the categorical structures and the anchor construction.
+
+      - Independent rejection of the framework axioms or bridge assumptions.'
+  files:
+    pdf_filename: research-note-2026-04-25-arithmetic-quantum-gravity-without-singularities.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-04-25-arithmetic-quantum-gravity-without-singularities.pdf
+    pdf_path_site: assets/pdfs/research-notes/research-note-2026-04-25-arithmetic-quantum-gravity-without-singularities.pdf
+    pdf_path_publications_repo: research-notes/2026-04-25-arithmetic-quantum-gravity-without-singularities/research-note-2026-04-25-arithmetic-quantum-gravity-without-singularities.pdf
+    source_website_asset_path: site/assets/pdfs/research-notes/research-note-2026-04-25-arithmetic-quantum-gravity-without-singularities.pdf
+  integrity:
+    bytes: 171164
+    sha256: 07fab98d6de53bbcea37329d14592f2e03272ab17fd3ccb42c96064552c6656e
+    sha512: 98143646e4c83244347b36687b42ad990ffe829663fd1d77459852105ec1b8b7a07880604a8b39428d4510e07d825ea44a0066e2fb79d5d7ba8568d4e811b3c5
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rp001
+  publication_key: research_papers.hyperfactorization_theorem
+  type: research_paper
+  status: released
+  artifact_availability: local_pdf
+  title: The Hyperfactorization Theorem
+  release_date: '2026-04-27'
+  canonical_url: https://panta-rhei.site/publications/research-papers/hyperfactorization-theorem/
+  short_url: https://prrp.site/rp001
+  github_path: research-papers/2026-04-27-hyperfactorization-theorem
+  identifiers:
+    doi: 10.5281/zenodo.19818957
+    doi_url: https://doi.org/10.5281/zenodo.19818957
+    zenodo_url: https://doi.org/10.5281/zenodo.19818957
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: The paper is a technical hinge contribution. It does not by itself establish the broader empirical or physical
+      claims of the research program.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: research-paper-2026-04-27-hyperfactorization-theorem.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-papers/research-paper-2026-04-27-hyperfactorization-theorem.pdf
+    pdf_path_site: assets/pdfs/research-papers/research-paper-2026-04-27-hyperfactorization-theorem.pdf
+    pdf_path_publications_repo: research-papers/2026-04-27-hyperfactorization-theorem/research-paper-2026-04-27-hyperfactorization-theorem.pdf
+    source_website_asset_path: site/assets/pdfs/research-papers/research-paper-2026-04-27-hyperfactorization-theorem.pdf
+  integrity:
+    bytes: 162118
+    sha256: 0c38d3a470757d8b897f787b855a3e7aa9e5190d4dfe9a6cf2af4a1ae9fd2bca
+    sha512: 9935f2b0bbc4510a877cf6f34424e42b99028f4a6ace3d8c54951598613f1878b0d9d736033b03d476e214529cbd25649fbdc08877f46df0d1f6502977ba45aa
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rp002
+  publication_key: research_papers.prime_polarity_theorem
+  type: research_paper
+  status: released
+  artifact_availability: local_pdf
+  title: The Prime Polarity Theorem
+  release_date: '2026-04-27'
+  canonical_url: https://panta-rhei.site/publications/research-papers/prime-polarity-theorem/
+  short_url: https://prrp.site/rp002
+  github_path: research-papers/2026-04-27-prime-polarity-theorem
+  identifiers:
+    doi: 10.5281/zenodo.19819869
+    doi_url: https://doi.org/10.5281/zenodo.19819869
+    zenodo_url: https://doi.org/10.5281/zenodo.19819869
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: The paper's arithmetic and framework claims should be separated from later physical or interpretive uses of the
+      polarity structure.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: research-paper-2026-04-27-prime-polarity-theorem.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-papers/research-paper-2026-04-27-prime-polarity-theorem.pdf
+    pdf_path_site: assets/pdfs/research-papers/research-paper-2026-04-27-prime-polarity-theorem.pdf
+    pdf_path_publications_repo: research-papers/2026-04-27-prime-polarity-theorem/research-paper-2026-04-27-prime-polarity-theorem.pdf
+    source_website_asset_path: site/assets/pdfs/research-papers/research-paper-2026-04-27-prime-polarity-theorem.pdf
+  integrity:
+    bytes: 226425
+    sha256: b73b0e03f96d04cf1b01f7db59a18be191ab036dbbf74b5f693e423231f5c3a6
+    sha512: dc32923aa6ebc32dcdb630e17ed237b3a6f3b309503f6608268777a2b6a63f95578dfbe840591ac8f0aefeac8e695def434683651fff2e4c5eccfc5c6f61d3f4
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rp003
+  publication_key: research_papers.master_constant_iota_tau
+  type: research_paper
+  status: released
+  artifact_availability: local_pdf
+  title: The Master Constant iota_tau
+  release_date: '2026-04-27'
+  canonical_url: https://panta-rhei.site/publications/research-papers/master-constant-iota-tau/
+  short_url: https://prrp.site/rp003
+  github_path: research-papers/2026-04-27-master-constant-iota-tau
+  identifiers:
+    doi: 10.5281/zenodo.19820352
+    doi_url: https://doi.org/10.5281/zenodo.19820352
+    zenodo_url: https://doi.org/10.5281/zenodo.19820352
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: The paper presents the framework's structural derivation. Any external calibration claim must be read through the
+      separate verification and measurement surfaces.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: research-paper-2026-04-27-master-constant-iota-tau.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-papers/research-paper-2026-04-27-master-constant-iota-tau.pdf
+    pdf_path_site: assets/pdfs/research-papers/research-paper-2026-04-27-master-constant-iota-tau.pdf
+    pdf_path_publications_repo: research-papers/2026-04-27-master-constant-iota-tau/research-paper-2026-04-27-master-constant-iota-tau.pdf
+    source_website_asset_path: site/assets/pdfs/research-papers/research-paper-2026-04-27-master-constant-iota-tau.pdf
+  integrity:
+    bytes: 353226
+    sha256: 84180344fff592421a3378452986ae11a662df7075ddd9185e91e216fe7c5c64
+    sha512: d2cf128aa310bf2ed690ed119a8b261c9532ac8878bda76b937367f2c66bc6ebd7faa4592662e2c98bc6b78b88eb8bbe6976d8ec48e90b22ed71ff21000e29a5
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rp004
+  publication_key: research_papers.split_complex_boundary_algebra_d
+  type: research_paper
+  status: released
+  artifact_availability: local_pdf
+  title: The Split-Complex Boundary Algebra D
+  release_date: '2026-04-27'
+  canonical_url: https://panta-rhei.site/publications/research-papers/split-complex-boundary-algebra/
+  short_url: https://prrp.site/rp004
+  github_path: research-papers/2026-04-27-split-complex-boundary-algebra
+  identifiers:
+    doi: 10.5281/zenodo.19818743
+    doi_url: https://doi.org/10.5281/zenodo.19818743
+    zenodo_url: https://doi.org/10.5281/zenodo.19818743
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: The paper presents an internal structural construction and its mathematical role in the program. It does not claim
+      independent empirical validation.
+    non_claim: does not claim independent empirical validation.
+  files:
+    pdf_filename: research-paper-2026-04-27-split-complex-boundary-algebra.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-papers/research-paper-2026-04-27-split-complex-boundary-algebra.pdf
+    pdf_path_site: assets/pdfs/research-papers/research-paper-2026-04-27-split-complex-boundary-algebra.pdf
+    pdf_path_publications_repo: research-papers/2026-04-27-split-complex-boundary-algebra/research-paper-2026-04-27-split-complex-boundary-algebra.pdf
+    source_website_asset_path: site/assets/pdfs/research-papers/research-paper-2026-04-27-split-complex-boundary-algebra.pdf
+  integrity:
+    bytes: 299708
+    sha256: 469543e2c5b5270b47d675253a71bfbae3cd61e01bb673efbbec2b5f7ebbd8fc
+    sha512: cb5eaf9b35d75d7835a998d8b968b478290b9f4ceae588a782d548acb42e6810cf1e9c8d3825ef01f7d9045f0688ea5c2722183a95be3e703aec8f78a8889003
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rp005
+  publication_key: research_papers.tau_holomorphy_boundary_algebra
+  type: research_paper
+  status: released
+  artifact_availability: local_pdf
+  title: tau-Holomorphy on the Boundary Algebra
+  release_date: '2026-04-27'
+  canonical_url: https://panta-rhei.site/publications/research-papers/tau-holomorphy-boundary-algebra/
+  short_url: https://prrp.site/rp005
+  github_path: research-papers/2026-04-27-tau-holomorphy-boundary-algebra
+  identifiers:
+    doi: 10.5281/zenodo.19818852
+    doi_url: https://doi.org/10.5281/zenodo.19818852
+    zenodo_url: https://doi.org/10.5281/zenodo.19818852
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: The paper defines and argues for a framework-internal structural bridge. External comparisons should be made through
+      explicit verification or falsification surfaces.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: research-paper-2026-04-27-tau-holomorphy-boundary-algebra.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-papers/research-paper-2026-04-27-tau-holomorphy-boundary-algebra.pdf
+    pdf_path_site: assets/pdfs/research-papers/research-paper-2026-04-27-tau-holomorphy-boundary-algebra.pdf
+    pdf_path_publications_repo: research-papers/2026-04-27-tau-holomorphy-boundary-algebra/research-paper-2026-04-27-tau-holomorphy-boundary-algebra.pdf
+    source_website_asset_path: site/assets/pdfs/research-papers/research-paper-2026-04-27-tau-holomorphy-boundary-algebra.pdf
+  integrity:
+    bytes: 348295
+    sha256: 25a7f50bd3540b7a1fc29955ea247bd69af42c36b8b7a97ee9c2f7cae0292584
+    sha512: 011c7e0b0804cc940de2decbd0078163cc75680e145f1eb34d2327a050a1659f79c4e47de930a68b90a0c39568cf1abe758556f51354608d14c99b4d959f22a6
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rp006
+  publication_key: research_papers.tau_topos_four_valued_internal_logic
+  type: research_paper
+  status: released
+  artifact_availability: local_pdf
+  title: The tau-Topos and Its Four-Valued Internal Logic
+  release_date: '2026-04-27'
+  canonical_url: https://panta-rhei.site/publications/research-papers/tau-topos-four-valued-internal-logic/
+  short_url: https://prrp.site/rp006
+  github_path: research-papers/2026-04-27-tau-topos-four-valued-internal-logic
+  identifiers:
+    doi: 10.5281/zenodo.19820194
+    doi_url: https://doi.org/10.5281/zenodo.19820194
+    zenodo_url: https://doi.org/10.5281/zenodo.19820194
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: The paper gives a framework-internal logical architecture. Comparisons to established topoi, paraconsistent logics,
+      and semantic theories require the explicit distinctions stated in the paper.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: research-paper-2026-04-27-tau-topos-four-valued-internal-logic.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-papers/research-paper-2026-04-27-tau-topos-four-valued-internal-logic.pdf
+    pdf_path_site: assets/pdfs/research-papers/research-paper-2026-04-27-tau-topos-four-valued-internal-logic.pdf
+    pdf_path_publications_repo: research-papers/2026-04-27-tau-topos-four-valued-internal-logic/research-paper-2026-04-27-tau-topos-four-valued-internal-logic.pdf
+    source_website_asset_path: site/assets/pdfs/research-papers/research-paper-2026-04-27-tau-topos-four-valued-internal-logic.pdf
+  integrity:
+    bytes: 542455
+    sha256: 353577439dcf3e245291ee4fcc68ea4274b40b9b1972917336f48d734a9cd737
+    sha512: 6e8ad712d14aba5cc337535820e0e8469ff47ab711446450bacec4db00673a1dc57a2bfce47f5a141118eb85c925cecd842b9b1d5ef9c633c445793f14be8bb7
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rp007
+  publication_key: research_papers.address_resolution_not_calculation
+  type: research_paper
+  status: released
+  artifact_availability: local_pdf
+  title: Address Resolution, Not Calculation
+  release_date: '2026-04-27'
+  canonical_url: https://panta-rhei.site/publications/research-papers/address-resolution-not-calculation/
+  short_url: https://prrp.site/rp007
+  github_path: research-papers/2026-04-27-address-resolution-not-calculation
+  identifiers:
+    doi: 10.5281/zenodo.19818628
+    doi_url: https://doi.org/10.5281/zenodo.19818628
+    zenodo_url: https://doi.org/10.5281/zenodo.19818628
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: The paper states a framework-internal mathematical architecture. It should not be read as an external empirical
+      confirmation of the framework.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: research-paper-2026-04-27-address-resolution-not-calculation.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-papers/research-paper-2026-04-27-address-resolution-not-calculation.pdf
+    pdf_path_site: assets/pdfs/research-papers/research-paper-2026-04-27-address-resolution-not-calculation.pdf
+    pdf_path_publications_repo: research-papers/2026-04-27-address-resolution-not-calculation/research-paper-2026-04-27-address-resolution-not-calculation.pdf
+    source_website_asset_path: site/assets/pdfs/research-papers/research-paper-2026-04-27-address-resolution-not-calculation.pdf
+  integrity:
+    bytes: 512572
+    sha256: f95f617711404aecaaa6135f0010c35d168abb4d624edbcbada5387728f85c68
+    sha512: 34338e5e3ceae467c7e3a432b117a5d6cef76a7266ff5afd3488aba6b3f59c5372e2fcae7143acd8998756159549a3ce496b11f314863c3f2c85a001e63776fc
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rp008
+  publication_key: research_papers.tau_kernel_foundational_architecture
+  type: research_paper
+  status: released
+  artifact_availability: local_pdf
+  title: The tau-Kernel as Foundational Architecture
+  release_date: '2026-04-27'
+  canonical_url: https://panta-rhei.site/publications/research-papers/tau-kernel-foundational-architecture/
+  short_url: https://prrp.site/rp008
+  github_path: research-papers/2026-04-27-tau-kernel-foundational-architecture
+  identifiers:
+    doi: 10.5281/zenodo.19820600
+    doi_url: https://doi.org/10.5281/zenodo.19820600
+    zenodo_url: https://doi.org/10.5281/zenodo.19820600
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: The paper is an entry and integration paper for the hinge sequence. Its role is structural orientation plus technical
+      synthesis.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: research-paper-2026-04-27-tau-kernel-foundational-architecture.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-papers/research-paper-2026-04-27-tau-kernel-foundational-architecture.pdf
+    pdf_path_site: assets/pdfs/research-papers/research-paper-2026-04-27-tau-kernel-foundational-architecture.pdf
+    pdf_path_publications_repo: research-papers/2026-04-27-tau-kernel-foundational-architecture/research-paper-2026-04-27-tau-kernel-foundational-architecture.pdf
+    source_website_asset_path: site/assets/pdfs/research-papers/research-paper-2026-04-27-tau-kernel-foundational-architecture.pdf
+  integrity:
+    bytes: 472503
+    sha256: 7d144cbc8d6244ded9d6881abf92049c5a5481f852b31b2653ba6d281bdedcda
+    sha512: 2afcd5e2e6720a213be25700db0a129e5b50a11213b8e2a5ca6704fddabde99ef329e692961da6cbd29dc2edc1e976f44c988d9952c2b6a21a8e38c3448931ad
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rp009
+  publication_key: research_papers.panta_rhei_foundational_bundle
+  type: research_paper
+  status: released
+  artifact_availability: local_pdf
+  title: The Panta Rhei Foundational Bundle
+  release_date: '2026-04-27'
+  canonical_url: https://panta-rhei.site/publications/research-papers/panta-rhei-foundational-bundle/
+  short_url: https://prrp.site/rp009
+  github_path: research-papers/2026-04-27-panta-rhei-foundational-bundle
+  identifiers:
+    doi: 10.5281/zenodo.19820855
+    doi_url: https://doi.org/10.5281/zenodo.19820855
+    zenodo_url: https://doi.org/10.5281/zenodo.19820855
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: This is a companion orientation memo, not itself a new primary theorem paper.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: research-paper-2026-04-27-panta-rhei-foundational-bundle.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-papers/research-paper-2026-04-27-panta-rhei-foundational-bundle.pdf
+    pdf_path_site: assets/pdfs/research-papers/research-paper-2026-04-27-panta-rhei-foundational-bundle.pdf
+    pdf_path_publications_repo: research-papers/2026-04-27-panta-rhei-foundational-bundle/research-paper-2026-04-27-panta-rhei-foundational-bundle.pdf
+    source_website_asset_path: site/assets/pdfs/research-papers/research-paper-2026-04-27-panta-rhei-foundational-bundle.pdf
+  integrity:
+    bytes: 104089
+    sha256: da885f49afeac57e17629e5b94fe1a61b6fbe7fe3146a33ac0fb7c6e75466627
+    sha512: 6daac20a37b096b86c6c65bb6b04a5d0e4bc43de5b8cd3b8fea95b4a27016bd3690dd55d5abd6015ba39a558f499198f51bdc775bfa857c5081d8e287cf3f7bd
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: so001
+  publication_key: synoptic_overviews.panta_rhei_conspectus
+  type: synoptic_overview
+  status: released
+  artifact_availability: local_pdf
+  title: The Panta Rhei Conspectus
+  release_date: '2026-04-21'
+  canonical_url: https://panta-rhei.site/publications/conspectus/
+  short_url: https://prrp.site/so001
+  github_path: synoptic-overviews/so001-panta-rhei-conspectus
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: 'Every quantitative statement in the Conspectus carries one of four scope labels:
+
+
+      - **Established** — classical, independently confirmed
+
+      - **τ-effective** — derived inside the programme on the calibration cascade
+
+      - **Conjectural** — structural claim, not yet fully derived
+
+      - **Metaphorical** — philosophical or analogical, not formally a theorem
+
+
+      See the [Verify lane]({{ ''/verify/'' | relative_url }}) for the full scope-label discipline.'
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: panta-rhei-conspectus.pdf
+    pdf_url: https://panta-rhei.site/assets/downloads/panta-rhei-conspectus.pdf
+    pdf_path_site: assets/downloads/panta-rhei-conspectus.pdf
+    pdf_path_publications_repo: synoptic-overviews/so001-panta-rhei-conspectus/panta-rhei-conspectus.pdf
+    source_website_asset_path: site/assets/downloads/panta-rhei-conspectus.pdf
+  integrity:
+    bytes: 310275
+    sha256: 37023dda39e72aab716a0398466e635b349263bd4a6710009ff8c5b24f5e6b76
+    sha512: fdb6d21155b850b5adcb731840c8d10ce2d6cabf91f535ec14f9e84a675bded0c1a12f4a13be48f886891dea8bd44f1d8b829b94eb3da3f09df16706a231414c
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: wp001
+  publication_key: white_papers.taulib_self_contained_lean4_library
+  type: white_paper
+  status: released
+  artifact_availability: local_pdf
+  title: 'TauLib: A Self-Contained Lean 4 Library for Category τ'
+  release_date: '2026-05-01'
+  canonical_url: https://panta-rhei.site/publications/white-papers/taulib/
+  short_url: https://prrp.site/wp001
+  github_path: white-papers/2026-05-01-taulib-self-contained-lean-4-library
+  identifiers:
+    doi: 10.5281/zenodo.19976503
+    doi_url: https://doi.org/10.5281/zenodo.19976503
+    zenodo_url: https://doi.org/10.5281/zenodo.19976503
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: '- Version: **v2.0 (full rewrite)** · May 2026
+
+      - Publication date: 2026-05-01
+
+      - DOI: [10.5281/zenodo.19976503](https://doi.org/10.5281/zenodo.19976503)
+
+      - Pinned TauLib commit: [`72aa2b6c`](https://github.com/Panta-Rhei-Research/taulib/tree/72aa2b6c7d6be28511f9649d3120773179b19038)
+
+      - Whitepaper git tag: [`whitepaper-taulib-v2.0`](https://github.com/Panta-Rhei-Research/papers/tree/whitepaper-taulib-v2.0)
+
+      - Claims-map auditor: **39 / 39 checks passed** at the pinned commit
+
+      - Red-team review verdict: 6 / 7 simulated Lean 4 expert reviewers qualified-yes; 1 / 7 qualified-no contingent on substantive
+      findings (all addressed in published v2.0)
+
+      - Cryptographic integrity: SHA-256 `7bb96caa…1a7`, SHA-512 `8816b614…e00`; full hashes in the publications-repo manifest'
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/white-papers/white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf
+    pdf_path_site: assets/pdfs/white-papers/white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf
+    pdf_path_publications_repo: white-papers/2026-05-01-taulib-self-contained-lean-4-library/white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf
+    source_website_asset_path: site/assets/pdfs/white-papers/white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf
+  integrity:
+    bytes: 215062
+    sha256: 7bb96caa4b4da6c4f94178608ce0ecc6029ebdd88e0306c4ae7ebc0ce48091a7
+    sha512: 8816b61498f75596897428ba88efa6638aa1caab6e1aaa869482e19a3dc1c10128148b12269c4c1b434e4bba9bdc6c7526e6f8570ec193981138da6fc348ae00
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: wp002
+  publication_key: white_papers.building_public_research_observatory
+  type: white_paper
+  status: released
+  artifact_availability: local_pdf
+  title: Building a Public Research Observatory for High-Scope Open Research
+  release_date: '2026-05-03'
+  canonical_url: https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/
+  short_url: https://prrp.site/wp002
+  github_path: white-papers/2026-05-03-building-a-public-research-observatory
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: White-paper orientation artifact. It routes readers to canonical Corpus, Results, Verify, and Publications surfaces
+      and does not replace those surfaces.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: white-paper-2026-05-03-building-a-public-research-observatory.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/white-papers/white-paper-2026-05-03-building-a-public-research-observatory.pdf
+    pdf_path_site: assets/pdfs/white-papers/white-paper-2026-05-03-building-a-public-research-observatory.pdf
+    pdf_path_publications_repo: white-papers/2026-05-03-building-a-public-research-observatory/white-paper-2026-05-03-building-a-public-research-observatory.pdf
+    source_website_asset_path: site/assets/pdfs/white-papers/white-paper-2026-05-03-building-a-public-research-observatory.pdf
+  integrity:
+    bytes: 92762
+    sha256: ec880b1c45920ccbcc296b918e988aa1c94f72a2e160cddee72949e8fe0417e3
+    sha512: 64e89403f597e0669984d23ad9a621939957e0007be8dceef2f34784486e1dbb4afd1c79e6fca0d9ff090072384741cf31c4c9794d89fe856b7246d98d57b4b6
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: wp003
+  publication_key: white_papers.inspection_architecture_high_scope_open_research
+  type: white_paper
+  status: released
+  artifact_availability: local_pdf
+  title: Inspection Architecture for High-Scope Open Research
+  release_date: '2026-05-03'
+  canonical_url: https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/
+  short_url: https://prrp.site/wp003
+  github_path: white-papers/2026-05-03-inspection-architecture-high-scope-open-research
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: White-paper orientation artifact. It routes readers to canonical Corpus, Results, Verify, and Publications surfaces
+      and does not replace those surfaces.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/white-papers/white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf
+    pdf_path_site: assets/pdfs/white-papers/white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf
+    pdf_path_publications_repo: white-papers/2026-05-03-inspection-architecture-high-scope-open-research/white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf
+    source_website_asset_path: site/assets/pdfs/white-papers/white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf
+  integrity:
+    bytes: 81360
+    sha256: 566f2fb7dd71aa2ca152e67bebfccab1a0bd435af3e577cdc3eb35803431a7df
+    sha512: ac0597716e16c02c570d954e3ed7eccc5409f934939dc56f904d06702b6050c47e51baaccdb4f7a165479568846f413b5e59bb235a8e570ecd21383c80a56a87
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: wp004
+  publication_key: white_papers.shape_of_a_theory_of_reality
+  type: white_paper
+  status: released
+  artifact_availability: local_pdf
+  title: The Shape of a Theory of Reality
+  release_date: '2026-05-03'
+  canonical_url: https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/
+  short_url: https://prrp.site/wp004
+  github_path: white-papers/2026-05-03-the-shape-of-a-theory-of-reality
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: White-paper orientation artifact. It routes readers to canonical Corpus, Results, Verify, and Publications surfaces
+      and does not replace those surfaces.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/white-papers/white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf
+    pdf_path_site: assets/pdfs/white-papers/white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf
+    pdf_path_publications_repo: white-papers/2026-05-03-the-shape-of-a-theory-of-reality/white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf
+    source_website_asset_path: site/assets/pdfs/white-papers/white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf
+  integrity:
+    bytes: 92150
+    sha256: 9fffa234a5244eb0882bc664ae9b2b6fb2611b3721b17828c592628cd2bbdaa6
+    sha512: a136bc935f31e7acab713e9d48e8f16fc8d6061fc6263d1522a5c7dddb8fbe0e368b2d2b4f4f8b704a7d1c9ab8d9d90dce65a7d64c3f290bc481a93f376a9596
+    ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: wp005
+  publication_key: white_papers.panta_rhei_executive_overview
+  type: white_paper
+  status: released
+  artifact_availability: local_pdf
+  title: Panta Rhei Research Program — Executive Overview
+  release_date: '2026-05-04'
+  canonical_url: https://panta-rhei.site/publications/white-papers/executive-overview/
+  short_url: https://prrp.site/wp005
+  github_path: white-papers/2026-05-04-panta-rhei-executive-overview
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: This document is the public-outreach reading route. All quantitative claims continue to carry one of four scope
+      labels — `est`, `tau`, `conj`, `meta` — on the surfaces that own them. The bridge and empirical accountability of the
+      program are exercised there, not here. The site asks to be checked, not simply believed; this overview is the door,
+      not the proof.
+    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
+      or DOI registration.
+  files:
+    pdf_filename: white-paper-2026-05-04-panta-rhei-executive-overview.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/white-papers/white-paper-2026-05-04-panta-rhei-executive-overview.pdf
+    pdf_path_site: assets/pdfs/white-papers/white-paper-2026-05-04-panta-rhei-executive-overview.pdf
+    pdf_path_publications_repo: white-papers/2026-05-04-panta-rhei-executive-overview/white-paper-2026-05-04-panta-rhei-executive-overview.pdf
+    source_website_asset_path: site/assets/pdfs/white-papers/white-paper-2026-05-04-panta-rhei-executive-overview.pdf
+  integrity:
+    bytes: 234716
+    sha256: fed983c314d180be9713020fa9f3be20cf9bb30858521b282d0227f1af5124ce
+    sha512: 38543166428a47f7cd49dd0f7fea0ea8e6c119d793838ab24d80e95262bfb456c99ccf2aa9a9522a74758331cd93b95c0e7fef76a19adc39a47b5afb793be9f0
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true

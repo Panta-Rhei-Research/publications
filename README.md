@@ -37,6 +37,7 @@ Publications is the stable artifact layer connected to:
 - `charter-essays/` - planned orientation essays and released charter artifacts
 - `media-briefs/`, `release-artifacts/`, and `errata/` - scaffolded public categories for later release waves
 - `routes/` - public PRRP route manifest and route report
+- `metadata/corpus/` - generated public-safe Corpus publication metadata projection
 - `templates/`, `schemas/`, and `docs/` - reusable metadata, validation, and repository-doctrine surfaces
 - `catalog/` - generated checksums and machine-readable publication inventory
 
@@ -164,6 +165,8 @@ Generated files can be refreshed with:
 python3 scripts/build_manifests.py
 python3 scripts/verify_publications.py
 python3 scripts/generate_route_report.py
+CORPUS_EXPORTS_DIR=../corpus/exports/public python3 scripts/sync_corpus_metadata.py
+python3 scripts/validate_corpus_metadata_projection.py
 ```
 
 OpenTimestamps receipts are created and upgraded by GitHub Actions on trusted `main` events and manual dispatches.

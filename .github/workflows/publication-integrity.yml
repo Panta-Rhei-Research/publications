@@ -39,5 +39,8 @@ jobs:
       - name: Check publication links
         run: python3 scripts/check_links.py --offline-short-routes
 
+      - name: Validate Corpus metadata projection
+        run: python3 scripts/validate_corpus_metadata_projection.py
+
       - name: Check whitespace
         run: git diff --check

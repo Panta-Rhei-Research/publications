@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -13,7 +14,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE_ROOT = ROOT.parent / "site"
+SITE_ROOT = Path(os.environ.get("PANTA_RHEI_SITE_ROOT", ROOT.parent / "site"))
 PUBLICATION_ROOTS = (
     ROOT / "research-papers",
     ROOT / "research-notes",
@@ -533,13 +534,20 @@ def dynamic_registry_entry(folder_name: str) -> dict[str, Any]:
 
 def public_good_slug_index() -> dict[str, int]:
     data_path = SITE_ROOT / "_data" / "impact" / "public-good-briefings.json"
-    if not data_path.exists():
-        return {}
-    try:
-        data = json.loads(data_path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
-        return {}
-    slugs = sorted(str(item.get("slug", "")) for item in data if item.get("slug"))
+    slugs: list[str] = []
+    if data_path.exists():
+        try:
+            data = json.loads(data_path.read_text(encoding="utf-8"))
+            slugs = sorted(str(item.get("slug", "")) for item in data if item.get("slug"))
+        except json.JSONDecodeError:
+            slugs = []
+    if not slugs:
+        public_good_root = ROOT / "research-briefings" / "public-good"
+        slugs = sorted(
+            child.name.removeprefix("2026-05-02-")
+            for child in public_good_root.iterdir()
+            if child.is_dir() and child.name.startswith("2026-05-02-")
+        ) if public_good_root.exists() else []
     return {slug: index + 1 for index, slug in enumerate(slugs)}
 
 

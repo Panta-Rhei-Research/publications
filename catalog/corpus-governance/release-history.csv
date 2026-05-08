@@ -1,0 +1,3 @@
+release_id,date,title,status,release_type
+corpus-metadata-wave4,2026-05-08,Corpus Metadata Wave 4,released,metadata_baseline
+historical-errata-baseline,2026-04-20,Imported historical errata baseline,released,errata_baseline

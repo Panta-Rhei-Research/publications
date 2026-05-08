@@ -1,0 +1,15 @@
+edition_id,book_slug,edition,edition_status,title,canonical_url,doi
+book-i-first-edition,book-i,first,archived_superseded,Categorical Foundations,/publications/archived/first-edition/book-i/,10.5281/zenodo.18088633
+book-i-second-edition,book-i,second,current_canonical,Categorical Foundations,/publications/books/book-i/,10.5281/zenodo.19544301
+book-ii-first-edition,book-ii,first,archived_superseded,Categorical Holomorphy,/publications/archived/first-edition/book-ii/,10.5281/zenodo.18088678
+book-ii-second-edition,book-ii,second,current_canonical,Categorical Holomorphy,/publications/books/book-ii/,10.5281/zenodo.19552581
+book-iii-first-edition,book-iii,first,archived_superseded,Categorical Spectrum,/publications/archived/first-edition/book-iii/,10.5281/zenodo.18091256
+book-iii-second-edition,book-iii,second,current_canonical,Categorical Spectrum,/publications/books/book-iii/,10.5281/zenodo.19552681
+book-iv-first-edition,book-iv,first,archived_superseded,Categorical Microcosm,/publications/archived/first-edition/book-iv/,10.5281/zenodo.18091302
+book-iv-second-edition,book-iv,second,current_canonical,Categorical Microcosm,/publications/books/book-iv/,10.5281/zenodo.19552679
+book-v-first-edition,book-v,first,archived_superseded,Categorical Macrocosm,/publications/archived/first-edition/book-v/,10.5281/zenodo.18091393
+book-v-second-edition,book-v,second,current_canonical,Categorical Macrocosm,/publications/books/book-v/,10.5281/zenodo.19553410
+book-vi-first-edition,book-vi,first,archived_superseded,Categorical Life,/publications/archived/first-edition/book-vi/,10.5281/zenodo.18088382
+book-vi-second-edition,book-vi,second,current_canonical,Categorical Life,/publications/books/book-vi/,10.5281/zenodo.19553667
+book-vii-first-edition,book-vii,first,archived_superseded,Categorical Metaphysics,/publications/archived/first-edition/book-vii/,10.5281/zenodo.18088551
+book-vii-second-edition,book-vii,second,current_canonical,Categorical Metaphysics,/publications/books/book-vii/,10.5281/zenodo.19553963

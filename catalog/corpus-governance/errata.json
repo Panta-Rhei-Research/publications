@@ -1,0 +1,84 @@
+{
+  "generated_from": "corpus/data/governance/errata.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/governance and corpus/data/assets",
+  "do_not_edit": true,
+  "errata": [
+    {
+      "erratum_id": "ERRATUM-001",
+      "title": "Book I, Chapter 27; Definition I.D19a; Theorem I.T05",
+      "issued": "2026-04-20",
+      "status": "active",
+      "severity": "High",
+      "change_class": "C7",
+      "entry_type": "monograph_erratum",
+      "affected": "Book I, Chapter 27; Definition I.D19a; Theorem I.T05",
+      "book_slug": "book-i",
+      "registry_ids": [
+        "I.D19a",
+        "I.T05"
+      ],
+      "summary": "Corrects the published prime-polarity definition. The original growth-comparison clauses do not partition the primes; the corrected classifier uses the Legendre symbol (2/p), aligning Book I with the Book III bipolar classifier.",
+      "correction": "Replace Definition I.D19a and the proof of I.T05 with the Legendre-symbol polarity definition and the corresponding partition theorem. Treat the former growth-rate discussion as heuristic motivation, not as the theorem's classifier.",
+      "source_surface": "site/_data/publications/errata.yml",
+      "canonical_url": "/publications/errata/",
+      "public_visibility": "public"
+    },
+    {
+      "erratum_id": "ERRATUM-002",
+      "title": "Book III, Chapter 18; Definition III.D23; Theorem III.T13",
+      "issued": "2026-04-20",
+      "status": "active",
+      "severity": "Medium",
+      "change_class": "C7",
+      "entry_type": "monograph_erratum",
+      "affected": "Book III, Chapter 18; Definition III.D23; Theorem III.T13",
+      "book_slug": "book-iii",
+      "registry_ids": [
+        "III.D23",
+        "III.T13"
+      ],
+      "summary": "Corrects the Jacobi-symbol convention used in the internal bipolar classifier derivation. Under the classical Jacobi convention, zero factors do not reduce to a single Legendre factor.",
+      "correction": "Introduce an explicit spectral Legendre convention for the CRT-local readout. The classifier and label-convergence conclusion remain unchanged; the derivation is reformulated.",
+      "source_surface": "site/_data/publications/errata.yml",
+      "canonical_url": "/publications/errata/",
+      "public_visibility": "public"
+    },
+    {
+      "erratum_id": "ERRATUM-003",
+      "title": "Book I, Chapter 24; Theorem I.T04",
+      "issued": "2026-04-20",
+      "status": "active",
+      "severity": "Medium",
+      "change_class": "C7",
+      "entry_type": "monograph_erratum",
+      "affected": "Book I, Chapter 24; Theorem I.T04",
+      "book_slug": "book-i",
+      "registry_ids": [
+        "I.T04"
+      ],
+      "summary": "Tightens the Hyperfactorization Theorem statement. Conditions (i)-(iii) alone do not uniquely specify the ABCD tuple; maximal tetration height must be part of the admissibility condition.",
+      "correction": "Add the maximality clause already used by the greedy-peel construction and uniqueness proof. The theorem's intended canonical decomposition remains unchanged.",
+      "source_surface": "site/_data/publications/errata.yml",
+      "canonical_url": "/publications/errata/",
+      "public_visibility": "public"
+    },
+    {
+      "erratum_id": "ERRATUM-004",
+      "title": "Panta Rhei Conspectus v1.1 PDF; TauLib trust-budget disclosure",
+      "issued": "2026-04-22",
+      "status": "active",
+      "severity": "Medium",
+      "change_class": "C8",
+      "entry_type": "publication_erratum",
+      "affected": "Panta Rhei Conspectus v1.1 PDF; TauLib trust-budget disclosure",
+      "book_slug": "",
+      "registry_ids": [],
+      "summary": "Corrects the Conspectus PDF's pre-refactor TauLib trust-budget language. The downloadable v1.1 PDF still describes the interim peer-review state; the pinned public TauLib release has since landed the refactor.",
+      "correction": "Read the current trust budget as 3 custom axioms and 0 sorry at the pinned TauLib release, with the former Book VII methodological markers represented as inspectable Commitment definitions. The Release Manifest is authoritative for current machine-checkable counts.",
+      "source_surface": "site/_data/publications/errata.yml",
+      "canonical_url": "/publications/errata/",
+      "public_visibility": "public"
+    }
+  ]
+}

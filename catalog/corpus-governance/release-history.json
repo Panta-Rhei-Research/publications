@@ -1,0 +1,42 @@
+{
+  "generated_from": "corpus/data/governance/release-history.yml",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/governance and corpus/data/assets",
+  "do_not_edit": true,
+  "releases": [
+    {
+      "release_id": "corpus-metadata-wave4",
+      "date": "2026-05-08",
+      "title": "Corpus Metadata Wave 4",
+      "status": "released",
+      "release_type": "metadata_baseline",
+      "summary": "Public-safe governance, release-history, edition-history, errata, and asset metadata projection baseline.",
+      "does_not_claim": [
+        "Peer review",
+        "External acceptance",
+        "New mathematical correction beyond imported existing errata"
+      ],
+      "public_surfaces": [
+        "/corpus/changelog/",
+        "/publications/errata/",
+        "/corpus/versioning/"
+      ]
+    },
+    {
+      "release_id": "historical-errata-baseline",
+      "date": "2026-04-20",
+      "title": "Imported historical errata baseline",
+      "status": "released",
+      "release_type": "errata_baseline",
+      "summary": "Imported existing public errata into the Corpus governance projection without changing their text or status.",
+      "does_not_claim": [
+        "New errata",
+        "PDF regeneration",
+        "Artifact replacement"
+      ],
+      "public_surfaces": [
+        "/publications/errata/"
+      ]
+    }
+  ]
+}

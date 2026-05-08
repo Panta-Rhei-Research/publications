@@ -30,15 +30,15 @@ EXPECTED_RELEASED_COUNTS = {
     "research_note": 6,
     "public_good_briefing": 44,
     "charter_essay": 1,
-    "white_paper": 3,
+    "white_paper": 4,
     "research_monograph": 7,
     "monograph_supplement": 2,
     "synoptic_overview": 1,
     "guided_tour": 7,
 }
 EXPECTED_SUPERSEDED_COUNTS = {"public_good_briefing": 1, "white_paper": 5}
-EXPECTED_PLANNED_COUNTS = {"charter_essay": 1, "white_paper": 2}
-EXPECTED_PDF_COUNT = 79
+EXPECTED_PLANNED_COUNTS = {"charter_essay": 1, "white_paper": 1}
+EXPECTED_PDF_COUNT = 80
 EXPECTED_EXTERNAL_COUNT = 7
 
 

@@ -141,6 +141,7 @@ These are not generic short links. They are typed canonical observatory routes. 
 | `rp008` | Research Paper | Technical | Released | The tau-Kernel as Foundational Architecture | 2026-04-27 | [Website](https://panta-rhei.site/publications/research-papers/tau-kernel-foundational-architecture/) | `prrp.site/rp008` |
 | `rp009` | Research Paper | Orientation | Released | The Panta Rhei Foundational Bundle | 2026-04-27 | [Website](https://panta-rhei.site/publications/research-papers/panta-rhei-foundational-bundle/) | `prrp.site/rp009` |
 | `so001` | Synoptic Overview | Orientation | Released | The Panta Rhei Conspectus | 2026-04-21 | [Website](https://panta-rhei.site/publications/conspectus/) | `prrp.site/so001` |
+| `wp001` | White Paper | Orientation | Released | Panta Rhei Research Program Executive Overview | 2026-05-08 | [Website](https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/) | [prrp.site/wp001](https://prrp.site/wp001) |
 <!-- END GENERATED PUBLICATIONS TABLE -->
 
 ## Editorial standard

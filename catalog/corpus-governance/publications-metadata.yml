@@ -3073,15 +3073,15 @@ publications:
   projection_version: v0.1
   canonical_source: corpus/data
   do_not_edit: true
-- publication_id: wp001
-  publication_key: white_papers.taulib_self_contained_lean4_library
+- publication_id: lwp001
+  publication_key: legacy_white_papers.taulib_self_contained_lean4_library
   type: white_paper
   status: released
   artifact_availability: local_pdf
   title: 'TauLib: A Self-Contained Lean 4 Library for Category τ'
   release_date: '2026-05-01'
   canonical_url: https://panta-rhei.site/publications/white-papers/taulib/
-  short_url: https://prrp.site/wp001
+  short_url: ''
   github_path: white-papers/2026-05-01-taulib-self-contained-lean-4-library
   identifiers:
     doi: 10.5281/zenodo.19976503

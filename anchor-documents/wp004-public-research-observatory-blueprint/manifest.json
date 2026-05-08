@@ -1,56 +1,101 @@
 {
-  "artifact_availability": "planned",
+  "artifact_availability": "local_pdf",
   "checksums": {
-    "sha256": "",
-    "sha512": ""
+    "sha256": "bc82d22f42ced33204616be37ab297a9492e4a1f260edbc955ee1dfb749ce743",
+    "sha512": "829439e14ec9019c92893ee7727296c495118bb5efc845df7b9cd1b585769fda8dcb4a481c624c26b5faaecd67b66ff02472a6bb16ec89c78a376cfed7e5feb5"
   },
   "file": {
-    "bytes": 0,
-    "path": "",
-    "sha256": "",
-    "sha512": "",
-    "source_website_asset_path": ""
+    "bytes": 467615,
+    "path": "wp004-public-research-observatory-blueprint.pdf",
+    "sha256": "bc82d22f42ced33204616be37ab297a9492e4a1f260edbc955ee1dfb749ce743",
+    "sha512": "829439e14ec9019c92893ee7727296c495118bb5efc845df7b9cd1b585769fda8dcb4a481c624c26b5faaecd67b66ff02472a6bb16ec89c78a376cfed7e5feb5",
+    "source_website_asset_path": "site/assets/pdfs/anchor-documents/wp004-public-research-observatory-blueprint.pdf"
   },
-  "generated_at": "2026-05-08T12:28:01+00:00",
+  "generated_at": "2026-05-08T17:24:30+00:00",
   "id": "wp004-public-research-observatory-blueprint",
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {
     "receipt_path": "",
-    "status": "not_applicable",
-    "verification": "no-pdf-planned-item"
+    "status": "missing",
+    "verification": "not-stamped"
   },
   "publication": {
-    "abstract": "Planned anchor white paper merging the public research observatory and\ninspection-architecture narratives into one reusable architecture blueprint.",
-    "artifact_availability": "planned",
+    "abstract": "Canonical v1.0 anchor white paper for the public research observatory pattern.\nWP004 merges the inspection-architecture and observatory-building narratives\ninto one reusable blueprint for making high-scope open research inspectable\nbefore belief, using Panta Rhei as the live case study.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/",
     "claim_boundary": {
-      "claim": "This planned record reserves the canonical `wp004` route. It does not claim\nexternal audit, certification, peer review, deployment readiness, product\navailability, policy adoption, or achieved impact.",
-      "non_claim": "does not claim\nexternal audit, certification, peer review, deployment readiness, product\navailability, policy adoption, or achieved impact."
+      "claim": "This released record publishes the canonical `wp004` route and PDF artifact.\nIt does not validate T Theory, certify scientific claims, imply peer-review\ncompletion, establish external acceptance, claim deployment readiness, assert\nproduct availability, claim policy adoption, or assert achieved impact.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
-    "date": "planned",
+    "date": "2026-05-08",
     "doi": "",
     "doi_url": "",
-    "external_links": [],
+    "external_links": [
+      {
+        "label": "Mnemonic short route",
+        "url": "https://prrp.site/wp-observatory"
+      },
+      {
+        "label": "Program lane",
+        "url": "https://panta-rhei.site/program/"
+      },
+      {
+        "label": "Research Agenda",
+        "url": "https://panta-rhei.site/agenda/"
+      },
+      {
+        "label": "Corpus lane",
+        "url": "https://panta-rhei.site/corpus/"
+      },
+      {
+        "label": "Results lane",
+        "url": "https://panta-rhei.site/results/"
+      },
+      {
+        "label": "Verify lane",
+        "url": "https://panta-rhei.site/verify/"
+      },
+      {
+        "label": "Impact lane",
+        "url": "https://panta-rhei.site/impact/"
+      },
+      {
+        "label": "Engage lane",
+        "url": "https://panta-rhei.site/engage/"
+      }
+    ],
     "github_path": "anchor-documents/wp004-public-research-observatory-blueprint",
     "license": "CC-BY-4.0",
-    "pdf_filename": "",
+    "pdf_filename": "wp004-public-research-observatory-blueprint.pdf",
     "publication_type": "White Paper",
     "related_lanes": [
       "publications",
-      "engage",
-      "verify"
+      "program",
+      "agenda",
+      "corpus",
+      "results",
+      "verify",
+      "impact",
+      "engage"
     ],
     "related_routes": [
-      "/publications/anchor-documents/wp004-public-research-observatory-blueprint/"
+      "/publications/anchor-documents/wp004-public-research-observatory-blueprint/",
+      "/program/",
+      "/agenda/",
+      "/corpus/",
+      "/results/",
+      "/verify/",
+      "/impact/",
+      "/engage/"
     ],
-    "route_status": "reserved",
+    "route_status": "active",
     "short_url": "https://prrp.site/wp004",
-    "source_website_page": "",
-    "status": "planned",
+    "source_website_page": "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/",
+    "status": "released",
     "subtitle": "",
     "title": "Public Research Observatory Blueprint",
-    "version": "planned canonical v1.0",
+    "version": "canonical v1.0",
     "website_url": "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/",
     "zenodo_url": ""
   },
@@ -58,6 +103,6 @@
   "publication_key": "anchor_documents.public_research_observatory_blueprint",
   "publication_role": "governance",
   "schema": "panta-rhei-publication-manifest-v2",
-  "status": "planned",
+  "status": "released",
   "type": "white_paper"
 }

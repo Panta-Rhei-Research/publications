@@ -16,7 +16,7 @@ surfaces.
 | `wp001` | Panta Rhei Research Program Executive Overview | Canonical v1.0 | `/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/` |
 | `wp002` | T Theory Executive Synopsis | Canonical v1.0 | `/publications/anchor-documents/wp002-t-theory-executive-synopsis/` |
 | `wp003` | TauLib Technical Overview | Canonical v1.0 | `/publications/anchor-documents/wp003-taulib-technical-overview/` |
-| `wp004` | Public Research Observatory Blueprint | Planned canonical v1.0 | `/publications/anchor-documents/wp004-public-research-observatory-blueprint/` |
+| `wp004` | Public Research Observatory Blueprint | Canonical v1.0 | `/publications/anchor-documents/wp004-public-research-observatory-blueprint/` |
 | `wp005` | Global Public Good Impact Overview | Planned canonical v1.0 | `/publications/anchor-documents/wp005-global-public-good-impact-overview/` |
 
 ## Claim Boundary

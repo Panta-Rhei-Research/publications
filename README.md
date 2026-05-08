@@ -145,6 +145,7 @@ These are not generic short links. They are typed canonical observatory routes. 
 | `wp002` | White Paper | Orientation | Released | T Theory Executive Synopsis | 2026-05-08 | [Website](https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/) | [prrp.site/wp002](https://prrp.site/wp002) |
 | `wp003` | White Paper | Technical | Released | TauLib Technical Overview | 2026-05-08 | [Website](https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/) | [prrp.site/wp003](https://prrp.site/wp003) |
 | `wp004` | White Paper | Governance | Released | Public Research Observatory Blueprint | 2026-05-08 | [Website](https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/) | [prrp.site/wp004](https://prrp.site/wp004) |
+| `wp005` | White Paper | Translation | Released | Global Public Good Impact Overview | 2026-05-08 | [Website](https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/) | [prrp.site/wp005](https://prrp.site/wp005) |
 <!-- END GENERATED PUBLICATIONS TABLE -->
 
 ## Editorial standard

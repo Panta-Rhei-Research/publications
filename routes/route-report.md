@@ -3,8 +3,8 @@
 This report is generated from publication manifests. The PRRP routes listed here are typed observatory identifiers, not generic short links.
 
 - Total routes: 84
-- Active routes: 5
-- Reserved routes: 79
+- Active routes: 6
+- Reserved routes: 78
 
 | Route | Status | Type | Publication | Canonical URL |
 |---|---|---|---|---|
@@ -91,4 +91,4 @@ This report is generated from publication manifests. The PRRP routes listed here
 | `wp002` | active | white_paper | T Theory Executive Synopsis | https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/ |
 | `wp003` | active | white_paper | TauLib Technical Overview | https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/ |
 | `wp004` | active | white_paper | Public Research Observatory Blueprint | https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/ |
-| `wp005` | reserved | white_paper | Global Public Good Impact Overview | https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/ |
+| `wp005` | active | white_paper | Global Public Good Impact Overview | https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/ |

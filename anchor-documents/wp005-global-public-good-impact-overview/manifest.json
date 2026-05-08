@@ -1,56 +1,95 @@
 {
-  "artifact_availability": "planned",
+  "artifact_availability": "local_pdf",
   "checksums": {
-    "sha256": "",
-    "sha512": ""
+    "sha256": "98f3d00c86620e7c8efd418f564f333ffaf93a9628e8aff97c1bae25dd1c1f12",
+    "sha512": "0b0fe267e5b5d64d79e64708398d5b1f50c361ab9f4288cd05c9996b9edf18ff7807f37e3f625e29eabb99e35dcaff6ec8bd3ca140e3adf315751fca68c7437b"
   },
   "file": {
-    "bytes": 0,
-    "path": "",
-    "sha256": "",
-    "sha512": "",
-    "source_website_asset_path": ""
+    "bytes": 240636,
+    "path": "wp005-global-public-good-impact-overview.pdf",
+    "sha256": "98f3d00c86620e7c8efd418f564f333ffaf93a9628e8aff97c1bae25dd1c1f12",
+    "sha512": "0b0fe267e5b5d64d79e64708398d5b1f50c361ab9f4288cd05c9996b9edf18ff7807f37e3f625e29eabb99e35dcaff6ec8bd3ca140e3adf315751fca68c7437b",
+    "source_website_asset_path": "site/assets/pdfs/anchor-documents/wp005-global-public-good-impact-overview.pdf"
   },
-  "generated_at": "2026-05-08T12:28:01+00:00",
+  "generated_at": "2026-05-08T19:47:10+00:00",
   "id": "wp005-global-public-good-impact-overview",
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {
     "receipt_path": "",
-    "status": "not_applicable",
-    "verification": "no-pdf-planned-item"
+    "status": "missing",
+    "verification": "not-stamped"
   },
   "publication": {
-    "abstract": "Planned anchor white paper synthesizing the Impact lane, 11 public-good\nportfolios, and 44 public-good dossiers under strict conditionality.",
-    "artifact_availability": "planned",
+    "abstract": "Canonical v1.0 anchor white paper synthesizing the Impact lane, 11 public-good\nportfolios, and 44 Public-Good Briefings / Impact Dossiers under strict\nconditionality. WP005 explains public-good consequence as a downstream\ntranslation question: Results, Verify, Corpus constructions, domain review,\ngovernance, and uptake must all survive inspection before any impact claim can\nbe made.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/",
     "claim_boundary": {
-      "claim": "This planned record reserves the canonical `wp005` route. It does not claim\ndeployment, product availability, validation, policy adoption, certified impact,\npeer review, or achieved impact.",
-      "non_claim": "does not claim\ndeployment, product availability, validation, policy adoption, certified impact,\npeer review, or achieved impact."
+      "claim": "This released record publishes the canonical `wp005` route and PDF artifact.\nIt maps conditional public-good pathways and inspection routes. It does not\nclaim deployment, product availability, institutional uptake, policy adoption,\ndomain validation, peer-review completion, certified impact, achieved impact,\nor public-good delivery.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
-    "date": "planned",
+    "date": "2026-05-08",
     "doi": "",
     "doi_url": "",
-    "external_links": [],
+    "external_links": [
+      {
+        "label": "Mnemonic short route",
+        "url": "https://prrp.site/wp-impact"
+      },
+      {
+        "label": "Impact lane",
+        "url": "https://panta-rhei.site/impact/"
+      },
+      {
+        "label": "Global Public Good",
+        "url": "https://panta-rhei.site/impact/global-public-good/"
+      },
+      {
+        "label": "Public-Good Briefings",
+        "url": "https://panta-rhei.site/publications/research-briefings/public-good/"
+      },
+      {
+        "label": "Results lane",
+        "url": "https://panta-rhei.site/results/"
+      },
+      {
+        "label": "Verify lane",
+        "url": "https://panta-rhei.site/verify/"
+      },
+      {
+        "label": "Engage lane",
+        "url": "https://panta-rhei.site/engage/"
+      }
+    ],
     "github_path": "anchor-documents/wp005-global-public-good-impact-overview",
     "license": "CC-BY-4.0",
-    "pdf_filename": "",
+    "pdf_filename": "wp005-global-public-good-impact-overview.pdf",
     "publication_type": "White Paper",
     "related_lanes": [
       "publications",
       "impact",
-      "verify"
+      "results",
+      "verify",
+      "corpus",
+      "engage"
     ],
     "related_routes": [
-      "/publications/anchor-documents/wp005-global-public-good-impact-overview/"
+      "/publications/anchor-documents/wp005-global-public-good-impact-overview/",
+      "/impact/",
+      "/impact/global-public-good/",
+      "/publications/research-briefings/public-good/",
+      "/results/",
+      "/verify/",
+      "/corpus/",
+      "/engage/"
     ],
-    "route_status": "reserved",
+    "route_status": "active",
     "short_url": "https://prrp.site/wp005",
-    "source_website_page": "",
-    "status": "planned",
-    "subtitle": "",
+    "source_website_page": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/",
+    "status": "Canonical v1.0",
+    "subtitle": "Conditional pathways from T Theory to planetary systems",
     "title": "Global Public Good Impact Overview",
-    "version": "planned canonical v1.0",
+    "version": "canonical v1.0",
     "website_url": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/",
     "zenodo_url": ""
   },
@@ -58,6 +97,6 @@
   "publication_key": "anchor_documents.global_public_good_impact_overview",
   "publication_role": "translation",
   "schema": "panta-rhei-publication-manifest-v2",
-  "status": "planned",
+  "status": "released",
   "type": "white_paper"
 }

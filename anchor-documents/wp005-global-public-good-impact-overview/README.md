@@ -4,32 +4,60 @@
 
 - Type: White Paper
 - Authors: Thorsten Fuchs and Anna-Sophie Fuchs
-- Date: planned
-- Version: planned canonical v1.0
-- Status: planned
+- Subtitle: Conditional pathways from T Theory to planetary systems
+- Date: 2026-05-08
+- Version: canonical v1.0
+- Status: Canonical v1.0
 - License: CC-BY-4.0
 - DOI: Not assigned
 - Website: https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/
-- Source website page: null
-- Artifact availability: planned
-- PDF: null
+- Source website page: https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/
+- Source website asset path: site/assets/pdfs/anchor-documents/wp005-global-public-good-impact-overview.pdf
+- Artifact availability: local_pdf
+- PDF: wp005-global-public-good-impact-overview.pdf
 
 ## Abstract
 
-Planned anchor white paper synthesizing the Impact lane, 11 public-good
-portfolios, and 44 public-good dossiers under strict conditionality.
+Canonical v1.0 anchor white paper synthesizing the Impact lane, 11 public-good
+portfolios, and 44 Public-Good Briefings / Impact Dossiers under strict
+conditionality. WP005 explains public-good consequence as a downstream
+translation question: Results, Verify, Corpus constructions, domain review,
+governance, and uptake must all survive inspection before any impact claim can
+be made.
 
 ## Claim Boundary
 
-This planned record reserves the canonical `wp005` route. It does not claim
-deployment, product availability, validation, policy adoption, certified impact,
-peer review, or achieved impact.
+This released record publishes the canonical `wp005` route and PDF artifact.
+It maps conditional public-good pathways and inspection routes. It does not
+claim deployment, product availability, institutional uptake, policy adoption,
+domain validation, peer-review completion, certified impact, achieved impact,
+or public-good delivery.
+
+## External Links
+
+- [Mnemonic short route](https://prrp.site/wp-impact)
+- [Impact lane](https://panta-rhei.site/impact/)
+- [Global Public Good](https://panta-rhei.site/impact/global-public-good/)
+- [Public-Good Briefings](https://panta-rhei.site/publications/research-briefings/public-good/)
+- [Results lane](https://panta-rhei.site/results/)
+- [Verify lane](https://panta-rhei.site/verify/)
+- [Engage lane](https://panta-rhei.site/engage/)
 
 ## Verification And Status Notes
 
-Planned canonical v1.0 artifact.
+The PDF is a canonical v1.0 release artifact. Checksums attest to the released
+PDF bytes only; they do not certify correctness, external validation, peer
+review, domain acceptance, policy adoption, DOI registration, or achieved
+impact.
 
 ## Citation Guidance
 
-Do not cite as a released publication until the PDF artifact and canonical
-website landing page are published.
+Thorsten Fuchs and Anna-Sophie Fuchs, *Global Public Good Impact Overview:
+Conditional pathways from T Theory to planetary systems*, Panta Rhei Research
+Program, WP005, canonical v1.0, 2026-05-08.
+
+Canonical route: https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/
+
+Short route: https://prrp.site/wp005
+
+Mnemonic route: https://prrp.site/wp-impact

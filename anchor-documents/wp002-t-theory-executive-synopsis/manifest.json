@@ -1,56 +1,65 @@
 {
-  "artifact_availability": "planned",
+  "artifact_availability": "local_pdf",
   "checksums": {
-    "sha256": "",
-    "sha512": ""
+    "sha256": "dc22657b987459ce259dc720d50f1a7b886597c9ba148bec17e0d204c1802efd",
+    "sha512": "9653735dbc6d526218cef7be51ea01b01594377407ba37339a7ee35b962fbb408b394da50799a15acd818f165080003d3b233e13150985c1f3d7e609c784c548"
   },
   "file": {
-    "bytes": 0,
-    "path": "",
-    "sha256": "",
-    "sha512": "",
-    "source_website_asset_path": ""
+    "bytes": 364419,
+    "path": "wp002-t-theory-executive-synopsis.pdf",
+    "sha256": "dc22657b987459ce259dc720d50f1a7b886597c9ba148bec17e0d204c1802efd",
+    "sha512": "9653735dbc6d526218cef7be51ea01b01594377407ba37339a7ee35b962fbb408b394da50799a15acd818f165080003d3b233e13150985c1f3d7e609c784c548",
+    "source_website_asset_path": "site/assets/pdfs/anchor-documents/wp002-t-theory-executive-synopsis.pdf"
   },
-  "generated_at": "2026-05-08T12:28:01+00:00",
+  "generated_at": "2026-05-08T14:18:28+00:00",
   "id": "wp002-t-theory-executive-synopsis",
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {
     "receipt_path": "",
-    "status": "not_applicable",
-    "verification": "no-pdf-planned-item"
+    "status": "missing",
+    "verification": "not-stamped"
   },
   "publication": {
-    "abstract": "Planned anchor white paper for the T Theory construction spine, organized by\nthe ten construction steps rather than by the seven-book table of contents.",
-    "artifact_availability": "planned",
+    "abstract": "Canonical v1.0 anchor white paper for T Theory, organized by the ten\nConstruction Spine steps grouped as Mathematics, Physics, and Life and\nMetaphysics. WP002 explains what the theory itself says while routing strong\nclaims to Corpus, Registry, TauLib, Results, Verify, and Publications surfaces.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/",
     "claim_boundary": {
-      "claim": "This planned record reserves the canonical `wp002` route. It does not claim\nproof substitution, empirical validation, final-theory status, peer review,\ndeployment readiness, product availability, policy adoption, or achieved impact.",
-      "non_claim": "does not claim\nproof substitution, empirical validation, final-theory status, peer review,\ndeployment readiness, product availability, policy adoption, or achieved impact."
+      "claim": "This released record publishes the canonical `wp002` route and PDF artifact.\nIt does not claim proof substitution, empirical validation, final-theory\nstatus, peer review, deployment readiness, product availability, policy\nadoption, or achieved impact.",
+      "non_claim": "does not claim proof substitution, empirical validation, final-theory\nstatus, peer review, deployment readiness, product availability, policy\nadoption, or achieved impact."
     },
-    "date": "planned",
+    "date": "2026-05-08",
     "doi": "",
     "doi_url": "",
-    "external_links": [],
+    "external_links": [
+      {
+        "label": "Mnemonic short route",
+        "url": "https://prrp.site/wp-theory"
+      }
+    ],
     "github_path": "anchor-documents/wp002-t-theory-executive-synopsis",
     "license": "CC-BY-4.0",
-    "pdf_filename": "",
+    "pdf_filename": "wp002-t-theory-executive-synopsis.pdf",
     "publication_type": "White Paper",
     "related_lanes": [
       "publications",
       "corpus",
+      "results",
       "verify"
     ],
     "related_routes": [
-      "/publications/anchor-documents/wp002-t-theory-executive-synopsis/"
+      "/publications/anchor-documents/wp002-t-theory-executive-synopsis/",
+      "/corpus/construction-spine/",
+      "/results/",
+      "/verify/"
     ],
-    "route_status": "reserved",
+    "route_status": "active",
     "short_url": "https://prrp.site/wp002",
-    "source_website_page": "",
-    "status": "planned",
+    "source_website_page": "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/",
+    "status": "released",
     "subtitle": "",
     "title": "T Theory Executive Synopsis",
-    "version": "planned canonical v1.0",
+    "version": "canonical v1.0",
     "website_url": "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/",
     "zenodo_url": ""
   },
@@ -58,6 +67,6 @@
   "publication_key": "anchor_documents.t_theory_executive_synopsis",
   "publication_role": "orientation",
   "schema": "panta-rhei-publication-manifest-v2",
-  "status": "planned",
+  "status": "released",
   "type": "white_paper"
 }

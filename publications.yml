@@ -1,7 +1,7 @@
 schema: "panta-rhei-publications-catalog-v2"
 publication_count: 89
-released_publication_count: 78
-pdf_publication_count: 77
+released_publication_count: 79
+pdf_publication_count: 78
 generated_at: "2026-05-08T14:18:28+00:00"
 publications:
   -
@@ -1877,6 +1877,30 @@ publications:
     sha512: "d63da80d38d35912fa2f395111ee82ba3bd8189a28fe6d078ecb09895b71c5da8714a73c08f232facc07d1a239c2ccd79eaf0ddb3afce86ffee3bee34f6ff1ca"
     ots_status: "missing"
   -
+    id: "wp002-t-theory-executive-synopsis"
+    publication_id: "wp002"
+    publication_key: "anchor_documents.t_theory_executive_synopsis"
+    publication_type: "White Paper"
+    type: "white_paper"
+    publication_role: "orientation"
+    status: "released"
+    artifact_availability: "local_pdf"
+    title: "T Theory Executive Synopsis"
+    date: "2026-05-08"
+    version: "canonical v1.0"
+    doi: ""
+    doi_url: ""
+    website_url: "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"
+    canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"
+    short_url: "https://prrp.site/wp002"
+    route_status: "active"
+    github_path: "anchor-documents/wp002-t-theory-executive-synopsis"
+    pdf: "wp002-t-theory-executive-synopsis.pdf"
+    bytes: 364419
+    sha256: "dc22657b987459ce259dc720d50f1a7b886597c9ba148bec17e0d204c1802efd"
+    sha512: "9653735dbc6d526218cef7be51ea01b01594377407ba37339a7ee35b962fbb408b394da50799a15acd818f165080003d3b233e13150985c1f3d7e609c784c548"
+    ots_status: "missing"
+  -
     id: "c002-semantic-archaeology-coherent-theory-of-reality"
     publication_id: "c002"
     publication_key: "charter_essays.semantic_archaeology_coherent_theory_of_reality"
@@ -2044,30 +2068,6 @@ publications:
     sha256: "fed983c314d180be9713020fa9f3be20cf9bb30858521b282d0227f1af5124ce"
     sha512: "38543166428a47f7cd49dd0f7fea0ea8e6c119d793838ab24d80e95262bfb456c99ccf2aa9a9522a74758331cd93b95c0e7fef76a19adc39a47b5afb793be9f0"
     ots_status: "missing"
-  -
-    id: "wp002-t-theory-executive-synopsis"
-    publication_id: "wp002"
-    publication_key: "anchor_documents.t_theory_executive_synopsis"
-    publication_type: "White Paper"
-    type: "white_paper"
-    publication_role: "orientation"
-    status: "planned"
-    artifact_availability: "planned"
-    title: "T Theory Executive Synopsis"
-    date: "planned"
-    version: "planned canonical v1.0"
-    doi: ""
-    doi_url: ""
-    website_url: "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"
-    canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"
-    short_url: "https://prrp.site/wp002"
-    route_status: "reserved"
-    github_path: "anchor-documents/wp002-t-theory-executive-synopsis"
-    pdf: ""
-    bytes: 0
-    sha256: ""
-    sha512: ""
-    ots_status: "not_applicable"
   -
     id: "wp003-taulib-technical-overview"
     publication_id: "wp003"

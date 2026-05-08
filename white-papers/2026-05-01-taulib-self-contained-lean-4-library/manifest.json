@@ -44,8 +44,8 @@
     "related_routes": [
       "/publications/white-papers/taulib/"
     ],
-    "route_status": "reserved",
-    "short_url": "https://prrp.site/wp001",
+    "route_status": "not_applicable",
+    "short_url": "",
     "source_website_page": "publications/white-papers/taulib/index.md",
     "status": "Distribution release",
     "subtitle": "",
@@ -54,10 +54,10 @@
     "website_url": "https://panta-rhei.site/publications/white-papers/taulib/",
     "zenodo_url": "https://doi.org/10.5281/zenodo.19976503"
   },
-  "publication_id": "wp001",
-  "publication_key": "white_papers.taulib_self_contained_lean4_library",
+  "publication_id": "lwp001",
+  "publication_key": "legacy_white_papers.taulib_self_contained_lean4_library",
   "publication_role": "technical",
   "schema": "panta-rhei-publication-manifest-v2",
-  "status": "released",
+  "status": "superseded",
   "type": "white_paper"
 }

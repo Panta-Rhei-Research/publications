@@ -44,8 +44,8 @@
     "related_routes": [
       "/publications/white-papers/the-shape-of-a-theory-of-reality/"
     ],
-    "route_status": "reserved",
-    "short_url": "https://prrp.site/wp004",
+    "route_status": "not_applicable",
+    "short_url": "",
     "source_website_page": "publications/white-papers/the-shape-of-a-theory-of-reality/index.md",
     "status": "Draft white paper / conceptual briefing",
     "subtitle": "",
@@ -54,10 +54,10 @@
     "website_url": "https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/",
     "zenodo_url": ""
   },
-  "publication_id": "wp004",
-  "publication_key": "white_papers.shape_of_a_theory_of_reality",
+  "publication_id": "lwp004",
+  "publication_key": "legacy_white_papers.shape_of_a_theory_of_reality",
   "publication_role": "orientation",
   "schema": "panta-rhei-publication-manifest-v2",
-  "status": "released",
+  "status": "superseded",
   "type": "white_paper"
 }

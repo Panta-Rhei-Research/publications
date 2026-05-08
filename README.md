@@ -4,7 +4,7 @@ This repository is the public artifact and release layer of the **Panta Rhei Res
 
 The Panta Rhei Research Program is an independent open research program dedicated to building a coherent theory of reality.
 
-This repository holds release-grade publication records: research monographs, research papers, research notes, briefings, white papers, ledgers, guided tours, synoptic overviews, release artifacts, and errata.
+This repository holds release-grade publication records: anchor documents, research monographs, research papers, research notes, briefings, white papers, ledgers, guided tours, synoptic overviews, release artifacts, and errata.
 
 ## Repository Role
 
@@ -26,10 +26,11 @@ Publications is the stable artifact layer connected to:
 
 ## 📖 What Lives Here
 
+- `anchor-documents/` - the citable offline canon: one charter essay plus five canonical white papers
 - `research-papers/` - standalone public research papers and technical memos
 - `research-notes/` - dated scholarly notes, response notes, pre-registrations, and verification notes
 - `research-briefings/` - public-facing briefings, including Public-Good Briefings
-- `white-papers/` - citable explanatory artifacts, including the inspection architecture, theory-of-reality, public research observatory, TauLib, and executive-overview packages
+- `white-papers/` - pre-canon white-paper records retained as quiet archival/superseded artifacts when replaced by the Anchor Document Canon
 - `monograph-supplements/` - PDF-backed book-style companion artifacts such as the Numerical Physics Ledger and Categorical Genesis
 - `synoptic-overviews/` - short whole-program overview artifacts such as the Panta Rhei Conspectus
 - `guided-tours/` - book-level inspection guides and falsification-entry companions
@@ -63,6 +64,7 @@ These are not generic short links. They are typed canonical observatory routes. 
 <!-- BEGIN GENERATED PUBLICATIONS TABLE -->
 | ID | Type | Role | Status | Title | Date | Canonical | Short |
 |---|---|---|---|---|---|---|---|
+| `c001` | Charter Essay | Orientation | Released | Standing in the Inquiry of Being | 2026-05-08 | [Website](https://panta-rhei.site/program/about/standing-in-the-inquiry-of-being/) | [prrp.site/c001](https://prrp.site/c001) |
 | `gt001` | Guided Tour | Verification | Released | Book I Guided Tour | 2026-04-15 | [Website](https://panta-rhei.site/publications/guided-tours/) | `prrp.site/gt001` |
 | `gt002` | Guided Tour | Verification | Released | Book II Guided Tour | 2026-04-15 | [Website](https://panta-rhei.site/publications/guided-tours/) | `prrp.site/gt002` |
 | `gt003` | Guided Tour | Verification | Released | Book III Guided Tour | 2026-04-15 | [Website](https://panta-rhei.site/publications/guided-tours/) | `prrp.site/gt003` |
@@ -139,11 +141,6 @@ These are not generic short links. They are typed canonical observatory routes. 
 | `rp008` | Research Paper | Technical | Released | The tau-Kernel as Foundational Architecture | 2026-04-27 | [Website](https://panta-rhei.site/publications/research-papers/tau-kernel-foundational-architecture/) | `prrp.site/rp008` |
 | `rp009` | Research Paper | Orientation | Released | The Panta Rhei Foundational Bundle | 2026-04-27 | [Website](https://panta-rhei.site/publications/research-papers/panta-rhei-foundational-bundle/) | `prrp.site/rp009` |
 | `so001` | Synoptic Overview | Orientation | Released | The Panta Rhei Conspectus | 2026-04-21 | [Website](https://panta-rhei.site/publications/conspectus/) | `prrp.site/so001` |
-| `wp001` | White Paper | Technical | Released | TauLib: A Self-Contained Lean 4 Library for Category τ | 2026-05-01 | [Website](https://panta-rhei.site/publications/white-papers/taulib/) | `prrp.site/wp001` |
-| `wp002` | White Paper | Orientation | Released | Building a Public Research Observatory for High-Scope Open Research | 2026-05-03 | [Website](https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/) | `prrp.site/wp002` |
-| `wp003` | White Paper | Orientation | Released | Inspection Architecture for High-Scope Open Research | 2026-05-03 | [Website](https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/) | `prrp.site/wp003` |
-| `wp004` | White Paper | Orientation | Released | The Shape of a Theory of Reality | 2026-05-03 | [Website](https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/) | `prrp.site/wp004` |
-| `wp005` | White Paper | Orientation | Released | Panta Rhei Research Program — Executive Overview | 2026-05-04 | [Website](https://panta-rhei.site/publications/white-papers/executive-overview/) | `prrp.site/wp005` |
 <!-- END GENERATED PUBLICATIONS TABLE -->
 
 ## Editorial standard

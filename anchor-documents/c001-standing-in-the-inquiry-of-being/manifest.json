@@ -1,0 +1,65 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "eaefe68076c3690f7394073558097524f5c98541cd37b9430193037445129201",
+    "sha512": "f557faff9ca182874f6bfd290912b5b045f92699fcf87b0d0b2a70e389af105570f9572e812d224b7612e007a040936019db790ece05085102deee91a6fc0178"
+  },
+  "file": {
+    "bytes": 212246,
+    "path": "c001-standing-in-the-inquiry-of-being.pdf",
+    "sha256": "eaefe68076c3690f7394073558097524f5c98541cd37b9430193037445129201",
+    "sha512": "f557faff9ca182874f6bfd290912b5b045f92699fcf87b0d0b2a70e389af105570f9572e812d224b7612e007a040936019db790ece05085102deee91a6fc0178",
+    "source_website_asset_path": "site/assets/pdfs/anchor-documents/c001-standing-in-the-inquiry-of-being.pdf"
+  },
+  "generated_at": "2026-05-08T12:28:01+00:00",
+  "id": "c001-standing-in-the-inquiry-of-being",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "Canonical orientation essay for the intellectual and philosophical lineage of\nthe Panta Rhei Research Program. It records the inquiry stance behind the\nProgram lane by situating categorical ontology in a chosen lineage from ancient\nformal intelligibility through modern structural thought.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/program/about/standing-in-the-inquiry-of-being/",
+    "claim_boundary": {
+      "claim": "This Charter Essay is an orientation artifact. It does not prove or validate\n`\\tau`-Theory, does not claim final-theory status, and does not turn a\nhistorical lineage into evidence of truth.",
+      "non_claim": "does not claim final-theory status, and does not turn a\nhistorical lineage into evidence of truth."
+    },
+    "date": "2026-05-08",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "anchor-documents/c001-standing-in-the-inquiry-of-being",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "c001-standing-in-the-inquiry-of-being.pdf",
+    "publication_type": "Charter Essay",
+    "related_lanes": [
+      "publications",
+      "program",
+      "engage"
+    ],
+    "related_routes": [
+      "/program/about/standing-in-the-inquiry-of-being/",
+      "/publications/anchor-documents/",
+      "/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/"
+    ],
+    "route_status": "active",
+    "short_url": "https://prrp.site/c001",
+    "source_website_page": "https://panta-rhei.site/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/",
+    "status": "released",
+    "subtitle": "",
+    "title": "Standing in the Inquiry of Being",
+    "version": "canonical v1.0",
+    "website_url": "https://panta-rhei.site/program/about/standing-in-the-inquiry-of-being/",
+    "zenodo_url": ""
+  },
+  "publication_id": "c001",
+  "publication_key": "charter_essays.standing_in_the_inquiry_of_being",
+  "publication_role": "orientation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "charter_essay"
+}

@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "planned",
+  "checksums": {
+    "sha256": "",
+    "sha512": ""
+  },
+  "file": {
+    "bytes": 0,
+    "path": "",
+    "sha256": "",
+    "sha512": "",
+    "source_website_asset_path": ""
+  },
+  "generated_at": "2026-05-08T12:28:01+00:00",
+  "id": "wp003-taulib-technical-overview",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "not_applicable",
+    "verification": "no-pdf-planned-item"
+  },
+  "publication": {
+    "abstract": "Planned anchor white paper for TauLib as the formalization and verification\nsurface connected to the Corpus, generated docs, release manifest, and Verify\nlane.",
+    "artifact_availability": "planned",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/",
+    "claim_boundary": {
+      "claim": "This planned record reserves the canonical `wp003` route. It does not claim\nexternal validation, complete formal coverage, peer review, deployment\nreadiness, product availability, policy adoption, or achieved impact.",
+      "non_claim": "does not claim\nexternal validation, complete formal coverage, peer review, deployment\nreadiness, product availability, policy adoption, or achieved impact."
+    },
+    "date": "planned",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "anchor-documents/wp003-taulib-technical-overview",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "",
+    "publication_type": "White Paper",
+    "related_lanes": [
+      "publications",
+      "corpus",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/anchor-documents/wp003-taulib-technical-overview/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/wp003",
+    "source_website_page": "",
+    "status": "planned",
+    "subtitle": "",
+    "title": "TauLib Technical Overview",
+    "version": "planned canonical v1.0",
+    "website_url": "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/",
+    "zenodo_url": ""
+  },
+  "publication_id": "wp003",
+  "publication_key": "anchor_documents.taulib_technical_overview",
+  "publication_role": "technical",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "planned",
+  "type": "white_paper"
+}

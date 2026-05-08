@@ -44,8 +44,8 @@
     "related_routes": [
       "/publications/white-papers/executive-overview/"
     ],
-    "route_status": "reserved",
-    "short_url": "https://prrp.site/wp005",
+    "route_status": "not_applicable",
+    "short_url": "",
     "source_website_page": "publications/white-papers/executive-overview/index.md",
     "status": "Distribution release",
     "subtitle": "",
@@ -54,10 +54,10 @@
     "website_url": "https://panta-rhei.site/publications/white-papers/executive-overview/",
     "zenodo_url": ""
   },
-  "publication_id": "wp005",
-  "publication_key": "white_papers.panta_rhei_executive_overview",
+  "publication_id": "lwp005",
+  "publication_key": "legacy_white_papers.panta_rhei_executive_overview",
   "publication_role": "orientation",
   "schema": "panta-rhei-publication-manifest-v2",
-  "status": "released",
+  "status": "superseded",
   "type": "white_paper"
 }

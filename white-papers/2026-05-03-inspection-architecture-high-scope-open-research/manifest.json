@@ -44,8 +44,8 @@
     "related_routes": [
       "/publications/white-papers/inspection-architecture-high-scope-open-research/"
     ],
-    "route_status": "reserved",
-    "short_url": "https://prrp.site/wp003",
+    "route_status": "not_applicable",
+    "short_url": "",
     "source_website_page": "publications/white-papers/inspection-architecture-high-scope-open-research/index.md",
     "status": "Draft white paper / technical briefing",
     "subtitle": "",
@@ -54,10 +54,10 @@
     "website_url": "https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/",
     "zenodo_url": ""
   },
-  "publication_id": "wp003",
-  "publication_key": "white_papers.inspection_architecture_high_scope_open_research",
+  "publication_id": "lwp003",
+  "publication_key": "legacy_white_papers.inspection_architecture_high_scope_open_research",
   "publication_role": "orientation",
   "schema": "panta-rhei-publication-manifest-v2",
-  "status": "released",
+  "status": "superseded",
   "type": "white_paper"
 }

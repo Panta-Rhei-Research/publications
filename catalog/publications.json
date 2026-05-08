@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-08T16:19:48+00:00",
-  "pdf_publication_count": 79,
+  "generated_at": "2026-05-08T17:24:30+00:00",
+  "pdf_publication_count": 80,
   "publication_count": 89,
   "publications": [
     {
@@ -2004,6 +2004,31 @@
       "website_url": "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/"
     },
     {
+      "artifact_availability": "local_pdf",
+      "bytes": 467615,
+      "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/",
+      "date": "2026-05-08",
+      "doi": "",
+      "doi_url": "",
+      "github_path": "anchor-documents/wp004-public-research-observatory-blueprint",
+      "id": "wp004-public-research-observatory-blueprint",
+      "ots_status": "missing",
+      "pdf": "wp004-public-research-observatory-blueprint.pdf",
+      "publication_id": "wp004",
+      "publication_key": "anchor_documents.public_research_observatory_blueprint",
+      "publication_role": "governance",
+      "publication_type": "White Paper",
+      "route_status": "active",
+      "sha256": "bc82d22f42ced33204616be37ab297a9492e4a1f260edbc955ee1dfb749ce743",
+      "sha512": "829439e14ec9019c92893ee7727296c495118bb5efc845df7b9cd1b585769fda8dcb4a481c624c26b5faaecd67b66ff02472a6bb16ec89c78a376cfed7e5feb5",
+      "short_url": "https://prrp.site/wp004",
+      "status": "released",
+      "title": "Public Research Observatory Blueprint",
+      "type": "white_paper",
+      "version": "canonical v1.0",
+      "website_url": "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/"
+    },
+    {
       "artifact_availability": "planned",
       "bytes": 0,
       "canonical_url": "",
@@ -2181,31 +2206,6 @@
     {
       "artifact_availability": "planned",
       "bytes": 0,
-      "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/",
-      "date": "planned",
-      "doi": "",
-      "doi_url": "",
-      "github_path": "anchor-documents/wp004-public-research-observatory-blueprint",
-      "id": "wp004-public-research-observatory-blueprint",
-      "ots_status": "not_applicable",
-      "pdf": "",
-      "publication_id": "wp004",
-      "publication_key": "anchor_documents.public_research_observatory_blueprint",
-      "publication_role": "governance",
-      "publication_type": "White Paper",
-      "route_status": "reserved",
-      "sha256": "",
-      "sha512": "",
-      "short_url": "https://prrp.site/wp004",
-      "status": "planned",
-      "title": "Public Research Observatory Blueprint",
-      "type": "white_paper",
-      "version": "planned canonical v1.0",
-      "website_url": "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/"
-    },
-    {
-      "artifact_availability": "planned",
-      "bytes": 0,
       "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/",
       "date": "planned",
       "doi": "",
@@ -2229,6 +2229,6 @@
       "website_url": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"
     }
   ],
-  "released_publication_count": 80,
+  "released_publication_count": 81,
   "schema": "panta-rhei-publications-catalog-v2"
 }

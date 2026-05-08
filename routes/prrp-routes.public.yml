@@ -906,11 +906,11 @@ routes:
   -
     route_id: "wp004"
     short_url: "https://prrp.site/wp004"
-    route_status: "reserved"
+    route_status: "active"
     publication_key: "anchor_documents.public_research_observatory_blueprint"
     type: "white_paper"
     publication_role: "governance"
-    publication_status: "planned"
+    publication_status: "released"
     title: "Public Research Observatory Blueprint"
     canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/"
     github_path: "anchor-documents/wp004-public-research-observatory-blueprint"

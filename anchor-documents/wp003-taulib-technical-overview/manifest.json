@@ -1,40 +1,61 @@
 {
-  "artifact_availability": "planned",
+  "artifact_availability": "local_pdf",
   "checksums": {
-    "sha256": "",
-    "sha512": ""
+    "sha256": "f0aa1bc0724c51d35e4fa7521561220a32fdd43f6ec6cc2417c6f3c37aae0968",
+    "sha512": "aa3810a3b0a7d21ffb16b3b0ccc1da1510a3ea8c892fe192b3ab42c7d5e1aba89f4e395cba8869276b6431533d40ea4cd41c6fcc3376731c78dbab135fa487d5"
   },
   "file": {
-    "bytes": 0,
-    "path": "",
-    "sha256": "",
-    "sha512": "",
-    "source_website_asset_path": ""
+    "bytes": 211470,
+    "path": "wp003-taulib-technical-overview.pdf",
+    "sha256": "f0aa1bc0724c51d35e4fa7521561220a32fdd43f6ec6cc2417c6f3c37aae0968",
+    "sha512": "aa3810a3b0a7d21ffb16b3b0ccc1da1510a3ea8c892fe192b3ab42c7d5e1aba89f4e395cba8869276b6431533d40ea4cd41c6fcc3376731c78dbab135fa487d5",
+    "source_website_asset_path": "site/assets/pdfs/anchor-documents/wp003-taulib-technical-overview.pdf"
   },
-  "generated_at": "2026-05-08T12:28:01+00:00",
+  "generated_at": "2026-05-08T16:19:48+00:00",
   "id": "wp003-taulib-technical-overview",
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {
     "receipt_path": "",
-    "status": "not_applicable",
-    "verification": "no-pdf-planned-item"
+    "status": "missing",
+    "verification": "not-stamped"
   },
   "publication": {
-    "abstract": "Planned anchor white paper for TauLib as the formalization and verification\nsurface connected to the Corpus, generated docs, release manifest, and Verify\nlane.",
-    "artifact_availability": "planned",
+    "abstract": "Canonical v1.0 anchor white paper for TauLib as the Lean 4 formalization layer\nof the Panta Rhei release. WP003 explains the pinned toolchain, codebase\narchitecture, Release Manifest facts, trust budget, no-sorry status, custom\naxiom boundary, generated documentation route, Registry correspondence, and\nVerify/TauLib inspection path.",
+    "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/",
     "claim_boundary": {
-      "claim": "This planned record reserves the canonical `wp003` route. It does not claim\nexternal validation, complete formal coverage, peer review, deployment\nreadiness, product availability, policy adoption, or achieved impact.",
-      "non_claim": "does not claim\nexternal validation, complete formal coverage, peer review, deployment\nreadiness, product availability, policy adoption, or achieved impact."
+      "claim": "This released record publishes the canonical `wp003` route and PDF artifact.\nIt does not claim empirical validation, semantic adequacy of bridge principles,\npeer-review completion, complete formal coverage of the research program,\nproduct readiness, deployment readiness, policy adoption, or achieved impact.",
+      "non_claim": "does not claim empirical validation, semantic adequacy of bridge principles,\npeer-review completion, complete formal coverage of the research program,\nproduct readiness, deployment readiness, policy adoption, or achieved impact."
     },
-    "date": "planned",
+    "date": "2026-05-08",
     "doi": "",
     "doi_url": "",
-    "external_links": [],
+    "external_links": [
+      {
+        "label": "Mnemonic short route",
+        "url": "https://prrp.site/wp-taulib"
+      },
+      {
+        "label": "TauLib repository",
+        "url": "https://github.com/Panta-Rhei-Research/taulib"
+      },
+      {
+        "label": "Generated TauLib documentation",
+        "url": "https://taulib.panta-rhei.site"
+      },
+      {
+        "label": "Verify / TauLib",
+        "url": "https://panta-rhei.site/verify/taulib/"
+      },
+      {
+        "label": "Release Manifest",
+        "url": "https://panta-rhei.site/verify/release-manifest/"
+      }
+    ],
     "github_path": "anchor-documents/wp003-taulib-technical-overview",
     "license": "CC-BY-4.0",
-    "pdf_filename": "",
+    "pdf_filename": "wp003-taulib-technical-overview.pdf",
     "publication_type": "White Paper",
     "related_lanes": [
       "publications",
@@ -42,15 +63,19 @@
       "verify"
     ],
     "related_routes": [
-      "/publications/anchor-documents/wp003-taulib-technical-overview/"
+      "/publications/anchor-documents/wp003-taulib-technical-overview/",
+      "/verify/taulib/",
+      "/verify/release-manifest/",
+      "/verify/custom-axioms/",
+      "/verify/tcb/"
     ],
-    "route_status": "reserved",
+    "route_status": "active",
     "short_url": "https://prrp.site/wp003",
-    "source_website_page": "",
-    "status": "planned",
+    "source_website_page": "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/",
+    "status": "released",
     "subtitle": "",
     "title": "TauLib Technical Overview",
-    "version": "planned canonical v1.0",
+    "version": "canonical v1.0",
     "website_url": "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/",
     "zenodo_url": ""
   },
@@ -58,6 +83,6 @@
   "publication_key": "anchor_documents.taulib_technical_overview",
   "publication_role": "technical",
   "schema": "panta-rhei-publication-manifest-v2",
-  "status": "planned",
+  "status": "released",
   "type": "white_paper"
 }

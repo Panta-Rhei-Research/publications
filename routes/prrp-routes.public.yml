@@ -895,11 +895,11 @@ routes:
   -
     route_id: "wp003"
     short_url: "https://prrp.site/wp003"
-    route_status: "reserved"
+    route_status: "active"
     publication_key: "anchor_documents.taulib_technical_overview"
     type: "white_paper"
     publication_role: "technical"
-    publication_status: "planned"
+    publication_status: "released"
     title: "TauLib Technical Overview"
     canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/"
     github_path: "anchor-documents/wp003-taulib-technical-overview"

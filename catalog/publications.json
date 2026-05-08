@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-08T14:18:28+00:00",
-  "pdf_publication_count": 78,
+  "generated_at": "2026-05-08T16:19:48+00:00",
+  "pdf_publication_count": 79,
   "publication_count": 89,
   "publications": [
     {
@@ -1979,6 +1979,31 @@
       "website_url": "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"
     },
     {
+      "artifact_availability": "local_pdf",
+      "bytes": 211470,
+      "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/",
+      "date": "2026-05-08",
+      "doi": "",
+      "doi_url": "",
+      "github_path": "anchor-documents/wp003-taulib-technical-overview",
+      "id": "wp003-taulib-technical-overview",
+      "ots_status": "missing",
+      "pdf": "wp003-taulib-technical-overview.pdf",
+      "publication_id": "wp003",
+      "publication_key": "anchor_documents.taulib_technical_overview",
+      "publication_role": "technical",
+      "publication_type": "White Paper",
+      "route_status": "active",
+      "sha256": "f0aa1bc0724c51d35e4fa7521561220a32fdd43f6ec6cc2417c6f3c37aae0968",
+      "sha512": "aa3810a3b0a7d21ffb16b3b0ccc1da1510a3ea8c892fe192b3ab42c7d5e1aba89f4e395cba8869276b6431533d40ea4cd41c6fcc3376731c78dbab135fa487d5",
+      "short_url": "https://prrp.site/wp003",
+      "status": "released",
+      "title": "TauLib Technical Overview",
+      "type": "white_paper",
+      "version": "canonical v1.0",
+      "website_url": "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/"
+    },
+    {
       "artifact_availability": "planned",
       "bytes": 0,
       "canonical_url": "",
@@ -2156,31 +2181,6 @@
     {
       "artifact_availability": "planned",
       "bytes": 0,
-      "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/",
-      "date": "planned",
-      "doi": "",
-      "doi_url": "",
-      "github_path": "anchor-documents/wp003-taulib-technical-overview",
-      "id": "wp003-taulib-technical-overview",
-      "ots_status": "not_applicable",
-      "pdf": "",
-      "publication_id": "wp003",
-      "publication_key": "anchor_documents.taulib_technical_overview",
-      "publication_role": "technical",
-      "publication_type": "White Paper",
-      "route_status": "reserved",
-      "sha256": "",
-      "sha512": "",
-      "short_url": "https://prrp.site/wp003",
-      "status": "planned",
-      "title": "TauLib Technical Overview",
-      "type": "white_paper",
-      "version": "planned canonical v1.0",
-      "website_url": "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/"
-    },
-    {
-      "artifact_availability": "planned",
-      "bytes": 0,
       "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/",
       "date": "planned",
       "doi": "",
@@ -2229,6 +2229,6 @@
       "website_url": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"
     }
   ],
-  "released_publication_count": 79,
+  "released_publication_count": 80,
   "schema": "panta-rhei-publications-catalog-v2"
 }

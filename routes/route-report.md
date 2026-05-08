@@ -3,8 +3,8 @@
 This report is generated from publication manifests. The PRRP routes listed here are typed observatory identifiers, not generic short links.
 
 - Total routes: 84
-- Active routes: 3
-- Reserved routes: 81
+- Active routes: 4
+- Reserved routes: 80
 
 | Route | Status | Type | Publication | Canonical URL |
 |---|---|---|---|---|
@@ -89,6 +89,6 @@ This report is generated from publication manifests. The PRRP routes listed here
 | `so001` | reserved | synoptic_overview | The Panta Rhei Conspectus | https://panta-rhei.site/publications/conspectus/ |
 | `wp001` | active | white_paper | Panta Rhei Research Program Executive Overview | https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/ |
 | `wp002` | active | white_paper | T Theory Executive Synopsis | https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/ |
-| `wp003` | reserved | white_paper | TauLib Technical Overview | https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/ |
+| `wp003` | active | white_paper | TauLib Technical Overview | https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/ |
 | `wp004` | reserved | white_paper | Public Research Observatory Blueprint | https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/ |
 | `wp005` | reserved | white_paper | Global Public Good Impact Overview | https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/ |

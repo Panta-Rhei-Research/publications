@@ -1,8 +1,8 @@
 schema: "panta-rhei-publications-catalog-v2"
 publication_count: 89
-released_publication_count: 79
-pdf_publication_count: 78
-generated_at: "2026-05-08T14:18:28+00:00"
+released_publication_count: 80
+pdf_publication_count: 79
+generated_at: "2026-05-08T16:19:48+00:00"
 publications:
   -
     id: "c001-standing-in-the-inquiry-of-being"
@@ -1901,6 +1901,30 @@ publications:
     sha512: "9653735dbc6d526218cef7be51ea01b01594377407ba37339a7ee35b962fbb408b394da50799a15acd818f165080003d3b233e13150985c1f3d7e609c784c548"
     ots_status: "missing"
   -
+    id: "wp003-taulib-technical-overview"
+    publication_id: "wp003"
+    publication_key: "anchor_documents.taulib_technical_overview"
+    publication_type: "White Paper"
+    type: "white_paper"
+    publication_role: "technical"
+    status: "released"
+    artifact_availability: "local_pdf"
+    title: "TauLib Technical Overview"
+    date: "2026-05-08"
+    version: "canonical v1.0"
+    doi: ""
+    doi_url: ""
+    website_url: "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/"
+    canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/"
+    short_url: "https://prrp.site/wp003"
+    route_status: "active"
+    github_path: "anchor-documents/wp003-taulib-technical-overview"
+    pdf: "wp003-taulib-technical-overview.pdf"
+    bytes: 211470
+    sha256: "f0aa1bc0724c51d35e4fa7521561220a32fdd43f6ec6cc2417c6f3c37aae0968"
+    sha512: "aa3810a3b0a7d21ffb16b3b0ccc1da1510a3ea8c892fe192b3ab42c7d5e1aba89f4e395cba8869276b6431533d40ea4cd41c6fcc3376731c78dbab135fa487d5"
+    ots_status: "missing"
+  -
     id: "c002-semantic-archaeology-coherent-theory-of-reality"
     publication_id: "c002"
     publication_key: "charter_essays.semantic_archaeology_coherent_theory_of_reality"
@@ -2068,30 +2092,6 @@ publications:
     sha256: "fed983c314d180be9713020fa9f3be20cf9bb30858521b282d0227f1af5124ce"
     sha512: "38543166428a47f7cd49dd0f7fea0ea8e6c119d793838ab24d80e95262bfb456c99ccf2aa9a9522a74758331cd93b95c0e7fef76a19adc39a47b5afb793be9f0"
     ots_status: "missing"
-  -
-    id: "wp003-taulib-technical-overview"
-    publication_id: "wp003"
-    publication_key: "anchor_documents.taulib_technical_overview"
-    publication_type: "White Paper"
-    type: "white_paper"
-    publication_role: "technical"
-    status: "planned"
-    artifact_availability: "planned"
-    title: "TauLib Technical Overview"
-    date: "planned"
-    version: "planned canonical v1.0"
-    doi: ""
-    doi_url: ""
-    website_url: "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/"
-    canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/"
-    short_url: "https://prrp.site/wp003"
-    route_status: "reserved"
-    github_path: "anchor-documents/wp003-taulib-technical-overview"
-    pdf: ""
-    bytes: 0
-    sha256: ""
-    sha512: ""
-    ots_status: "not_applicable"
   -
     id: "wp004-public-research-observatory-blueprint"
     publication_id: "wp004"

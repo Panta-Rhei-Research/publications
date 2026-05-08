@@ -1,8 +1,8 @@
 schema: "panta-rhei-publications-catalog-v2"
 publication_count: 89
-released_publication_count: 81
-pdf_publication_count: 80
-generated_at: "2026-05-08T17:24:30+00:00"
+released_publication_count: 82
+pdf_publication_count: 81
+generated_at: "2026-05-08T19:47:10+00:00"
 publications:
   -
     id: "c001-standing-in-the-inquiry-of-being"
@@ -1949,6 +1949,30 @@ publications:
     sha512: "829439e14ec9019c92893ee7727296c495118bb5efc845df7b9cd1b585769fda8dcb4a481c624c26b5faaecd67b66ff02472a6bb16ec89c78a376cfed7e5feb5"
     ots_status: "missing"
   -
+    id: "wp005-global-public-good-impact-overview"
+    publication_id: "wp005"
+    publication_key: "anchor_documents.global_public_good_impact_overview"
+    publication_type: "White Paper"
+    type: "white_paper"
+    publication_role: "translation"
+    status: "released"
+    artifact_availability: "local_pdf"
+    title: "Global Public Good Impact Overview"
+    date: "2026-05-08"
+    version: "canonical v1.0"
+    doi: ""
+    doi_url: ""
+    website_url: "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"
+    canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"
+    short_url: "https://prrp.site/wp005"
+    route_status: "active"
+    github_path: "anchor-documents/wp005-global-public-good-impact-overview"
+    pdf: "wp005-global-public-good-impact-overview.pdf"
+    bytes: 240636
+    sha256: "98f3d00c86620e7c8efd418f564f333ffaf93a9628e8aff97c1bae25dd1c1f12"
+    sha512: "0b0fe267e5b5d64d79e64708398d5b1f50c361ab9f4288cd05c9996b9edf18ff7807f37e3f625e29eabb99e35dcaff6ec8bd3ca140e3adf315751fca68c7437b"
+    ots_status: "missing"
+  -
     id: "c002-semantic-archaeology-coherent-theory-of-reality"
     publication_id: "c002"
     publication_key: "charter_essays.semantic_archaeology_coherent_theory_of_reality"
@@ -2116,27 +2140,3 @@ publications:
     sha256: "fed983c314d180be9713020fa9f3be20cf9bb30858521b282d0227f1af5124ce"
     sha512: "38543166428a47f7cd49dd0f7fea0ea8e6c119d793838ab24d80e95262bfb456c99ccf2aa9a9522a74758331cd93b95c0e7fef76a19adc39a47b5afb793be9f0"
     ots_status: "missing"
-  -
-    id: "wp005-global-public-good-impact-overview"
-    publication_id: "wp005"
-    publication_key: "anchor_documents.global_public_good_impact_overview"
-    publication_type: "White Paper"
-    type: "white_paper"
-    publication_role: "translation"
-    status: "planned"
-    artifact_availability: "planned"
-    title: "Global Public Good Impact Overview"
-    date: "planned"
-    version: "planned canonical v1.0"
-    doi: ""
-    doi_url: ""
-    website_url: "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"
-    canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"
-    short_url: "https://prrp.site/wp005"
-    route_status: "reserved"
-    github_path: "anchor-documents/wp005-global-public-good-impact-overview"
-    pdf: ""
-    bytes: 0
-    sha256: ""
-    sha512: ""
-    ots_status: "not_applicable"

@@ -917,11 +917,11 @@ routes:
   -
     route_id: "wp005"
     short_url: "https://prrp.site/wp005"
-    route_status: "reserved"
+    route_status: "active"
     publication_key: "anchor_documents.global_public_good_impact_overview"
     type: "white_paper"
     publication_role: "translation"
-    publication_status: "planned"
+    publication_status: "released"
     title: "Global Public Good Impact Overview"
     canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"
     github_path: "anchor-documents/wp005-global-public-good-impact-overview"

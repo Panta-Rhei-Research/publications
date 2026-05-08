@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-08T17:24:30+00:00",
-  "pdf_publication_count": 80,
+  "generated_at": "2026-05-08T19:47:10+00:00",
+  "pdf_publication_count": 81,
   "publication_count": 89,
   "publications": [
     {
@@ -2029,6 +2029,31 @@
       "website_url": "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/"
     },
     {
+      "artifact_availability": "local_pdf",
+      "bytes": 240636,
+      "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/",
+      "date": "2026-05-08",
+      "doi": "",
+      "doi_url": "",
+      "github_path": "anchor-documents/wp005-global-public-good-impact-overview",
+      "id": "wp005-global-public-good-impact-overview",
+      "ots_status": "missing",
+      "pdf": "wp005-global-public-good-impact-overview.pdf",
+      "publication_id": "wp005",
+      "publication_key": "anchor_documents.global_public_good_impact_overview",
+      "publication_role": "translation",
+      "publication_type": "White Paper",
+      "route_status": "active",
+      "sha256": "98f3d00c86620e7c8efd418f564f333ffaf93a9628e8aff97c1bae25dd1c1f12",
+      "sha512": "0b0fe267e5b5d64d79e64708398d5b1f50c361ab9f4288cd05c9996b9edf18ff7807f37e3f625e29eabb99e35dcaff6ec8bd3ca140e3adf315751fca68c7437b",
+      "short_url": "https://prrp.site/wp005",
+      "status": "released",
+      "title": "Global Public Good Impact Overview",
+      "type": "white_paper",
+      "version": "canonical v1.0",
+      "website_url": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"
+    },
+    {
       "artifact_availability": "planned",
       "bytes": 0,
       "canonical_url": "",
@@ -2202,33 +2227,8 @@
       "type": "white_paper",
       "version": "**v4.0**",
       "website_url": "https://panta-rhei.site/publications/white-papers/executive-overview/"
-    },
-    {
-      "artifact_availability": "planned",
-      "bytes": 0,
-      "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/",
-      "date": "planned",
-      "doi": "",
-      "doi_url": "",
-      "github_path": "anchor-documents/wp005-global-public-good-impact-overview",
-      "id": "wp005-global-public-good-impact-overview",
-      "ots_status": "not_applicable",
-      "pdf": "",
-      "publication_id": "wp005",
-      "publication_key": "anchor_documents.global_public_good_impact_overview",
-      "publication_role": "translation",
-      "publication_type": "White Paper",
-      "route_status": "reserved",
-      "sha256": "",
-      "sha512": "",
-      "short_url": "https://prrp.site/wp005",
-      "status": "planned",
-      "title": "Global Public Good Impact Overview",
-      "type": "white_paper",
-      "version": "planned canonical v1.0",
-      "website_url": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"
     }
   ],
-  "released_publication_count": 81,
+  "released_publication_count": 82,
   "schema": "panta-rhei-publications-catalog-v2"
 }

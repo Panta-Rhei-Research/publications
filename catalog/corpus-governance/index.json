@@ -1,0 +1,15 @@
+{
+  "generated_from": "corpus/data/governance",
+  "projection_version": "v0.1",
+  "canonical_source": "corpus/data/governance and corpus/data/assets",
+  "do_not_edit": true,
+  "title": "Publications Repository Governance Snapshot",
+  "summary": "Generated public-safe Corpus governance snapshots for the Publications repository.",
+  "counts": {
+    "errata": 4,
+    "editions": 14,
+    "releases": 2,
+    "release_artifacts": 194
+  },
+  "mirror_boundary": "These files are generated snapshots. Corpus owns the canonical semantic source; Publications owns artifact bytes and checksum provenance."
+}

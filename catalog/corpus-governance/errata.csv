@@ -1,0 +1,5 @@
+erratum_id,issued,status,severity,change_class,book_slug,canonical_url
+ERRATUM-001,2026-04-20,active,High,C7,book-i,/publications/errata/
+ERRATUM-002,2026-04-20,active,Medium,C7,book-iii,/publications/errata/
+ERRATUM-003,2026-04-20,active,Medium,C7,book-i,/publications/errata/
+ERRATUM-004,2026-04-22,active,Medium,C8,,/publications/errata/

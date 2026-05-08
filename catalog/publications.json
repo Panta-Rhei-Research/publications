@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-05-08T14:18:28+00:00",
-  "pdf_publication_count": 77,
+  "pdf_publication_count": 78,
   "publication_count": 89,
   "publications": [
     {
@@ -1954,6 +1954,31 @@
       "website_url": "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"
     },
     {
+      "artifact_availability": "local_pdf",
+      "bytes": 364419,
+      "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/",
+      "date": "2026-05-08",
+      "doi": "",
+      "doi_url": "",
+      "github_path": "anchor-documents/wp002-t-theory-executive-synopsis",
+      "id": "wp002-t-theory-executive-synopsis",
+      "ots_status": "missing",
+      "pdf": "wp002-t-theory-executive-synopsis.pdf",
+      "publication_id": "wp002",
+      "publication_key": "anchor_documents.t_theory_executive_synopsis",
+      "publication_role": "orientation",
+      "publication_type": "White Paper",
+      "route_status": "active",
+      "sha256": "dc22657b987459ce259dc720d50f1a7b886597c9ba148bec17e0d204c1802efd",
+      "sha512": "9653735dbc6d526218cef7be51ea01b01594377407ba37339a7ee35b962fbb408b394da50799a15acd818f165080003d3b233e13150985c1f3d7e609c784c548",
+      "short_url": "https://prrp.site/wp002",
+      "status": "released",
+      "title": "T Theory Executive Synopsis",
+      "type": "white_paper",
+      "version": "canonical v1.0",
+      "website_url": "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"
+    },
+    {
       "artifact_availability": "planned",
       "bytes": 0,
       "canonical_url": "",
@@ -2131,31 +2156,6 @@
     {
       "artifact_availability": "planned",
       "bytes": 0,
-      "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/",
-      "date": "planned",
-      "doi": "",
-      "doi_url": "",
-      "github_path": "anchor-documents/wp002-t-theory-executive-synopsis",
-      "id": "wp002-t-theory-executive-synopsis",
-      "ots_status": "not_applicable",
-      "pdf": "",
-      "publication_id": "wp002",
-      "publication_key": "anchor_documents.t_theory_executive_synopsis",
-      "publication_role": "orientation",
-      "publication_type": "White Paper",
-      "route_status": "reserved",
-      "sha256": "",
-      "sha512": "",
-      "short_url": "https://prrp.site/wp002",
-      "status": "planned",
-      "title": "T Theory Executive Synopsis",
-      "type": "white_paper",
-      "version": "planned canonical v1.0",
-      "website_url": "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"
-    },
-    {
-      "artifact_availability": "planned",
-      "bytes": 0,
       "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/",
       "date": "planned",
       "doi": "",
@@ -2229,6 +2229,6 @@
       "website_url": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"
     }
   ],
-  "released_publication_count": 78,
+  "released_publication_count": 79,
   "schema": "panta-rhei-publications-catalog-v2"
 }

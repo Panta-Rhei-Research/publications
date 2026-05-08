@@ -1,0 +1,63 @@
+{
+  "artifact_availability": "planned",
+  "checksums": {
+    "sha256": "",
+    "sha512": ""
+  },
+  "file": {
+    "bytes": 0,
+    "path": "",
+    "sha256": "",
+    "sha512": "",
+    "source_website_asset_path": ""
+  },
+  "generated_at": "2026-05-08T12:28:01+00:00",
+  "id": "wp001-panta-rhei-research-program-executive-overview",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "not_applicable",
+    "verification": "no-pdf-planned-item"
+  },
+  "publication": {
+    "abstract": "Planned anchor white paper for the Panta Rhei Research Program as a whole,\norganized around the live website lane model rather than a theory synopsis.",
+    "artifact_availability": "planned",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/",
+    "claim_boundary": {
+      "claim": "This planned record reserves the canonical `wp001` route. It does not claim\npublication, peer review, external validation, deployment readiness, product\navailability, policy adoption, or achieved impact.",
+      "non_claim": "does not claim\npublication, peer review, external validation, deployment readiness, product\navailability, policy adoption, or achieved impact."
+    },
+    "date": "planned",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [],
+    "github_path": "anchor-documents/wp001-panta-rhei-research-program-executive-overview",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "",
+    "publication_type": "White Paper",
+    "related_lanes": [
+      "publications",
+      "program",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/wp001",
+    "source_website_page": "",
+    "status": "planned",
+    "subtitle": "",
+    "title": "Panta Rhei Research Program Executive Overview",
+    "version": "planned canonical v1.0",
+    "website_url": "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/",
+    "zenodo_url": ""
+  },
+  "publication_id": "wp001",
+  "publication_key": "anchor_documents.panta_rhei_research_program_executive_overview",
+  "publication_role": "orientation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "planned",
+  "type": "white_paper"
+}

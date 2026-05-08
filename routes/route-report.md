@@ -3,12 +3,12 @@
 This report is generated from publication manifests. The PRRP routes listed here are typed observatory identifiers, not generic short links.
 
 - Total routes: 84
-- Active routes: 0
-- Reserved routes: 84
+- Active routes: 1
+- Reserved routes: 83
 
 | Route | Status | Type | Publication | Canonical URL |
 |---|---|---|---|---|
-| `c001` | reserved | charter_essay | Standing in the Inquiry of Being | planned |
+| `c001` | active | charter_essay | Standing in the Inquiry of Being | https://panta-rhei.site/program/about/standing-in-the-inquiry-of-being/ |
 | `c002` | reserved | charter_essay | Semantic Archaeology of Coherent Theory of Reality | planned |
 | `gt001` | reserved | guided_tour | Book I Guided Tour | https://panta-rhei.site/publications/guided-tours/ |
 | `gt002` | reserved | guided_tour | Book II Guided Tour | https://panta-rhei.site/publications/guided-tours/ |
@@ -87,8 +87,8 @@ This report is generated from publication manifests. The PRRP routes listed here
 | `rp008` | reserved | research_paper | The tau-Kernel as Foundational Architecture | https://panta-rhei.site/publications/research-papers/tau-kernel-foundational-architecture/ |
 | `rp009` | reserved | research_paper | The Panta Rhei Foundational Bundle | https://panta-rhei.site/publications/research-papers/panta-rhei-foundational-bundle/ |
 | `so001` | reserved | synoptic_overview | The Panta Rhei Conspectus | https://panta-rhei.site/publications/conspectus/ |
-| `wp001` | reserved | white_paper | TauLib: A Self-Contained Lean 4 Library for Category τ | https://panta-rhei.site/publications/white-papers/taulib/ |
-| `wp002` | reserved | white_paper | Building a Public Research Observatory for High-Scope Open Research | https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/ |
-| `wp003` | reserved | white_paper | Inspection Architecture for High-Scope Open Research | https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/ |
-| `wp004` | reserved | white_paper | The Shape of a Theory of Reality | https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/ |
-| `wp005` | reserved | white_paper | Panta Rhei Research Program — Executive Overview | https://panta-rhei.site/publications/white-papers/executive-overview/ |
+| `wp001` | reserved | white_paper | Panta Rhei Research Program Executive Overview | https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/ |
+| `wp002` | reserved | white_paper | T Theory Executive Synopsis | https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/ |
+| `wp003` | reserved | white_paper | TauLib Technical Overview | https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/ |
+| `wp004` | reserved | white_paper | Public Research Observatory Blueprint | https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/ |
+| `wp005` | reserved | white_paper | Global Public Good Impact Overview | https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/ |

@@ -44,8 +44,8 @@
     "related_routes": [
       "/publications/white-papers/building-a-public-research-observatory/"
     ],
-    "route_status": "reserved",
-    "short_url": "https://prrp.site/wp002",
+    "route_status": "not_applicable",
+    "short_url": "",
     "source_website_page": "publications/white-papers/building-a-public-research-observatory/index.md",
     "status": "Draft technical white paper / blueprint",
     "subtitle": "",
@@ -54,10 +54,10 @@
     "website_url": "https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/",
     "zenodo_url": ""
   },
-  "publication_id": "wp002",
-  "publication_key": "white_papers.building_public_research_observatory",
+  "publication_id": "lwp002",
+  "publication_key": "legacy_white_papers.building_public_research_observatory",
   "publication_role": "orientation",
   "schema": "panta-rhei-publication-manifest-v2",
-  "status": "released",
+  "status": "superseded",
   "type": "white_paper"
 }

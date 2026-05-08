@@ -2,7 +2,7 @@ schema: "panta-rhei-publications-catalog-v2"
 publication_count: 89
 released_publication_count: 78
 pdf_publication_count: 77
-generated_at: "2026-05-08T13:38:57+00:00"
+generated_at: "2026-05-08T14:18:28+00:00"
 publications:
   -
     id: "c001-standing-in-the-inquiry-of-being"
@@ -1872,9 +1872,9 @@ publications:
     route_status: "active"
     github_path: "anchor-documents/wp001-panta-rhei-research-program-executive-overview"
     pdf: "wp001-panta-rhei-research-program-executive-overview.pdf"
-    bytes: 2328733
-    sha256: "7af6717e808169cb85dc17c08de3b6400c6849ba51d9549949cd6f5afdf5f357"
-    sha512: "d1256a2d3cf6159a7b0a95814219929285423756a48f5c9f59a6b248c959bb646087c83bb874225c429cc6f13713bd7e6871a6bf3bff26afff2ff8547f1682f7"
+    bytes: 2362822
+    sha256: "7a575fc144ddccd47f4dcc5706e21698b3928b02eb9a9a04709f1f003c2905e6"
+    sha512: "d63da80d38d35912fa2f395111ee82ba3bd8189a28fe6d078ecb09895b71c5da8714a73c08f232facc07d1a239c2ccd79eaf0ddb3afce86ffee3bee34f6ff1ca"
     ots_status: "missing"
   -
     id: "c002-semantic-archaeology-coherent-theory-of-reality"

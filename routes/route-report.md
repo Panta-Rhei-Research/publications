@@ -3,8 +3,8 @@
 This report is generated from publication manifests. The PRRP routes listed here are typed observatory identifiers, not generic short links.
 
 - Total routes: 84
-- Active routes: 1
-- Reserved routes: 83
+- Active routes: 2
+- Reserved routes: 82
 
 | Route | Status | Type | Publication | Canonical URL |
 |---|---|---|---|---|
@@ -87,7 +87,7 @@ This report is generated from publication manifests. The PRRP routes listed here
 | `rp008` | reserved | research_paper | The tau-Kernel as Foundational Architecture | https://panta-rhei.site/publications/research-papers/tau-kernel-foundational-architecture/ |
 | `rp009` | reserved | research_paper | The Panta Rhei Foundational Bundle | https://panta-rhei.site/publications/research-papers/panta-rhei-foundational-bundle/ |
 | `so001` | reserved | synoptic_overview | The Panta Rhei Conspectus | https://panta-rhei.site/publications/conspectus/ |
-| `wp001` | reserved | white_paper | Panta Rhei Research Program Executive Overview | https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/ |
+| `wp001` | active | white_paper | Panta Rhei Research Program Executive Overview | https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/ |
 | `wp002` | reserved | white_paper | T Theory Executive Synopsis | https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/ |
 | `wp003` | reserved | white_paper | TauLib Technical Overview | https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/ |
 | `wp004` | reserved | white_paper | Public Research Observatory Blueprint | https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/ |

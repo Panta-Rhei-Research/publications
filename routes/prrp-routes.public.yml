@@ -873,11 +873,11 @@ routes:
   -
     route_id: "wp001"
     short_url: "https://prrp.site/wp001"
-    route_status: "reserved"
+    route_status: "active"
     publication_key: "anchor_documents.panta_rhei_research_program_executive_overview"
     type: "white_paper"
     publication_role: "orientation"
-    publication_status: "planned"
+    publication_status: "released"
     title: "Panta Rhei Research Program Executive Overview"
     canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"
     github_path: "anchor-documents/wp001-panta-rhei-research-program-executive-overview"

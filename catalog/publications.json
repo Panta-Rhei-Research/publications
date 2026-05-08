@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-08T12:28:01+00:00",
-  "pdf_publication_count": 76,
+  "generated_at": "2026-05-08T13:38:57+00:00",
+  "pdf_publication_count": 77,
   "publication_count": 89,
   "publications": [
     {
@@ -1929,6 +1929,31 @@
       "website_url": "https://panta-rhei.site/publications/conspectus/"
     },
     {
+      "artifact_availability": "local_pdf",
+      "bytes": 2328733,
+      "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/",
+      "date": "2026-05-08",
+      "doi": "",
+      "doi_url": "",
+      "github_path": "anchor-documents/wp001-panta-rhei-research-program-executive-overview",
+      "id": "wp001-panta-rhei-research-program-executive-overview",
+      "ots_status": "missing",
+      "pdf": "wp001-panta-rhei-research-program-executive-overview.pdf",
+      "publication_id": "wp001",
+      "publication_key": "anchor_documents.panta_rhei_research_program_executive_overview",
+      "publication_role": "orientation",
+      "publication_type": "White Paper",
+      "route_status": "active",
+      "sha256": "7af6717e808169cb85dc17c08de3b6400c6849ba51d9549949cd6f5afdf5f357",
+      "sha512": "d1256a2d3cf6159a7b0a95814219929285423756a48f5c9f59a6b248c959bb646087c83bb874225c429cc6f13713bd7e6871a6bf3bff26afff2ff8547f1682f7",
+      "short_url": "https://prrp.site/wp001",
+      "status": "released",
+      "title": "Panta Rhei Research Program Executive Overview",
+      "type": "white_paper",
+      "version": "canonical v1.0",
+      "website_url": "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"
+    },
+    {
       "artifact_availability": "planned",
       "bytes": 0,
       "canonical_url": "",
@@ -2106,31 +2131,6 @@
     {
       "artifact_availability": "planned",
       "bytes": 0,
-      "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/",
-      "date": "planned",
-      "doi": "",
-      "doi_url": "",
-      "github_path": "anchor-documents/wp001-panta-rhei-research-program-executive-overview",
-      "id": "wp001-panta-rhei-research-program-executive-overview",
-      "ots_status": "not_applicable",
-      "pdf": "",
-      "publication_id": "wp001",
-      "publication_key": "anchor_documents.panta_rhei_research_program_executive_overview",
-      "publication_role": "orientation",
-      "publication_type": "White Paper",
-      "route_status": "reserved",
-      "sha256": "",
-      "sha512": "",
-      "short_url": "https://prrp.site/wp001",
-      "status": "planned",
-      "title": "Panta Rhei Research Program Executive Overview",
-      "type": "white_paper",
-      "version": "planned canonical v1.0",
-      "website_url": "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"
-    },
-    {
-      "artifact_availability": "planned",
-      "bytes": 0,
       "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/",
       "date": "planned",
       "doi": "",
@@ -2229,6 +2229,6 @@
       "website_url": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"
     }
   ],
-  "released_publication_count": 77,
+  "released_publication_count": 78,
   "schema": "panta-rhei-publications-catalog-v2"
 }

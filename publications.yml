@@ -1,8 +1,8 @@
 schema: "panta-rhei-publications-catalog-v2"
 publication_count: 89
-released_publication_count: 77
-pdf_publication_count: 76
-generated_at: "2026-05-08T12:28:01+00:00"
+released_publication_count: 78
+pdf_publication_count: 77
+generated_at: "2026-05-08T13:38:57+00:00"
 publications:
   -
     id: "c001-standing-in-the-inquiry-of-being"
@@ -1853,6 +1853,30 @@ publications:
     sha512: "fdb6d21155b850b5adcb731840c8d10ce2d6cabf91f535ec14f9e84a675bded0c1a12f4a13be48f886891dea8bd44f1d8b829b94eb3da3f09df16706a231414c"
     ots_status: "missing"
   -
+    id: "wp001-panta-rhei-research-program-executive-overview"
+    publication_id: "wp001"
+    publication_key: "anchor_documents.panta_rhei_research_program_executive_overview"
+    publication_type: "White Paper"
+    type: "white_paper"
+    publication_role: "orientation"
+    status: "released"
+    artifact_availability: "local_pdf"
+    title: "Panta Rhei Research Program Executive Overview"
+    date: "2026-05-08"
+    version: "canonical v1.0"
+    doi: ""
+    doi_url: ""
+    website_url: "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"
+    canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"
+    short_url: "https://prrp.site/wp001"
+    route_status: "active"
+    github_path: "anchor-documents/wp001-panta-rhei-research-program-executive-overview"
+    pdf: "wp001-panta-rhei-research-program-executive-overview.pdf"
+    bytes: 2328733
+    sha256: "7af6717e808169cb85dc17c08de3b6400c6849ba51d9549949cd6f5afdf5f357"
+    sha512: "d1256a2d3cf6159a7b0a95814219929285423756a48f5c9f59a6b248c959bb646087c83bb874225c429cc6f13713bd7e6871a6bf3bff26afff2ff8547f1682f7"
+    ots_status: "missing"
+  -
     id: "c002-semantic-archaeology-coherent-theory-of-reality"
     publication_id: "c002"
     publication_key: "charter_essays.semantic_archaeology_coherent_theory_of_reality"
@@ -2020,30 +2044,6 @@ publications:
     sha256: "fed983c314d180be9713020fa9f3be20cf9bb30858521b282d0227f1af5124ce"
     sha512: "38543166428a47f7cd49dd0f7fea0ea8e6c119d793838ab24d80e95262bfb456c99ccf2aa9a9522a74758331cd93b95c0e7fef76a19adc39a47b5afb793be9f0"
     ots_status: "missing"
-  -
-    id: "wp001-panta-rhei-research-program-executive-overview"
-    publication_id: "wp001"
-    publication_key: "anchor_documents.panta_rhei_research_program_executive_overview"
-    publication_type: "White Paper"
-    type: "white_paper"
-    publication_role: "orientation"
-    status: "planned"
-    artifact_availability: "planned"
-    title: "Panta Rhei Research Program Executive Overview"
-    date: "planned"
-    version: "planned canonical v1.0"
-    doi: ""
-    doi_url: ""
-    website_url: "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"
-    canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"
-    short_url: "https://prrp.site/wp001"
-    route_status: "reserved"
-    github_path: "anchor-documents/wp001-panta-rhei-research-program-executive-overview"
-    pdf: ""
-    bytes: 0
-    sha256: ""
-    sha512: ""
-    ots_status: "not_applicable"
   -
     id: "wp002-t-theory-executive-synopsis"
     publication_id: "wp002"

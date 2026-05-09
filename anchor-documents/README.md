@@ -12,6 +12,7 @@ surfaces.
 
 | ID | Artifact | Status | Canonical route |
 | --- | --- | --- | --- |
+| `wp000` | Panta Rhei at a Glance | Canonical v1.0 | `/publications/anchor-documents/wp000-panta-rhei-at-a-glance/` |
 | `c001` | Standing in the Inquiry of Being | Canonical charter essay v1.0 | `/program/about/standing-in-the-inquiry-of-being/` |
 | `wp001` | Panta Rhei Research Program Executive Overview | Canonical v1.0 | `/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/` |
 | `wp002` | T Theory Executive Synopsis | Canonical v1.0 | `/publications/anchor-documents/wp002-t-theory-executive-synopsis/` |

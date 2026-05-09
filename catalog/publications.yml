@@ -1,8 +1,8 @@
 schema: "panta-rhei-publications-catalog-v2"
-publication_count: 89
-released_publication_count: 82
-pdf_publication_count: 81
-generated_at: "2026-05-08T19:47:10+00:00"
+publication_count: 90
+released_publication_count: 83
+pdf_publication_count: 82
+generated_at: "2026-05-09T05:06:38+00:00"
 publications:
   -
     id: "c001-standing-in-the-inquiry-of-being"
@@ -1971,6 +1971,30 @@ publications:
     bytes: 240636
     sha256: "98f3d00c86620e7c8efd418f564f333ffaf93a9628e8aff97c1bae25dd1c1f12"
     sha512: "0b0fe267e5b5d64d79e64708398d5b1f50c361ab9f4288cd05c9996b9edf18ff7807f37e3f625e29eabb99e35dcaff6ec8bd3ca140e3adf315751fca68c7437b"
+    ots_status: "missing"
+  -
+    id: "wp000-panta-rhei-at-a-glance"
+    publication_id: "wp000"
+    publication_key: "anchor_documents.panta_rhei_at_a_glance"
+    publication_type: "White Paper"
+    type: "white_paper"
+    publication_role: "orientation"
+    status: "released"
+    artifact_availability: "local_pdf"
+    title: "Panta Rhei at a Glance"
+    date: "2026-05-09"
+    version: "canonical v1.0"
+    doi: ""
+    doi_url: ""
+    website_url: "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/"
+    canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/"
+    short_url: "https://prrp.site/wp000"
+    route_status: "active"
+    github_path: "anchor-documents/wp000-panta-rhei-at-a-glance"
+    pdf: "wp000-panta-rhei-at-a-glance.pdf"
+    bytes: 58061
+    sha256: "8caa1e83dfd2f3e7f26d7997568a6e5d68e403a2c11b9da1b4f4f6cc5f6971d9"
+    sha512: "37eaca1c3e7bb7f0b9e0aa46edce99e21204ef77e75a6255d1c8beaa09980206976c0ca4c5b3bafe6276fd83e0ee61bb3cb82e3b81ebbe79326976ed2358b8cd"
     ots_status: "missing"
   -
     id: "c002-semantic-archaeology-coherent-theory-of-reality"

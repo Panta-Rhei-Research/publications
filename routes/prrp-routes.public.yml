@@ -1,5 +1,5 @@
 schema: "panta-rhei-prrp-routes-public-v1"
-route_count: 84
+route_count: 85
 routes:
   -
     route_id: "c001"
@@ -870,6 +870,17 @@ routes:
     title: "The Panta Rhei Conspectus"
     canonical_url: "https://panta-rhei.site/publications/conspectus/"
     github_path: "synoptic-overviews/so001-panta-rhei-conspectus"
+  -
+    route_id: "wp000"
+    short_url: "https://prrp.site/wp000"
+    route_status: "active"
+    publication_key: "anchor_documents.panta_rhei_at_a_glance"
+    type: "white_paper"
+    publication_role: "orientation"
+    publication_status: "released"
+    title: "Panta Rhei at a Glance"
+    canonical_url: "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/"
+    github_path: "anchor-documents/wp000-panta-rhei-at-a-glance"
   -
     route_id: "wp001"
     short_url: "https://prrp.site/wp001"

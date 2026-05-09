@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-08T19:47:10+00:00",
-  "pdf_publication_count": 81,
-  "publication_count": 89,
+  "generated_at": "2026-05-09T05:06:38+00:00",
+  "pdf_publication_count": 82,
+  "publication_count": 90,
   "publications": [
     {
       "artifact_availability": "local_pdf",
@@ -2054,6 +2054,31 @@
       "website_url": "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"
     },
     {
+      "artifact_availability": "local_pdf",
+      "bytes": 58061,
+      "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/",
+      "date": "2026-05-09",
+      "doi": "",
+      "doi_url": "",
+      "github_path": "anchor-documents/wp000-panta-rhei-at-a-glance",
+      "id": "wp000-panta-rhei-at-a-glance",
+      "ots_status": "missing",
+      "pdf": "wp000-panta-rhei-at-a-glance.pdf",
+      "publication_id": "wp000",
+      "publication_key": "anchor_documents.panta_rhei_at_a_glance",
+      "publication_role": "orientation",
+      "publication_type": "White Paper",
+      "route_status": "active",
+      "sha256": "8caa1e83dfd2f3e7f26d7997568a6e5d68e403a2c11b9da1b4f4f6cc5f6971d9",
+      "sha512": "37eaca1c3e7bb7f0b9e0aa46edce99e21204ef77e75a6255d1c8beaa09980206976c0ca4c5b3bafe6276fd83e0ee61bb3cb82e3b81ebbe79326976ed2358b8cd",
+      "short_url": "https://prrp.site/wp000",
+      "status": "released",
+      "title": "Panta Rhei at a Glance",
+      "type": "white_paper",
+      "version": "canonical v1.0",
+      "website_url": "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/"
+    },
+    {
       "artifact_availability": "planned",
       "bytes": 0,
       "canonical_url": "",
@@ -2229,6 +2254,6 @@
       "website_url": "https://panta-rhei.site/publications/white-papers/executive-overview/"
     }
   ],
-  "released_publication_count": 82,
+  "released_publication_count": 83,
   "schema": "panta-rhei-publications-catalog-v2"
 }

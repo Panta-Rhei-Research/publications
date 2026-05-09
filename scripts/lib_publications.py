@@ -303,6 +303,23 @@ PUBLICATION_REGISTRY: dict[str, dict[str, Any]] = {
             "/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/",
         ],
     },
+    "wp000-panta-rhei-at-a-glance": {
+        "publication_id": "wp000",
+        "publication_key": "anchor_documents.panta_rhei_at_a_glance",
+        "type": "white_paper",
+        "publication_role": "orientation",
+        "status": "released",
+        "short_url": "https://prrp.site/wp000",
+        "route_status": "active",
+        "license": "CC-BY-4.0",
+        "related_lanes": ["publications", "discover", "program", "verify"],
+        "related_routes": [
+            "/publications/anchor-documents/wp000-panta-rhei-at-a-glance/",
+            "/discover/",
+            "/program/",
+            "/verify/",
+        ],
+    },
     "wp001-panta-rhei-research-program-executive-overview": {
         "publication_id": "wp001",
         "publication_key": "anchor_documents.panta_rhei_research_program_executive_overview",

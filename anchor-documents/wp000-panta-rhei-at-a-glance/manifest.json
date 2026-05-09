@@ -1,0 +1,88 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "8caa1e83dfd2f3e7f26d7997568a6e5d68e403a2c11b9da1b4f4f6cc5f6971d9",
+    "sha512": "37eaca1c3e7bb7f0b9e0aa46edce99e21204ef77e75a6255d1c8beaa09980206976c0ca4c5b3bafe6276fd83e0ee61bb3cb82e3b81ebbe79326976ed2358b8cd"
+  },
+  "file": {
+    "bytes": 58061,
+    "path": "wp000-panta-rhei-at-a-glance.pdf",
+    "sha256": "8caa1e83dfd2f3e7f26d7997568a6e5d68e403a2c11b9da1b4f4f6cc5f6971d9",
+    "sha512": "37eaca1c3e7bb7f0b9e0aa46edce99e21204ef77e75a6255d1c8beaa09980206976c0ca4c5b3bafe6276fd83e0ee61bb3cb82e3b81ebbe79326976ed2358b8cd",
+    "source_website_asset_path": "site/assets/pdfs/anchor-documents/wp000-panta-rhei-at-a-glance.pdf"
+  },
+  "generated_at": "2026-05-09T05:06:38+00:00",
+  "id": "wp000-panta-rhei-at-a-glance",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "Canonical v1.0 four-page Anchor Document primer for first-contact readers.\nWP000 gives a nontechnical route into the Panta Rhei Research Program as an\ninspectable public research object before readers choose C001, WP001, the\nCorpus, Results, Verify, Impact, or Engage routes.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/",
+    "claim_boundary": {
+      "claim": "This released record publishes the canonical `wp000` route and PDF artifact.\nIt is an orientation primer. It does not claim peer review, external\nvalidation, empirical adequacy, deployment readiness, product availability,\npolicy adoption, institutional acceptance, or achieved impact.",
+      "non_claim": "does not claim peer review, external\nvalidation, empirical adequacy, deployment readiness, product availability,\npolicy adoption, institutional acceptance, or achieved impact."
+    },
+    "date": "2026-05-09",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [
+      {
+        "label": "Mnemonic short route",
+        "url": "https://prrp.site/wp-glance"
+      },
+      {
+        "label": "Discover",
+        "url": "https://panta-rhei.site/discover/"
+      },
+      {
+        "label": "Anchor Documents",
+        "url": "https://panta-rhei.site/publications/anchor-documents/"
+      },
+      {
+        "label": "Program",
+        "url": "https://panta-rhei.site/program/"
+      },
+      {
+        "label": "Verify",
+        "url": "https://panta-rhei.site/verify/"
+      }
+    ],
+    "github_path": "anchor-documents/wp000-panta-rhei-at-a-glance",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "wp000-panta-rhei-at-a-glance.pdf",
+    "publication_type": "White Paper",
+    "related_lanes": [
+      "publications",
+      "discover",
+      "program",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/anchor-documents/wp000-panta-rhei-at-a-glance/",
+      "/discover/",
+      "/program/",
+      "/verify/"
+    ],
+    "route_status": "active",
+    "short_url": "https://prrp.site/wp000",
+    "source_website_page": "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/",
+    "status": "released",
+    "subtitle": "A nontechnical orientation to an inspectable open research program",
+    "title": "Panta Rhei at a Glance",
+    "version": "canonical v1.0",
+    "website_url": "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/",
+    "zenodo_url": ""
+  },
+  "publication_id": "wp000",
+  "publication_key": "anchor_documents.panta_rhei_at_a_glance",
+  "publication_role": "orientation",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "white_paper"
+}

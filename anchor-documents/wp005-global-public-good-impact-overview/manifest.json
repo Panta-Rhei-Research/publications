@@ -1,17 +1,17 @@
 {
   "artifact_availability": "local_pdf",
   "checksums": {
-    "sha256": "98f3d00c86620e7c8efd418f564f333ffaf93a9628e8aff97c1bae25dd1c1f12",
-    "sha512": "0b0fe267e5b5d64d79e64708398d5b1f50c361ab9f4288cd05c9996b9edf18ff7807f37e3f625e29eabb99e35dcaff6ec8bd3ca140e3adf315751fca68c7437b"
+    "sha256": "cb2067b7abd913add610a30e7bb42707e8561752e4fa35f31e04b3b83fed3a69",
+    "sha512": "df5964be6c1c70a3819b44f07770bf9519baf9ea2a8da672512c743b95e0bb7b4102228888e336f59537715e7419ebde0c6b95ef7540bb864a75fe45f6c300bd"
   },
   "file": {
-    "bytes": 240636,
+    "bytes": 324239,
     "path": "wp005-global-public-good-impact-overview.pdf",
-    "sha256": "98f3d00c86620e7c8efd418f564f333ffaf93a9628e8aff97c1bae25dd1c1f12",
-    "sha512": "0b0fe267e5b5d64d79e64708398d5b1f50c361ab9f4288cd05c9996b9edf18ff7807f37e3f625e29eabb99e35dcaff6ec8bd3ca140e3adf315751fca68c7437b",
+    "sha256": "cb2067b7abd913add610a30e7bb42707e8561752e4fa35f31e04b3b83fed3a69",
+    "sha512": "df5964be6c1c70a3819b44f07770bf9519baf9ea2a8da672512c743b95e0bb7b4102228888e336f59537715e7419ebde0c6b95ef7540bb864a75fe45f6c300bd",
     "source_website_asset_path": "site/assets/pdfs/anchor-documents/wp005-global-public-good-impact-overview.pdf"
   },
-  "generated_at": "2026-05-08T19:47:10+00:00",
+  "generated_at": "2026-05-10T17:35:45+00:00",
   "id": "wp005-global-public-good-impact-overview",
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {

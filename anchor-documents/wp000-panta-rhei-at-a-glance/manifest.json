@@ -1,17 +1,17 @@
 {
   "artifact_availability": "local_pdf",
   "checksums": {
-    "sha256": "8caa1e83dfd2f3e7f26d7997568a6e5d68e403a2c11b9da1b4f4f6cc5f6971d9",
-    "sha512": "37eaca1c3e7bb7f0b9e0aa46edce99e21204ef77e75a6255d1c8beaa09980206976c0ca4c5b3bafe6276fd83e0ee61bb3cb82e3b81ebbe79326976ed2358b8cd"
+    "sha256": "cc65cae423e74f87dfacfc86d796f3790c8bebbe9e604ddb4326b66583d6e766",
+    "sha512": "5e25bd9188db035be9894e76428fbc5027cd4f96bbdc3129e72a76daaa4e7259d77809334dcb48289816143a076857507668f5e84e60fe9d0b4629ee7fd11b98"
   },
   "file": {
-    "bytes": 58061,
+    "bytes": 503736,
     "path": "wp000-panta-rhei-at-a-glance.pdf",
-    "sha256": "8caa1e83dfd2f3e7f26d7997568a6e5d68e403a2c11b9da1b4f4f6cc5f6971d9",
-    "sha512": "37eaca1c3e7bb7f0b9e0aa46edce99e21204ef77e75a6255d1c8beaa09980206976c0ca4c5b3bafe6276fd83e0ee61bb3cb82e3b81ebbe79326976ed2358b8cd",
+    "sha256": "cc65cae423e74f87dfacfc86d796f3790c8bebbe9e604ddb4326b66583d6e766",
+    "sha512": "5e25bd9188db035be9894e76428fbc5027cd4f96bbdc3129e72a76daaa4e7259d77809334dcb48289816143a076857507668f5e84e60fe9d0b4629ee7fd11b98",
     "source_website_asset_path": "site/assets/pdfs/anchor-documents/wp000-panta-rhei-at-a-glance.pdf"
   },
-  "generated_at": "2026-05-09T05:06:38+00:00",
+  "generated_at": "2026-05-10T17:35:45+00:00",
   "id": "wp000-panta-rhei-at-a-glance",
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {

@@ -1,17 +1,17 @@
 {
   "artifact_availability": "local_pdf",
   "checksums": {
-    "sha256": "f0aa1bc0724c51d35e4fa7521561220a32fdd43f6ec6cc2417c6f3c37aae0968",
-    "sha512": "aa3810a3b0a7d21ffb16b3b0ccc1da1510a3ea8c892fe192b3ab42c7d5e1aba89f4e395cba8869276b6431533d40ea4cd41c6fcc3376731c78dbab135fa487d5"
+    "sha256": "f63cf77af04393157186563a58473a83306ed4a24d588e0428c7ca97b02cb7d7",
+    "sha512": "c9663f78f0475d78b4614bd09756ec02e8ff7c881ff55ca76559867fc7335ff5bac626097704755ec50d52f30440d0f797f2a85fe5b257b221880ac786e5bee0"
   },
   "file": {
-    "bytes": 211470,
+    "bytes": 294691,
     "path": "wp003-taulib-technical-overview.pdf",
-    "sha256": "f0aa1bc0724c51d35e4fa7521561220a32fdd43f6ec6cc2417c6f3c37aae0968",
-    "sha512": "aa3810a3b0a7d21ffb16b3b0ccc1da1510a3ea8c892fe192b3ab42c7d5e1aba89f4e395cba8869276b6431533d40ea4cd41c6fcc3376731c78dbab135fa487d5",
+    "sha256": "f63cf77af04393157186563a58473a83306ed4a24d588e0428c7ca97b02cb7d7",
+    "sha512": "c9663f78f0475d78b4614bd09756ec02e8ff7c881ff55ca76559867fc7335ff5bac626097704755ec50d52f30440d0f797f2a85fe5b257b221880ac786e5bee0",
     "source_website_asset_path": "site/assets/pdfs/anchor-documents/wp003-taulib-technical-overview.pdf"
   },
-  "generated_at": "2026-05-08T16:19:48+00:00",
+  "generated_at": "2026-05-10T17:35:45+00:00",
   "id": "wp003-taulib-technical-overview",
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {

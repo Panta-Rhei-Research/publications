@@ -1,17 +1,17 @@
 {
   "artifact_availability": "local_pdf",
   "checksums": {
-    "sha256": "eaefe68076c3690f7394073558097524f5c98541cd37b9430193037445129201",
-    "sha512": "f557faff9ca182874f6bfd290912b5b045f92699fcf87b0d0b2a70e389af105570f9572e812d224b7612e007a040936019db790ece05085102deee91a6fc0178"
+    "sha256": "0f547c4a586ba92e58346d55a7b18945c577c1303a152530ace52db0a1320408",
+    "sha512": "d3aef6dd9bf0ef5e26d53b4e736505311ff117d2e7222293b75942f3ec3fb74dc55b5035a013cf7c17c98682ec4ad5c129778e957464b381aa24359163beb00e"
   },
   "file": {
-    "bytes": 212246,
+    "bytes": 327217,
     "path": "c001-standing-in-the-inquiry-of-being.pdf",
-    "sha256": "eaefe68076c3690f7394073558097524f5c98541cd37b9430193037445129201",
-    "sha512": "f557faff9ca182874f6bfd290912b5b045f92699fcf87b0d0b2a70e389af105570f9572e812d224b7612e007a040936019db790ece05085102deee91a6fc0178",
+    "sha256": "0f547c4a586ba92e58346d55a7b18945c577c1303a152530ace52db0a1320408",
+    "sha512": "d3aef6dd9bf0ef5e26d53b4e736505311ff117d2e7222293b75942f3ec3fb74dc55b5035a013cf7c17c98682ec4ad5c129778e957464b381aa24359163beb00e",
     "source_website_asset_path": "site/assets/pdfs/anchor-documents/c001-standing-in-the-inquiry-of-being.pdf"
   },
-  "generated_at": "2026-05-08T12:28:01+00:00",
+  "generated_at": "2026-05-10T17:35:45+00:00",
   "id": "c001-standing-in-the-inquiry-of-being",
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {

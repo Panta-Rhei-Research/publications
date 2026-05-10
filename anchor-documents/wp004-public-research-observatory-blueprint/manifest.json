@@ -1,17 +1,17 @@
 {
   "artifact_availability": "local_pdf",
   "checksums": {
-    "sha256": "bc82d22f42ced33204616be37ab297a9492e4a1f260edbc955ee1dfb749ce743",
-    "sha512": "829439e14ec9019c92893ee7727296c495118bb5efc845df7b9cd1b585769fda8dcb4a481c624c26b5faaecd67b66ff02472a6bb16ec89c78a376cfed7e5feb5"
+    "sha256": "835578e7ae9932be433068a0d2d10a585912f7b87bf57d654cfd88935653cd32",
+    "sha512": "14e1a308ca38bb271c95537514212c1a5890e86d82e32e72dc092cb8eb2ab8abb5f857947b2c5882f567491aecc560c061bf6bc084d9b5abdd58fa7c8e1f0c96"
   },
   "file": {
-    "bytes": 467615,
+    "bytes": 545965,
     "path": "wp004-public-research-observatory-blueprint.pdf",
-    "sha256": "bc82d22f42ced33204616be37ab297a9492e4a1f260edbc955ee1dfb749ce743",
-    "sha512": "829439e14ec9019c92893ee7727296c495118bb5efc845df7b9cd1b585769fda8dcb4a481c624c26b5faaecd67b66ff02472a6bb16ec89c78a376cfed7e5feb5",
+    "sha256": "835578e7ae9932be433068a0d2d10a585912f7b87bf57d654cfd88935653cd32",
+    "sha512": "14e1a308ca38bb271c95537514212c1a5890e86d82e32e72dc092cb8eb2ab8abb5f857947b2c5882f567491aecc560c061bf6bc084d9b5abdd58fa7c8e1f0c96",
     "source_website_asset_path": "site/assets/pdfs/anchor-documents/wp004-public-research-observatory-blueprint.pdf"
   },
-  "generated_at": "2026-05-08T17:24:30+00:00",
+  "generated_at": "2026-05-10T17:35:45+00:00",
   "id": "wp004-public-research-observatory-blueprint",
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {

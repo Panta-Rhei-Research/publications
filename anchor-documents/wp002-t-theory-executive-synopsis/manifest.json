@@ -1,17 +1,17 @@
 {
   "artifact_availability": "local_pdf",
   "checksums": {
-    "sha256": "dc22657b987459ce259dc720d50f1a7b886597c9ba148bec17e0d204c1802efd",
-    "sha512": "9653735dbc6d526218cef7be51ea01b01594377407ba37339a7ee35b962fbb408b394da50799a15acd818f165080003d3b233e13150985c1f3d7e609c784c548"
+    "sha256": "91e53a7c8606abe1c7a33355c9e986f1614a240ea68c998ed34ec5bdd6ca59ec",
+    "sha512": "cc983d742b1b8b031b802dfbda85813accd1242ccf656dd743973e54e78249941cbeadb9994d1a7d0149978426a080dfa218098372459482dc2d2118b26bd635"
   },
   "file": {
-    "bytes": 364419,
+    "bytes": 412045,
     "path": "wp002-t-theory-executive-synopsis.pdf",
-    "sha256": "dc22657b987459ce259dc720d50f1a7b886597c9ba148bec17e0d204c1802efd",
-    "sha512": "9653735dbc6d526218cef7be51ea01b01594377407ba37339a7ee35b962fbb408b394da50799a15acd818f165080003d3b233e13150985c1f3d7e609c784c548",
+    "sha256": "91e53a7c8606abe1c7a33355c9e986f1614a240ea68c998ed34ec5bdd6ca59ec",
+    "sha512": "cc983d742b1b8b031b802dfbda85813accd1242ccf656dd743973e54e78249941cbeadb9994d1a7d0149978426a080dfa218098372459482dc2d2118b26bd635",
     "source_website_asset_path": "site/assets/pdfs/anchor-documents/wp002-t-theory-executive-synopsis.pdf"
   },
-  "generated_at": "2026-05-08T14:18:28+00:00",
+  "generated_at": "2026-05-10T17:35:45+00:00",
   "id": "wp002-t-theory-executive-synopsis",
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {

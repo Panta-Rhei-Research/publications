@@ -2,7 +2,7 @@ schema: "panta-rhei-publications-catalog-v2"
 publication_count: 90
 released_publication_count: 83
 pdf_publication_count: 82
-generated_at: "2026-05-10T17:35:45+00:00"
+generated_at: "2026-05-12T12:40:39+00:00"
 publications:
   -
     id: "c001-standing-in-the-inquiry-of-being"
@@ -1920,9 +1920,9 @@ publications:
     route_status: "active"
     github_path: "anchor-documents/wp003-taulib-technical-overview"
     pdf: "wp003-taulib-technical-overview.pdf"
-    bytes: 294691
-    sha256: "f63cf77af04393157186563a58473a83306ed4a24d588e0428c7ca97b02cb7d7"
-    sha512: "c9663f78f0475d78b4614bd09756ec02e8ff7c881ff55ca76559867fc7335ff5bac626097704755ec50d52f30440d0f797f2a85fe5b257b221880ac786e5bee0"
+    bytes: 303923
+    sha256: "db01b46b129c0365741c5d8da5ee3afd70c4377ec1afbe3bc7e9a9d9a278a939"
+    sha512: "b7a50d5e705a3efc6b7d73c5fd886298d1862d9a4537c7a68d423f332a994844a5a363c7bdd0f3689d8581085774f5ca751b7eabe8ff2dd45e243250c5b9be94"
     ots_status: "missing"
   -
     id: "wp004-public-research-observatory-blueprint"

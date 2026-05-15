@@ -2,8 +2,8 @@
 
 This report is generated from publication manifests. The PRRP routes listed here are typed observatory identifiers, not generic short links.
 
-- Total routes: 86
-- Active routes: 7
+- Total routes: 87
+- Active routes: 8
 - Reserved routes: 79
 
 | Route | Status | Type | Publication | Canonical URL |
@@ -78,6 +78,7 @@ This report is generated from publication manifests. The PRRP routes listed here
 | `rn005` | reserved | research_note | Black Hole Stability Without Extra Dimensions | https://panta-rhei.site/publications/research-notes/black-holes-without-extra-dimensions/ |
 | `rn006` | reserved | research_note | Arithmetic Quantum Gravity Without Singularities | https://panta-rhei.site/publications/research-notes/arithmetic-quantum-gravity-without-singularities/ |
 | `rn007` | reserved | research_note | Aesthetic Topology as Pre-Symbolic Readout | https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/ |
+| `rn030` | active | research_note | Thirty Open Problems as tau-Readout Surfaces | https://panta-rhei.site/publications/research-notes/thirty-open-problems-tau-readout-surfaces/ |
 | `rp001` | reserved | research_paper | The Hyperfactorization Theorem | https://panta-rhei.site/publications/research-papers/hyperfactorization-theorem/ |
 | `rp002` | reserved | research_paper | The Prime Polarity Theorem | https://panta-rhei.site/publications/research-papers/prime-polarity-theorem/ |
 | `rp003` | reserved | research_paper | The Master Constant iota_tau | https://panta-rhei.site/publications/research-papers/master-constant-iota-tau/ |

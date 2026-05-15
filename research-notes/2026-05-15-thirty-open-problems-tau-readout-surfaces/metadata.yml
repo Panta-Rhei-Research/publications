@@ -1,0 +1,44 @@
+publication_id: RN-030
+publication_key: research_notes.thirty_open_problems_tau_readout_surfaces
+title: "Thirty Open Problems as tau-Readout Surfaces"
+subtitle: "A structural answer-shape stress test of expressiveness, coherence, and translation capacity"
+authors:
+  - Thorsten Fuchs
+  - Anna-Sophie Fuchs
+type: Research Note
+status: Public release
+version: v1.0
+date: 2026-05-15
+program: Panta Rhei Research Program
+license: CC-BY-4.0
+website: https://panta-rhei.site/publications/research-notes/thirty-open-problems-tau-readout-surfaces/
+pdf: https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-05-15-thirty-open-problems-tau-readout-surfaces.pdf
+source: thirty-open-problems-tau-readout-surfaces.tex
+tags:
+  - tau-framework
+  - answer-shapes
+  - open-problems
+  - physics
+  - quantum-foundations
+  - particle-physics
+  - gravity
+  - cosmology
+  - expressiveness
+  - coherence
+summary: >
+  This research note uses thirty familiar open questions from quantum
+  foundations, particle physics, gravity, black-hole physics, and cosmology as
+  an external expressiveness stress test for the tau-framework. It does not
+  claim to solve the questions. It maps each problem surface to a structural
+  answer-shape and identifies recurring construction patterns and validation
+  seams.
+claim_boundary:
+  core: >
+    The note tests whether the existing tau-construction grammar produces
+    coherent, differentiated answer-shapes across an externally chosen open
+    problem tableau.
+  non_claims:
+    - It does not claim to solve the thirty open questions.
+    - It does not present the prompt tableau as a scientific authority.
+    - It does not claim external validation of the tau-framework.
+    - It does not collapse answer-shapes into validated answers.

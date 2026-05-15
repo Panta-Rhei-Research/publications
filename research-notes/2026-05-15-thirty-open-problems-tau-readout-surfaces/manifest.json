@@ -1,0 +1,70 @@
+{
+  "schema": "panta-rhei-publication-manifest-v2",
+  "id": "2026-05-15-thirty-open-problems-tau-readout-surfaces",
+  "publication_id": "rn030",
+  "publication_key": "research_notes.thirty_open_problems_tau_readout_surfaces",
+  "type": "research_note",
+  "status": "released",
+  "artifact_availability": "local_pdf",
+  "generated_at": "2026-05-15T13:44:49Z",
+  "file": {
+    "path": "research-note-2026-05-15-thirty-open-problems-tau-readout-surfaces.pdf",
+    "bytes": 1632069,
+    "sha256": "109f2ff89510dd137df12defcc2a28ce8a508d19fa24007877b1b38eea12faca",
+    "sha512": "df4ced3a4781f25a51e5de18a0a346026b3986c948b55b26b39a6e993251b72e1a80dcd569656eb4118f619200645d93aff45af827597043cae03030d37f10b7",
+    "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-05-15-thirty-open-problems-tau-readout-surfaces.pdf"
+  },
+  "source": {
+    "path": "thirty-open-problems-tau-readout-surfaces.tex",
+    "bytes": 22105,
+    "sha256": "ea5b396a38244dd2b49190c71eda3db48860e448dfcb649daa6284cee1ee2f14",
+    "sha512": "0b961c9599754fbb723928668c0044e0eb36901a8211da7d880722321a32b2c1fb0b92d8644ed0a6afff407dd47ce14302390a22d7f6cdac01b3012d75f1fac1"
+  },
+  "checksums": {
+    "sha256": "109f2ff89510dd137df12defcc2a28ce8a508d19fa24007877b1b38eea12faca",
+    "sha512": "df4ced3a4781f25a51e5de18a0a346026b3986c948b55b26b39a6e993251b72e1a80dcd569656eb4118f619200645d93aff45af827597043cae03030d37f10b7"
+  },
+  "opentimestamps": {
+    "status": "not_created",
+    "verification": "not_applicable_for_this_sprint"
+  },
+  "publication": {
+    "title": "Thirty Open Problems as tau-Readout Surfaces",
+    "subtitle": "A structural answer-shape stress test of expressiveness, coherence, and translation capacity",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "publication_type": "Research Note",
+    "date": "2026-05-15",
+    "version": "v1.0",
+    "status": "Public release",
+    "license": "CC-BY-4.0",
+    "doi": "",
+    "doi_url": "",
+    "zenodo_url": "",
+    "canonical_url": "https://panta-rhei.site/publications/research-notes/thirty-open-problems-tau-readout-surfaces/",
+    "website_url": "https://panta-rhei.site/publications/research-notes/thirty-open-problems-tau-readout-surfaces/",
+    "pdf_filename": "research-note-2026-05-15-thirty-open-problems-tau-readout-surfaces.pdf",
+    "source_website_page": "_research_notes/2026-05-15-thirty-open-problems-tau-readout-surfaces.md",
+    "github_path": "research-notes/2026-05-15-thirty-open-problems-tau-readout-surfaces",
+    "short_url": "https://prrp.site/30-questions",
+    "artifact_availability": "local_pdf",
+    "route_status": "released",
+    "abstract": "This research note uses thirty familiar open questions from quantum foundations, particle physics, gravity, black-hole physics, and cosmology as an external expressiveness stress test for the tau-framework. It maps each problem surface to a structural answer-shape and identifies recurring construction patterns and validation seams, while explicitly refusing validation claims.",
+    "claim_boundary": {
+      "claim": "The note tests whether the existing tau-construction grammar produces coherent, differentiated answer-shapes across an externally chosen open problem tableau.",
+      "non_claim": "It does not claim to solve the thirty open questions, treat the prompt tableau as scientific authority, or validate the tau-framework."
+    },
+    "related_lanes": [
+      "corpus",
+      "results",
+      "verify",
+      "publications"
+    ],
+    "related_routes": [
+      "/publications/research-notes/thirty-open-problems-tau-readout-surfaces/",
+      "/corpus/construction-spine/",
+      "/results/challenge-responses/",
+      "/verify/construction-spine-verification/"
+    ]
+  },
+  "integrity_note": "Hashes attest to the PDF bytes and release source snapshot only; they do not certify correctness, peer review, legal status, DOI registration, or content validity."
+}

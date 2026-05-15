@@ -1,5 +1,5 @@
 schema: "panta-rhei-prrp-routes-public-v1"
-route_count: 86
+route_count: 87
 routes:
   -
     route_id: "c001"
@@ -771,6 +771,17 @@ routes:
     title: "Aesthetic Topology as Pre-Symbolic Readout"
     canonical_url: "https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/"
     github_path: "research-notes/2026-05-15-aesthetic-topology-pre-symbolic-readout"
+  -
+    route_id: "rn030"
+    short_url: "https://prrp.site/30-questions"
+    route_status: "active"
+    publication_key: "research_notes.thirty_open_problems_tau_readout_surfaces"
+    type: "research_note"
+    publication_role: "technical"
+    publication_status: "released"
+    title: "Thirty Open Problems as tau-Readout Surfaces"
+    canonical_url: "https://panta-rhei.site/publications/research-notes/thirty-open-problems-tau-readout-surfaces/"
+    github_path: "research-notes/2026-05-15-thirty-open-problems-tau-readout-surfaces"
   -
     route_id: "rp001"
     short_url: "https://prrp.site/rp001"

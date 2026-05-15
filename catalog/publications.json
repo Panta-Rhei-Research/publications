@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-15T12:22:56+00:00",
-  "pdf_publication_count": 83,
-  "publication_count": 91,
+  "generated_at": "2026-05-15T13:44:49Z",
+  "pdf_publication_count": 84,
+  "publication_count": 92,
   "publications": [
     {
       "artifact_availability": "local_pdf",
@@ -1705,6 +1705,31 @@
     },
     {
       "artifact_availability": "local_pdf",
+      "bytes": 1632069,
+      "canonical_url": "https://panta-rhei.site/publications/research-notes/thirty-open-problems-tau-readout-surfaces/",
+      "date": "2026-05-15",
+      "doi": "",
+      "doi_url": "",
+      "github_path": "research-notes/2026-05-15-thirty-open-problems-tau-readout-surfaces",
+      "id": "2026-05-15-thirty-open-problems-tau-readout-surfaces",
+      "ots_status": "missing",
+      "pdf": "research-note-2026-05-15-thirty-open-problems-tau-readout-surfaces.pdf",
+      "publication_id": "rn030",
+      "publication_key": "research_notes.thirty_open_problems_tau_readout_surfaces",
+      "publication_role": "technical",
+      "publication_type": "Research Note",
+      "route_status": "active",
+      "sha256": "109f2ff89510dd137df12defcc2a28ce8a508d19fa24007877b1b38eea12faca",
+      "sha512": "df4ced3a4781f25a51e5de18a0a346026b3986c948b55b26b39a6e993251b72e1a80dcd569656eb4118f619200645d93aff45af827597043cae03030d37f10b7",
+      "short_url": "https://prrp.site/30-questions",
+      "status": "released",
+      "title": "Thirty Open Problems as tau-Readout Surfaces",
+      "type": "research_note",
+      "version": "v1.0",
+      "website_url": "https://panta-rhei.site/publications/research-notes/thirty-open-problems-tau-readout-surfaces/"
+    },
+    {
+      "artifact_availability": "local_pdf",
       "bytes": 162118,
       "canonical_url": "https://panta-rhei.site/publications/research-papers/hyperfactorization-theorem/",
       "date": "2026-04-27",
@@ -2279,6 +2304,6 @@
       "website_url": "https://panta-rhei.site/publications/white-papers/executive-overview/"
     }
   ],
-  "released_publication_count": 84,
+  "released_publication_count": 85,
   "schema": "panta-rhei-publications-catalog-v2"
 }

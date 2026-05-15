@@ -139,6 +139,22 @@ PUBLICATION_REGISTRY: dict[str, dict[str, Any]] = {
         "related_lanes": ["publications", "corpus", "verify"],
         "related_routes": ["/publications/research-notes/aesthetic-topology-pre-symbolic-readout/"],
     },
+    "2026-05-15-thirty-open-problems-tau-readout-surfaces": {
+        "publication_id": "rn030",
+        "publication_key": "research_notes.thirty_open_problems_tau_readout_surfaces",
+        "type": "research_note",
+        "publication_role": "technical",
+        "short_url": "https://prrp.site/30-questions",
+        "route_status": "active",
+        "license": "CC-BY-4.0",
+        "related_lanes": ["publications", "corpus", "results", "verify"],
+        "related_routes": [
+            "/publications/research-notes/thirty-open-problems-tau-readout-surfaces/",
+            "/corpus/construction-spine/",
+            "/results/challenge-responses/",
+            "/verify/construction-spine-verification/",
+        ],
+    },
     "2026-04-27-hyperfactorization-theorem": {
         "publication_id": "rp001",
         "publication_key": "research_papers.hyperfactorization_theorem",

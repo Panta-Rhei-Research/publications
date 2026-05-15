@@ -1,5 +1,5 @@
 schema: "panta-rhei-prrp-routes-public-v1"
-route_count: 85
+route_count: 86
 routes:
   -
     route_id: "c001"
@@ -760,6 +760,17 @@ routes:
     title: "Arithmetic Quantum Gravity Without Singularities"
     canonical_url: "https://panta-rhei.site/publications/research-notes/arithmetic-quantum-gravity-without-singularities/"
     github_path: "research-notes/2026-04-25-arithmetic-quantum-gravity-without-singularities"
+  -
+    route_id: "rn007"
+    short_url: "https://prrp.site/rn007"
+    route_status: "reserved"
+    publication_key: "research_notes.aesthetic_topology_pre_symbolic_readout"
+    type: "research_note"
+    publication_role: "dialogue"
+    publication_status: "released"
+    title: "Aesthetic Topology as Pre-Symbolic Readout"
+    canonical_url: "https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/"
+    github_path: "research-notes/2026-05-15-aesthetic-topology-pre-symbolic-readout"
   -
     route_id: "rp001"
     short_url: "https://prrp.site/rp001"

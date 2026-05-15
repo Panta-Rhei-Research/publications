@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-12T13:23:21+00:00",
-  "pdf_publication_count": 82,
-  "publication_count": 90,
+  "generated_at": "2026-05-15T12:22:56+00:00",
+  "pdf_publication_count": 83,
+  "publication_count": 91,
   "publications": [
     {
       "artifact_availability": "local_pdf",
@@ -1680,6 +1680,31 @@
     },
     {
       "artifact_availability": "local_pdf",
+      "bytes": 178728,
+      "canonical_url": "https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/",
+      "date": "2026-05-15",
+      "doi": "",
+      "doi_url": "",
+      "github_path": "research-notes/2026-05-15-aesthetic-topology-pre-symbolic-readout",
+      "id": "2026-05-15-aesthetic-topology-pre-symbolic-readout",
+      "ots_status": "missing",
+      "pdf": "research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf",
+      "publication_id": "rn007",
+      "publication_key": "research_notes.aesthetic_topology_pre_symbolic_readout",
+      "publication_role": "dialogue",
+      "publication_type": "Research Note",
+      "route_status": "reserved",
+      "sha256": "e330027ace1ec9eec0982a74ca0ce18664c94fe4c91505355a4c91bd50ba3159",
+      "sha512": "0d0d12a19b8af1f767d51dccdbbe243ea40f613aecc70ba894e7b2afe80fad9c922b0dd56b48af5ba53a9eae0b3dae9a253704f14b3ae8915032780b87a98592",
+      "short_url": "https://prrp.site/rn007",
+      "status": "released",
+      "title": "Aesthetic Topology as Pre-Symbolic Readout",
+      "type": "research_note",
+      "version": "v0.9 RC",
+      "website_url": "https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/"
+    },
+    {
+      "artifact_availability": "local_pdf",
       "bytes": 162118,
       "canonical_url": "https://panta-rhei.site/publications/research-papers/hyperfactorization-theorem/",
       "date": "2026-04-27",
@@ -2254,6 +2279,6 @@
       "website_url": "https://panta-rhei.site/publications/white-papers/executive-overview/"
     }
   ],
-  "released_publication_count": 83,
+  "released_publication_count": 84,
   "schema": "panta-rhei-publications-catalog-v2"
 }

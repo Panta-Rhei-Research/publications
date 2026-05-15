@@ -1,37 +1,46 @@
 {
   "artifact_availability": "local_pdf",
   "checksums": {
-    "sha256": "8736d82087bb0775576c3bd1668829ba18bbdd7be4030146f632920ed306795b",
-    "sha512": "5b4f194f7420b3fe7ad91c01c111f5f5c43c0f1c06d7b64cbc580ee554b89f5cee5428518438375e59fb9a5e5f97ec50497d26b7a61fe9622e5e684d71dc4758"
+    "sha256": "0a7d8173c2e74fc5e98832ca3107ba49009c0533c7ef2862d5092eab5cd95fad",
+    "sha512": "4b5c542c456e52f62aa44658b73b9ecbae0f8318a2d887750e9e68b783608130783368fee23b308dd05aaa1cc0c6bd05b4377fc28e96029e03fa8d6a9b2ed6f9"
   },
   "file": {
-    "bytes": 170829,
+    "bytes": 212216,
     "path": "research-note-2026-04-27-semantic-space-has-a-shape.pdf",
-    "sha256": "8736d82087bb0775576c3bd1668829ba18bbdd7be4030146f632920ed306795b",
-    "sha512": "5b4f194f7420b3fe7ad91c01c111f5f5c43c0f1c06d7b64cbc580ee554b89f5cee5428518438375e59fb9a5e5f97ec50497d26b7a61fe9622e5e684d71dc4758",
+    "sha256": "0a7d8173c2e74fc5e98832ca3107ba49009c0533c7ef2862d5092eab5cd95fad",
+    "sha512": "4b5c542c456e52f62aa44658b73b9ecbae0f8318a2d887750e9e68b783608130783368fee23b308dd05aaa1cc0c6bd05b4377fc28e96029e03fa8d6a9b2ed6f9",
     "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-04-27-semantic-space-has-a-shape.pdf"
   },
-  "generated_at": "2026-04-28T08:00:34+00:00",
+  "generated_at": "2026-05-15T16:57:35.972Z",
   "id": "2026-04-27-semantic-space-has-a-shape",
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {
     "receipt_path": "research-note-2026-04-27-semantic-space-has-a-shape.pdf.ots",
-    "status": "pending",
-    "verification": "receipt-present"
+    "status": "stale-after-pdf-refresh",
+    "verification": "receipt-present-for-previous-pdf-bytes; refresh before using timestamp as an integrity proof"
   },
   "publication": {
-    "abstract": "The note reads Guo et al. 2026, Statistical structure and the evolution of languages, as an external anchor for Book VII's language architecture. It distinguishes subsymbolic pattern fields, readout functors, public language, corpora, embedding instruments, and observed statistics, then frames the paper's regularities as calibration surfaces for future tau-facing language models rather than as confirmation of Category τ.",
+    "abstract": "The note reads Guo et al. 2026, Statistical structure and the evolution of languages, as an external anchor for Book VII's language architecture. It distinguishes subsymbolic pattern fields, readout functors, public language, corpora, embedding instruments, and observed statistics, then frames the paper's regularities as calibration surfaces for future Category τ-facing language/readout models rather than as confirmation of Category τ.",
     "artifact_availability": "local_pdf",
     "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
     "canonical_url": "https://panta-rhei.site/publications/research-notes/semantic-space-has-a-shape/",
     "claim_boundary": {
-      "claim": "Core claim: Semantic-space regularities in the anchor paper give a serious calibration surface for Book VII's claim that public language is a structured readout of subsymbolic pattern organization.\n\nDoes not claim:\n- It does not claim that Guo et al. prove Category τ.\n- It does not claim that word embeddings are meaning itself.\n- It does not claim that all languages share one flattened semantic carrier.\n- It does not claim that the Panta Rhei framework already predicts the fitted exponents or the directed-preferential-placement model.\n\nFalsification surface:\n- Failure of the reported semantic-space regularities under independent reproduction or stronger multilingual/contextual embedding tests.\n- Failure of future tau-facing language models to reproduce the qualitative regularity package without hand-tuning.\n- Semantic or formal failure of the Book VII readout-functor interpretation under external review.",
-      "non_claim": "Does not claim:\n- It does not claim that Guo et al. prove Category τ.\n- It does not claim that word embeddings are meaning itself.\n- It does not claim that all languages share one flattened semantic carrier.\n- It does not claim that the Panta Rhei framework already predicts the fitted exponents or the directed-preferential-placement model.\n\nFalsification surface:\n- Failure of the reported semantic-space regularities under independent reproduction or stronger multilingual/contextual embedding tests.\n- Failure of future tau-facing language models to reproduce the qualitative regularity package without hand-tuning.\n- Semantic or formal failure of the Book VII readout-functor interpretation under external review."
+      "claim": "Core claim: Semantic-space regularities in the anchor paper give a serious calibration surface for Book VII's claim that public language is a structured readout of subsymbolic pattern organization.\n\nDoes not claim:\n- It does not claim that Guo et al. prove Category τ.\n- It does not claim that word embeddings are meaning itself.\n- It does not claim that all languages share one flattened semantic carrier.\n- It does not claim that the Panta Rhei framework already predicts the fitted exponents or the directed-preferential-placement model.\n- It does not claim that DPP is PPAS.\n- It does not claim that the paper studies full semantic drift.\n- It does not claim that languages can be ranked by metaphysical adequacy.\n\nFalsification surface:\n- Failure of the reported semantic-space regularities under independent reproduction or stronger multilingual/contextual embedding tests.\n- Failure of future Category τ-facing language/readout models to reproduce the qualitative regularity package without hand-tuning.\n- Semantic or formal failure of the Book VII readout-functor interpretation under external review.",
+      "non_claim": "Does not claim:\n- It does not claim that Guo et al. prove Category τ.\n- It does not claim that word embeddings are meaning itself.\n- It does not claim that all languages share one flattened semantic carrier.\n- It does not claim that the Panta Rhei framework already predicts the fitted exponents or the directed-preferential-placement model.\n- It does not claim that DPP is PPAS.\n- It does not claim that the paper studies full semantic drift.\n- It does not claim that languages can be ranked by metaphysical adequacy.\n\nFalsification surface:\n- Failure of the reported semantic-space regularities under independent reproduction or stronger multilingual/contextual embedding tests.\n- Failure of future Category τ-facing language/readout models to reproduce the qualitative regularity package without hand-tuning.\n- Semantic or formal failure of the Book VII readout-functor interpretation under external review."
     },
     "date": "2026-04-27",
-    "doi": "",
-    "doi_url": "",
-    "external_links": [],
+    "doi": "10.5281/zenodo.19816808",
+    "doi_url": "https://doi.org/10.5281/zenodo.19816808",
+    "external_links": [
+      {
+        "title": "Zenodo DOI",
+        "url": "https://doi.org/10.5281/zenodo.19816808"
+      },
+      {
+        "title": "Anchor paper DOI",
+        "url": "https://doi.org/10.1098/rspb.2025.2374"
+      }
+    ],
     "github_path": "research-notes/2026-04-27-semantic-space-has-a-shape",
     "license": "CC-BY-4.0",
     "pdf_filename": "research-note-2026-04-27-semantic-space-has-a-shape.pdf",
@@ -48,11 +57,11 @@
     "short_url": "https://prrp.site/rn001",
     "source_website_page": "_research_notes/2026-04-27-semantic-space-has-a-shape.md",
     "status": "Published",
-    "subtitle": "",
+    "subtitle": "Vocabulary evolution, word embeddings, and the Book VII readout-functor picture",
     "title": "Semantic Space Has a Shape",
     "version": "v1.0",
     "website_url": "https://panta-rhei.site/publications/research-notes/semantic-space-has-a-shape/",
-    "zenodo_url": ""
+    "zenodo_url": "https://doi.org/10.5281/zenodo.19816808"
   },
   "publication_id": "rn001",
   "publication_key": "research_notes.semantic_space_has_a_shape",

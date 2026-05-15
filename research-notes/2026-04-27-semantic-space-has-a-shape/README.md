@@ -10,7 +10,7 @@ Vocabulary evolution, word embeddings, and the Book VII readout-functor picture
 - Version: v1.0
 - Status: Published
 - Artifact availability: local_pdf
-- DOI: Not assigned
+- DOI: https://doi.org/10.5281/zenodo.19816808
 - Website: https://panta-rhei.site/publications/research-notes/semantic-space-has-a-shape/
 - Source website page: `_research_notes/2026-04-27-semantic-space-has-a-shape.md`
 - Source website asset path: `site/assets/pdfs/research-notes/research-note-2026-04-27-semantic-space-has-a-shape.pdf`
@@ -18,7 +18,7 @@ Vocabulary evolution, word embeddings, and the Book VII readout-functor picture
 
 ## Abstract
 
-The note reads Guo et al. 2026, Statistical structure and the evolution of languages, as an external anchor for Book VII's language architecture. It distinguishes subsymbolic pattern fields, readout functors, public language, corpora, embedding instruments, and observed statistics, then frames the paper's regularities as calibration surfaces for future tau-facing language models rather than as confirmation of Category τ.
+The note reads Guo et al. 2026, Statistical structure and the evolution of languages, as an external anchor for Book VII's language architecture. It distinguishes subsymbolic pattern fields, readout functors, public language, corpora, embedding instruments, and observed statistics, then frames the paper's regularities as calibration surfaces for future Category τ-facing language/readout models rather than as confirmation of Category τ.
 
 ## Claim Boundary
 
@@ -29,20 +29,23 @@ Does not claim:
 - It does not claim that word embeddings are meaning itself.
 - It does not claim that all languages share one flattened semantic carrier.
 - It does not claim that the Panta Rhei framework already predicts the fitted exponents or the directed-preferential-placement model.
+- It does not claim that DPP is PPAS.
+- It does not claim that the paper studies full semantic drift.
+- It does not claim that languages can be ranked by metaphysical adequacy.
 
 Falsification surface:
 - Failure of the reported semantic-space regularities under independent reproduction or stronger multilingual/contextual embedding tests.
-- Failure of future tau-facing language models to reproduce the qualitative regularity package without hand-tuning.
+- Failure of future Category τ-facing language/readout models to reproduce the qualitative regularity package without hand-tuning.
 - Semantic or formal failure of the Book VII readout-functor interpretation under external review.
 
 ## Verification And Status Notes
 
-pending_metaphysics_verification
+Program publication; external review not yet completed.
 
 ## Citation Guidance
 
-Cite the PDF as the stable artifact; cite this page for current routing, status, and related public surfaces.
+Cite the PDF as the stable artifact and use DOI https://doi.org/10.5281/zenodo.19816808 for the released artifact; cite this page for current routing, status, and related public surfaces.
 
 ## Integrity
 
-Cryptographic hashes and OpenTimestamps receipt status are recorded in `manifest.json` for local PDFs. For external-link records, `manifest.json` records route and availability metadata only. Timestamp receipts prove existence of exact PDF bytes at or before the attested time; they do not certify correctness, peer review, legal status, DOI registration, or content validity.
+Cryptographic hashes and OpenTimestamps receipt status are recorded in `manifest.json` for local PDFs. The PDF was refreshed after the original timestamp receipt; refresh the OpenTimestamps receipt before using timestamp status as an integrity proof. Timestamp receipts prove existence of exact PDF bytes at or before the attested time; they do not certify correctness, peer review, legal status, DOI registration, or content validity.

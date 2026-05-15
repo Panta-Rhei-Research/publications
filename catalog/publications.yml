@@ -1,8 +1,8 @@
 schema: "panta-rhei-publications-catalog-v2"
-publication_count: 90
-released_publication_count: 83
-pdf_publication_count: 82
-generated_at: "2026-05-12T13:23:21+00:00"
+publication_count: 91
+released_publication_count: 84
+pdf_publication_count: 83
+generated_at: "2026-05-15T12:22:56+00:00"
 publications:
   -
     id: "c001-standing-in-the-inquiry-of-being"
@@ -1612,6 +1612,30 @@ publications:
     sha256: "8736d82087bb0775576c3bd1668829ba18bbdd7be4030146f632920ed306795b"
     sha512: "5b4f194f7420b3fe7ad91c01c111f5f5c43c0f1c06d7b64cbc580ee554b89f5cee5428518438375e59fb9a5e5f97ec50497d26b7a61fe9622e5e684d71dc4758"
     ots_status: "pending"
+  -
+    id: "2026-05-15-aesthetic-topology-pre-symbolic-readout"
+    publication_id: "rn007"
+    publication_key: "research_notes.aesthetic_topology_pre_symbolic_readout"
+    publication_type: "Research Note"
+    type: "research_note"
+    publication_role: "dialogue"
+    status: "released"
+    artifact_availability: "local_pdf"
+    title: "Aesthetic Topology as Pre-Symbolic Readout"
+    date: "2026-05-15"
+    version: "v0.9 RC"
+    doi: ""
+    doi_url: ""
+    website_url: "https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/"
+    canonical_url: "https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/"
+    short_url: "https://prrp.site/rn007"
+    route_status: "reserved"
+    github_path: "research-notes/2026-05-15-aesthetic-topology-pre-symbolic-readout"
+    pdf: "research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf"
+    bytes: 178728
+    sha256: "e330027ace1ec9eec0982a74ca0ce18664c94fe4c91505355a4c91bd50ba3159"
+    sha512: "0d0d12a19b8af1f767d51dccdbbe243ea40f613aecc70ba894e7b2afe80fad9c922b0dd56b48af5ba53a9eae0b3dae9a253704f14b3ae8915032780b87a98592"
+    ots_status: "missing"
   -
     id: "2026-04-27-hyperfactorization-theorem"
     publication_id: "rp001"

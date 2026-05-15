@@ -27,7 +27,7 @@ from lib_publications import (
 
 EXPECTED_RELEASED_COUNTS = {
     "research_paper": 9,
-    "research_note": 6,
+    "research_note": 7,
     "public_good_briefing": 44,
     "charter_essay": 1,
     "white_paper": 6,
@@ -38,7 +38,7 @@ EXPECTED_RELEASED_COUNTS = {
 }
 EXPECTED_SUPERSEDED_COUNTS = {"public_good_briefing": 1, "white_paper": 5}
 EXPECTED_PLANNED_COUNTS = {"charter_essay": 1}
-EXPECTED_PDF_COUNT = 82
+EXPECTED_PDF_COUNT = 83
 EXPECTED_EXTERNAL_COUNT = 7
 
 

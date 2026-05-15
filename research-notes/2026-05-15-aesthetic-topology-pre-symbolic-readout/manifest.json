@@ -1,0 +1,80 @@
+{
+  "artifact_availability": "local_pdf",
+  "checksums": {
+    "sha256": "e330027ace1ec9eec0982a74ca0ce18664c94fe4c91505355a4c91bd50ba3159",
+    "sha512": "0d0d12a19b8af1f767d51dccdbbe243ea40f613aecc70ba894e7b2afe80fad9c922b0dd56b48af5ba53a9eae0b3dae9a253704f14b3ae8915032780b87a98592"
+  },
+  "file": {
+    "bytes": 178728,
+    "path": "research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf",
+    "sha256": "e330027ace1ec9eec0982a74ca0ce18664c94fe4c91505355a4c91bd50ba3159",
+    "sha512": "0d0d12a19b8af1f767d51dccdbbe243ea40f613aecc70ba894e7b2afe80fad9c922b0dd56b48af5ba53a9eae0b3dae9a253704f14b3ae8915032780b87a98592",
+    "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf"
+  },
+  "generated_at": "2026-05-15T12:22:56+00:00",
+  "id": "2026-05-15-aesthetic-topology-pre-symbolic-readout",
+  "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
+  "opentimestamps": {
+    "receipt_path": "",
+    "status": "missing",
+    "verification": "not-stamped"
+  },
+  "publication": {
+    "abstract": "This research note reads Dmitruk et al.'s PLOS Computational Biology paper on persistent homology, gaze, EEG, and abstract art as a guarded external readout surface for Book VII's categorical aesthetics. It does not claim that topology measures beauty or that the external paper validates Category tau. Instead, it builds a typed bridge from image-filtration descriptors to possible pre-symbolic motif readout, while making the lossy measurement chain, caveats, and falsification surfaces explicit.",
+    "artifact_availability": "local_pdf",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "canonical_url": "https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/",
+    "claim_boundary": {
+      "claim": "Core claim: Dmitruk et al. provide a promising empirical descriptor family for visual-composition readout: image to filtration descriptor to feature map to viewer trace to Book VII interpretation. Every arrow in that chain is lossy, and the note's contribution is a typed bridge protocol rather than a new empirical result.\n\nDoes not claim:\n- It does not claim that persistent homology measures beauty.\n- It does not claim that Dmitruk et al. prove or validate Category tau.\n- It does not claim that image-filtration topology is Book VII topology.\n- It does not claim proof of artist intent, universal composition law, deployment relevance, policy adoption, or achieved impact.\n\nFalsification surface:\n- Independent reproduction fails to recover the reported image-topology descriptors or gaze/topology comparisons.\n- Color-aware topology, controlled synthesis, saliency baselines, or curatorial controls explain away the Book VII-facing bridge value.\n- Preregistered Category-tau-facing mappings from image descriptors to motif quantities fail under external review or future empirical testing.",
+      "non_claim": "Does not claim:\n- It does not claim that persistent homology measures beauty.\n- It does not claim that Dmitruk et al. prove or validate Category tau.\n- It does not claim that image-filtration topology is Book VII topology.\n- It does not claim proof of artist intent, universal composition law, deployment relevance, policy adoption, or achieved impact.\n\nFalsification surface:\n- Independent reproduction fails to recover the reported image-topology descriptors or gaze/topology comparisons.\n- Color-aware topology, controlled synthesis, saliency baselines, or curatorial controls explain away the Book VII-facing bridge value.\n- Preregistered Category-tau-facing mappings from image descriptors to motif quantities fail under external review or future empirical testing."
+    },
+    "date": "2026-05-15",
+    "doi": "",
+    "doi_url": "",
+    "external_links": [
+      {
+        "label": "Anchor paper DOI",
+        "url": "https://doi.org/10.1371/journal.pcbi.1014156"
+      },
+      {
+        "label": "PLOS article",
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014156"
+      },
+      {
+        "label": "OSF data route",
+        "url": "https://osf.io/6u4p2/?view_only=d38603b8105a4724afd3572a49daee8a"
+      },
+      {
+        "label": "Image-analysis code",
+        "url": "https://github.com/edd26/arttoppaper"
+      }
+    ],
+    "github_path": "research-notes/2026-05-15-aesthetic-topology-pre-symbolic-readout",
+    "license": "CC-BY-4.0",
+    "pdf_filename": "research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf",
+    "publication_type": "Research Note",
+    "related_lanes": [
+      "publications",
+      "corpus",
+      "verify"
+    ],
+    "related_routes": [
+      "/publications/research-notes/aesthetic-topology-pre-symbolic-readout/"
+    ],
+    "route_status": "reserved",
+    "short_url": "https://prrp.site/rn007",
+    "source_website_page": "_research_notes/2026-05-15-aesthetic-topology-pre-symbolic-readout.md",
+    "status": "V0.9 RC",
+    "subtitle": "",
+    "title": "Aesthetic Topology as Pre-Symbolic Readout",
+    "version": "v0.9 RC",
+    "website_url": "https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/",
+    "zenodo_url": ""
+  },
+  "publication_id": "rn007",
+  "publication_key": "research_notes.aesthetic_topology_pre_symbolic_readout",
+  "publication_role": "dialogue",
+  "schema": "panta-rhei-publication-manifest-v2",
+  "status": "released",
+  "type": "research_note"
+}

@@ -128,6 +128,17 @@ PUBLICATION_REGISTRY: dict[str, dict[str, Any]] = {
         "related_lanes": ["publications", "results", "verify"],
         "related_routes": ["/publications/research-notes/arithmetic-quantum-gravity-without-singularities/"],
     },
+    "2026-05-15-aesthetic-topology-pre-symbolic-readout": {
+        "publication_id": "rn007",
+        "publication_key": "research_notes.aesthetic_topology_pre_symbolic_readout",
+        "type": "research_note",
+        "publication_role": "dialogue",
+        "short_url": "https://prrp.site/rn007",
+        "route_status": "reserved",
+        "license": "CC-BY-4.0",
+        "related_lanes": ["publications", "corpus", "verify"],
+        "related_routes": ["/publications/research-notes/aesthetic-topology-pre-symbolic-readout/"],
+    },
     "2026-04-27-hyperfactorization-theorem": {
         "publication_id": "rp001",
         "publication_key": "research_papers.hyperfactorization_theorem",
@@ -694,6 +705,8 @@ def normalize_status(value: str) -> str:
         "draft_technical_white_paper_blueprint",
         "draft_white_paper_conceptual_briefing",
         "released",
+        "v0_9_rc",
+        "release_candidate",
         "canonical",
     }:
         return "released"

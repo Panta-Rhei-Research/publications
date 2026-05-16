@@ -1,14 +1,14 @@
 publications:
 - publication_id: c001
-  publication_key: charter_essays.standing_in_the_inquiry_of_being
+  publication_key: anchor_documents.standing_in_the_inquiry_of_being
   type: charter_essay
-  status: planned
-  artifact_availability: planned
+  status: released
+  artifact_availability: local_pdf
   title: Standing in the Inquiry of Being
-  release_date: planned
-  canonical_url: ''
+  release_date: '2026-05-08'
+  canonical_url: https://panta-rhei.site/program/about/standing-in-the-inquiry-of-being/
   short_url: https://prrp.site/c001
-  github_path: charter-essays/c001-standing-in-the-inquiry-of-being
+  github_path: anchor-documents/c001-standing-in-the-inquiry-of-being
   identifiers:
     doi: ''
     doi_url: ''
@@ -16,21 +16,25 @@ publications:
     isbn_13: ''
     asin: ''
   claim_boundary:
-    claim: This planned record reserves a public publication route. It does not release the essay, establish a claim, or replace
-      the future canonical website page.
-    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
-      or DOI registration.
+    claim: 'This Charter Essay is an orientation artifact. It does not prove or validate
+
+      `\tau`-Theory, does not claim final-theory status, and does not turn a
+
+      historical lineage into evidence of truth.'
+    non_claim: 'does not claim final-theory status, and does not turn a
+
+      historical lineage into evidence of truth.'
   files:
-    pdf_filename: ''
-    pdf_url: ''
-    pdf_path_site: ''
-    pdf_path_publications_repo: ''
-    source_website_asset_path: ''
+    pdf_filename: c001-standing-in-the-inquiry-of-being.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/c001-standing-in-the-inquiry-of-being.pdf
+    pdf_path_site: assets/pdfs/anchor-documents/c001-standing-in-the-inquiry-of-being.pdf
+    pdf_path_publications_repo: anchor-documents/c001-standing-in-the-inquiry-of-being/c001-standing-in-the-inquiry-of-being.pdf
+    source_website_asset_path: site/assets/pdfs/anchor-documents/c001-standing-in-the-inquiry-of-being.pdf
   integrity:
-    bytes: 0
-    sha256: ''
-    sha512: ''
-    ots_status: not_applicable
+    bytes: 327217
+    sha256: 0f547c4a586ba92e58346d55a7b18945c577c1303a152530ace52db0a1320408
+    sha512: d3aef6dd9bf0ef5e26d53b4e736505311ff117d2e7222293b75942f3ec3fb74dc55b5035a013cf7c17c98682ec4ad5c129778e957464b381aa24359163beb00e
+    ots_status: missing
   generated_from: corpus/data/publications/publications.yml
   projection_version: v0.1
   canonical_source: corpus/data
@@ -2370,7 +2374,7 @@ publications:
   status: released
   artifact_availability: local_pdf
   title: A Structural Prior for Dynamic Chirality-Induced Spin Selectivity
-  release_date: '2026-04-25'
+  release_date: '2026-05-16'
   canonical_url: https://panta-rhei.site/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/
   short_url: https://prrp.site/rn002
   github_path: research-notes/2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity
@@ -2381,13 +2385,18 @@ publications:
     isbn_13: ''
     asin: ''
   claim_boundary:
-    claim: 'Core claim: Book VI''s Parity Bridge gives a structural prior for a non-thermal, parity-odd channel between weak-sector
-      chirality and biological handedness; the Paltiel et al. operator is a candidate realization of that channel.
+    claim: 'Core claim: Book VI''s Parity Bridge records a prior structural slot for a non-thermal, parity-odd, time-even,
+      weak-EM amplification channel between the weak-sector chirality seed and biological handedness; the Paltiel et al. dynamic
+      CISS mechanism is an admissible candidate realization of that slot at the level of symmetry class and amplification
+      role.
 
 
       Does not claim:
 
-      - It does not claim that Panta Rhei predicted the exact vibronic operator or transport asymmetries.
+      - It does not claim that Panta Rhei derived or predicted Paltiel et al.''s vibronic spin-orbit mechanism, molecular
+      angular structure, or reported transport asymmetries.
+
+      - It does not claim that Paltiel et al. validate Category τ or Book VI.
 
       - It does not establish that the Paltiel et al. mechanism is empirically final.
 
@@ -2396,14 +2405,17 @@ publications:
 
       Falsification surface:
 
-      - Failure of the proposed operator to preserve the required parity/sign structure.
+      - Failure of the proposed operator to preserve the required parity/time/sign structure.
 
-      - Experimental refutation of the CISS mechanism as the relevant amplification channel.
+      - Experimental refutation of dynamic CISS as the relevant amplification channel.
 
       - Failure of the Book VI Parity Bridge interpretation under formal or semantic review.'
     non_claim: 'Does not claim:
 
-      - It does not claim that Panta Rhei predicted the exact vibronic operator or transport asymmetries.
+      - It does not claim that Panta Rhei derived or predicted Paltiel et al.''s vibronic spin-orbit mechanism, molecular
+      angular structure, or reported transport asymmetries.
+
+      - It does not claim that Paltiel et al. validate Category τ or Book VI.
 
       - It does not establish that the Paltiel et al. mechanism is empirically final.
 
@@ -2412,9 +2424,9 @@ publications:
 
       Falsification surface:
 
-      - Failure of the proposed operator to preserve the required parity/sign structure.
+      - Failure of the proposed operator to preserve the required parity/time/sign structure.
 
-      - Experimental refutation of the CISS mechanism as the relevant amplification channel.
+      - Experimental refutation of dynamic CISS as the relevant amplification channel.
 
       - Failure of the Book VI Parity Bridge interpretation under formal or semantic review.'
   files:
@@ -2424,9 +2436,9 @@ publications:
     pdf_path_publications_repo: research-notes/2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf
     source_website_asset_path: site/assets/pdfs/research-notes/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf
   integrity:
-    bytes: 175080
-    sha256: 9f75324f1f3240d35f3f97d22edda69071c1922fd45f970ab620feda1452ae34
-    sha512: daa69c2cd6500e9ea1bfb9a67fd3ca8bd30c28919a4d8f184d34867d416dffa57fc32e30e254fa31bc10c2153ac25b8f72cf03a4d5f17e04fbdfa22926d9c5aa
+    bytes: 224191
+    sha256: b6d0a6087bb84d8bf32e623b677a997777e79c721e8933a9cf7310be46d58c96
+    sha512: 4afe9520570028fdc774cc8a5e1f3d99f56855fdb512d4fbb9b3c50c5a3a2804da390054509593d5360fa55084eca442c04114f6ec2bdca04aae3780b017ad65
     ots_status: pending
   generated_from: corpus/data/publications/publications.yml
   projection_version: v0.1
@@ -2700,6 +2712,74 @@ publications:
     sha256: 07fab98d6de53bbcea37329d14592f2e03272ab17fd3ccb42c96064552c6656e
     sha512: 98143646e4c83244347b36687b42ad990ffe829663fd1d77459852105ec1b8b7a07880604a8b39428d4510e07d825ea44a0066e2fb79d5d7ba8568d4e811b3c5
     ots_status: pending
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: rn007
+  publication_key: research_notes.aesthetic_topology_pre_symbolic_readout
+  type: research_note
+  status: released
+  artifact_availability: local_pdf
+  title: Aesthetic Topology as Pre-Symbolic Readout
+  release_date: '2026-05-15'
+  canonical_url: https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/
+  short_url: https://prrp.site/rn007
+  github_path: research-notes/2026-05-15-aesthetic-topology-pre-symbolic-readout
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: 'Core claim: Dmitruk et al.''s persistent-homology study of abstract art provides a promising empirical descriptor
+      family for possible pre-symbolic motif readout, if and only if each step in the chain from image to Book VII interpretation
+      remains typed, lossy, and inspectable.
+
+
+      Does not claim:
+
+      - It does not claim that persistent homology measures beauty.
+
+      - It does not claim that Dmitruk et al. validate Category τ.
+
+      - It does not claim that image-filtration topology is Book VII topology.
+
+      - It does not claim that gaze equals experience.
+
+      - It does not claim that the Alexander-duality residual is a golden-ratio or ιτ bridge.
+
+
+      Falsification surface:
+
+      - Failure of independent reproduction of the OSF/GitHub pipeline.
+
+      - Failure of color-aware topology, saliency baselines, or controlled synthesis to add explanatory value.
+
+      - Failure of the Book VII bridge under preregistered Category τ-facing readout maps.'
+    non_claim: 'Does not claim:
+
+      - It does not claim that persistent homology measures beauty.
+
+      - It does not claim that Dmitruk et al. validate Category τ.
+
+      - It does not claim that image-filtration topology is Book VII topology.
+
+      - It does not claim that gaze equals experience.
+
+      - It does not claim that the Alexander-duality residual is a golden-ratio or ιτ bridge.'
+  files:
+    pdf_filename: research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf
+    pdf_path_site: assets/pdfs/research-notes/research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf
+    pdf_path_publications_repo: research-notes/2026-05-15-aesthetic-topology-pre-symbolic-readout/research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf
+    source_website_asset_path: site/assets/pdfs/research-notes/research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf
+  integrity:
+    bytes: 178728
+    sha256: e330027ace1ec9eec0982a74ca0ce18664c94fe4c91505355a4c91bd50ba3159
+    sha512: 0d0d12a19b8af1f767d51dccdbbe243ea40f613aecc70ba894e7b2afe80fad9c922b0dd56b48af5ba53a9eae0b3dae9a253704f14b3ae8915032780b87a98592
+    ots_status: missing
   generated_from: corpus/data/publications/publications.yml
   projection_version: v0.1
   canonical_source: corpus/data
@@ -3073,66 +3153,104 @@ publications:
   projection_version: v0.1
   canonical_source: corpus/data
   do_not_edit: true
-- publication_id: lwp001
-  publication_key: legacy_white_papers.taulib_self_contained_lean4_library
+- publication_id: wp000
+  publication_key: anchor_documents.panta_rhei_at_a_glance
   type: white_paper
   status: released
   artifact_availability: local_pdf
-  title: 'TauLib: A Self-Contained Lean 4 Library for Category τ'
-  release_date: '2026-05-01'
-  canonical_url: https://panta-rhei.site/publications/white-papers/taulib/
-  short_url: ''
-  github_path: white-papers/2026-05-01-taulib-self-contained-lean-4-library
+  title: Panta Rhei at a Glance
+  release_date: '2026-05-09'
+  canonical_url: https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/
+  short_url: https://prrp.site/wp000
+  github_path: anchor-documents/wp000-panta-rhei-at-a-glance
   identifiers:
-    doi: 10.5281/zenodo.19976503
-    doi_url: https://doi.org/10.5281/zenodo.19976503
-    zenodo_url: https://doi.org/10.5281/zenodo.19976503
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
     isbn_13: ''
     asin: ''
   claim_boundary:
-    claim: '- Version: **v2.0 (full rewrite)** · May 2026
+    claim: 'This released record publishes the canonical `wp000` route and PDF artifact.
 
-      - Publication date: 2026-05-01
+      It is an orientation primer. It does not claim peer review, external
 
-      - DOI: [10.5281/zenodo.19976503](https://doi.org/10.5281/zenodo.19976503)
+      validation, empirical adequacy, deployment readiness, product availability,
 
-      - Pinned TauLib commit: [`72aa2b6c`](https://github.com/Panta-Rhei-Research/taulib/tree/72aa2b6c7d6be28511f9649d3120773179b19038)
+      policy adoption, institutional acceptance, or achieved impact.'
+    non_claim: 'does not claim peer review, external
 
-      - Whitepaper git tag: [`whitepaper-taulib-v2.0`](https://github.com/Panta-Rhei-Research/papers/tree/whitepaper-taulib-v2.0)
+      validation, empirical adequacy, deployment readiness, product availability,
 
-      - Claims-map auditor: **39 / 39 checks passed** at the pinned commit
-
-      - Red-team review verdict: 6 / 7 simulated Lean 4 expert reviewers qualified-yes; 1 / 7 qualified-no contingent on substantive
-      findings (all addressed in published v2.0)
-
-      - Cryptographic integrity: SHA-256 `7bb96caa…1a7`, SHA-512 `8816b614…e00`; full hashes in the publications-repo manifest'
-    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
-      or DOI registration.
+      policy adoption, institutional acceptance, or achieved impact.'
   files:
-    pdf_filename: white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf
-    pdf_url: https://panta-rhei.site/assets/pdfs/white-papers/white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf
-    pdf_path_site: assets/pdfs/white-papers/white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf
-    pdf_path_publications_repo: white-papers/2026-05-01-taulib-self-contained-lean-4-library/white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf
-    source_website_asset_path: site/assets/pdfs/white-papers/white-paper-2026-05-01-taulib-self-contained-lean-4-library.pdf
+    pdf_filename: wp000-panta-rhei-at-a-glance.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/wp000-panta-rhei-at-a-glance.pdf
+    pdf_path_site: assets/pdfs/anchor-documents/wp000-panta-rhei-at-a-glance.pdf
+    pdf_path_publications_repo: anchor-documents/wp000-panta-rhei-at-a-glance/wp000-panta-rhei-at-a-glance.pdf
+    source_website_asset_path: site/assets/pdfs/anchor-documents/wp000-panta-rhei-at-a-glance.pdf
   integrity:
-    bytes: 215062
-    sha256: 7bb96caa4b4da6c4f94178608ce0ecc6029ebdd88e0306c4ae7ebc0ce48091a7
-    sha512: 8816b61498f75596897428ba88efa6638aa1caab6e1aaa869482e19a3dc1c10128148b12269c4c1b434e4bba9bdc6c7526e6f8570ec193981138da6fc348ae00
-    ots_status: pending
+    bytes: 503736
+    sha256: cc65cae423e74f87dfacfc86d796f3790c8bebbe9e604ddb4326b66583d6e766
+    sha512: 5e25bd9188db035be9894e76428fbc5027cd4f96bbdc3129e72a76daaa4e7259d77809334dcb48289816143a076857507668f5e84e60fe9d0b4629ee7fd11b98
+    ots_status: missing
+  generated_from: corpus/data/publications/publications.yml
+  projection_version: v0.1
+  canonical_source: corpus/data
+  do_not_edit: true
+- publication_id: wp001
+  publication_key: anchor_documents.panta_rhei_research_program_executive_overview
+  type: white_paper
+  status: released
+  artifact_availability: local_pdf
+  title: Panta Rhei Research Program Executive Overview
+  release_date: '2026-05-08'
+  canonical_url: https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/
+  short_url: https://prrp.site/wp001
+  github_path: anchor-documents/wp001-panta-rhei-research-program-executive-overview
+  identifiers:
+    doi: ''
+    doi_url: ''
+    zenodo_url: ''
+    isbn_13: ''
+    asin: ''
+  claim_boundary:
+    claim: 'This released record publishes the canonical `wp001` route and PDF artifact.
+
+      It does not claim peer review, external validation, empirical adequacy,
+
+      deployment readiness, product availability, policy adoption, or achieved
+
+      impact.'
+    non_claim: 'does not claim peer review, external validation, empirical adequacy,
+
+      deployment readiness, product availability, policy adoption, or achieved
+
+      impact.'
+  files:
+    pdf_filename: wp001-panta-rhei-research-program-executive-overview.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/wp001-panta-rhei-research-program-executive-overview.pdf
+    pdf_path_site: assets/pdfs/anchor-documents/wp001-panta-rhei-research-program-executive-overview.pdf
+    pdf_path_publications_repo: anchor-documents/wp001-panta-rhei-research-program-executive-overview/wp001-panta-rhei-research-program-executive-overview.pdf
+    source_website_asset_path: site/assets/pdfs/anchor-documents/wp001-panta-rhei-research-program-executive-overview.pdf
+  integrity:
+    bytes: 2445801
+    sha256: 050e986c605b72a046459f3d64f0631cf2a0d21f3908da1b491b0aaa7fab3e87
+    sha512: 09be60283049d9c03f6af13d0343376f207852cecba390f7cbc1853486b758c113c8d4acbeb56563b65ee4eef78126d159d4ef14ea79d269502d0d23b3cba52f
+    ots_status: missing
   generated_from: corpus/data/publications/publications.yml
   projection_version: v0.1
   canonical_source: corpus/data
   do_not_edit: true
 - publication_id: wp002
-  publication_key: white_papers.building_public_research_observatory
+  publication_key: anchor_documents.t_theory_executive_synopsis
   type: white_paper
   status: released
   artifact_availability: local_pdf
-  title: Building a Public Research Observatory for High-Scope Open Research
-  release_date: '2026-05-03'
-  canonical_url: https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/
+  title: T Theory Executive Synopsis
+  release_date: '2026-05-08'
+  canonical_url: https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/
   short_url: https://prrp.site/wp002
-  github_path: white-papers/2026-05-03-building-a-public-research-observatory
+  github_path: anchor-documents/wp002-t-theory-executive-synopsis
   identifiers:
     doi: ''
     doi_url: ''
@@ -3140,35 +3258,43 @@ publications:
     isbn_13: ''
     asin: ''
   claim_boundary:
-    claim: White-paper orientation artifact. It routes readers to canonical Corpus, Results, Verify, and Publications surfaces
-      and does not replace those surfaces.
-    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
-      or DOI registration.
+    claim: 'This released record publishes the canonical `wp002` route and PDF artifact.
+
+      It does not claim proof substitution, empirical validation, final-theory
+
+      status, peer review, deployment readiness, product availability, policy
+
+      adoption, or achieved impact.'
+    non_claim: 'does not claim proof substitution, empirical validation, final-theory
+
+      status, peer review, deployment readiness, product availability, policy
+
+      adoption, or achieved impact.'
   files:
-    pdf_filename: white-paper-2026-05-03-building-a-public-research-observatory.pdf
-    pdf_url: https://panta-rhei.site/assets/pdfs/white-papers/white-paper-2026-05-03-building-a-public-research-observatory.pdf
-    pdf_path_site: assets/pdfs/white-papers/white-paper-2026-05-03-building-a-public-research-observatory.pdf
-    pdf_path_publications_repo: white-papers/2026-05-03-building-a-public-research-observatory/white-paper-2026-05-03-building-a-public-research-observatory.pdf
-    source_website_asset_path: site/assets/pdfs/white-papers/white-paper-2026-05-03-building-a-public-research-observatory.pdf
+    pdf_filename: wp002-t-theory-executive-synopsis.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/wp002-t-theory-executive-synopsis.pdf
+    pdf_path_site: assets/pdfs/anchor-documents/wp002-t-theory-executive-synopsis.pdf
+    pdf_path_publications_repo: anchor-documents/wp002-t-theory-executive-synopsis/wp002-t-theory-executive-synopsis.pdf
+    source_website_asset_path: site/assets/pdfs/anchor-documents/wp002-t-theory-executive-synopsis.pdf
   integrity:
-    bytes: 92762
-    sha256: ec880b1c45920ccbcc296b918e988aa1c94f72a2e160cddee72949e8fe0417e3
-    sha512: 64e89403f597e0669984d23ad9a621939957e0007be8dceef2f34784486e1dbb4afd1c79e6fca0d9ff090072384741cf31c4c9794d89fe856b7246d98d57b4b6
-    ots_status: pending
+    bytes: 412045
+    sha256: 91e53a7c8606abe1c7a33355c9e986f1614a240ea68c998ed34ec5bdd6ca59ec
+    sha512: cc983d742b1b8b031b802dfbda85813accd1242ccf656dd743973e54e78249941cbeadb9994d1a7d0149978426a080dfa218098372459482dc2d2118b26bd635
+    ots_status: missing
   generated_from: corpus/data/publications/publications.yml
   projection_version: v0.1
   canonical_source: corpus/data
   do_not_edit: true
 - publication_id: wp003
-  publication_key: white_papers.inspection_architecture_high_scope_open_research
+  publication_key: anchor_documents.taulib_technical_overview
   type: white_paper
   status: released
   artifact_availability: local_pdf
-  title: Inspection Architecture for High-Scope Open Research
-  release_date: '2026-05-03'
-  canonical_url: https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/
+  title: TauLib Technical Overview
+  release_date: '2026-05-08'
+  canonical_url: https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/
   short_url: https://prrp.site/wp003
-  github_path: white-papers/2026-05-03-inspection-architecture-high-scope-open-research
+  github_path: anchor-documents/wp003-taulib-technical-overview
   identifiers:
     doi: ''
     doi_url: ''
@@ -3176,35 +3302,43 @@ publications:
     isbn_13: ''
     asin: ''
   claim_boundary:
-    claim: White-paper orientation artifact. It routes readers to canonical Corpus, Results, Verify, and Publications surfaces
-      and does not replace those surfaces.
-    non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
-      or DOI registration.
+    claim: 'This released record publishes the canonical `wp003` route and PDF artifact.
+
+      It does not claim empirical validation, semantic adequacy of bridge principles,
+
+      peer-review completion, complete formal coverage of the research program,
+
+      product readiness, deployment readiness, policy adoption, or achieved impact.'
+    non_claim: 'does not claim empirical validation, semantic adequacy of bridge principles,
+
+      peer-review completion, complete formal coverage of the research program,
+
+      product readiness, deployment readiness, policy adoption, or achieved impact.'
   files:
-    pdf_filename: white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf
-    pdf_url: https://panta-rhei.site/assets/pdfs/white-papers/white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf
-    pdf_path_site: assets/pdfs/white-papers/white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf
-    pdf_path_publications_repo: white-papers/2026-05-03-inspection-architecture-high-scope-open-research/white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf
-    source_website_asset_path: site/assets/pdfs/white-papers/white-paper-2026-05-03-inspection-architecture-high-scope-open-research.pdf
+    pdf_filename: wp003-taulib-technical-overview.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/wp003-taulib-technical-overview.pdf
+    pdf_path_site: assets/pdfs/anchor-documents/wp003-taulib-technical-overview.pdf
+    pdf_path_publications_repo: anchor-documents/wp003-taulib-technical-overview/wp003-taulib-technical-overview.pdf
+    source_website_asset_path: site/assets/pdfs/anchor-documents/wp003-taulib-technical-overview.pdf
   integrity:
-    bytes: 81360
-    sha256: 566f2fb7dd71aa2ca152e67bebfccab1a0bd435af3e577cdc3eb35803431a7df
-    sha512: ac0597716e16c02c570d954e3ed7eccc5409f934939dc56f904d06702b6050c47e51baaccdb4f7a165479568846f413b5e59bb235a8e570ecd21383c80a56a87
-    ots_status: pending
+    bytes: 294691
+    sha256: f63cf77af04393157186563a58473a83306ed4a24d588e0428c7ca97b02cb7d7
+    sha512: c9663f78f0475d78b4614bd09756ec02e8ff7c881ff55ca76559867fc7335ff5bac626097704755ec50d52f30440d0f797f2a85fe5b257b221880ac786e5bee0
+    ots_status: missing
   generated_from: corpus/data/publications/publications.yml
   projection_version: v0.1
   canonical_source: corpus/data
   do_not_edit: true
 - publication_id: wp004
-  publication_key: white_papers.shape_of_a_theory_of_reality
+  publication_key: anchor_documents.public_research_observatory_blueprint
   type: white_paper
   status: released
   artifact_availability: local_pdf
-  title: The Shape of a Theory of Reality
-  release_date: '2026-05-03'
-  canonical_url: https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/
+  title: Public Research Observatory Blueprint
+  release_date: '2026-05-08'
+  canonical_url: https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/
   short_url: https://prrp.site/wp004
-  github_path: white-papers/2026-05-03-the-shape-of-a-theory-of-reality
+  github_path: anchor-documents/wp004-public-research-observatory-blueprint
   identifiers:
     doi: ''
     doi_url: ''
@@ -3212,35 +3346,40 @@ publications:
     isbn_13: ''
     asin: ''
   claim_boundary:
-    claim: White-paper orientation artifact. It routes readers to canonical Corpus, Results, Verify, and Publications surfaces
-      and does not replace those surfaces.
+    claim: 'This released record publishes the canonical `wp004` route and PDF artifact.
+
+      It does not validate T Theory, certify scientific claims, imply peer-review
+
+      completion, establish external acceptance, claim deployment readiness, assert
+
+      product availability, claim policy adoption, or assert achieved impact.'
     non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
       or DOI registration.
   files:
-    pdf_filename: white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf
-    pdf_url: https://panta-rhei.site/assets/pdfs/white-papers/white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf
-    pdf_path_site: assets/pdfs/white-papers/white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf
-    pdf_path_publications_repo: white-papers/2026-05-03-the-shape-of-a-theory-of-reality/white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf
-    source_website_asset_path: site/assets/pdfs/white-papers/white-paper-2026-05-03-the-shape-of-a-theory-of-reality.pdf
+    pdf_filename: wp004-public-research-observatory-blueprint.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/wp004-public-research-observatory-blueprint.pdf
+    pdf_path_site: assets/pdfs/anchor-documents/wp004-public-research-observatory-blueprint.pdf
+    pdf_path_publications_repo: anchor-documents/wp004-public-research-observatory-blueprint/wp004-public-research-observatory-blueprint.pdf
+    source_website_asset_path: site/assets/pdfs/anchor-documents/wp004-public-research-observatory-blueprint.pdf
   integrity:
-    bytes: 92150
-    sha256: 9fffa234a5244eb0882bc664ae9b2b6fb2611b3721b17828c592628cd2bbdaa6
-    sha512: a136bc935f31e7acab713e9d48e8f16fc8d6061fc6263d1522a5c7dddb8fbe0e368b2d2b4f4f8b704a7d1c9ab8d9d90dce65a7d64c3f290bc481a93f376a9596
-    ots_status: pending
+    bytes: 545965
+    sha256: 835578e7ae9932be433068a0d2d10a585912f7b87bf57d654cfd88935653cd32
+    sha512: 14e1a308ca38bb271c95537514212c1a5890e86d82e32e72dc092cb8eb2ab8abb5f857947b2c5882f567491aecc560c061bf6bc084d9b5abdd58fa7c8e1f0c96
+    ots_status: missing
   generated_from: corpus/data/publications/publications.yml
   projection_version: v0.1
   canonical_source: corpus/data
   do_not_edit: true
 - publication_id: wp005
-  publication_key: white_papers.panta_rhei_executive_overview
+  publication_key: anchor_documents.global_public_good_impact_overview
   type: white_paper
   status: released
   artifact_availability: local_pdf
-  title: Panta Rhei Research Program — Executive Overview
-  release_date: '2026-05-04'
-  canonical_url: https://panta-rhei.site/publications/white-papers/executive-overview/
+  title: Global Public Good Impact Overview
+  release_date: '2026-05-08'
+  canonical_url: https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/
   short_url: https://prrp.site/wp005
-  github_path: white-papers/2026-05-04-panta-rhei-executive-overview
+  github_path: anchor-documents/wp005-global-public-good-impact-overview
   identifiers:
     doi: ''
     doi_url: ''
@@ -3248,22 +3387,27 @@ publications:
     isbn_13: ''
     asin: ''
   claim_boundary:
-    claim: This document is the public-outreach reading route. All quantitative claims continue to carry one of four scope
-      labels — `est`, `tau`, `conj`, `meta` — on the surfaces that own them. The bridge and empirical accountability of the
-      program are exercised there, not here. The site asks to be checked, not simply believed; this overview is the door,
-      not the proof.
+    claim: 'This released record publishes the canonical `wp005` route and PDF artifact.
+
+      It maps conditional public-good pathways and inspection routes. It does not
+
+      claim deployment, product availability, institutional uptake, policy adoption,
+
+      domain validation, peer-review completion, certified impact, achieved impact,
+
+      or public-good delivery.'
     non_claim: This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership,
       or DOI registration.
   files:
-    pdf_filename: white-paper-2026-05-04-panta-rhei-executive-overview.pdf
-    pdf_url: https://panta-rhei.site/assets/pdfs/white-papers/white-paper-2026-05-04-panta-rhei-executive-overview.pdf
-    pdf_path_site: assets/pdfs/white-papers/white-paper-2026-05-04-panta-rhei-executive-overview.pdf
-    pdf_path_publications_repo: white-papers/2026-05-04-panta-rhei-executive-overview/white-paper-2026-05-04-panta-rhei-executive-overview.pdf
-    source_website_asset_path: site/assets/pdfs/white-papers/white-paper-2026-05-04-panta-rhei-executive-overview.pdf
+    pdf_filename: wp005-global-public-good-impact-overview.pdf
+    pdf_url: https://panta-rhei.site/assets/pdfs/anchor-documents/wp005-global-public-good-impact-overview.pdf
+    pdf_path_site: assets/pdfs/anchor-documents/wp005-global-public-good-impact-overview.pdf
+    pdf_path_publications_repo: anchor-documents/wp005-global-public-good-impact-overview/wp005-global-public-good-impact-overview.pdf
+    source_website_asset_path: site/assets/pdfs/anchor-documents/wp005-global-public-good-impact-overview.pdf
   integrity:
-    bytes: 234716
-    sha256: fed983c314d180be9713020fa9f3be20cf9bb30858521b282d0227f1af5124ce
-    sha512: 38543166428a47f7cd49dd0f7fea0ea8e6c119d793838ab24d80e95262bfb456c99ccf2aa9a9522a74758331cd93b95c0e7fef76a19adc39a47b5afb793be9f0
+    bytes: 324239
+    sha256: cb2067b7abd913add610a30e7bb42707e8561752e4fa35f31e04b3b83fed3a69
+    sha512: df5964be6c1c70a3819b44f07770bf9519baf9ea2a8da672512c743b95e0bb7b4102228888e336f59537715e7419ebde0c6b95ef7540bb864a75fe45f6c300bd
     ots_status: missing
   generated_from: corpus/data/publications/publications.yml
   projection_version: v0.1

@@ -16,8 +16,8 @@
   "integrity_note": "Hashes and timestamps attest to the PDF bytes only; they do not certify correctness, peer review, legal status, DOI registration, or content validity.",
   "opentimestamps": {
     "receipt_path": "research-note-2026-04-27-semantic-space-has-a-shape.pdf.ots",
-    "status": "stale-after-pdf-refresh",
-    "verification": "receipt-present-for-previous-pdf-bytes; refresh before using timestamp as an integrity proof"
+    "status": "pending",
+    "verification": "receipt-present"
   },
   "publication": {
     "abstract": "The note reads Guo et al. 2026, Statistical structure and the evolution of languages, as an external anchor for Book VII's language architecture. It distinguishes subsymbolic pattern fields, readout functors, public language, corpora, embedding instruments, and observed statistics, then frames the paper's regularities as calibration surfaces for future Category τ-facing language/readout models rather than as confirmation of Category τ.",
@@ -31,16 +31,7 @@
     "date": "2026-04-27",
     "doi": "10.5281/zenodo.19816808",
     "doi_url": "https://doi.org/10.5281/zenodo.19816808",
-    "external_links": [
-      {
-        "title": "Zenodo DOI",
-        "url": "https://doi.org/10.5281/zenodo.19816808"
-      },
-      {
-        "title": "Anchor paper DOI",
-        "url": "https://doi.org/10.1098/rspb.2025.2374"
-      }
-    ],
+    "external_links": [],
     "github_path": "research-notes/2026-04-27-semantic-space-has-a-shape",
     "license": "CC-BY-4.0",
     "pdf_filename": "research-note-2026-04-27-semantic-space-has-a-shape.pdf",
@@ -57,7 +48,7 @@
     "short_url": "https://prrp.site/rn001",
     "source_website_page": "_research_notes/2026-04-27-semantic-space-has-a-shape.md",
     "status": "Published",
-    "subtitle": "Vocabulary evolution, word embeddings, and the Book VII readout-functor picture",
+    "subtitle": "",
     "title": "Semantic Space Has a Shape",
     "version": "v1.0",
     "website_url": "https://panta-rhei.site/publications/research-notes/semantic-space-has-a-shape/",

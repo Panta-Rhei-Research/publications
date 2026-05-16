@@ -1,6 +1,6 @@
-# A Structural Prior for Dynamic Chirality-Induced Spin Selectivity
+# Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge
 
-A symmetry-class bridge between Book VI's parity slot and Paltiel et al.'s dynamic CISS mechanism
+Book VI's parity slot and Paltiel et al.'s dynamic CISS mechanism
 
 ## Metadata
 
@@ -18,7 +18,7 @@ A symmetry-class bridge between Book VI's parity slot and Paltiel et al.'s dynam
 
 ## Abstract
 
-A Structural Prior for Dynamic Chirality-Induced Spin Selectivity reads Paltiel et al.'s Science Advances paper on dynamic chirality-induced spin selectivity and enantiomeric excess as a guarded external readout surface for Book VI's homochirality / parity-bridge architecture. The note does not claim that Paltiel et al. validate Category τ, nor that Panta Rhei predicted their detailed molecular mechanism. Its narrower claim is a prior structural-slot record and a symmetry-class bridge.
+Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge reads Paltiel et al.'s Science Advances paper on dynamic chirality-induced spin selectivity and enantiomeric excess as a guarded external readout surface for Book VI's homochirality / parity-bridge architecture. The note does not claim that Paltiel et al. validate Category τ, nor that Panta Rhei predicted their detailed molecular mechanism. Its narrower claim is a prior structural-slot record and a symmetry-class bridge.
 
 ## Claim Boundary
 
@@ -38,6 +38,7 @@ Falsification surface:
 ## Version History
 
 - `2026-05-16`: v1.0 canonical PDF release. The stable public PDF filename is retained for URL continuity.
+- `2026-05-16`: final title-softening polish. Earlier v1.0 PDF bytes are archived repo-only under `versions/2026-05-16-v1-structural-prior-title/`.
 - `2026-04-25`: initial public v1.0 PDF bytes archived repo-only under `versions/2026-04-25-initial-public-version/`.
 
 ## Verification And Status Notes

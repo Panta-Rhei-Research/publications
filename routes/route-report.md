@@ -72,7 +72,7 @@ This report is generated from publication manifests. The PRRP routes listed here
 | `rm006` | reserved | research_monograph | Book VI: Categorical Life | https://panta-rhei.site/publications/books/book-vi/ |
 | `rm007` | reserved | research_monograph | Book VII: Categorical Metaphysics | https://panta-rhei.site/publications/books/book-vii/ |
 | `rn001` | reserved | research_note | Semantic Space Has a Shape | https://panta-rhei.site/publications/research-notes/semantic-space-has-a-shape/ |
-| `rn002` | reserved | research_note | A Structural Prior for Dynamic Chirality-Induced Spin Selectivity | https://panta-rhei.site/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/ |
+| `rn002` | reserved | research_note | Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge | https://panta-rhei.site/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/ |
 | `rn003` | reserved | research_note | Inflationary Observables Without an Inflaton | https://panta-rhei.site/publications/research-notes/inflationary-observables-without-an-inflaton/ |
 | `rn004` | reserved | research_note | Dark Matter vs. MOND vs. Category τ | https://panta-rhei.site/publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/ |
 | `rn005` | reserved | research_note | Black Hole Stability Without Extra Dimensions | https://panta-rhei.site/publications/research-notes/black-holes-without-extra-dimensions/ |

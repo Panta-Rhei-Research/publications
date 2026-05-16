@@ -2,7 +2,7 @@ schema: "panta-rhei-publications-catalog-v2"
 publication_count: 92
 released_publication_count: 85
 pdf_publication_count: 84
-generated_at: "2026-05-16T09:13:21+00:00"
+generated_at: "2026-05-16T14:36:27+00:00"
 publications:
   -
     id: "c001-standing-in-the-inquiry-of-being"
@@ -1645,7 +1645,7 @@ publications:
     publication_role: "dialogue"
     status: "released"
     artifact_availability: "local_pdf"
-    title: "A Structural Prior for Dynamic Chirality-Induced Spin Selectivity"
+    title: "Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge"
     date: "2026-05-16"
     version: "v1.0"
     doi: ""
@@ -1656,9 +1656,9 @@ publications:
     route_status: "reserved"
     github_path: "research-notes/2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity"
     pdf: "research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf"
-    bytes: 224191
-    sha256: "b6d0a6087bb84d8bf32e623b677a997777e79c721e8933a9cf7310be46d58c96"
-    sha512: "4afe9520570028fdc774cc8a5e1f3d99f56855fdb512d4fbb9b3c50c5a3a2804da390054509593d5360fa55084eca442c04114f6ec2bdca04aae3780b017ad65"
+    bytes: 223948
+    sha256: "53a530b80c24ec26a1452de991c14d68f427a833dd09e8a069c52e8e5dc3dd6b"
+    sha512: "6363db7a47827adc3bc525ff19278de0340214e4b3791346c3eb4f5cdad2f2a2ca33d1f0209674e7322f22b9e947ad407c1d1e43ccb87eae91c6d8f5a8320a6b"
     ots_status: "pending"
   -
     id: "2026-04-27-hyperfactorization-theorem"

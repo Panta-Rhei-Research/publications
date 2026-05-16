@@ -713,7 +713,7 @@ routes:
     type: "research_note"
     publication_role: "dialogue"
     publication_status: "released"
-    title: "A Structural Prior for Dynamic Chirality-Induced Spin Selectivity"
+    title: "Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge"
     canonical_url: "https://panta-rhei.site/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/"
     github_path: "research-notes/2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity"
   -

@@ -1,0 +1,1507 @@
+% ==========================================================================
+% When Search Becomes Structure
+%
+% Thorsten Fuchs & Anna-Sophie Fuchs
+% Panta Rhei Research Program
+% May 2026
+% ==========================================================================
+\documentclass{pantarhei-researchnote}
+
+\usetikzlibrary{positioning,arrows.meta,calc,fit,shapes.geometric}
+
+\input{tau-macros}
+
+\hypersetup{
+  pdftitle={When Search Becomes Structure},
+  pdfauthor={Thorsten Fuchs and Anna-Sophie Fuchs},
+  pdfsubject={Guarded bridge note between Wolfram's ruliological P-vs-NP microcosms and τ-admissible witness construction},
+  pdfkeywords={Panta Rhei, Category τ, ruliology, P vs NP, τ-admissibility, τ-admissible witness construction, witness search, address construction, CRT reassembly, computational complexity, Stephen Wolfram, Ruliad}
+}
+
+% Paper-specific macros
+\newcommand{\Wolfram}{Wolfram}
+\newcommand{\Ruliad}{\ensuremath{\mathcal{R}_{\mathrm{uliad}}}}
+\newcommand{\TTM}{\ensuremath{\mathrm{TTM}}}
+\newcommand{\TATM}{\ensuremath{\mathrm{TATM}}}
+\newcommand{\Adm}{\ensuremath{\mathrm{Adm}_{\tau}}}
+\newcommand{\Padm}{\ensuremath{\tau\text{-}\mathrm{P}_{\mathrm{adm}}}}
+\newcommand{\NPadm}{\ensuremath{\tau\text{-}\mathrm{NP}_{\mathrm{adm}}}}
+\newcommand{\TauP}{\ensuremath{\tau\text{-}\mathrm{P}}}
+\newcommand{\TauNP}{\ensuremath{\tau\text{-}\mathrm{NP}}}
+\newcommand{\Ezero}{\ensuremath{E_0}}
+\newcommand{\Eone}{\ensuremath{E_1}}
+\newcommand{\Etwo}{\ensuremath{E_2}}
+\newcommand{\Ethree}{\ensuremath{E_3}}
+\newcommand{\CRT}{\ensuremath{\mathrm{CRT}}}
+\newcommand{\Prim}{\ensuremath{\operatorname{Prim}}}
+\newcommand{\ZFC}{\ensuremath{\mathrm{ZFC}}}
+\newcommand{\ClassP}{\ensuremath{\mathrm{P}}}
+\newcommand{\ClassNP}{\ensuremath{\mathrm{NP}}}
+\newcommand{\CategoryTau}{Category~\(\tau\)}
+
+\begin{document}
+
+\lane[pr-lane-verify]{Panta Rhei Research \textperiodcentered\ Computation and Readout}
+\title{When Search Becomes Structure}
+\subtitle{\texorpdfstring{A guarded bridge note between Wolfram's ruliological P-vs-NP microcosms and $\tau$-admissible witness construction}{A guarded bridge note between Wolfram's ruliological P-vs-NP microcosms and tau-admissible witness construction}}
+\noteedition{RC1 \textperiodcentered\ May 2026}
+
+\author{%
+  Thorsten~Fuchs
+  \and
+  Anna-Sophie~Fuchs%
+}
+\date{May 2026}
+
+\footerseries{Research Note}
+\footerslug{search-becomes-structure-categorical}
+\footerdate{May 2026}
+
+\begin{abstract}
+\noindent
+Stephen Wolfram's 2026 essay on P vs NP and ruliological computation
+studies finite computational microcosms: small Turing-machine classes,
+runtime outliers, isolate machines, nondeterministic speedups,
+everything-machine reachability, and computational irreducibility
+\cite{Wolfram2026RuliologicalPNP}. This Research Note reads that essay as
+an external bridge surface for a bounded Panta Rhei question: when does
+search stop being blind search and become structure? The answer here is
+not a slogan about the classical Clay problem. It is the scoped
+τ-admissibility claim of the computation/admissibility spine:
+under finite interface width, witness search is treated as address
+construction rather than blind enumeration \cite{PR-III}. The central
+comparison is asymmetric. Wolfram makes computational difficulty visible
+from below; the τ-framework specifies when witness search becomes
+construction from within. The note does not claim that Wolfram supplies
+validation for \CategoryTau, that the ruliad is \CategoryTau, or that the
+classical \ZFC/Turing-machine P-vs-NP problem is resolved.
+\end{abstract}
+
+\keywords{P vs NP \textperiodcentered\ ruliology \textperiodcentered\
+computational irreducibility \textperiodcentered\ witness search
+\textperiodcentered\ address resolution \textperiodcentered\
+computational bi-square \textperiodcentered\ tau-admissibility
+\textperiodcentered\ Category $\tau$}
+
+\maketitle
+
+% =======================================================================
+\section{Introduction: the bridge and the boundary}
+\label{sec:intro}
+% =======================================================================
+
+The P-vs-NP problem is famously easy to state and famously hard to locate.
+In its orthodox form it asks whether every decision problem whose positive
+instances can be verified in polynomial time can also be solved in
+polynomial time by a deterministic Turing machine. Yet that tidy statement
+leaves many structural choices in the background: what counts as a
+machine, what counts as a representation, what kind of nondeterministic
+choice is being granted, how observers inspect computations, and what
+kind of infinity is being used when asymptotic limits are taken.
+
+\Wolfram's ruliological essay is valuable because it refuses to leave all
+of that invisible. It does not try to settle the full question. Instead it
+asks what can be learned by explicitly enumerating finite computational
+microcosms: small one-sided Turing machines, the integer functions they
+compute, the runtime profiles they exhibit, the hard cases that appear
+inside fixed rule classes, and the ways nondeterministic branching changes
+reachable behavior. This is not orthodox proof theory, but it is not mere
+illustration either. It is empirical theoretical computer science in the
+literal sense: finite rule universes are sampled, measured, and compared.
+The value of Wolfram's ruliological framing is that it makes
+computational difficulty visible without first forcing it into a single
+orthodox proof template.
+
+The τ-framework reaches the same danger from another direction. It asks
+what has to be true before search can be called search at all. In the
+framework's computation/admissibility spine, P-vs-NP-style questions are
+native only at an operational layer where there are agents, steps, and an
+efficiency measure. Once that typing is in place, the decisive distinction
+is not simply deterministic versus nondeterministic. It is admissible
+versus inadmissible. A τ-admissible verifier has finite interface width:
+there is a finite primorial depth beyond which the computation sees
+nothing new. Under that condition, a witness is no longer a flat bitstring
+certificate. It is a canonical address whose per-prime components can be
+resolved and reassembled by the Chinese remainder structure. The slogan
+``search becomes structure'' means exactly this: search becomes
+construction only where a finite address architecture has been earned.
+
+\prcallout[CLAIM BOUNDARY]{%
+This is a guarded bridge note, not a proof note. Wolfram's essay is used
+as a public comparator for finite computational difficulty. The formal
+collapse introduced below is internal to τ-admissible witness problems,
+after finite interface width and address structure have been defined.
+This is an internal equality for τ-admissible witness problems. It does
+not settle orthodox P vs NP over unrestricted Turing-machine / ZFC
+encodings. The note does not treat the ruliad and \CategoryTau\ as the
+same object.}
+
+The claim tiers are deliberately separated. Wolfram supplies the external
+comparator. The τ-admissible collapse is an internal framework claim. Any
+τ-native or physical-computation extension would add further assumptions.
+Any orthodox Clay/ZFC export would require a separate encoding, size
+measure, reduction, and proof-system bridge.
+
+\begin{widetable}[t]
+\caption{Claim-tier map for the note. The tiers are separated near the
+front because the same words can otherwise sound much stronger than the
+manuscript intends.}
+\label{tab:claim-tiers}
+\prtablefont
+\begin{tabularx}{\textwidth}{p{0.20\textwidth}Y Y}
+\toprule
+\textbf{Tier} & \textbf{What this note may say} & \textbf{What it must not imply} \\
+\midrule
+External Wolfram comparator & Wolfram's ruliological essay is a
+valuable public anchor for finite computational microcosms, runtime
+wildness, nondeterministic reach, and the ruliad/everything-machine
+limit \cite{Wolfram2026RuliologicalPNP,WolframInstituteRuliology}. &
+It must not imply that Wolfram supplies validation for \CategoryTau,
+proves any τ theorem, or resolves the classical P-vs-NP problem. \\
+Internal τ claim & Inside the τ computation/admissibility spine, finite
+interface width and CRT witness decomposition support a scoped
+admissibility-collapse theorem \cite{PR-III}. & It must not imply that
+the internal equality is the orthodox
+\(\ClassP=\ClassNP\) theorem. \\
+Orthodox P-vs-NP boundary & Any export to ordinary Turing-machine
+languages, bit-length polynomial time, reductions, and \ZFC\ proof is a
+separate bridge problem. & It must not imply that the Clay problem is
+solved by this note. \\
+Future export bridge & Later work may compare finite ruliological
+benchmarks with τ-interface-width diagnostics and explicit witness
+decompositions. & It must not imply that benchmark analogies count as
+validation, proof, or a universal solution recipe. \\
+\bottomrule
+\end{tabularx}
+\end{widetable}
+
+The contribution of this note is a disciplined comparison. Section
+\ref{sec:wolfram} reconstructs the Wolfram anchor in its own terms.
+Sections \ref{sec:tau-layer}--\ref{sec:bisquare-collapse} reconstruct the
+τ computation source spine: computation layer, τ-Tower Machine, interface
+width, witness search, computational bi-square, and admissibility
+collapse. Sections \ref{sec:finite-interface}--\ref{sec:ruliad} compare
+the two frameworks along four axes: finite exploration, nondeterminism,
+irreducibility, and maximal reachability. Section \ref{sec:guardrails}
+then makes the orthodox boundary explicit. The closing section turns the
+comparison into a research program rather than a headline.
+
+\subsection{Anchor selection and reading method}
+
+Wolfram's essay is an unusually good anchor for this note because it has
+the right kind of distance from the τ-framework. It is close enough to
+share the core intuition that rule space, observers, and finite
+computational microcosms matter. It is distant enough that it cannot be
+mistaken for an internal source, a friendly paraphrase, or a validation
+surface. The essay is not written in the language of \(\tau\)-addresses,
+primorial towers, CRT decomposition, or product-meet diagrams. It is
+therefore useful as an external comparator: it presses on the same nerve
+without using the same vocabulary.
+
+The selection method is conservative. A paper or essay is a good anchor
+for this note only if it has three properties. First, it must discuss
+P-vs-NP difficulty through actual computational structure, not only
+through slogans about hard problems. Second, it must distinguish finite
+experiments from the full orthodox problem, so that the bridge does not
+begin with an overclaim. Third, it must expose a genuine contrast between
+search, reachability, and construction. Wolfram's essay satisfies all
+three. It builds finite machine microcosms; it repeatedly keeps the
+classical problem open; and it shows that nondeterministic reach can be
+studied without yet giving a deterministic construction method.
+
+The reading method is correspondingly narrow. When this note says that
+Wolfram makes a difficulty visible, it means that the essay supplies a
+finite observable analogue: a runtime profile, a machine-class relative
+outlier, a multiway speedup, or an everything-machine limit. When this
+note says that the τ spine answers a different question, it means that
+the internal source base imposes a typed admissibility criterion before
+claiming collapse. The comparison is not a two-column proof by analogy.
+It is a map of where two neighboring frameworks ask similar questions and
+where their answers stop being the same.
+
+\subsection{Three separations used throughout}
+
+To keep the paper readable, the following separations are used
+throughout.
+
+\begin{enumerate}[leftmargin=1.2em,itemsep=1pt,topsep=2pt]
+\item \emph{Reach is not construction.} A short path in a multiway graph
+is not yet a deterministic procedure for finding that path.
+\item \emph{Finite enumeration is not finite interface width.} A bounded
+machine class is an experimental microcosm; a finite-width verifier is an
+internal admissibility condition.
+\item \emph{Internal collapse is not orthodox export.}
+\(\Padm=\NPadm\) belongs to the τ-admissible fragment. The classical
+\(\ClassP\) versus \(\ClassNP\) problem over Turing machines and
+\ZFC-style proof remains outside the claim of this note.
+\end{enumerate}
+
+\begin{widetable}[t]
+\caption{The external anchor reconstructed as finite ruliological
+microcosms. The right column records the claim discipline used throughout
+this note.}
+\label{tab:wolfram-microcosms}
+\prtablefont
+\begin{tabularx}{\textwidth}{p{0.17\textwidth}Y Y Y}
+\toprule
+\textbf{Surface} & \textbf{What Wolfram studies} & \textbf{Use in this note} & \textbf{Guardrail} \\
+\midrule
+Finite machines & One-sided Turing machines with fixed state/color
+classes computing integer functions. & A concrete rule universe whose
+function and runtime structure can be inspected. & Not the same model as
+τ-Tower Machines. \\
+Runtime outliers & Functions whose runtime profiles jump or contain
+dramatic hard inputs. & A finite view of why asymptotic behavior can be
+hard to infer. & Outliers are not universal lower bounds. \\
+Isolate machines & Machines that are the unique or class-isolated
+computers of a function within a fixed finite class. & Bounded evidence
+for non-shortcut behavior. & Isolation is not τ-inadmissibility. \\
+Nondeterminism & Multiway choice can shorten some computations, sometimes
+dramatically, but not uniformly. & A comparison surface for branch
+availability. & A branch is not yet deterministic witness construction. \\
+Everything machine & A limiting finite-class object that includes all
+rule cases and reaches outputs by minimal paths. & A contrast for maximal
+nondeterministic reach. & Maximal reach is not τ construction. \\
+Ruliad limit & The ruliad is the entangled limit of all possible
+computations, sampled by bounded observers. & A philosophical comparator
+for observer-bounded readout. & The ruliad is not \CategoryTau. \\
+\bottomrule
+\end{tabularx}
+\end{widetable}
+
+% =======================================================================
+\section{Wolfram's finite ruliological exploration}
+\label{sec:wolfram}
+% =======================================================================
+
+The first obligation in a bridge note is fidelity. Wolfram's essay is not
+an appendix to our framework. It has its own problem, vocabulary, and
+method. The essay begins from the observation that P vs NP, in full form,
+is an infinite question: it quantifies over all possible inputs and all
+possible Turing machines. Wolfram's move is to ask finite subquestions
+inside that infinite problem. What happens if one fixes a small machine
+class and explicitly enumerates its behavior? What functions appear? Which
+machines compute them? What runtime profiles occur? When does adding
+states, colors, or nondeterministic alternatives change the answer? These
+are the finite subquestions Wolfram uses to replace the global problem
+with inspectable microcosms \cite{Wolfram2026RuliologicalPNP}.
+
+\subsection{Finite machines as empirical theory}
+
+The machines in the essay are deliberately concrete. Inputs and outputs
+are read as integers; machines are specified by small state/color classes;
+halting and undefined behavior are tracked rather than swept away. This
+turns a famous asymptotic question into a family of finite maps:
+machine-class, computed function, runtime profile, and fastest-known
+representative. Within a fixed class, one can establish class-relative
+facts that are hard to obtain in ordinary complexity theory. For example,
+one can ask whether any machine of a given size computes a particular
+function faster than another, or whether a function is represented by only
+one machine in that finite class \cite{Wolfram2026RuliologicalPNP}.
+
+The word ``relative'' matters. A lower bound inside a fixed small machine
+class is not a lower bound for all Turing machines. Wolfram says this
+explicitly in practice, because larger machines can sometimes compute the
+same finite mapping by a lookup-style or more specialized rule. The result
+is not a naive claim that finite hard cases are hard forever. It is a
+careful demonstration that hardness is sensitive to the representation and
+rule universe in which it is measured \cite{Wolfram2026RuliologicalPNP}.
+
+For the present note, that class relativity is not a defect. It is the
+point. A finite computational universe makes visible what a purely
+asymptotic statement often hides: the cost of a computation depends on
+the grammar in which the computation is performed. A rule universe has
+state counts, color counts, tape conventions, input encodings, halting
+criteria, and output conventions. Change any of these and the observed
+microcosm can change. The τ-framework makes the analogous dependency
+explicit on its own side by refusing to speak about efficient search
+until the agent, register grammar, interface width, and witness type have
+been specified.
+
+There is also an important sociological virtue here. The finite
+microcosms are inspectable. A reader can see particular machines, runtime
+tables, path graphs, and exception cases. That inspectability is why the
+essay is a better anchor for this note than a purely philosophical essay
+about computational irreducibility would be. It gives the comparison an
+object: not merely ``hardness exists,'' but ``here is how hardness appears
+when a finite rule class is made explicit.''
+
+\subsection{Outliers, isolates, and the failure of smoothness}
+
+One of the essay's strongest findings is qualitative rather than merely
+enumerative. Runtime profiles in arbitrary small machines are not smooth
+objects. They can jump. They can contain exceptional inputs. They can
+depend on whether a machine halts, whether a larger machine is allowed, or
+whether one changes the amount of nondeterminism. For constructed
+algorithms, runtime often looks regular because the algorithm was designed
+to have a regular structure. For machines in the wild, the behavior is
+messier \cite{Wolfram2026RuliologicalPNP}.
+
+The ``isolate machine'' idea sharpens this point. If a machine is the only
+machine in a fixed finite class that computes a function, then its runtime
+profile becomes a class-relative lower bound for that function within that
+class. But even here the conclusion remains bounded. The same function may
+be computed differently by a larger machine. The isolate shows that a
+finite computational microcosm can contain genuine non-shortcut structure;
+it does not license an unbounded asymptotic conclusion
+\cite{Wolfram2026RuliologicalPNP}.
+
+The isolate-machine surface is especially useful for a τ comparison
+because it separates two forms of uniqueness. In Wolfram's setting,
+uniqueness can mean uniqueness of a rule within a finite enumeration
+class. In the τ setting, uniqueness usually means uniqueness of a
+canonical address or normal representative after a construction grammar
+has been applied. These are not the same kind of uniqueness. The former
+is empirical and class-relative; the latter is structural and internal.
+The bridge is that both resist the idea that all computations are
+fungible black boxes. The boundary is that one uniqueness claim lives in
+an enumerated rule census, while the other lives in an address-resolution
+theorem.
+
+Runtime outliers play a related role. A smooth complexity curve tempts
+one to extrapolate. An outlier interrupts the extrapolation and asks
+which hidden structure was missed. Wolfram's examples make that
+interruption visible at small scale. The τ-framework then asks a sharper
+question: is the outlier a sign of missing finite address structure, or
+is it merely a bad representation of an admissible computation? That
+question is not answered by the Wolfram essay, but the essay makes the
+question vivid \cite{Wolfram2026RuliologicalPNP}.
+
+\subsection{Nondeterminism as reach}
+
+The P-vs-NP relevance becomes explicit when Wolfram introduces
+nondeterministic and multiway machines. A deterministic machine applies one
+rule at each step. A nondeterministic machine allows a choice among rules,
+creating a multiway graph of possible paths. In the essay's finite
+examples, this can shorten computations substantially. Some functions that
+take exponential time for a small deterministic machine can be reached much
+faster by a small nondeterministic machine. Other hard deterministic cases
+do not succumb to the smallest nondeterministic augmentation. That
+non-uniformity is one of the most useful facts for the present note
+\cite{Wolfram2026RuliologicalPNP}.
+
+Nondeterminism, in this setting, should be read as reach. It allows paths
+through a multiway graph that deterministic rules do not follow. But reach
+is not yet construction. A path may exist without giving a deterministic
+procedure for finding it. A multiway graph may contain a short route
+without making that route visible to a bounded deterministic observer. That
+distinction is the hinge on which the comparison with τ-admissibility
+turns \cite{Wolfram2026RuliologicalPNP}.
+
+This is also where finite experiments become philosophically sharp.
+Inside a small machine class, nondeterminism is not an abstraction
+floating above the model. It is a concrete addition of rule alternatives.
+One can draw the branch graph. One can ask which paths halt, which paths
+compute the same output, and which paths shorten the route. That
+concreteness prevents a common confusion: nondeterminism is not magic
+knowledge. It is an expanded path structure. Whether that path structure
+can be converted into deterministic construction is a further question.
+
+The τ note takes that further question as central. It asks not only
+whether there exists a short accepting branch, but whether the object
+certified by that branch has finite constructive coordinates. If the
+witness is still a black-box certificate, nondeterminism has supplied
+reach but not structure. If the witness decomposes into per-prime
+components and reassembles canonically, the story changes. That is why
+the τ comparison cannot stop at the word ``speedup.'' It has to ask what
+kind of thing has been sped up.
+
+\subsection{Everything-machine and ruliad limit}
+
+The essay then considers the limiting case of adding all conceivable rule
+choices inside a finite class: the ``everything machine.'' This is a
+maximally nondeterministic object. It can reach outputs in the minimum
+number of steps structurally possible, and it functions as a fragment of
+the ruliad. In Wolfram's broader vocabulary, the ruliad is the entangled
+limit of all possible computations. It includes all possible computational
+paths, while actual observers sample bounded slices of it
+\cite{Wolfram2026RuliologicalPNP}.
+
+This is the deepest philosophical bridge to the Panta Rhei note, and also
+the easiest place to overclaim. The everything-machine/ruliad endpoint is
+about maximal reach. The τ computation spine is about admissible
+construction under a specific address grammar. Both make observer bounds
+and rule-space structure visible. But their primitives differ. The ruliad
+is a maximal computational ensemble; \CategoryTau\ is a constructed
+framework with a primorial tower, CRT decomposition, finite interface
+width, and a product-meet proof architecture. The bridge is real because
+both ask what computation looks like when rule space is made explicit. The
+bridge is limited because maximal reach is not the same as finite
+admissible construction.
+
+The everything-machine idea is nevertheless valuable because it provides
+a limiting counter-image to the τ collapse. In one direction, one tries
+to include more and more possible rules until reachability becomes
+maximal. In the other, one tries to identify the finite quotient through
+which a particular computation stabilizes. These are almost opposite
+gestures. The ruliological gesture is expansive: include more rules. The
+τ-admissible gesture is resolving: identify the finite structure that is
+actually needed. Their proximity lies in the fact that both reject a
+single fixed black-box machine as the final object of study. Their
+difference lies in the direction of explanation.
+
+\subsection{The essay's own boundary}
+
+The essay's conclusion is unusually useful for our purposes because it
+keeps the orthodox boundary intact. Wolfram states that finite
+ruliological subquestions do not directly resolve the full P-vs-NP
+problem. They give intuition and reveal difficulties: runtime wildness,
+halting subtleties, limit-order issues, and the role of computational
+irreducibility. That is exactly the boundary this note must preserve. The
+Wolfram essay is an anchor because it makes the shape of the difficulty
+visible; it is not evidence that any external theorem has been settled
+\cite{Wolfram2026RuliologicalPNP}.
+
+This boundary is one reason the essay can be used responsibly. If the
+essay had claimed to solve P vs NP outright, the present note would first
+have to adjudicate that claim. Because it does not, the note can use the
+essay for what it does exceptionally well: it shows how quickly finite
+rule spaces become rich enough to resist simple summarization. That is a
+better bridge to τ-admissibility than a premature proof claim would be,
+because τ-admissibility is itself a boundary concept. It says: here is
+the fragment where construction is available; outside it, do not pretend
+that search has already been tamed.
+
+% =======================================================================
+\section{The \texorpdfstring{$\tau$}{tau} computation layer}
+\label{sec:tau-layer}
+% =======================================================================
+
+The τ computation spine begins with a typing claim. P-vs-NP-style
+questions are not primitive at every layer of the framework. They require
+agents, steps, and an efficiency measure. Without an agent there is no
+searcher. Without steps there is no runtime. Without a relationship
+between input size and step count there is no polynomial-versus-exponential
+distinction. The computation layer says that these ingredients become
+native only at \Etwo, where codes contain their own decoders and execution
+is a Code--Execution--Code cycle \cite{PR-III}.
+
+This is not an orthodox complexity theorem. It is a framework typing
+statement. It says where the question becomes meaningful in the internal
+architecture. At \Ezero, the framework has addresses and static structure,
+but not processes. At \Eone, it has dynamics, but not self-referential
+codes. At \Etwo, it has agents whose decoder is itself representable as a
+code and whose execution produces new codes inside the same operational
+layer. Only there can one ask whether a search procedure is efficient.
+
+This typing move matters for the comparison with Wolfram. Wolfram begins
+with finite rule systems and asks what their computed functions and
+runtimes look like. The τ source spine begins one level earlier: what
+structure must exist before a runtime question has a subject? Once the
+subject exists, the framework does not ask only whether a nondeterministic
+branch exists. It asks whether the witness lives inside a finite address
+architecture that a deterministic τ-agent can construct.
+
+The resulting picture is less dramatic than a headline, but more useful
+as a research claim. The framework does not say that an arbitrary
+mathematical question becomes computationally easy once translated into
+τ-language. It says that the computational version of the question has a
+type. Before \Etwo, there may be structures, transformations, and
+dynamics, but not yet a self-referential computational agent with an
+internal decoder. At \Etwo, a program can act on codes and return codes
+inside the same typed layer. That is the first point at which the
+phrases ``solver,'' ``verifier,'' and ``witness'' have their native
+framework meaning.
+
+This also prevents a false comparison with Wolfram's small machines.
+Wolfram's machines are deliberately minimal. They show how much behavior
+can be generated by tiny rule systems. The τ computation layer is not
+minimal in that sense; it is already a typed operational layer built on
+earlier address and enrichment structure. Its strength is not that it
+uses fewer primitives. Its strength is that it can say which primitives
+are doing the computational work. A finite Turing-machine enumeration
+finds difficulty by varying rules. The τ spine locates difficulty by
+asking whether the computation has earned finite readout.
+
+\begin{widetable}[t]
+\caption{The τ computation/admissibility source spine used in this note.
+Book labels are source provenance; the manuscript frames the material as
+the τ computation spine.}
+\label{tab:tau-spine}
+\prtablefont
+\begin{tabularx}{\textwidth}{p{0.18\textwidth}p{0.17\textwidth}Y Y}
+\toprule
+\textbf{Source locus} & \textbf{Registry IDs} & \textbf{Claim used here} & \textbf{Guardrail} \\
+\midrule
+Computation layer & \regid{III.D49}, \regid{III.D50}, \regid{III.R22}
+& Agents, steps, and efficiency become native at \Etwo. & Typing claim, not orthodox theorem. \\
+τ-Tower Machine & \regid{III.D51}, \regid{III.T30}, \regid{III.D52}
+& TTMs have finite control over τ-addressed registers and bounded observable transitions. & TTMs are not Wolfram machines. \\
+Interface width & \regid{III.D53}, \regid{III.D54}, \regid{III.T31}
+& τ-admissibility is finite stabilization in the primorial tower. & Applies inside \Adm. \\
+Witness search & \regid{III.D55}, \regid{III.P22}, \regid{III.P23}
+& Witnesses are τ-addresses decomposed by CRT into per-prime components. & Polynomial in primorial depth \(k\), not automatically bit length. \\
+Computational bi-square & \regid{III.D56}, \regid{III.T32}, \regid{III.T33}
+& Product-Meet Collapse yields \(\Padm=\NPadm\). & Not classical \(\ClassP=\ClassNP\). \\
+No barrier / ZFC horizon & \regid{III.T34}, \regid{III.D79}, \regid{III.R46}
+& The internal encoding gap is removed, while the ZFC bridge remains horizon-limited. & Provability/export language is scoped and partly conjectural. \\
+\bottomrule
+\end{tabularx}
+\end{widetable}
+
+% =======================================================================
+\section{\texorpdfstring{$\tau$}{tau}-Tower Machines and interface width}
+\label{sec:ttm-interface}
+% =======================================================================
+
+The τ-Tower Machine is the concrete machine grammar used by the internal
+source spine. It resembles a register machine in having finite control and
+finitely many registers. It differs because the registers hold
+τ-addresses, not ordinary bitstrings. A program, its input data, its
+instruction set, and its output are all internal address-bearing objects.
+The observable transition of a machine reads a bounded window of this
+address structure, which is why constant-width tableau language appears in
+the source spine.
+
+This is not a cosmetic change of alphabet. In an ordinary Turing model,
+the tape is a flat string of symbols and the input-size metric is tied to
+that representation. In a TTM, the relevant data are organized by the
+primorial tower and by the finite quotient through which the computation
+stabilizes. The key invariant is \emph{interface width}: the amount of
+primorial depth a computation must inspect before deeper levels contribute
+no new information.
+
+\begin{definition}[Interface-width reading \scopetau]
+For this note, a computation is treated as τ-admissible only when its
+verifier has finite interface width: there is a depth \(k_0\) such that,
+for all relevant input sizes, the verifier's observable behavior factors
+through the finite quotient at depth \(k_0\). The infinite tower then
+collapses, for that computation, to a finite computational horizon.
+\end{definition}
+
+The phrase ``for that computation'' is load-bearing. It blocks the most
+tempting overclaim. The source spine does not say that every arbitrary
+problem in every formal system magically has small interface width. It
+defines a class of admissible computations and proves the internal
+consequences inside that class. A function whose required depth grows with
+the input remains outside the admissible fragment until a finite-width
+factorization is supplied.
+
+Interface width should therefore be read as a test, not a decoration. A
+candidate τ computation must answer concrete questions. What finite
+primorial quotient carries the relevant information? What does the
+verifier inspect? Which deeper coordinates are provably irrelevant to the
+accept/reject decision? How is the stability witnessed? If these
+questions cannot be answered, the computation has not entered the
+admissible fragment merely because it has been described in τ language.
+
+The width condition also explains why the internal complexity parameter
+is not automatically ordinary input length. Primorial depth \(k\)
+controls a tower-indexed finite quotient. Ordinary bit length controls
+the encoding size of a string in a Turing representation. Relating the
+two requires an export theorem or at least an explicit encoding policy.
+This note uses \(k\)-polynomial language only in the internal sense. It
+does not silently convert it into a classical polynomial-time statement.
+
+\begin{definition}[τ-admissible witness problem \scopetau]
+For this note, a τ-admissible witness problem is a decision problem
+presented to an \Etwo-level τ-agent such that:
+\begin{enumerate}[leftmargin=1.2em,itemsep=1pt,topsep=2pt]
+\item the verifier factors through a finite primorial quotient;
+\item accepting witnesses are τ-addresses at that quotient;
+\item the witness constraints decompose into finite local conditions on
+the relevant prime-indexed coordinates;
+\item compatible local witnesses reassemble canonically by CRT; and
+\item the verifier's deeper tower data do not change the accept/reject
+decision.
+\end{enumerate}
+If any of these clauses is missing, the problem has not yet entered the
+admissible fragment used by the collapse claim.
+\end{definition}
+
+\begin{definition}[The classes \texorpdfstring{\(\Padm\)}{tau-Padm} and \texorpdfstring{\(\NPadm\)}{tau-NPadm} \scopetau]
+\(\Padm\) denotes the τ-admissible decision problems for which a
+deterministic τ-Tower Machine constructs the accepting address, when it
+exists, in time polynomial in the internal primorial depth. \(\NPadm\)
+denotes the τ-admissible decision problems for which a finite-width
+τ-verifier checks an accepting address in polynomial internal depth. Both
+classes are already restricted by τ-admissibility; neither is the
+ordinary \(\ClassP\) or \(\ClassNP\) class of orthodox complexity theory.
+\end{definition}
+
+The comparison with Wolfram is therefore precise. Wolfram fixes finite
+machine classes and studies the functions and runtimes that appear within
+them. The τ spine fixes an internal computation grammar and asks whether a
+verifier stabilizes through a finite quotient. Both approaches turn an
+infinite question into finite surfaces one can inspect. But the surfaces
+are different: finite enumeration in one case, finite interface width in
+the other.
+
+This difference suggests a productive diagnostic. If a Wolfram-style
+finite example looks hard because no smaller machine computes it in the
+chosen class, one should not immediately ask whether it is τ-admissible.
+One should first ask a weaker question: what is the analogue of its
+interface? What information must any verifier read to certify the output?
+Does the difficulty come from a large search space, from an unstable
+representation, from halting sensitivity, or from the absence of a finite
+factorization? These questions are not solved in this note, but they
+turn the bridge into a usable research protocol.
+
+% =======================================================================
+\section{A one-minute toy example: assembled witness, not scan}
+\label{sec:toy-example}
+% =======================================================================
+
+The smallest useful example is deliberately not an NP-complete problem,
+not a SAT reduction, and not an orthodox complexity reduction. It only
+illustrates the τ mechanism: when local finite coordinates and a
+reconstruction theorem are present, witness existence can become witness
+assembly. Work in the finite quotient
+\[
+  Q=\mathbb{Z}/30\mathbb{Z}
+  \cong
+  \mathbb{Z}/2\mathbb{Z}\times
+  \mathbb{Z}/3\mathbb{Z}\times
+  \mathbb{Z}/5\mathbb{Z}.
+\]
+Suppose the local witness constraints are
+\[
+  \begin{aligned}
+  x &\equiv 1 \pmod 2,\\
+  x &\equiv 2 \pmod 3,\\
+  x &\equiv 4 \pmod 5.
+  \end{aligned}
+\]
+A flat scan would test residues \(0,\ldots,29\) until one satisfies all
+three checks. CRT instead constructs the address. The three standard
+reassembly terms are \(15\), \(10\), and \(6\): each is \(1\) on its own
+prime component and \(0\) on the other two after the appropriate local
+normalization. Thus
+\[
+  x \equiv 1\cdot 15 + 2\cdot 10 + 4\cdot 6
+  =59 \equiv 29 \pmod {30}.
+\]
+The result can be checked immediately:
+\[
+  \begin{aligned}
+  29&\equiv 1 \pmod 2,\\
+  29&\equiv 2 \pmod 3,\\
+  29&\equiv 4 \pmod 5.
+  \end{aligned}
+\]
+
+This toy example captures only the address-construction grammar. It does
+not prove anything about arbitrary SAT instances, ordinary NP-complete
+problems, or the Clay P-vs-NP problem. Its purpose is narrower and more
+useful: it shows the difference between scanning a flat finite space and
+constructing a global witness from typed local components. In the
+τ-admissible case, the source-spine theorem claims that the real witness
+spaces have an analogous finite quotient, local constraint, and canonical
+reassembly structure. When that structure is absent, the example does not
+apply.
+The work was moved from scanning candidate witnesses to constructing the
+coordinate system in which the witness is already locally determined.
+
+The failure variant is just as important. If the local constraints are not
+independent, if the moduli are not compatible, or if a hidden global
+consistency condition remains after local checking, the CRT assembly
+pattern fails. Such a problem may remain a search problem and is not
+τ-admissible by this example alone.
+
+% =======================================================================
+\section{Witness search as address resolution}
+\label{sec:witness-search}
+% =======================================================================
+
+In the orthodox language of NP, a witness is a certificate. It may be easy
+to check once supplied, even if it is hard to find. The usual anxiety is
+that the witness space is too large: exponentially many candidate
+bitstrings, no general deterministic method for locating the right one,
+and no known proof that such a method cannot exist.
+
+The τ source spine retypes the witness. A witness for an admissible
+problem is a τ-address at some primorial depth. That address carries
+coordinates. Its components can be read through the CRT decomposition of
+\(\mathbb{Z}/\Prim(k)\mathbb{Z}\) into per-prime residues. Under
+τ-admissibility, the verifier factors through finite width, so witness
+constraints become per-prime constraints that can be searched locally and
+reassembled globally. The witness is no longer a flat object hidden in a
+featureless space. It is a structured address whose local components have
+to cohere.
+
+This is the technical heart of the title. Search becomes structure not
+because nondeterminism is wished away, but because the object searched for
+has changed type. In a flat bitstring space, global satisfaction is a meet
+over constraints with no guaranteed product architecture. In the primorial
+tower, when the admissibility hypotheses hold, the CRT turns global
+satisfaction into compatible local construction. The per-prime witness
+spaces remain finite, and their reassembly is unique.
+
+It is useful to spell this out as a four-step grammar. First, the
+verifier is typed: it is not an arbitrary external checker but an
+\Etwo-level computation whose observable behavior has a finite interface.
+Second, the candidate witness is typed: it is represented as an address
+at a finite primorial depth rather than as an undifferentiated string.
+Third, the constraints are localized: acceptance conditions factor into
+conditions on finite per-prime components. Fourth, the local solutions are
+reassembled by CRT into the global address. At no point is the witness
+found by a mysterious act of guessing. The work is shifted from blind
+global enumeration to structured local resolution.
+
+This is also why the address language is not merely metaphorical. In an
+ordinary NP problem, a certificate can be encoded as bits, but the bit
+encoding does not by itself explain why the right certificate should be
+found efficiently. It only gives a representation in which verification
+is possible. In the τ-admissible case, the representation is tied to a
+construction theorem: the finite quotient, per-prime decomposition, and
+unique reassembly are part of the computational grammar. The address is
+not a label attached after the fact. It is the shape through which the
+witness becomes constructible.
+
+\begin{proposition}[Bridge reading of witness search \scopetau]
+Within the τ-admissible fragment, witness search is not modeled as an
+unstructured enumeration of certificates. It is modeled as address
+resolution: identify the finite quotient, solve the per-prime witness
+conditions, and reassemble the canonical address by CRT.
+\end{proposition}
+
+\begin{proof}[Source-spine proof sketch]
+The source spine supplies three ingredients. First, finite interface width
+forces the verifier to factor through a finite primorial quotient. Second,
+the witness space at that quotient decomposes into per-prime components by
+CRT. Third, unique CRT reassembly turns compatible local witnesses into a
+global witness. The cost statement in the source is polynomial in the
+primorial depth \(k\), with the important caveat that this is not
+automatically the same as ordinary bit-length polynomiality.
+\end{proof}
+
+The contrast with Wolfram's nondeterministic machines is now clear.
+Wolfram's multiway graphs show that branch availability can shorten paths.
+The τ source spine asks for something stronger: a deterministic structural
+procedure that finds and reassembles the witness because the witness space
+has finite address architecture. A short branch and a constructed address
+are related ideas, but they are not the same.
+
+\subsection{What the toy example did and did not show}
+
+The CRT example above is intentionally small enough to be checked by
+hand. It shows the contrast between a flat search space and an address
+space whose local components can be assembled. It does not show that
+every certificate space has such a product structure. It also does not
+show that ordinary input length and primorial depth are interchangeable.
+Those are precisely the questions that any classical export would have
+to answer.
+
+The didactic point is therefore conditional. If a witness problem has a
+finite quotient, local constraints, and canonical reassembly, then the
+right search grammar is construction. If the witness remains a flat
+certificate with no finite address decomposition, the example has no
+force. This is why the definitions of τ-admissibility come before the
+formal equality in this note.
+
+% =======================================================================
+\section{The computational bi-square and admissibility collapse}
+\label{sec:bisquare-collapse}
+% =======================================================================
+
+The computational bi-square is the diagrammatic center of the internal
+claim. Earlier bi-squares in the framework have the same repeated shape:
+one square records tower coherence, another records spectral naturality,
+and the pasted rectangle expresses the relevant constraint at that layer.
+At the computation layer the objects have changed. They are verifier
+computations and witness spaces. The left square is the execution square;
+the right square is the witness square. Pasting them yields the
+Product-Meet Collapse.
+
+In plain language, the Product-Meet Collapse says that, inside the
+admissible setting, satisfying all witness constraints is realized by
+constructing the product of compatible per-prime witness components. The
+meet of constraints becomes the product of components. This is the moment
+where search becomes structure in the strongest internal sense.
+
+The diagram matters because it prevents the collapse from becoming a
+black-box slogan. The left side records that computation is still an
+execution process: an agent acts, a verifier reads a finite interface,
+and the observable transition must remain coherent through the tower. The
+right side records that the witness is not merely asserted: its local
+components have to be natural with respect to the spectral/prime-indexed
+decomposition. The pasted diagram says that these two requirements are
+not independent decorations. They meet in the same finite construction
+surface.
+
+This is also where the τ source spine differs from a lookup-table
+shortcut. In a finite universe, one can sometimes compute a function by
+encoding enough answers in a larger machine. That is a representation
+trick unless it comes with a stable construction rule. Product-Meet
+Collapse is not a claim that every finite instance can be stored. It is a
+claim that, for admissible computations, the witness space itself has a
+decomposition that the solver can use uniformly. The distinction is
+essential for any future export discussion.
+
+\begin{widefigure}[t]
+\begin{tikzpicture}[
+  node distance=0.8cm and 0.55cm,
+  box/.style={draw=pr-brand-700, rounded corners=2pt, thick,
+    align=center, inner sep=5pt, text width=0.18\textwidth,
+    fill=pr-brand-50},
+  taubox/.style={draw=pr-ink-700, rounded corners=2pt, thick,
+    align=center, inner sep=5pt, text width=0.18\textwidth,
+    fill=white},
+  labelbox/.style={font=\sffamily\bfseries\small, text=pr-brand-700},
+  arrow/.style={-{Latex[length=2.2mm]}, thick, color=pr-ink-700}
+]
+\node[labelbox] (lefttitle) {Finite ruliological exploration};
+\node[box, below=0.45cm of lefttitle] (rules) {fixed finite\\rule classes};
+\node[box, right=of rules] (profiles) {computed functions\\and runtime profiles};
+\node[box, right=of profiles] (hardness) {outliers, isolates,\\multiway speedups};
+\node[box, right=of hardness] (pressure) {irreducibility\\pressure};
+
+\node[labelbox, below=2.1cm of lefttitle] (righttitle) {τ-admissible construction};
+\node[taubox, below=0.45cm of righttitle] (agent) {\Etwo\ agent\\and τ-addresses};
+\node[taubox, right=of agent] (width) {finite interface\\width};
+\node[taubox, right=of width] (witness) {CRT witness\\decomposition};
+\node[taubox, right=of witness] (collapse) {Product-Meet\\Collapse};
+
+\draw[arrow] (rules) -- (profiles);
+\draw[arrow] (profiles) -- (hardness);
+\draw[arrow] (hardness) -- (pressure);
+\draw[arrow] (agent) -- (width);
+\draw[arrow] (width) -- (witness);
+\draw[arrow] (witness) -- (collapse);
+
+\draw[arrow, dashed] (hardness.south) -- node[right, font=\scriptsize\itshape,
+  text=pr-ink-600, align=center] {comparison,\\not identity} (witness.north);
+\draw[arrow, dashed] (pressure.south) -- node[right, font=\scriptsize\itshape,
+  text=pr-ink-600, align=center] {obstruction\\vs criterion} (collapse.north);
+\end{tikzpicture}
+\caption{Search becomes structure only on the lower path. Wolfram's finite
+microcosms make hardness surfaces visible from below. The τ path turns
+search into construction only after finite interface width and CRT witness
+decomposition are available.}
+\label{fig:search-becomes-structure}
+\end{widefigure}
+
+\begin{theorem}[Framework source-spine theorem: τ-admissibility collapse \scopetau]
+For τ-admissible witness problems, the internal source spine states
+\[
+  \Padm = \NPadm .
+\]
+If a verifier has finite interface width, witness search runs in time
+polynomial in the primorial depth used by the admissible computation.
+\end{theorem}
+
+\begin{proof}[Source-spine proof sketch]
+The source-spine proof assembles three claims. Constant-width verification
+supplies the execution side. CRT witness decomposition supplies the
+witness side. Product-Meet Collapse pastes the two squares: independently
+resolved per-prime witnesses assemble into a global witness. Thus
+verification and search both become polynomial in the internal depth
+parameter for the admissible fragment.
+\end{proof}
+
+The theorem remains source-spine material \cite{PR-III}. The surrounding
+public construction grammar can be inspected through the Construction
+Spine, TauLib, WP003, the Release Manifest, and the Corpus Registry
+\cite{PR-ConstructionSpinePublic,PR-TauLibCorpusPublic,PR-TauLibWhitePaperPublic,PR-ReleaseManifestPublic,PR-RegistryPublic}.
+
+\prcallout[Main non-claim]{%
+The displayed equality is \(\Padm=\NPadm\), not an orthodox
+\(\ClassP=\ClassNP\) theorem. It belongs to τ-admissible computation.
+This is an internal equality for τ-admissible witness problems. It does
+not settle orthodox P vs NP over unrestricted Turing-machine / ZFC
+encodings.}
+
+% =======================================================================
+\section{What fails \texorpdfstring{$\tau$}{tau}-admissibility?}
+\label{sec:admissibility-failures}
+% =======================================================================
+
+The collapse claim is credible only if the failure modes are visible. A
+problem does not become τ-admissible because it has been renamed in
+τ-vocabulary. It has to earn the finite construction surface. The most
+important failure modes are:
+
+\begin{widetable}[t]
+\caption{Failure modes for τ-admissibility. The restrictive nature of
+this table is what prevents \(\Padm=\NPadm\) from being an unguarded
+\(\ClassP=\ClassNP\) claim.}
+\label{tab:admissibility-failures}
+\prtablefont
+\begin{tabularx}{\textwidth}{p{0.23\textwidth}Y Y}
+\toprule
+\textbf{Failure mode} & \textbf{Why τ-admissibility fails} & \textbf{Consequence} \\
+\midrule
+Unbounded witness representation & The witness cannot be finitely
+address-coded at the cutoff. & The problem remains search. \\
+Hidden global consistency & Local checks do not reconstruct the global
+witness. & Additional global search remains. \\
+No reconstruction theorem & No CRT-, Yoneda-, or Hartogs-style assembly
+route is available. & Existence has not become construction. \\
+Unbounded interface width & Local data require growing cross-talk as
+instances vary. & The verifier is not boundedly admissible. \\
+External semantic oracle & Verification depends on meaning outside formal
+address data. & Runtime or semantics have been hidden. \\
+Encoding-dependent shortcut & The collapse depends on changing the
+problem representation illegitimately. & The result is not exportable. \\
+\bottomrule
+\end{tabularx}
+\end{widetable}
+
+These are not embarrassment clauses; they are part of the theorem's
+meaning. A serious future benchmark should contain negative rows where
+the admissibility test fails. Wolfram-style finite microcosms are useful
+here because they can produce exactly the kind of stubborn runtime
+outliers and branch structures that test whether a proposed τ encoding is
+real structure or only a renamed search.
+This is an internal equality for τ-admissible witness problems. It does
+not settle orthodox P vs NP over unrestricted Turing-machine / ZFC
+encodings.
+
+% =======================================================================
+\section{Finite exploration vs finite interface width}
+\label{sec:finite-interface}
+% =======================================================================
+
+We can now state the first major comparison. Wolfram uses finite
+enumeration. The τ spine uses finite interface width. Both are ways of
+refusing to let the infinite formulation do all the work.
+
+Finite enumeration starts by fixing a rule class and asking what appears
+inside it. One can count machines, compare functions, identify isolated
+representatives, and inspect runtime profiles. The gain is empirical
+specificity. The cost is class relativity. A fact about \(s=3,k=2\)
+machines may change when \(s=4,k=2\) machines are admitted.
+
+Finite interface width starts differently. It asks whether a verifier
+stabilizes through a finite quotient independent of deeper tower levels.
+The gain is theorem-grade internal structure. The cost is admissibility:
+only computations satisfying the finite-width criterion fall inside the
+collapse. A computation that truly requires unbounded depth remains outside
+until additional structure is supplied.
+
+\begin{widetable}[t]
+\caption{Core comparison axes. The table is intentionally asymmetric:
+Wolfram supplies finite microcosms of difficulty; the τ spine supplies a
+conditional construction theorem under admissibility.}
+\label{tab:comparison}
+\prtablefont
+\begin{tabularx}{\textwidth}{p{0.18\textwidth}Y Y Y}
+\toprule
+\textbf{Axis} & \textbf{Wolfram ruliology} & \textbf{τ computation spine} & \textbf{Bridge sentence} \\
+\midrule
+Finite structure & Enumerated finite machine universes. & Finite interface width and finite quotient factorization. & Both make finite readout explicit. \\
+Search & Runtime outliers and class-relative difficulty. & Witness search becomes address resolution under τ-admissibility. & Wolfram studies hard search; τ specifies when search becomes construction. \\
+Nondeterminism & Multiway branching can shorten paths. & Witnesses are canonical addresses. & Reach and construction must be kept distinct. \\
+Irreducibility & Computational irreducibility obstructs shortcutting. & Inadmissibility marks failure of finite collapse. & Irreducibility is pressure; admissibility is criterion. \\
+Infinity & Ruliad/everything-machine gestures toward maximal rule-space reach. & τ-native computation uses a particular primorial construction grammar. & Philosophically adjacent, architecturally different. \\
+Orthodox export & Essay does not settle classical P vs NP. & τ collapse is internal unless a separate bridge is supplied. & Shared humility makes the bridge note viable. \\
+\bottomrule
+\end{tabularx}
+\end{widetable}
+
+This is why the note's title should not be read as a universal claim that
+every search becomes structure. The statement is conditional. Search
+becomes structure when a finite address architecture exists, when the
+verifier stabilizes at finite interface width, and when the witness space
+factorizes in a way compatible with construction. Wolfram's finite
+microcosms help us see why those conditions matter: without them, runtime
+behavior can remain wild, class-relative, and irreducibly difficult to
+summarize.
+
+\subsection{Two finite moves, two different risks}
+
+The two finite moves have opposite failure modes. Finite enumeration can
+be too weak because it remains tied to the chosen class. A finite machine
+microcosm may contain a genuine outlier, but another class may remove it.
+The result is empirical richness without immediate generality. Finite
+interface width can be too strong because it excludes computations whose
+observable behavior does not stabilize. The result is theorem-grade
+structure, but only inside a typed fragment.
+
+The future research program has to keep both risks visible. If the τ
+side ignores Wolfram-style finite exploration, it risks becoming too
+formal: internally elegant but insufficiently tested against the messy
+behavior of small rule universes. If the Wolfram side ignores finite
+interface conditions, it risks staying descriptive: rich catalogs of
+difficulty without a criterion for when a witness space has become
+constructible. The bridge note is valuable precisely because it can let
+each side expose the other's blind spot.
+
+This is also why the comparison should be carried out with examples,
+not only with vocabulary. A finite rule example can be annotated by the
+questions it raises for τ: what is the interface, what is the witness
+object, what would count as a finite quotient, and what would fail if no
+such quotient exists? Conversely, a toy τ-admissible example can be
+translated into a Wolfram-style finite exploration: what does the
+deterministic search look like before the address decomposition is made
+visible? The two directions would not prove equivalence. They would make
+the bridge measurable.
+
+% =======================================================================
+\section{Nondeterminism versus witness construction}
+\label{sec:nondeterminism}
+% =======================================================================
+
+The second comparison is the most delicate. In Wolfram's essay,
+nondeterminism is implemented by allowing a choice among rules at each
+step. The resulting multiway graph contains many possible paths. Some
+paths compute outputs faster than the deterministic rule path. In the
+limiting everything-machine picture, nondeterminism becomes maximal reach:
+from an input, many outputs become accessible by structurally minimal
+paths.
+
+In orthodox NP language, nondeterminism is often described by saying that
+the right witness can be guessed. That phrase is useful pedagogically, but
+it hides the key issue. A short accepting path may exist without a
+deterministic polynomial method for finding it. A multiway graph may
+contain the route, but the route may not be visible to a bounded solver.
+The real question is not merely whether the path exists. It is what kind
+of structure makes the path constructible.
+
+The τ answer is not ``branch harder.'' It is ``change the type of the
+witness.'' Under admissibility, the witness has address structure. The
+search space is not just a cloud of possibilities; it is a finite
+quotient with per-prime components. The deterministic construction
+procedure is not a blind traversal of branches. It is a decomposition and
+reassembly procedure.
+
+\begin{remark}[Reach is weaker than construction]
+A nondeterministic reachability statement says that some path exists in a
+multiway graph. A τ-admissible construction statement says that the
+witness can be recovered from finite address components and reassembled.
+The second is stronger and more typed than the first.
+\end{remark}
+
+This distinction also protects the note from an attractive but false
+symmetry. It would be easy to say that Wolfram's nondeterministic speedups
+are the same thing as τ witness construction. They are not. Wolfram's
+examples show how branch availability can reduce observed path length in
+finite rule universes. The τ spine gives an internal criterion for when a
+witness space ceases to be featureless and becomes constructible. The
+bridge is that both focus on the structure of possible paths. The
+boundary is that only the τ side claims an internal construction theorem,
+and only under admissibility.
+
+The distinction has a practical consequence for future benchmarks. A
+candidate example should not be counted as a τ analogue merely because
+nondeterminism speeds it up. The first diagnostic should be: does the
+speedup identify a reusable witness structure, or only a fortunate
+branch? If the shortest branch depends on global search through the
+multiway graph, then the example remains a reachability example. If the
+branch can be replaced by a local decomposition-and-reassembly procedure,
+then it starts to resemble the τ witness grammar.
+
+This is a useful discipline because many popular accounts of P vs NP
+slide too quickly between ``the answer can be checked'' and ``the answer
+can be found.'' Wolfram's finite graphs make the slide visible: the path
+can be in the graph without being efficiently discoverable. The τ source
+spine turns that visibility into a criterion: discoverability comes from
+finite address structure, not from the mere existence of a branch.
+
+% =======================================================================
+\section{Irreducibility, inadmissibility, and infinity}
+\label{sec:irreducibility}
+% =======================================================================
+
+Wolfram's essay repeatedly returns to computational irreducibility: the
+possibility that no shortcut captures the behavior of a computation
+without effectively running it. In the P-vs-NP context, this pressure
+appears as runtime wildness, halting uncertainty, difficult limit behavior,
+and the suspicion that exceptions may not average away. The essay suggests
+that computational irreducibility and undecidability pressure are not rare
+corner cases but pervasive features of rule space.
+
+The τ source spine uses a different vocabulary. It does not begin by
+asserting irreducibility. It defines admissibility. A computation is
+admissible when finite interface width exists. A computation is
+inadmissible, for the purposes of this note, when no such finite
+stabilization is available. The relationship is suggestive but not
+identity. Irreducibility is a pressure against shortcutting. Inadmissibility
+is a failure to meet a particular internal finite-width criterion.
+
+This contrast helps both sides. Wolfram helps us resist a too-easy
+reading of the τ collapse: if finite-width structure is absent, wildness
+and non-shortcut behavior should be expected, not treated as a minor
+technicality. The τ spine helps us sharpen the positive side: when
+admissibility is present, the reason search becomes constructive is not
+that all computations are reducible in general, but that this computation
+has finite quotient structure.
+
+The infinity comparison is similar. Wolfram's everything-machine and
+ruliad language points toward maximal computational reach: all rules, all
+paths, all computations, with bounded observers sampling slices. The τ
+spine points toward a different treatment: a primorial tower whose finite
+stages, potential limits, and address structure delimit what a τ-agent can
+inspect and construct. Both frameworks make observer boundedness visible.
+But maximal reach and admissible construction are not interchangeable.
+
+This difference gives the note its negative testing surface. If a
+candidate problem continues to require ever deeper primorial coordinates,
+or if the verifier cannot be shown to factor through a stable finite
+quotient, then the τ collapse should not be invoked. Such a case may be
+computationally irreducible in a Wolframian sense, inadmissible in the τ
+sense, both, or neither. The categories must not be collapsed without a
+bridge argument.
+
+The most interesting future cases may be mixed. A finite rule universe
+may show irreducible-looking behavior that later turns out to have a
+hidden address decomposition under a different representation. Conversely,
+a τ-like encoding may appear promising until one discovers that the
+required interface width grows with the input. The honest research
+program is to sort these cases, not to declare them solved in advance.
+That is why inadmissibility is not a failure of the framework; it is one
+of its necessary boundary markers.
+
+\subsection{Secondary echoes}
+
+Book II supplies a finite/readout substrate echo: finite-stage data,
+ultrametric depth, profinite limits, and stagewise finite linear algebra
+\cite{PR-II}. Book VI supplies application echoes: evolution and cognition
+as processes that navigate large search spaces through local exploration,
+selection, caching, and approximation \cite{PR-VI}. Book VII supplies the
+readout echo: apparent randomness and probability arise when observers
+cannot resolve all internal structure \cite{PR-VII}. These echoes are
+useful for later prose, but they are not the proof spine of this note.
+They explain why the search/structure pattern recurs; they do not prove a
+complexity-theoretic claim.
+
+These secondary echoes are contextual only; they are not part of the
+proof spine of this note. They can show that the same readout pattern
+recurs across the framework: finite carriers before limit claims, local
+navigation before global comprehension, observer resolution before
+probabilistic summary. But they should not be allowed to blur the proof
+spine. The P-vs-NP comparison lives or dies on the
+computation/admissibility material, not on a general family resemblance
+across the books.
+
+% =======================================================================
+\section{The ruliad is not \texorpdfstring{Category $\tau$}{Category tau}}
+\label{sec:ruliad}
+% =======================================================================
+
+Because the two projects are philosophically close, the distinction must
+be made explicitly. Wolfram's ruliad is a maximal object: the entangled
+limit of all possible computations. It is not a single machine, not a
+single model, and not a particular address grammar. It is the all-paths
+object from which bounded observers sample slices.
+
+\CategoryTau, by contrast, is a specific construction framework. It has
+generators, axioms, a primorial tower, CRT decomposition, enrichment
+levels, τ-addresses, and proof-organizing diagrams such as the
+computational bi-square. Its internal P-vs-NP claim is not that all paths
+exist. It is that, under admissibility, the witness space has enough
+finite address structure for search to become construction.
+
+The productive comparison is therefore this:
+
+\begin{quote}\small
+The ruliad foregrounds maximal computational possibility and observer
+sampling. The τ computation spine foregrounds admissible construction and
+finite readout. Both make the hidden architecture of computation visible,
+but they do so with different primitives and different proof obligations.
+\end{quote}
+
+This distinction should stay visible in any public version of the note.
+The temptation will be to say that the ruliad and \CategoryTau\ are two
+names for the same intuition. They are not. They are neighboring
+frameworks that converge on a shared dissatisfaction with black-box
+complexity abstractions. That convergence is enough. It is more honest,
+and more interesting, than forced equivalence.
+
+One way to state the distinction is by asking what each framework treats
+as primitive. The ruliad begins from the space of possible computations
+and asks how observers are embedded in that enormous object. Category τ
+begins from a constructed address calculus and asks how layers of
+structure, readout, computation, and observer access are built. The
+ruliad is maximal before observation; Category τ is constructive before
+maximality. This is not a ranking. It is a difference in explanatory
+direction.
+
+Equivalently: the ruliad is a possible-computation space, while
+\CategoryTau\ is a constrained constructive architecture. That difference
+is exactly why the comparison is worth making. A possible-computation
+space asks what exists in the maximal rule ensemble. A constructive
+architecture asks what can be built, read, checked, and reassembled under
+the finite constraints of the framework.
+
+That difference matters for P vs NP. A maximal computational ensemble can
+make the landscape of possible paths vivid, but it does not by itself
+select a deterministic construction procedure. A constructed address
+grammar can select a construction procedure, but only after its
+admissibility hypotheses have been checked. The two perspectives are
+therefore complementary in the ordinary sense: each can expose questions
+the other tends to leave implicit. They are not complementary in the
+stronger sense of forming two halves of a single proof.
+
+% =======================================================================
+\section{Public source and construction context}
+\label{sec:public-context}
+% =======================================================================
+
+The τ side is grounded in the computation/admissibility source spine
+cited as \cite{PR-III}, and the public Panta Rhei site exposes the
+surrounding construction grammar through inspectable routes: the
+Construction Spine, TauLib Corpus, TauLib verification route, WP003 TauLib
+Technical Overview, Release Manifest, and Corpus Registry
+\cite{PR-ConstructionSpinePublic,PR-TauLibCorpusPublic,PR-TauLibVerifyPublic,PR-TauLibWhitePaperPublic,PR-ReleaseManifestPublic,PR-RegistryPublic}.
+The internal source spine is summarized publicly through the Construction
+Spine, TauLib, WP003, the Release Manifest, and the Corpus Registry.
+Those public routes are not substitutes for the technical source spine,
+but they give the reader inspectable context for what the framework means
+by construction, registry, formal route, and release discipline.
+
+\paragraph{Public inspection surfaces}
+The Construction Spine gives a public route into the staged build order.
+The TauLib Corpus and Verify/TauLib pages expose the formalization and
+inspection surface. WP003 records the TauLib technical overview and trust
+budget. The Release Manifest pins the public verification state. The
+Corpus Registry gives the object-indexed route into definitions,
+theorems, structures, and dependencies. These surfaces are contextual
+inspection routes, not substitutes for the internal source-spine theorem.
+
+The Wolfram-side context is similarly layered. The primary external
+anchor for this note is the January 2026 essay itself
+\cite{Wolfram2026RuliologicalPNP}. The Wolfram Institute ruliology route
+is used only as contextual support for the word ``ruliology'' and the
+broader programmatic setting \cite{WolframInstituteRuliology}. It is not
+used as a second proof source for the P-vs-NP argument.
+
+This public-context split matters for outreach. The note can be sent to
+a Wolfram/Wolfram Institute reader without asking them to accept private
+terminology on trust: the public pages show the construction spine and
+verification surfaces; the manuscript explains the guarded comparison;
+and the claim boundary remains explicit at each step.
+
+% =======================================================================
+\section{Orthodox P-vs-NP guardrails}
+\label{sec:guardrails}
+% =======================================================================
+
+The most important section of this note may be the one that says what it
+does not do. The classical P-vs-NP problem is a problem in orthodox
+complexity theory, formulated over Turing machines, polynomial time,
+decision languages, encodings, reductions, and proof systems such as
+\ZFC\ \cite{ClayPvsNP}. A framework-internal theorem about τ-admissible computation does not
+automatically export to that setting. A finite ruliological experiment
+does not settle an asymptotic theorem. A philosophical comparison between
+rule-space exploration and address construction does not replace a proof.
+
+The τ source spine is itself explicit about this boundary. It distinguishes
+the internal admissibility collapse from the classical Turing-model
+question. It treats the bridge to \ZFC\ as a separate issue, and parts of
+the provability/independence discussion are horizon-limited or conjectural.
+This note should preserve that humility because it is not a weakness. It
+is the condition under which the comparison becomes credible.
+
+\begin{widetable}[t]
+\caption{Guardrail ledger. The same phrase can be safe or unsafe depending
+on the tier in which it is used.}
+\label{tab:guardrails}
+\prtablefont
+\begin{tabularx}{\textwidth}{p{0.18\textwidth}Y Y Y}
+\toprule
+\textbf{Tier} & \textbf{Safe statement} & \textbf{Risk} & \textbf{Required discipline} \\
+\midrule
+τ-internal & \(\Padm=\NPadm\) for τ-admissible computation. & Medium:
+readers may drop the subscript. & Keep ``τ-admissible'' and ``internal''
+near every strong claim. \\
+τ-native / physical & Physical or τ-native extensions are framework
+claims under stated admissibility assumptions. & High: sounds like a
+headline about all computation. & Use only as later extension, not as
+the note's main public claim. \\
+ZFC / Turing / Clay & The orthodox bridge is not established by this
+note. & Critical: readers infer a Millennium-problem claim. & State the
+non-claim in introduction, theorem discussion, and conclusion. \\
+Wolfram anchor & The essay is a finite ruliological comparator. & Medium:
+anchor may be misread as validation. & Call it an anchor or comparator,
+not evidence for τ. \\
+\bottomrule
+\end{tabularx}
+\end{widetable}
+
+There is a second guardrail, subtler but just as important. The note should
+not hide behind internal vocabulary. If it uses \(\Padm=\NPadm\), it must
+say in ordinary prose what the subscript does. It marks the admissible
+fragment. It marks the finite-interface-width condition. It marks a
+computational grammar different from the orthodox Turing tape. The
+subscript is not decoration. It is the boundary.
+
+\subsection{The three claim tiers}
+
+The note keeps three tiers separate. The first tier is
+\emph{τ-internal}: within the typed admissible fragment, the source spine
+states \(\Padm=\NPadm\). The second tier is
+\emph{τ-native/physical}: the framework may later interpret computation
+inside physical or observer-relative readout settings, but those claims
+inherit additional assumptions. The third tier is \emph{orthodox export}:
+a statement about standard Turing-machine languages, polynomial time in
+ordinary input length, reductions, and proof in a background system such
+as \ZFC.
+
+The present note uses the first tier, mentions the second only as future
+context, and refuses the third as a current claim. This is not rhetorical
+timidity. It is source fidelity. The internal theorem and the external
+Clay problem are not the same proposition with different fonts. They have
+different machines, different encodings, different size measures, and
+different proof obligations.
+
+The safest public wording is therefore not ``τ solves P vs NP.'' It is:
+inside τ-admissible computation, witness search is retyped as address
+construction, yielding \(\Padm=\NPadm\); the export to the orthodox
+\(\ClassP\) versus \(\ClassNP\) problem remains a separate bridge
+problem. This is an internal equality for τ-admissible witness problems.
+It does not settle orthodox P vs NP over unrestricted Turing-machine /
+ZFC encodings. That sentence is less dramatic. It is also the sentence
+that can survive scrutiny.
+
+% =======================================================================
+\section{Future bridge tests}
+\label{sec:future-tests}
+% =======================================================================
+
+The best ending for this bridge note is not triumph but work. The bridge
+between finite ruliology and τ-admissible construction suggests concrete
+next tests.
+
+\paragraph{Finite benchmark ledger}
+The first test is documentary: reproduce a small Wolfram-style finite
+machine ledger and annotate it with the τ vocabulary. Which examples look
+like pure runtime outliers? Which look like branch-reach examples? Which
+have any plausible finite-interface-width analogue? This would not prove
+anything about orthodox complexity, but it would make the comparison less
+literary and more inspectable.
+
+The ledger should record at least five fields: machine class, computed
+function or finite input-output map, runtime profile, nondeterministic
+shortening behavior if present, and the proposed τ diagnostic. The τ
+diagnostic should be allowed to say ``none.'' That negative outcome would
+be scientifically useful, because it would prevent the comparison from
+becoming an all-purpose translation machine.
+
+\paragraph{Witness-decomposition examples}
+The second test is constructive: build toy witness spaces at small
+primorial depth and show explicitly how CRT decomposition differs from
+branch enumeration. A good example would display a flat candidate search,
+the per-prime decomposition, and the unique reassembly step side by side.
+The point would be to let readers see why ``reach'' and ``construction''
+are different claims.
+
+Subsequent benchmark examples should include the actual residues and the
+actual reassembly calculation. The purpose is not to impress with
+formalism. It is to let a skeptical reader check the claim by hand. A good
+example should fit on one page: problem statement, flat witness space,
+local residue constraints, CRT reassembly, and the explicit note that the
+example is τ-internal rather than a classical reduction.
+
+\paragraph{Irreducibility boundary map}
+The third test is negative: identify examples where the finite-width
+criterion fails or remains unknown. This is essential. A bridge note that
+only shows positive collapse risks sounding like a universal shortcut
+story. A serious research note should say where search does not yet become
+structure.
+
+The boundary map should distinguish at least three cases: known
+admissible, known inadmissible, and unknown. It should also distinguish
+``not yet encoded'' from ``encoded but width appears to grow.'' Those are
+different failures. The first is a missing translation; the second is a
+structural obstruction. Keeping them separate would make the note a
+better research tool.
+
+\paragraph{Orthodox export checklist}
+The final test is a checklist for any future classical export. Such an
+export would need to specify the encoding, the input-size metric, the
+relation between primorial depth and bit length, the verifier model, the
+reduction notion, and the proof system in which the claim is made. Until
+that checklist is satisfied, the classical Clay problem remains outside
+the claim.
+
+This checklist is deliberately demanding. It includes: an encoding
+from ordinary decision-language instances into τ-addressed objects; a
+size comparison theorem relating bit length and primorial depth; a proof
+that classical polynomial-time verifiers translate into finite-width
+τ-verifiers, or a clear statement of the restricted class that does; a
+deterministic construction algorithm whose cost is polynomial in the
+exported size measure; and a proof environment in which the translation
+is formalized. If any item is absent, the correct public statement is
+``internal τ result with open export,'' not ``classical P equals NP.''
+
+\begin{center}
+\begin{minipage}{\columnwidth}
+\captionof{table}{Export checklist for any future orthodox P-vs-NP
+bridge. The present note does not satisfy this checklist; it records what
+would have to be shown.}
+\label{tab:export-checklist}
+\prtablefont
+\begin{tabularx}{\columnwidth}{p{0.38\columnwidth}Y}
+\toprule
+\textbf{Export requirement} & \textbf{Question} \\
+\midrule
+Encoding & Can orthodox instances be mapped to τ-address objects without
+exponential blowup? \\
+Verification preservation & Do τ-local checks correspond to ordinary
+polynomial-time verification? \\
+Reconstruction cost & Is reassembly polynomial in orthodox input length,
+not only in primorial depth? \\
+Uniformity & Is the construction uniform, rather than instance-specific
+advice? \\
+Semantic closure & Are all meanings carried by formal address data, with
+no hidden semantic oracle? \\
+Witness return & Does the constructed τ-witness translate back to a valid
+orthodox witness? \\
+\bottomrule
+\end{tabularx}
+\end{minipage}
+\end{center}
+
+\paragraph{Ruliological counter-tests}
+A useful bridge should also invite counter-tests from the Wolfram side.
+If finite machine exploration produces examples where nondeterministic
+speedup appears robust across many expanded classes, but no finite
+address decomposition can be found, those examples become pressure tests
+for the τ admissibility criterion. Conversely, if a τ toy example has a
+clean address decomposition, one should ask whether finite rule
+enumeration can rediscover that structure or merely observe the speedup.
+Both outcomes would teach something.
+
+% =======================================================================
+\onecolumn
+\section{Conclusion: the useful convergence}
+\label{sec:conclusion}
+% =======================================================================
+
+The useful convergence is not that Wolfram and the τ-framework say the
+same thing. They do not. Wolfram's essay explores finite computational
+microcosms and finds wildness: runtime outliers, isolate machines,
+nondeterministic speedups, everything-machine reach, and irreducibility
+pressure. The τ computation spine specifies an internal criterion under
+which search becomes construction: finite interface width, structured
+witness addresses, CRT decomposition, and Product-Meet Collapse.
+
+The bridge is methodological. Both approaches reject the idea that
+computation can be understood only from a fully abstract asymptotic
+distance. Both insist that rule space, representation, observer access,
+and infinity matter. Both make visible the hidden architecture under the
+word ``search.''
+
+But the difference is just as important. Wolfram shows how hard search can
+look when finite rule universes are explored from below. The τ-framework
+claims that search becomes structure only inside a specific admissible
+address grammar. The note's title is therefore not a universal slogan. It
+is a conditional research program:
+
+\begin{quote}\small
+Search becomes structure when the witness space has earned enough finite
+address architecture for construction to replace blind enumeration.
+\end{quote}
+
+That is already a strong claim. It is strong enough to motivate a research
+note, strong enough to compare with Wolfram's ruliological microcosms, and
+bounded enough to send into public discussion without pretending that the
+orthodox P-vs-NP problem has been settled.
+This is an internal equality for τ-admissible witness problems. It does
+not settle orthodox P vs NP over unrestricted Turing-machine / ZFC
+encodings.
+
+% =======================================================================
+\section*{Acknowledgements}
+\label{sec:ack}
+% =======================================================================
+
+This note was prepared as part of the Panta Rhei Research Program
+research-note series.
+
+% ---------------------------------------------------------------------------
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

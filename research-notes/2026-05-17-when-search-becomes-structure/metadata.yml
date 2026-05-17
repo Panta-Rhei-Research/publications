@@ -1,0 +1,43 @@
+publication_id: RN-031
+publication_key: research_notes.when_search_becomes_structure
+title: "When Search Becomes Structure"
+subtitle: "A guarded bridge note between Wolfram's ruliological P-vs-NP microcosms and tau-admissible witness construction"
+authors:
+  - Thorsten Fuchs
+  - Anna-Sophie Fuchs
+type: Research Note
+status: RC1 public release candidate
+version: RC1
+date: 2026-05-17
+program: Panta Rhei Research Program
+license: CC-BY-4.0
+website: https://panta-rhei.site/publications/research-notes/when-search-becomes-structure/
+pdf: https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-05-17-when-search-becomes-structure-rc1.pdf
+source: when-search-becomes-structure.tex
+tags:
+  - tau-framework
+  - ruliology
+  - p-vs-np
+  - computational-complexity
+  - witness-search
+  - address-construction
+  - crt-reassembly
+  - category-tau
+summary: >
+  This Research Note reads Stephen Wolfram's ruliological exploration of P vs
+  NP as an external comparator for a narrower Panta Rhei question: when does
+  witness search become finite address construction? It does not claim to solve
+  orthodox P vs NP, identify the Ruliad with Category tau, or treat Wolfram's
+  finite experiments as validation of Panta Rhei.
+claim_boundary:
+  core: >
+    Under finite interface width and a reconstruction discipline, some
+    tau-admissible witness problems can be treated as address construction
+    rather than blind witness search.
+  non_claims:
+    - It does not solve orthodox P vs NP.
+    - It does not claim P = NP over unrestricted Turing machines.
+    - It does not claim that the Ruliad is Category tau.
+    - It does not claim Wolfram validates Panta Rhei.
+    - It does not claim every NP witness space is tau-admissible.
+    - It does not export tau-P_adm = tau-NP_adm without a separate bridge theorem.

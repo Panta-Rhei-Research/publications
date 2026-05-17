@@ -1,0 +1,70 @@
+{
+  "schema": "panta-rhei-publication-manifest-v2",
+  "id": "2026-05-17-when-search-becomes-structure",
+  "publication_id": "rn031",
+  "publication_key": "research_notes.when_search_becomes_structure",
+  "type": "research_note",
+  "status": "rc1_public_release_candidate",
+  "artifact_availability": "local_pdf",
+  "generated_at": "2026-05-17T04:40:00Z",
+  "file": {
+    "path": "research-note-2026-05-17-when-search-becomes-structure-rc1.pdf",
+    "bytes": 201636,
+    "sha256": "5387e5f691d8e26159eba5a2f11f484ff78a6d3cafd4761b53f58d4206047f85",
+    "sha512": "6c172be63f64605c83aedaa882630ef953edf6c526db366e7545eb99a042f2caba03059dc46467c9503b4510eed9d414685f5df8ffa240df5c4b854301547d2a",
+    "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-05-17-when-search-becomes-structure-rc1.pdf"
+  },
+  "source": {
+    "path": "when-search-becomes-structure.tex",
+    "bytes": 81412,
+    "sha256": "0a455790788deb3bf7886394325c043d3390adc15cbb9c275e488eeb062b06ab",
+    "sha512": "d46d0a9c07f7884ad1bdac25df4f08761a573f4bad893db241fdec1237b9ef5b2d963a6773ba0c2bdda64c4ffb1f5f95ed14634f94ec130a46f6f0e03d04e037"
+  },
+  "checksums": {
+    "sha256": "5387e5f691d8e26159eba5a2f11f484ff78a6d3cafd4761b53f58d4206047f85",
+    "sha512": "6c172be63f64605c83aedaa882630ef953edf6c526db366e7545eb99a042f2caba03059dc46467c9503b4510eed9d414685f5df8ffa240df5c4b854301547d2a"
+  },
+  "opentimestamps": {
+    "status": "not_created",
+    "verification": "not_applicable_for_this_sprint"
+  },
+  "publication": {
+    "title": "When Search Becomes Structure",
+    "subtitle": "A guarded bridge note between Wolfram's ruliological P-vs-NP microcosms and tau-admissible witness construction",
+    "authors": "Thorsten Fuchs and Anna-Sophie Fuchs",
+    "publication_type": "Research Note",
+    "date": "2026-05-17",
+    "version": "RC1",
+    "status": "RC1 public release candidate",
+    "license": "CC-BY-4.0",
+    "doi": "",
+    "doi_url": "",
+    "zenodo_url": "",
+    "canonical_url": "https://panta-rhei.site/publications/research-notes/when-search-becomes-structure/",
+    "website_url": "https://panta-rhei.site/publications/research-notes/when-search-becomes-structure/",
+    "pdf_filename": "research-note-2026-05-17-when-search-becomes-structure-rc1.pdf",
+    "source_website_page": "_research_notes/2026-05-17-when-search-becomes-structure.md",
+    "github_path": "research-notes/2026-05-17-when-search-becomes-structure",
+    "artifact_availability": "local_pdf",
+    "route_status": "released",
+    "abstract": "This Research Note reads Stephen Wolfram's 2026 ruliological P-vs-NP essay as an external comparator for a bounded Panta Rhei question: when does witness search become finite address construction? It keeps Wolfram's finite ruliological microcosms, the internal tau-admissibility claim, and orthodox Clay/Turing/ZFC P vs NP strictly separated.",
+    "claim_boundary": {
+      "claim": "Under finite interface width and a reconstruction discipline, some tau-admissible witness problems can be treated as address construction rather than blind witness search.",
+      "non_claim": "It does not solve orthodox P vs NP, identify the Ruliad with Category tau, or claim Wolfram validates Panta Rhei."
+    },
+    "related_lanes": [
+      "corpus",
+      "verify",
+      "publications"
+    ],
+    "related_routes": [
+      "/publications/research-notes/when-search-becomes-structure/",
+      "/corpus/construction-spine/",
+      "/corpus/taulib/",
+      "/verify/taulib/",
+      "/verify/release-manifest/",
+      "/corpus/registry/"
+    ]
+  },
+  "integrity_note": "Hashes attest to the PDF bytes and release source snapshot only; they do not certify correctness, peer review, legal status, DOI registration, or content validity."
+}
